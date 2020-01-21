@@ -1,0 +1,3664 @@
+1: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157435; Sample name: Sz99; SRA: SRS1466665
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz99"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157435	ID: 5157435
+
+2: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157434; Sample name: Sz97; SRA: SRS1466664
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz97"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157434	ID: 5157434
+
+3: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157433; Sample name: Sz93; SRA: SRS1466663
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz93"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157433	ID: 5157433
+
+4: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157432; Sample name: Sz91; SRA: SRS1466661
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz91"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157432	ID: 5157432
+
+5: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157431; Sample name: Sz90; SRA: SRS1466660
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz90"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157431	ID: 5157431
+
+6: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157430; Sample name: Sz9; SRA: SRS1466659
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz9"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157430	ID: 5157430
+
+7: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157429; Sample name: Sz87; SRA: SRS1466657
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz87"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157429	ID: 5157429
+
+8: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157428; Sample name: Sz84; SRA: SRS1466658
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz84"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157428	ID: 5157428
+
+9: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157427; Sample name: Sz83; SRA: SRS1466656
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz83"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157427	ID: 5157427
+
+10: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157426; Sample name: Sz82; SRA: SRS1466655
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz82"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157426	ID: 5157426
+
+11: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157425; Sample name: Sz80; SRA: SRS1466654
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz80"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157425	ID: 5157425
+
+12: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157424; Sample name: Sz8; SRA: SRS1466653
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz8"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157424	ID: 5157424
+
+13: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157423; Sample name: Sz77; SRA: SRS1466651
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz77"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157423	ID: 5157423
+
+14: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157422; Sample name: Sz76; SRA: SRS1466649
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz76"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157422	ID: 5157422
+
+15: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157421; Sample name: Sz75; SRA: SRS1466647
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz75"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157421	ID: 5157421
+
+16: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157420; Sample name: Sz71; SRA: SRS1466646
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz71"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157420	ID: 5157420
+
+17: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157419; Sample name: Sz68; SRA: SRS1466648
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz68"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157419	ID: 5157419
+
+18: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157418; Sample name: Sz65; SRA: SRS1466645
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz65"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157418	ID: 5157418
+
+19: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157417; Sample name: Sz64; SRA: SRS1466644
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz64"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157417	ID: 5157417
+
+20: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157416; Sample name: Sz62; SRA: SRS1466643
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz62"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157416	ID: 5157416
+
+21: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157415; Sample name: Sz60; SRA: SRS1466642
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz60"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157415	ID: 5157415
+
+22: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157414; Sample name: Sz6; SRA: SRS1466641
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz6"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157414	ID: 5157414
+
+23: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157413; Sample name: Sz58; SRA: SRS1466640
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz58"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157413	ID: 5157413
+
+24: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157412; Sample name: Sz57; SRA: SRS1466637
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz57"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157412	ID: 5157412
+
+25: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157411; Sample name: Sz56; SRA: SRS1466638
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz56"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157411	ID: 5157411
+
+26: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157410; Sample name: Sz54; SRA: SRS1466636
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz54"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157410	ID: 5157410
+
+27: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157409; Sample name: Sz53; SRA: SRS1466635
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz53"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157409	ID: 5157409
+
+28: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157408; Sample name: Sz52; SRA: SRS1466634
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz52"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157408	ID: 5157408
+
+29: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157407; Sample name: Sz5; SRA: SRS1466633
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz5"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157407	ID: 5157407
+
+30: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157406; Sample name: Sz49; SRA: SRS1466632
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz49"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157406	ID: 5157406
+
+31: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157405; Sample name: Sz48; SRA: SRS1466631
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz48"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157405	ID: 5157405
+
+32: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157404; Sample name: Sz47; SRA: SRS1466630
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz47"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157404	ID: 5157404
+
+33: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157403; Sample name: Sz46; SRA: SRS1466629
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz46"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157403	ID: 5157403
+
+34: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157402; Sample name: Sz45; SRA: SRS1466628
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz45"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157402	ID: 5157402
+
+35: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157401; Sample name: Sz43; SRA: SRS1466626
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz43"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157401	ID: 5157401
+
+36: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157400; Sample name: Sz41; SRA: SRS1466625
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz41"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157400	ID: 5157400
+
+37: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157399; Sample name: Sz40; SRA: SRS1466624
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz40"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157399	ID: 5157399
+
+38: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157398; Sample name: Sz4; SRA: SRS1466623
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz4"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157398	ID: 5157398
+
+39: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157397; Sample name: Sz39; SRA: SRS1466622
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz39"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157397	ID: 5157397
+
+40: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157396; Sample name: Sz37; SRA: SRS1466621
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz37"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157396	ID: 5157396
+
+41: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157395; Sample name: Sz35; SRA: SRS1466620
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz35"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157395	ID: 5157395
+
+42: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157394; Sample name: Sz33; SRA: SRS1466619
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz33"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157394	ID: 5157394
+
+43: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157393; Sample name: Sz31; SRA: SRS1466618
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz31"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157393	ID: 5157393
+
+44: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157392; Sample name: Sz30; SRA: SRS1466616
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz30"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157392	ID: 5157392
+
+45: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157391; Sample name: Sz3; SRA: SRS1466615
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz3"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157391	ID: 5157391
+
+46: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157390; Sample name: Sz299; SRA: SRS1466614
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz299"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157390	ID: 5157390
+
+47: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157389; Sample name: Sz298; SRA: SRS1466613
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz298"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157389	ID: 5157389
+
+48: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157388; Sample name: Sz293; SRA: SRS1466612
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz293"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157388	ID: 5157388
+
+49: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157387; Sample name: Sz291; SRA: SRS1466611
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz291"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157387	ID: 5157387
+
+50: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157386; Sample name: Sz29; SRA: SRS1466610
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz29"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157386	ID: 5157386
+
+
+51: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157385; Sample name: Sz289; SRA: SRS1466609
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz289"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157385	ID: 5157385
+
+52: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157384; Sample name: Sz288; SRA: SRS1466608
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz288"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157384	ID: 5157384
+
+53: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157383; Sample name: Sz287; SRA: SRS1466607
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz287"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157383	ID: 5157383
+
+54: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157382; Sample name: Sz286; SRA: SRS1466605
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz286"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157382	ID: 5157382
+
+55: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157381; Sample name: Sz285; SRA: SRS1466604
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz285"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157381	ID: 5157381
+
+56: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157380; Sample name: Sz282; SRA: SRS1466603
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz282"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157380	ID: 5157380
+
+57: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157379; Sample name: Sz281; SRA: SRS1466602
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz281"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157379	ID: 5157379
+
+58: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157378; Sample name: Sz275; SRA: SRS1466601
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz275"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157378	ID: 5157378
+
+59: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157377; Sample name: Sz274; SRA: SRS1466600
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz274"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157377	ID: 5157377
+
+60: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157376; Sample name: Sz272; SRA: SRS1466599
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz272"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157376	ID: 5157376
+
+61: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157375; Sample name: Sz271; SRA: SRS1466598
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz271"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157375	ID: 5157375
+
+62: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157374; Sample name: Sz270; SRA: SRS1466597
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz270"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157374	ID: 5157374
+
+63: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157373; Sample name: Sz27; SRA: SRS1466596
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz27"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157373	ID: 5157373
+
+64: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157372; Sample name: Sz268; SRA: SRS1466594
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz268"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157372	ID: 5157372
+
+65: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157371; Sample name: Sz267; SRA: SRS1466593
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz267"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157371	ID: 5157371
+
+66: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157370; Sample name: Sz266; SRA: SRS1466591
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz266"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157370	ID: 5157370
+
+67: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157369; Sample name: Sz265; SRA: SRS1466592
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz265"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157369	ID: 5157369
+
+68: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157368; Sample name: Sz262; SRA: SRS1466590
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz262"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157368	ID: 5157368
+
+69: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157367; Sample name: Sz261; SRA: SRS1466589
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz261"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157367	ID: 5157367
+
+70: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157366; Sample name: Sz26; SRA: SRS1466588
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz26"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157366	ID: 5157366
+
+71: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157365; Sample name: Sz259; SRA: SRS1466587
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz259"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157365	ID: 5157365
+
+72: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157364; Sample name: Sz257; SRA: SRS1466586
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz257"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157364	ID: 5157364
+
+73: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157363; Sample name: Sz254; SRA: SRS1466585
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz254"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157363	ID: 5157363
+
+74: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157362; Sample name: Sz253; SRA: SRS1466583
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz253"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157362	ID: 5157362
+
+75: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157361; Sample name: Sz252; SRA: SRS1466584
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz252"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157361	ID: 5157361
+
+76: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157360; Sample name: Sz249; SRA: SRS1466581
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz249"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157360	ID: 5157360
+
+77: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157359; Sample name: Sz248; SRA: SRS1466580
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz248"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157359	ID: 5157359
+
+78: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157358; Sample name: Sz246; SRA: SRS1466579
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz246"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157358	ID: 5157358
+
+79: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157357; Sample name: Sz244; SRA: SRS1466578
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz244"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157357	ID: 5157357
+
+80: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157356; Sample name: Sz243; SRA: SRS1466577
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz243"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157356	ID: 5157356
+
+81: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157355; Sample name: Sz241; SRA: SRS1466576
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz241"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157355	ID: 5157355
+
+82: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157354; Sample name: Sz240; SRA: SRS1466575
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz240"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157354	ID: 5157354
+
+83: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157353; Sample name: Sz24; SRA: SRS1466574
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz24"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157353	ID: 5157353
+
+84: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157352; Sample name: Sz238; SRA: SRS1466771
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz238"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157352	ID: 5157352
+
+85: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157351; Sample name: Sz237; SRA: SRS1466770
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz237"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157351	ID: 5157351
+
+86: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157350; Sample name: Sz236; SRA: SRS1466769
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz236"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157350	ID: 5157350
+
+87: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157349; Sample name: Sz234; SRA: SRS1466768
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz234"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157349	ID: 5157349
+
+88: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157348; Sample name: Sz233; SRA: SRS1466766
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz233"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157348	ID: 5157348
+
+89: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157347; Sample name: Sz232; SRA: SRS1466767
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz232"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157347	ID: 5157347
+
+90: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157346; Sample name: Sz229; SRA: SRS1466765
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz229"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157346	ID: 5157346
+
+91: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157345; Sample name: Sz228; SRA: SRS1466764
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz228"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157345	ID: 5157345
+
+92: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157344; Sample name: Sz226; SRA: SRS1466763
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz226"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157344	ID: 5157344
+
+93: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157343; Sample name: Sz225; SRA: SRS1466762
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz225"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157343	ID: 5157343
+
+94: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157342; Sample name: Sz223; SRA: SRS1466760
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz223"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157342	ID: 5157342
+
+95: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157341; Sample name: Sz220; SRA: SRS1466759
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz220"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157341	ID: 5157341
+
+96: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157340; Sample name: Sz22; SRA: SRS1466758
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz22"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157340	ID: 5157340
+
+97: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157339; Sample name: Sz218; SRA: SRS1466757
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz218"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157339	ID: 5157339
+
+98: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157338; Sample name: Sz217; SRA: SRS1466755
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz217"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157338	ID: 5157338
+
+99: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157337; Sample name: Sz214; SRA: SRS1466756
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz214"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157337	ID: 5157337
+
+100: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157336; Sample name: Sz213; SRA: SRS1466754
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz213"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157336	ID: 5157336
+
+
+101: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157335; Sample name: Sz212; SRA: SRS1466753
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz212"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157335	ID: 5157335
+
+102: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157334; Sample name: Sz211; SRA: SRS1466752
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz211"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157334	ID: 5157334
+
+103: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157333; Sample name: Sz210; SRA: SRS1466751
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz210"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157333	ID: 5157333
+
+104: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157332; Sample name: Sz21; SRA: SRS1466749
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz21"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157332	ID: 5157332
+
+105: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157331; Sample name: Sz209; SRA: SRS1466748
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz209"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157331	ID: 5157331
+
+106: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157330; Sample name: Sz208; SRA: SRS1466747
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz208"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157330	ID: 5157330
+
+107: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157329; Sample name: Sz207; SRA: SRS1466746
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz207"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157329	ID: 5157329
+
+108: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157328; Sample name: Sz205; SRA: SRS1466745
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz205"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157328	ID: 5157328
+
+109: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157327; Sample name: Sz204; SRA: SRS1466744
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz204"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157327	ID: 5157327
+
+110: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157326; Sample name: Sz203; SRA: SRS1466743
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz203"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157326	ID: 5157326
+
+111: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157325; Sample name: Sz202; SRA: SRS1466742
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz202"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157325	ID: 5157325
+
+112: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157324; Sample name: Sz201; SRA: SRS1466741
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz201"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157324	ID: 5157324
+
+113: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157323; Sample name: Sz200; SRA: SRS1466740
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz200"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157323	ID: 5157323
+
+114: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157322; Sample name: Sz199; SRA: SRS1466738
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz199"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157322	ID: 5157322
+
+115: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157321; Sample name: Sz197; SRA: SRS1466737
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz197"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157321	ID: 5157321
+
+116: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157320; Sample name: Sz196; SRA: SRS1466736
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz196"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157320	ID: 5157320
+
+117: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157319; Sample name: Sz194; SRA: SRS1466735
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz194"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157319	ID: 5157319
+
+118: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157318; Sample name: Sz193; SRA: SRS1466733
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz193"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157318	ID: 5157318
+
+119: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157317; Sample name: Sz191; SRA: SRS1466734
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz191"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157317	ID: 5157317
+
+120: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157316; Sample name: Sz190; SRA: SRS1466732
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz190"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157316	ID: 5157316
+
+121: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157315; Sample name: Sz19; SRA: SRS1466731
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz19"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157315	ID: 5157315
+
+122: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157314; Sample name: Sz189; SRA: SRS1466729
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz189"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157314	ID: 5157314
+
+123: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157313; Sample name: Sz186; SRA: SRS1466730
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz186"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157313	ID: 5157313
+
+124: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157312; Sample name: Sz185; SRA: SRS1466727
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz185"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157312	ID: 5157312
+
+125: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157311; Sample name: Sz184; SRA: SRS1466725
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz184"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157311	ID: 5157311
+
+126: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157310; Sample name: Sz182; SRA: SRS1466726
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz182"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157310	ID: 5157310
+
+127: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157309; Sample name: Sz181; SRA: SRS1466724
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz181"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157309	ID: 5157309
+
+128: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157308; Sample name: Sz176; SRA: SRS1466723
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz176"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157308	ID: 5157308
+
+129: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157307; Sample name: Sz175; SRA: SRS1466722
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz175"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157307	ID: 5157307
+
+130: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157306; Sample name: Sz173; SRA: SRS1466721
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz173"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157306	ID: 5157306
+
+131: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157305; Sample name: Sz172; SRA: SRS1466720
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz172"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157305	ID: 5157305
+
+132: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157304; Sample name: Sz169; SRA: SRS1466719
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz169"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157304	ID: 5157304
+
+133: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157303; Sample name: Sz168; SRA: SRS1466718
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz168"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157303	ID: 5157303
+
+134: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157302; Sample name: Sz166; SRA: SRS1466715
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz166"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157302	ID: 5157302
+
+135: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157301; Sample name: Sz164; SRA: SRS1466712
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz164"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157301	ID: 5157301
+
+136: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157300; Sample name: Sz163; SRA: SRS1466710
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz163"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157300	ID: 5157300
+
+137: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157299; Sample name: Sz162; SRA: SRS1466709
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz162"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157299	ID: 5157299
+
+138: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157298; Sample name: Sz160; SRA: SRS1466707
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz160"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157298	ID: 5157298
+
+139: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157297; Sample name: Sz16; SRA: SRS1466708
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz16"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157297	ID: 5157297
+
+140: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157296; Sample name: Sz158; SRA: SRS1466704
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz158"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157296	ID: 5157296
+
+141: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157295; Sample name: Sz155; SRA: SRS1466698
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz155"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157295	ID: 5157295
+
+142: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157294; Sample name: Sz154; SRA: SRS1466697
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz154"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157294	ID: 5157294
+
+143: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157293; Sample name: Sz153; SRA: SRS1466696
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz153"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157293	ID: 5157293
+
+144: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157292; Sample name: Sz151; SRA: SRS1466690
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz151"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157292	ID: 5157292
+
+145: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157291; Sample name: Sz15; SRA: SRS1466687
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz15"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157291	ID: 5157291
+
+146: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157290; Sample name: Sz149; SRA: SRS1466686
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz149"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157290	ID: 5157290
+
+147: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157289; Sample name: Sz146; SRA: SRS1466684
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz146"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157289	ID: 5157289
+
+148: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157288; Sample name: Sz145; SRA: SRS1466685
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz145"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157288	ID: 5157288
+
+149: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157287; Sample name: Sz143; SRA: SRS1466683
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz143"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157287	ID: 5157287
+
+150: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157286; Sample name: Sz142; SRA: SRS1466682
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz142"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157286	ID: 5157286
+
+
+151: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157285; Sample name: Sz141; SRA: SRS1466681
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz141"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157285	ID: 5157285
+
+152: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157284; Sample name: Sz140; SRA: SRS1466680
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz140"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157284	ID: 5157284
+
+153: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157283; Sample name: Sz14; SRA: SRS1466679
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz14"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157283	ID: 5157283
+
+154: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157282; Sample name: Sz139; SRA: SRS1466677
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz139"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157282	ID: 5157282
+
+155: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157281; Sample name: Sz138; SRA: SRS1466675
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz138"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157281	ID: 5157281
+
+156: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157280; Sample name: Sz137; SRA: SRS1466676
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz137"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157280	ID: 5157280
+
+157: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157279; Sample name: Sz136; SRA: SRS1466674
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz136"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157279	ID: 5157279
+
+158: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157278; Sample name: Sz135; SRA: SRS1466673
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz135"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157278	ID: 5157278
+
+159: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157277; Sample name: Sz133; SRA: SRS1466672
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz133"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157277	ID: 5157277
+
+160: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157276; Sample name: Sz131; SRA: SRS1466671
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz131"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157276	ID: 5157276
+
+161: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157275; Sample name: Sz130; SRA: SRS1466670
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz130"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157275	ID: 5157275
+
+162: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157274; Sample name: Sz13; SRA: SRS1466669
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz13"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157274	ID: 5157274
+
+163: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157273; Sample name: Sz129; SRA: SRS1466668
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz129"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157273	ID: 5157273
+
+164: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157272; Sample name: Sz128; SRA: SRS1466666
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz128"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157272	ID: 5157272
+
+165: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157271; Sample name: Sz127; SRA: SRS1466662
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz127"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157271	ID: 5157271
+
+166: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157270; Sample name: Sz126; SRA: SRS1466650
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz126"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157270	ID: 5157270
+
+167: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157269; Sample name: Sz125; SRA: SRS1466639
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz125"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157269	ID: 5157269
+
+168: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157268; Sample name: Sz124; SRA: SRS1466627
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz124"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157268	ID: 5157268
+
+169: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157267; Sample name: Sz123; SRA: SRS1466617
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz123"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157267	ID: 5157267
+
+170: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157266; Sample name: Sz121; SRA: SRS1466606
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz121"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157266	ID: 5157266
+
+171: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157265; Sample name: Sz120; SRA: SRS1466595
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz120"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157265	ID: 5157265
+
+172: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157264; Sample name: Sz12; SRA: SRS1466582
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz12"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157264	ID: 5157264
+
+173: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157263; Sample name: Sz116; SRA: SRS1466573
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz116"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157263	ID: 5157263
+
+174: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157262; Sample name: Sz115; SRA: SRS1466761
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz115"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157262	ID: 5157262
+
+175: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157261; Sample name: Sz113; SRA: SRS1466750
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz113"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157261	ID: 5157261
+
+176: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157260; Sample name: Sz111; SRA: SRS1466739
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz111"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157260	ID: 5157260
+
+177: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157259; Sample name: Sz110; SRA: SRS1466728
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz110"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157259	ID: 5157259
+
+178: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157258; Sample name: Sz11; SRA: SRS1466716
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz11"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157258	ID: 5157258
+
+179: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157257; Sample name: Sz106; SRA: SRS1466694
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz106"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157257	ID: 5157257
+
+180: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157256; Sample name: Sz103; SRA: SRS1466678
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz103"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157256	ID: 5157256
+
+181: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157255; Sample name: Sz102; SRA: SRS1466667
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz102"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157255	ID: 5157255
+
+182: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157254; Sample name: Sz101; SRA: SRS1466571
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz101"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157254	ID: 5157254
+
+183: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN05157253; Sample name: Sz100; SRA: SRS1466572
+Organism: Drosophila simulans
+Attributes:
+    /strain="Sz100"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole body"
+    /biomaterial provider="Nuzhdin Lab"
+    /geographic location="USA: California, Zuma"
+    /breeding history="15 generations of full-sib inbreeding"
+    /breeding method="full-sib mating"
+    /collected by="S. V. Nuzhdin"
+    /collection date="2013"
+    /growth protocol="Standard laboratory methods on cornmeal and molasses medium"
+    /sample type="DNA"
+Description:
+inbred wild type flies
+Accession: SAMN05157253	ID: 5157253
+
+

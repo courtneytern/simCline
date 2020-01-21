@@ -1,0 +1,19 @@
+##########################
+### wget for ENA files ###
+##########################
+
+##wgets all files from ENA
+##outputs to files with meaningful names
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR286/006/ERR2864406/ERR2864406_1.fastq.gz \
+> barghiKofler_data-1.txt
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR286/006/ERR2864406/ERR2864406_2.fastq.gz \
+> barghiKofler_data-2.txt
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR280/000/ERR2809790/ERR2809790_subreads.fastq.gz \
+> nouhad_data-1.txt
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR280/009/ERR2809829/ERR2809829_subreads.fastq.gz \
+> nouhad_data-2.txt
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR280/007/ERR2809887/ERR2809887_subreads.fastq.gz \
+> nouhad_data-3.txt
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR280/008/ERR2809888/ERR2809888_subreads.fastq.gz \
+> nouhad_data-4.txt

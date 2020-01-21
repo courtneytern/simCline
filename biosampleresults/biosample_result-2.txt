@@ -1,0 +1,4056 @@
+1: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453018; Sample name: ECsimPA9_2010; SRA: SRS1067802
+Organism: Drosophila simulans
+Attributes:
+    /isolate="ECsimPA9_2010 pool of 50 individuals"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="male"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Pennsylania"
+Description:
+Pennsylania.ECsimPA9_2010 pool of 50 individuals
+Accession: SAMN03453018	ID: 3453018
+
+2: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453017; Sample name: ECsimPA7_2010; SRA: SRS1067803
+Organism: Drosophila simulans
+Attributes:
+    /isolate="ECsimPA7_2010 pool of 65 individuals"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="male"
+    /tissue="whole"
+    /collection date="01-Jul-2010"
+    /geographic location="USA: Pennsylania"
+Description:
+Pennsylania.ECsimPA7_2010 pool of 65 individuals
+Accession: SAMN03453017	ID: 3453017
+
+3: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453016; Sample name: P_11_1; SRA: SRS1067804
+Organism: Drosophila simulans
+Attributes:
+    /isolate="P_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.P_11_1
+Accession: SAMN03453016	ID: 3453016
+
+4: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453015; Sample name: P_9_1; SRA: SRS1067805
+Organism: Drosophila simulans
+Attributes:
+    /isolate="P_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.P_9_1
+Accession: SAMN03453015	ID: 3453015
+
+5: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453014; Sample name: P_7_1; SRA: SRS1067806
+Organism: Drosophila simulans
+Attributes:
+    /isolate="P_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.P_7_1
+Accession: SAMN03453014	ID: 3453014
+
+6: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453013; Sample name: P_5_1; SRA: SRS1067807
+Organism: Drosophila simulans
+Attributes:
+    /isolate="P_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.P_5_1
+Accession: SAMN03453013	ID: 3453013
+
+7: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453012; Sample name: P_3_1; SRA: SRS1067808
+Organism: Drosophila simulans
+Attributes:
+    /isolate="P_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.P_3_1
+Accession: SAMN03453012	ID: 3453012
+
+8: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453011; Sample name: P_1_1; SRA: SRS1067809
+Organism: Drosophila simulans
+Attributes:
+    /isolate="P_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.P_1_1
+Accession: SAMN03453011	ID: 3453011
+
+9: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453010; Sample name: N_23_1; SRA: SRS1067810
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_23_1
+Accession: SAMN03453010	ID: 3453010
+
+10: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453009; Sample name: N_21_1; SRA: SRS1067811
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_21_1
+Accession: SAMN03453009	ID: 3453009
+
+11: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453008; Sample name: N_19_1; SRA: SRS1067812
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_19_1
+Accession: SAMN03453008	ID: 3453008
+
+12: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453007; Sample name: N_17_1; SRA: SRS1067813
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_17_1
+Accession: SAMN03453007	ID: 3453007
+
+13: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453006; Sample name: N_15_1; SRA: SRS1067814
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_15_1
+Accession: SAMN03453006	ID: 3453006
+
+14: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453005; Sample name: N_13_1; SRA: SRS1067815
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_13_1
+Accession: SAMN03453005	ID: 3453005
+
+15: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453004; Sample name: N_11_1; SRA: SRS1067816
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_11_1
+Accession: SAMN03453004	ID: 3453004
+
+16: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453003; Sample name: N_9_1; SRA: SRS1067817
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_9_1
+Accession: SAMN03453003	ID: 3453003
+
+17: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453002; Sample name: N_7_1; SRA: SRS1067818
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_7_1
+Accession: SAMN03453002	ID: 3453002
+
+18: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453001; Sample name: N_3_1; SRA: SRS1067819
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_3_1
+Accession: SAMN03453001	ID: 3453001
+
+19: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03453000; Sample name: N_1_1; SRA: SRS1067820
+Organism: Drosophila simulans
+Attributes:
+    /isolate="N_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.N_1_1
+Accession: SAMN03453000	ID: 3453000
+
+20: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452999; Sample name: L_23_1; SRA: SRS1067821
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_23_1
+Accession: SAMN03452999	ID: 3452999
+
+21: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452998; Sample name: L_21_1; SRA: SRS1067822
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_21_1
+Accession: SAMN03452998	ID: 3452998
+
+22: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452997; Sample name: L_19_1; SRA: SRS1067823
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_19_1
+Accession: SAMN03452997	ID: 3452997
+
+23: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452996; Sample name: L_17_1; SRA: SRS1067824
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_17_1
+Accession: SAMN03452996	ID: 3452996
+
+24: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452995; Sample name: L_15_1; SRA: SRS1067825
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_15_1
+Accession: SAMN03452995	ID: 3452995
+
+25: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452994; Sample name: L_13_1; SRA: SRS1067826
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_13_1
+Accession: SAMN03452994	ID: 3452994
+
+26: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452993; Sample name: L_11_1; SRA: SRS1067827
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_11_1
+Accession: SAMN03452993	ID: 3452993
+
+27: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452992; Sample name: L_9_1; SRA: SRS1067828
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_9_1
+Accession: SAMN03452992	ID: 3452992
+
+28: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452991; Sample name: L_7_1; SRA: SRS1067829
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_7_1
+Accession: SAMN03452991	ID: 3452991
+
+29: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452990; Sample name: L_5_1; SRA: SRS1067830
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_5_1
+Accession: SAMN03452990	ID: 3452990
+
+30: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452989; Sample name: L_3_1; SRA: SRS1067831
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_3_1
+Accession: SAMN03452989	ID: 3452989
+
+31: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452988; Sample name: L_1_1; SRA: SRS1067833
+Organism: Drosophila simulans
+Attributes:
+    /isolate="L_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.L_1_1
+Accession: SAMN03452988	ID: 3452988
+
+32: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452987; Sample name: J_23_1; SRA: SRS1067832
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.J_23_1
+Accession: SAMN03452987	ID: 3452987
+
+33: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452986; Sample name: J_21_1; SRA: SRS1067834
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.J_21_1
+Accession: SAMN03452986	ID: 3452986
+
+34: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452985; Sample name: J_19_1; SRA: SRS1067835
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.J_19_1
+Accession: SAMN03452985	ID: 3452985
+
+35: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452984; Sample name: J_17_1; SRA: SRS1067836
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.J_17_1
+Accession: SAMN03452984	ID: 3452984
+
+36: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452983; Sample name: J_15_1; SRA: SRS1067837
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.J_15_1
+Accession: SAMN03452983	ID: 3452983
+
+37: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452982; Sample name: J_13_1; SRA: SRS1067838
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.J_13_1
+Accession: SAMN03452982	ID: 3452982
+
+38: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452981; Sample name: J_11_1; SRA: SRS1067839
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.J_11_1
+Accession: SAMN03452981	ID: 3452981
+
+39: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452980; Sample name: J_9_1; SRA: SRS1067840
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.J_9_1
+Accession: SAMN03452980	ID: 3452980
+
+40: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452979; Sample name: H_23_1; SRA: SRS1067841
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.H_23_1
+Accession: SAMN03452979	ID: 3452979
+
+41: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452978; Sample name: H_21_1; SRA: SRS1067842
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.H_21_1
+Accession: SAMN03452978	ID: 3452978
+
+42: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452977; Sample name: H_19_1; SRA: SRS1067843
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.H_19_1
+Accession: SAMN03452977	ID: 3452977
+
+43: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452976; Sample name: H_17_1; SRA: SRS1067844
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.H_17_1
+Accession: SAMN03452976	ID: 3452976
+
+44: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452975; Sample name: H_15_1; SRA: SRS1067845
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.H_15_1
+Accession: SAMN03452975	ID: 3452975
+
+45: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452974; Sample name: H_13_1; SRA: SRS1067846
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.H_13_1
+Accession: SAMN03452974	ID: 3452974
+
+46: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452973; Sample name: H_11_1; SRA: SRS1067847
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.H_11_1
+Accession: SAMN03452973	ID: 3452973
+
+47: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452972; Sample name: H_9_1; SRA: SRS1067848
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-May-2011"
+    /geographic location="USA: Florida"
+Description:
+Florida.H_9_1
+Accession: SAMN03452972	ID: 3452972
+
+48: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452971; Sample name: I_23_1; SRA: SRS1067849
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_23_1
+Accession: SAMN03452971	ID: 3452971
+
+49: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452970; Sample name: I_21_1; SRA: SRS1067850
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_21_1
+Accession: SAMN03452970	ID: 3452970
+
+50: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452969; Sample name: I_19_1; SRA: SRS1067851
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_19_1
+Accession: SAMN03452969	ID: 3452969
+
+
+51: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452968; Sample name: I_17_1; SRA: SRS1067852
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_17_1
+Accession: SAMN03452968	ID: 3452968
+
+52: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452967; Sample name: I_15_1; SRA: SRS1067853
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_15_1
+Accession: SAMN03452967	ID: 3452967
+
+53: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452966; Sample name: I_13_1; SRA: SRS1067854
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_13_1
+Accession: SAMN03452966	ID: 3452966
+
+54: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452965; Sample name: I_11_1; SRA: SRS1067855
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_11_1
+Accession: SAMN03452965	ID: 3452965
+
+55: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452964; Sample name: I_9_1; SRA: SRS1067856
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_9_1
+Accession: SAMN03452964	ID: 3452964
+
+56: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452963; Sample name: I_7_1; SRA: SRS1067857
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_7_1
+Accession: SAMN03452963	ID: 3452963
+
+57: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452962; Sample name: I_5_1; SRA: SRS1067858
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_5_1
+Accession: SAMN03452962	ID: 3452962
+
+58: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452961; Sample name: I_3_1; SRA: SRS1067859
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_3_1
+Accession: SAMN03452961	ID: 3452961
+
+59: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452960; Sample name: I_1_1; SRA: SRS1067860
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.I_1_1
+Accession: SAMN03452960	ID: 3452960
+
+60: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452959; Sample name: G_23_1; SRA: SRS1067861
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_23_1
+Accession: SAMN03452959	ID: 3452959
+
+61: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452958; Sample name: G_21_1; SRA: SRS1067862
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_21_1
+Accession: SAMN03452958	ID: 3452958
+
+62: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452957; Sample name: G_19_1; SRA: SRS1067863
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_19_1
+Accession: SAMN03452957	ID: 3452957
+
+63: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452956; Sample name: G_17_1; SRA: SRS1067865
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_17_1
+Accession: SAMN03452956	ID: 3452956
+
+64: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452955; Sample name: G_15_1; SRA: SRS1067864
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_15_1
+Accession: SAMN03452955	ID: 3452955
+
+65: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452954; Sample name: G_13_1; SRA: SRS1067866
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_13_1
+Accession: SAMN03452954	ID: 3452954
+
+66: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452953; Sample name: G_11_1; SRA: SRS1067867
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_11_1
+Accession: SAMN03452953	ID: 3452953
+
+67: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452952; Sample name: G_9_1; SRA: SRS1067868
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_9_1
+Accession: SAMN03452952	ID: 3452952
+
+68: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452951; Sample name: G_7_1; SRA: SRS1067869
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_7_1
+Accession: SAMN03452951	ID: 3452951
+
+69: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452950; Sample name: G_5_1; SRA: SRS1067870
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_5_1
+Accession: SAMN03452950	ID: 3452950
+
+70: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452949; Sample name: G_3_1; SRA: SRS1067871
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_3_1
+Accession: SAMN03452949	ID: 3452949
+
+71: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452948; Sample name: G_1_1; SRA: SRS1067873
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.G_1_1
+Accession: SAMN03452948	ID: 3452948
+
+72: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452947; Sample name: E_23_1; SRA: SRS1067872
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_23_1
+Accession: SAMN03452947	ID: 3452947
+
+73: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452946; Sample name: E_21_1; SRA: SRS1067874
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_21_1
+Accession: SAMN03452946	ID: 3452946
+
+74: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452945; Sample name: E_19_1; SRA: SRS1067875
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_19_1
+Accession: SAMN03452945	ID: 3452945
+
+75: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452944; Sample name: E_17_1; SRA: SRS1067876
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_17_1
+Accession: SAMN03452944	ID: 3452944
+
+76: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452943; Sample name: E_15_1; SRA: SRS1067877
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_15_1
+Accession: SAMN03452943	ID: 3452943
+
+77: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452942; Sample name: E_13_1; SRA: SRS1067878
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_13_1
+Accession: SAMN03452942	ID: 3452942
+
+78: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452941; Sample name: E_11_1; SRA: SRS1067879
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_11_1
+Accession: SAMN03452941	ID: 3452941
+
+79: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452940; Sample name: E_9_1; SRA: SRS1067880
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_9_1
+Accession: SAMN03452940	ID: 3452940
+
+80: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452939; Sample name: E_7_1; SRA: SRS1067881
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_7_1
+Accession: SAMN03452939	ID: 3452939
+
+81: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452938; Sample name: E_3_1; SRA: SRS1067882
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_3_1
+Accession: SAMN03452938	ID: 3452938
+
+82: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452937; Sample name: E_1_1; SRA: SRS1067883
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.E_1_1
+Accession: SAMN03452937	ID: 3452937
+
+83: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452936; Sample name: C_23_1; SRA: SRS1067884
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_23_1
+Accession: SAMN03452936	ID: 3452936
+
+84: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452935; Sample name: C_21_1; SRA: SRS1067885
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_21_1
+Accession: SAMN03452935	ID: 3452935
+
+85: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452934; Sample name: C_19_1; SRA: SRS1067886
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_19_1
+Accession: SAMN03452934	ID: 3452934
+
+86: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452933; Sample name: C_17_1; SRA: SRS1067887
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_17_1
+Accession: SAMN03452933	ID: 3452933
+
+87: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452932; Sample name: C_15_1; SRA: SRS1067888
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_15_1
+Accession: SAMN03452932	ID: 3452932
+
+88: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452931; Sample name: C_13_1; SRA: SRS1067889
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_13_1
+Accession: SAMN03452931	ID: 3452931
+
+89: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452930; Sample name: C_11_1; SRA: SRS1067890
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_11_1
+Accession: SAMN03452930	ID: 3452930
+
+90: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452929; Sample name: C_9_1; SRA: SRS1067891
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_9_1
+Accession: SAMN03452929	ID: 3452929
+
+91: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452928; Sample name: C_7_1; SRA: SRS1067892
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_7_1
+Accession: SAMN03452928	ID: 3452928
+
+92: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452927; Sample name: C_5_1; SRA: SRS1067893
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_5_1
+Accession: SAMN03452927	ID: 3452927
+
+93: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452926; Sample name: C_3_1; SRA: SRS1067894
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_3_1
+Accession: SAMN03452926	ID: 3452926
+
+94: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452925; Sample name: C_1_1; SRA: SRS1067895
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.C_1_1
+Accession: SAMN03452925	ID: 3452925
+
+95: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452924; Sample name: A_23_1; SRA: SRS1067897
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.A_23_1
+Accession: SAMN03452924	ID: 3452924
+
+96: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452923; Sample name: A_21_1; SRA: SRS1067896
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.A_21_1
+Accession: SAMN03452923	ID: 3452923
+
+97: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452922; Sample name: A_19_1; SRA: SRS1067899
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2010"
+    /geographic location="USA: Virginia"
+Description:
+Virginia.A_19_1
+Accession: SAMN03452922	ID: 3452922
+
+98: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452921; Sample name: O_15_1; SRA: SRS1067898
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_15_1
+Accession: SAMN03452921	ID: 3452921
+
+99: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452920; Sample name: O_13_1; SRA: SRS1067900
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_13_1
+Accession: SAMN03452920	ID: 3452920
+
+100: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452919; Sample name: O_11_1; SRA: SRS1067901
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_11_1
+Accession: SAMN03452919	ID: 3452919
+
+
+101: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452918; Sample name: O_9_1; SRA: SRS1067902
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_9_1
+Accession: SAMN03452918	ID: 3452918
+
+102: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452917; Sample name: O_7_1; SRA: SRS1067903
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_7_1
+Accession: SAMN03452917	ID: 3452917
+
+103: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452916; Sample name: O_5_1; SRA: SRS1067904
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_5_1
+Accession: SAMN03452916	ID: 3452916
+
+104: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452915; Sample name: O_3_1; SRA: SRS1067905
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_3_1
+Accession: SAMN03452915	ID: 3452915
+
+105: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452914; Sample name: O_1_1; SRA: SRS1067906
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_1_1
+Accession: SAMN03452914	ID: 3452914
+
+106: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452913; Sample name: M_23_1; SRA: SRS1067907
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_23_1
+Accession: SAMN03452913	ID: 3452913
+
+107: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452912; Sample name: M_19_1; SRA: SRS1067908
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_19_1
+Accession: SAMN03452912	ID: 3452912
+
+108: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452911; Sample name: M_17_1; SRA: SRS1067909
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_17_1
+Accession: SAMN03452911	ID: 3452911
+
+109: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452910; Sample name: M_15_1; SRA: SRS1067910
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_15_1
+Accession: SAMN03452910	ID: 3452910
+
+110: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452909; Sample name: M_13_1; SRA: SRS1067911
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_13_1
+Accession: SAMN03452909	ID: 3452909
+
+111: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452908; Sample name: M_11_1; SRA: SRS1067912
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_11_1
+Accession: SAMN03452908	ID: 3452908
+
+112: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452907; Sample name: M_9_1; SRA: SRS1067913
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_9_1
+Accession: SAMN03452907	ID: 3452907
+
+113: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452906; Sample name: M_7_1; SRA: SRS1067914
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_7_1
+Accession: SAMN03452906	ID: 3452906
+
+114: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452905; Sample name: M_5_1; SRA: SRS1067915
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_5_1
+Accession: SAMN03452905	ID: 3452905
+
+115: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452904; Sample name: M_3_1; SRA: SRS1067916
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_3_1
+Accession: SAMN03452904	ID: 3452904
+
+116: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452903; Sample name: M_1_1; SRA: SRS1067917
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_1_1
+Accession: SAMN03452903	ID: 3452903
+
+117: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452902; Sample name: K_23_1; SRA: SRS1067918
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_23_1
+Accession: SAMN03452902	ID: 3452902
+
+118: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452901; Sample name: K_21_1; SRA: SRS1067919
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_21_1
+Accession: SAMN03452901	ID: 3452901
+
+119: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452900; Sample name: K_19_1; SRA: SRS1067920
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_19_1
+Accession: SAMN03452900	ID: 3452900
+
+120: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452899; Sample name: K_17_1; SRA: SRS1067921
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_17_1
+Accession: SAMN03452899	ID: 3452899
+
+121: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452898; Sample name: K_15_1; SRA: SRS1067922
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_15_1
+Accession: SAMN03452898	ID: 3452898
+
+122: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452897; Sample name: K_13_1; SRA: SRS1067923
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_13_1
+Accession: SAMN03452897	ID: 3452897
+
+123: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452896; Sample name: K_11_1; SRA: SRS1067924
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_11_1
+Accession: SAMN03452896	ID: 3452896
+
+124: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452895; Sample name: K_9_1; SRA: SRS1067925
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_9_1
+Accession: SAMN03452895	ID: 3452895
+
+125: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452894; Sample name: K_7_1; SRA: SRS1067926
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_7_1
+Accession: SAMN03452894	ID: 3452894
+
+126: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452893; Sample name: K_5_1; SRA: SRS1067927
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_5_1
+Accession: SAMN03452893	ID: 3452893
+
+127: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452892; Sample name: K_3_1; SRA: SRS1067928
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_3_1
+Accession: SAMN03452892	ID: 3452892
+
+128: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452891; Sample name: K_1_1; SRA: SRS1067929
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_1_1
+Accession: SAMN03452891	ID: 3452891
+
+129: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452890; Sample name: J_7_1; SRA: SRS1067930
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.J_7_1
+Accession: SAMN03452890	ID: 3452890
+
+130: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452889; Sample name: J_5_1; SRA: SRS1067931
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.J_5_1
+Accession: SAMN03452889	ID: 3452889
+
+131: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452888; Sample name: J_3_1; SRA: SRS1067932
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.J_3_1
+Accession: SAMN03452888	ID: 3452888
+
+132: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452887; Sample name: J_1_1; SRA: SRS1067933
+Organism: Drosophila simulans
+Attributes:
+    /isolate="J_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.J_1_1
+Accession: SAMN03452887	ID: 3452887
+
+133: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452886; Sample name: A_17_1; SRA: SRS1067934
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_17_1
+Accession: SAMN03452886	ID: 3452886
+
+134: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452885; Sample name: A_15_1; SRA: SRS1067935
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_15_1
+Accession: SAMN03452885	ID: 3452885
+
+135: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452884; Sample name: A_13_1; SRA: SRS1067936
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_13_1
+Accession: SAMN03452884	ID: 3452884
+
+136: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452883; Sample name: A_11_1; SRA: SRS1067938
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_11_1
+Accession: SAMN03452883	ID: 3452883
+
+137: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452882; Sample name: A_9_1; SRA: SRS1067937
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_9_1
+Accession: SAMN03452882	ID: 3452882
+
+138: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452881; Sample name: A_7_1; SRA: SRS1067939
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_7_1
+Accession: SAMN03452881	ID: 3452881
+
+139: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452880; Sample name: A_5_1; SRA: SRS1067940
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_5_1
+Accession: SAMN03452880	ID: 3452880
+
+140: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452879; Sample name: A_3_1; SRA: SRS1067941
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_3_1
+Accession: SAMN03452879	ID: 3452879
+
+141: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452878; Sample name: A_1_1; SRA: SRS1067942
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Aug-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_1_1
+Accession: SAMN03452878	ID: 3452878
+
+142: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452877; Sample name: P_17_1; SRA: SRS1067943
+Organism: Drosophila simulans
+Attributes:
+    /isolate="P_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.P_17_1
+Accession: SAMN03452877	ID: 3452877
+
+143: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452876; Sample name: P_15_1; SRA: SRS1067944
+Organism: Drosophila simulans
+Attributes:
+    /isolate="P_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.P_15_1
+Accession: SAMN03452876	ID: 3452876
+
+144: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452875; Sample name: P_13_1; SRA: SRS1067945
+Organism: Drosophila simulans
+Attributes:
+    /isolate="P_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.P_13_1
+Accession: SAMN03452875	ID: 3452875
+
+145: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452874; Sample name: G_24_1; SRA: SRS1067946
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_24_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_24_1
+Accession: SAMN03452874	ID: 3452874
+
+146: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452873; Sample name: G_22_1; SRA: SRS1067947
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_22_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_22_1
+Accession: SAMN03452873	ID: 3452873
+
+147: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452872; Sample name: G_20_1; SRA: SRS1067948
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_20_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_20_1
+Accession: SAMN03452872	ID: 3452872
+
+148: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452871; Sample name: G_18_1; SRA: SRS1067950
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_18_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_18_1
+Accession: SAMN03452871	ID: 3452871
+
+149: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452870; Sample name: G_16_1; SRA: SRS1067949
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_16_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_16_1
+Accession: SAMN03452870	ID: 3452870
+
+150: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452869; Sample name: G_14_1; SRA: SRS1067951
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_14_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_14_1
+Accession: SAMN03452869	ID: 3452869
+
+
+151: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452868; Sample name: G_12_1; SRA: SRS1067952
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_12_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_12_1
+Accession: SAMN03452868	ID: 3452868
+
+152: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452867; Sample name: G_10_1; SRA: SRS1067953
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_10_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_10_1
+Accession: SAMN03452867	ID: 3452867
+
+153: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452866; Sample name: G_8_1; SRA: SRS1067954
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_8_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_8_1
+Accession: SAMN03452866	ID: 3452866
+
+154: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452865; Sample name: G_6_1; SRA: SRS1067955
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_6_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_6_1
+Accession: SAMN03452865	ID: 3452865
+
+155: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452864; Sample name: G_4_1; SRA: SRS1067956
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_4_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_4_1
+Accession: SAMN03452864	ID: 3452864
+
+156: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452863; Sample name: G_2_1; SRA: SRS1067957
+Organism: Drosophila simulans
+Attributes:
+    /isolate="G_2_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.G_2_1
+Accession: SAMN03452863	ID: 3452863
+
+157: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452862; Sample name: E_24_1; SRA: SRS1067958
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_24_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_24_1
+Accession: SAMN03452862	ID: 3452862
+
+158: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452861; Sample name: E_22_1; SRA: SRS1067959
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_22_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_22_1
+Accession: SAMN03452861	ID: 3452861
+
+159: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452860; Sample name: E_20_1; SRA: SRS1067960
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_20_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_20_1
+Accession: SAMN03452860	ID: 3452860
+
+160: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452859; Sample name: E_18_1; SRA: SRS1067961
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_18_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_18_1
+Accession: SAMN03452859	ID: 3452859
+
+161: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452858; Sample name: E_16_1; SRA: SRS1067962
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_16_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_16_1
+Accession: SAMN03452858	ID: 3452858
+
+162: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452857; Sample name: E_14_1; SRA: SRS1067963
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_14_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_14_1
+Accession: SAMN03452857	ID: 3452857
+
+163: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452856; Sample name: E_12_1; SRA: SRS1067964
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_12_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_12_1
+Accession: SAMN03452856	ID: 3452856
+
+164: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452855; Sample name: E_10_1; SRA: SRS1067965
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_10_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_10_1
+Accession: SAMN03452855	ID: 3452855
+
+165: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452854; Sample name: E_8_1; SRA: SRS1067966
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_8_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_8_1
+Accession: SAMN03452854	ID: 3452854
+
+166: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452853; Sample name: E_6_1; SRA: SRS1067967
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_6_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_6_1
+Accession: SAMN03452853	ID: 3452853
+
+167: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452852; Sample name: E_4_1; SRA: SRS1067968
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_4_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_4_1
+Accession: SAMN03452852	ID: 3452852
+
+168: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452851; Sample name: E_2_1; SRA: SRS1067969
+Organism: Drosophila simulans
+Attributes:
+    /isolate="E_2_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.E_2_1
+Accession: SAMN03452851	ID: 3452851
+
+169: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452850; Sample name: C_24_1; SRA: SRS1067970
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_24_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_24_1
+Accession: SAMN03452850	ID: 3452850
+
+170: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452849; Sample name: C_22_1; SRA: SRS1067971
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_22_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_22_1
+Accession: SAMN03452849	ID: 3452849
+
+171: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452848; Sample name: C_20_1; SRA: SRS1067972
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_20_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_20_1
+Accession: SAMN03452848	ID: 3452848
+
+172: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452847; Sample name: C_18_1; SRA: SRS1067973
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_18_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_18_1
+Accession: SAMN03452847	ID: 3452847
+
+173: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452846; Sample name: C_16_1; SRA: SRS1067974
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_16_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_16_1
+Accession: SAMN03452846	ID: 3452846
+
+174: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452845; Sample name: C_14_1; SRA: SRS1067975
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_14_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_14_1
+Accession: SAMN03452845	ID: 3452845
+
+175: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452844; Sample name: C_12_1; SRA: SRS1067976
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_12_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_12_1
+Accession: SAMN03452844	ID: 3452844
+
+176: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452843; Sample name: C_10_1; SRA: SRS1067977
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_10_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_10_1
+Accession: SAMN03452843	ID: 3452843
+
+177: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452842; Sample name: C_8_1; SRA: SRS1067978
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_8_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_8_1
+Accession: SAMN03452842	ID: 3452842
+
+178: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452841; Sample name: C_6_1; SRA: SRS1067979
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_6_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_6_1
+Accession: SAMN03452841	ID: 3452841
+
+179: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452840; Sample name: C_2_1; SRA: SRS1067980
+Organism: Drosophila simulans
+Attributes:
+    /isolate="C_2_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.C_2_1
+Accession: SAMN03452840	ID: 3452840
+
+180: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452839; Sample name: A_24_1; SRA: SRS1067981
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_24_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_24_1
+Accession: SAMN03452839	ID: 3452839
+
+181: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452838; Sample name: A_22_1; SRA: SRS1067982
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_22_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_22_1
+Accession: SAMN03452838	ID: 3452838
+
+182: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452837; Sample name: A_20_1; SRA: SRS1067983
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_20_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_20_1
+Accession: SAMN03452837	ID: 3452837
+
+183: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452836; Sample name: A_18_1; SRA: SRS1067984
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_18_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_18_1
+Accession: SAMN03452836	ID: 3452836
+
+184: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452835; Sample name: A_16_1; SRA: SRS1067985
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_16_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_16_1
+Accession: SAMN03452835	ID: 3452835
+
+185: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452834; Sample name: A_14_1; SRA: SRS1067986
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_14_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_14_1
+Accession: SAMN03452834	ID: 3452834
+
+186: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452833; Sample name: A_12_1; SRA: SRS1067987
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_12_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_12_1
+Accession: SAMN03452833	ID: 3452833
+
+187: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452832; Sample name: A_10_1; SRA: SRS1067988
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_10_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_10_1
+Accession: SAMN03452832	ID: 3452832
+
+188: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452831; Sample name: A_8_1; SRA: SRS1067989
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_8_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_8_1
+Accession: SAMN03452831	ID: 3452831
+
+189: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452830; Sample name: A_6_1; SRA: SRS1067990
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_6_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_6_1
+Accession: SAMN03452830	ID: 3452830
+
+190: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452829; Sample name: A_4_1; SRA: SRS1067991
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_4_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_4_1
+Accession: SAMN03452829	ID: 3452829
+
+191: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452828; Sample name: A_2_1; SRA: SRS1067992
+Organism: Drosophila simulans
+Attributes:
+    /isolate="A_2_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Sep-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.A_2_1
+Accession: SAMN03452828	ID: 3452828
+
+192: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452827; Sample name: M_24_1; SRA: SRS1067993
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_24_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_24_1
+Accession: SAMN03452827	ID: 3452827
+
+193: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452826; Sample name: M_22_1; SRA: SRS1067994
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_22_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_22_1
+Accession: SAMN03452826	ID: 3452826
+
+194: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452825; Sample name: M_20_1; SRA: SRS1067995
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_20_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_20_1
+Accession: SAMN03452825	ID: 3452825
+
+195: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452824; Sample name: M_18_1; SRA: SRS1067996
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_18_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_18_1
+Accession: SAMN03452824	ID: 3452824
+
+196: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452823; Sample name: M_16_1; SRA: SRS1067997
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_16_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_16_1
+Accession: SAMN03452823	ID: 3452823
+
+197: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452822; Sample name: M_14_1; SRA: SRS1067998
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_14_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_14_1
+Accession: SAMN03452822	ID: 3452822
+
+198: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452821; Sample name: M_12_1; SRA: SRS1067999
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_12_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_12_1
+Accession: SAMN03452821	ID: 3452821
+
+199: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452820; Sample name: M_10_1; SRA: SRS1068000
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_10_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_10_1
+Accession: SAMN03452820	ID: 3452820
+
+200: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452819; Sample name: M_8_1; SRA: SRS1068001
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_8_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_8_1
+Accession: SAMN03452819	ID: 3452819
+
+
+201: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452818; Sample name: M_6_1; SRA: SRS1068002
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_6_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_6_1
+Accession: SAMN03452818	ID: 3452818
+
+202: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452817; Sample name: M_4_1; SRA: SRS1068003
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_4_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_4_1
+Accession: SAMN03452817	ID: 3452817
+
+203: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452816; Sample name: M_2_1; SRA: SRS1068004
+Organism: Drosophila simulans
+Attributes:
+    /isolate="M_2_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.M_2_1
+Accession: SAMN03452816	ID: 3452816
+
+204: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452815; Sample name: O_16_1; SRA: SRS1068005
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_16_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_16_1
+Accession: SAMN03452815	ID: 3452815
+
+205: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452814; Sample name: O_14_1; SRA: SRS1068006
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_14_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_14_1
+Accession: SAMN03452814	ID: 3452814
+
+206: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452813; Sample name: O_12_1; SRA: SRS1068007
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_12_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_12_1
+Accession: SAMN03452813	ID: 3452813
+
+207: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452812; Sample name: O_10_1; SRA: SRS1068008
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_10_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_10_1
+Accession: SAMN03452812	ID: 3452812
+
+208: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452811; Sample name: O_8_1; SRA: SRS1068009
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_8_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_8_1
+Accession: SAMN03452811	ID: 3452811
+
+209: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452810; Sample name: O_6_1; SRA: SRS1068010
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_6_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_6_1
+Accession: SAMN03452810	ID: 3452810
+
+210: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452809; Sample name: O_4_1; SRA: SRS1068011
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_4_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_4_1
+Accession: SAMN03452809	ID: 3452809
+
+211: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452808; Sample name: O_2_1; SRA: SRS1068012
+Organism: Drosophila simulans
+Attributes:
+    /isolate="O_2_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.O_2_1
+Accession: SAMN03452808	ID: 3452808
+
+212: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452807; Sample name: K_24_1; SRA: SRS1068013
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_24_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_24_1
+Accession: SAMN03452807	ID: 3452807
+
+213: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452806; Sample name: K_20_1; SRA: SRS1068014
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_20_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_20_1
+Accession: SAMN03452806	ID: 3452806
+
+214: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452805; Sample name: K_18_1; SRA: SRS1068015
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_18_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_18_1
+Accession: SAMN03452805	ID: 3452805
+
+215: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452804; Sample name: K_16_1; SRA: SRS1068016
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_16_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_16_1
+Accession: SAMN03452804	ID: 3452804
+
+216: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452803; Sample name: K_14_1; SRA: SRS1068017
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_14_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_14_1
+Accession: SAMN03452803	ID: 3452803
+
+217: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452802; Sample name: K_10_1; SRA: SRS1068018
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_10_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_10_1
+Accession: SAMN03452802	ID: 3452802
+
+218: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452801; Sample name: K_8_1; SRA: SRS1068019
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_8_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_8_1
+Accession: SAMN03452801	ID: 3452801
+
+219: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452800; Sample name: K_6_1; SRA: SRS1068020
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_6_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_6_1
+Accession: SAMN03452800	ID: 3452800
+
+220: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452799; Sample name: K_4_1; SRA: SRS1068021
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_4_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_4_1
+Accession: SAMN03452799	ID: 3452799
+
+221: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452798; Sample name: K_2_1; SRA: SRS1068022
+Organism: Drosophila simulans
+Attributes:
+    /isolate="K_2_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.K_2_1
+Accession: SAMN03452798	ID: 3452798
+
+222: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452797; Sample name: I_24_1; SRA: SRS1068023
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_24_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_24_1
+Accession: SAMN03452797	ID: 3452797
+
+223: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452796; Sample name: I_22_1; SRA: SRS1068024
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_22_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_22_1
+Accession: SAMN03452796	ID: 3452796
+
+224: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452795; Sample name: I_20_1; SRA: SRS1068025
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_20_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_20_1
+Accession: SAMN03452795	ID: 3452795
+
+225: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452794; Sample name: I_16_1; SRA: SRS1068026
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_16_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_16_1
+Accession: SAMN03452794	ID: 3452794
+
+226: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452793; Sample name: I_14_1; SRA: SRS1068027
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_14_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_14_1
+Accession: SAMN03452793	ID: 3452793
+
+227: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452792; Sample name: I_12_1; SRA: SRS1068028
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_12_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_12_1
+Accession: SAMN03452792	ID: 3452792
+
+228: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452791; Sample name: I_10_1; SRA: SRS1068029
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_10_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_10_1
+Accession: SAMN03452791	ID: 3452791
+
+229: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452790; Sample name: I_8_1; SRA: SRS1068030
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_8_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_8_1
+Accession: SAMN03452790	ID: 3452790
+
+230: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452789; Sample name: I_6_1; SRA: SRS1068031
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_6_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_6_1
+Accession: SAMN03452789	ID: 3452789
+
+231: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452788; Sample name: I_4_1; SRA: SRS1068032
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_4_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_4_1
+Accession: SAMN03452788	ID: 3452788
+
+232: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452787; Sample name: I_2_1; SRA: SRS1068033
+Organism: Drosophila simulans
+Attributes:
+    /isolate="I_2_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Nov-2011"
+    /geographic location="USA: Pennsylvania"
+Description:
+Pennsylvania.I_2_1
+Accession: SAMN03452787	ID: 3452787
+
+233: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452786; Sample name: H_7_1; SRA: SRS1068034
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.H_7_1
+Accession: SAMN03452786	ID: 3452786
+
+234: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452785; Sample name: H_5_1; SRA: SRS1068035
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.H_5_1
+Accession: SAMN03452785	ID: 3452785
+
+235: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452784; Sample name: H_3_1; SRA: SRS1068036
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.H_3_1
+Accession: SAMN03452784	ID: 3452784
+
+236: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452783; Sample name: H_1_1; SRA: SRS1068037
+Organism: Drosophila simulans
+Attributes:
+    /isolate="H_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.H_1_1
+Accession: SAMN03452783	ID: 3452783
+
+237: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452782; Sample name: F_23_1; SRA: SRS1068038
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_23_1
+Accession: SAMN03452782	ID: 3452782
+
+238: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452781; Sample name: F_21_1; SRA: SRS1068039
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_21_1
+Accession: SAMN03452781	ID: 3452781
+
+239: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452780; Sample name: F_19_1; SRA: SRS1068040
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_19_1
+Accession: SAMN03452780	ID: 3452780
+
+240: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452779; Sample name: F_17_1; SRA: SRS1068041
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_17_1
+Accession: SAMN03452779	ID: 3452779
+
+241: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452778; Sample name: F_15_1; SRA: SRS1068042
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_15_1
+Accession: SAMN03452778	ID: 3452778
+
+242: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452777; Sample name: F_13_1; SRA: SRS1068044
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_13_1
+Accession: SAMN03452777	ID: 3452777
+
+243: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452776; Sample name: F_9_1; SRA: SRS1068043
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_9_1
+Accession: SAMN03452776	ID: 3452776
+
+244: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452775; Sample name: F_7_1; SRA: SRS1068046
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_7_1
+Accession: SAMN03452775	ID: 3452775
+
+245: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452774; Sample name: F_5_1; SRA: SRS1068045
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_5_1
+Accession: SAMN03452774	ID: 3452774
+
+246: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452773; Sample name: F_3_1; SRA: SRS1068047
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_3_1
+Accession: SAMN03452773	ID: 3452773
+
+247: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452772; Sample name: F_1_1; SRA: SRS1068048
+Organism: Drosophila simulans
+Attributes:
+    /isolate="F_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.F_1_1
+Accession: SAMN03452772	ID: 3452772
+
+248: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452771; Sample name: D_23_1; SRA: SRS1068049
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_23_1
+Accession: SAMN03452771	ID: 3452771
+
+249: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452770; Sample name: D_21_1; SRA: SRS1068050
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_21_1
+Accession: SAMN03452770	ID: 3452770
+
+250: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452769; Sample name: D_19_1; SRA: SRS1068051
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_19_1
+Accession: SAMN03452769	ID: 3452769
+
+
+251: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452768; Sample name: D_17_1; SRA: SRS1068052
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_17_1
+Accession: SAMN03452768	ID: 3452768
+
+252: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452767; Sample name: D_13_1; SRA: SRS1068053
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_13_1
+Accession: SAMN03452767	ID: 3452767
+
+253: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452766; Sample name: D_11_1; SRA: SRS1068054
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_11_1
+Accession: SAMN03452766	ID: 3452766
+
+254: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452765; Sample name: D_9_1; SRA: SRS1068055
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_9_1
+Accession: SAMN03452765	ID: 3452765
+
+255: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452764; Sample name: D_7_1; SRA: SRS1068056
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_7_1
+Accession: SAMN03452764	ID: 3452764
+
+256: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452763; Sample name: D_5_1; SRA: SRS1068057
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_5_1
+Accession: SAMN03452763	ID: 3452763
+
+257: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452762; Sample name: D_3_1; SRA: SRS1068058
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_3_1
+Accession: SAMN03452762	ID: 3452762
+
+258: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452761; Sample name: D_1_1; SRA: SRS1068059
+Organism: Drosophila simulans
+Attributes:
+    /isolate="D_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.D_1_1
+Accession: SAMN03452761	ID: 3452761
+
+259: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452760; Sample name: B_23_1; SRA: SRS1068060
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_23_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_23_1
+Accession: SAMN03452760	ID: 3452760
+
+260: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452759; Sample name: B_21_1; SRA: SRS1068061
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_21_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_21_1
+Accession: SAMN03452759	ID: 3452759
+
+261: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452758; Sample name: B_19_1; SRA: SRS1068062
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_19_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_19_1
+Accession: SAMN03452758	ID: 3452758
+
+262: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452757; Sample name: B_17_1; SRA: SRS1068063
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_17_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_17_1
+Accession: SAMN03452757	ID: 3452757
+
+263: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452756; Sample name: B_15_1; SRA: SRS1068064
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_15_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_15_1
+Accession: SAMN03452756	ID: 3452756
+
+264: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452755; Sample name: B_13_1; SRA: SRS1068065
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_13_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_13_1
+Accession: SAMN03452755	ID: 3452755
+
+265: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452754; Sample name: B_11_1; SRA: SRS1068066
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_11_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_11_1
+Accession: SAMN03452754	ID: 3452754
+
+266: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452753; Sample name: B_9_1; SRA: SRS1068067
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_9_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_9_1
+Accession: SAMN03452753	ID: 3452753
+
+267: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452752; Sample name: B_7_1; SRA: SRS1068068
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_7_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_7_1
+Accession: SAMN03452752	ID: 3452752
+
+268: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452751; Sample name: B_5_1; SRA: SRS1068069
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_5_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_5_1
+Accession: SAMN03452751	ID: 3452751
+
+269: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452750; Sample name: B_3_1; SRA: SRS1068070
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_3_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_3_1
+Accession: SAMN03452750	ID: 3452750
+
+270: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN03452749; Sample name: B_1_1; SRA: SRS1068071
+Organism: Drosophila simulans
+Attributes:
+    /isolate="B_1_1"
+    /ecotype="wild"
+    /development stage="adult"
+    /sex="female"
+    /tissue="whole"
+    /collection date="01-Oct-2011"
+    /geographic location="USA: Maine"
+Description:
+Maine.B_1_1
+Accession: SAMN03452749	ID: 3452749
+
+

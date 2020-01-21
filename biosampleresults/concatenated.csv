@@ -1,0 +1,490 @@
+row,author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier
+1, Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069549,ERS1733442,"Dsim_Fl_Hot_5"
+2, Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069548,ERS1733441,"Dsim_Fl_Hot_3"
+3, Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069547,ERS1733440,"Dsim_Fl_Hot_1"
+4, Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069546,ERS1733439,"Dsim_Fl_Base_5"
+5, Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069545,ERS1733438,"Dsim_Fl_Base_3"
+6, Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069544,ERS1733437,"Dsim_Fl_Base_1"
+7, Machado,Drosophila simulans,50,P,USA,Pennsylvania,NA,40,NA,2010,Sep,01,SAMN03453018,SRS1067802,"ECsimPA9_2010 pool of 50 individuals"
+8, Machado,Drosophila simulans,65,P,USA,Pennsylvania,NA,40,NA,2010,Jul,01,SAMN03453017,SRS1067803,"ECsimPA7_2010 pool of 65 individuals"
+9, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453016,SRS1067804,"P_11_1"
+10, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453015,SRS1067805,"P_9_1"
+11, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453014,SRS1067806,"P_7_1"
+12, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453013,SRS1067807,"P_5_1"
+13, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453012,SRS1067808,"P_3_1"
+14, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453011,SRS1067809,"P_1_1"
+15, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453010,SRS1067810,"N_23_1"
+16, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453009,SRS1067811,"N_21_1"
+17, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453008,SRS1067812,"N_19_1"
+18, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453007,SRS1067813,"N_17_1"
+19, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453006,SRS1067814,"N_15_1"
+20, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453005,SRS1067815,"N_13_1"
+21, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453004,SRS1067816,"N_11_1"
+22, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453003,SRS1067817,"N_9_1"
+23, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453002,SRS1067818,"N_7_1"
+24, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453001,SRS1067819,"N_3_1"
+25, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453000,SRS1067820,"N_1_1"
+26, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452999,SRS1067821,"L_23_1"
+27, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452998,SRS1067822,"L_21_1"
+28, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452997,SRS1067823,"L_19_1"
+29, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452996,SRS1067824,"L_17_1"
+30, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452995,SRS1067825,"L_15_1"
+31, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452994,SRS1067826,"L_13_1"
+32, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452993,SRS1067827,"L_11_1"
+33, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452992,SRS1067828,"L_9_1"
+34, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452991,SRS1067829,"L_7_1"
+35, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452990,SRS1067830,"L_5_1"
+36, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452989,SRS1067831,"L_3_1"
+37, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452988,SRS1067833,"L_1_1"
+38, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452987,SRS1067832,"J_23_1"
+39, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452986,SRS1067834,"J_21_1"
+40, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452985,SRS1067835,"J_19_1"
+41, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452984,SRS1067836,"J_17_1"
+42, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452983,SRS1067837,"J_15_1"
+43, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452982,SRS1067838,"J_13_1"
+44, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452981,SRS1067839,"J_11_1"
+45, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452980,SRS1067840,"J_9_1"
+46, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452979,SRS1067841,"H_23_1"
+47, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452978,SRS1067842,"H_21_1"
+48, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452977,SRS1067843,"H_19_1"
+49, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452976,SRS1067844,"H_17_1"
+50, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452975,SRS1067845,"H_15_1"
+51, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452974,SRS1067846,"H_13_1"
+52, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452973,SRS1067847,"H_11_1"
+53, Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452972,SRS1067848,"H_9_1"
+54, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452971,SRS1067849,"I_23_1"
+55, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452970,SRS1067850,"I_21_1"
+56, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452969,SRS1067851,"I_19_1"
+57, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452968,SRS1067852,"I_17_1"
+58, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452967,SRS1067853,"I_15_1"
+59, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452966,SRS1067854,"I_13_1"
+60, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452965,SRS1067855,"I_11_1"
+61, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452964,SRS1067856,"I_9_1"
+62, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452963,SRS1067857,"I_7_1"
+63, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452962,SRS1067858,"I_5_1"
+64, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452961,SRS1067859,"I_3_1"
+65, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452960,SRS1067860,"I_1_1"
+66, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452959,SRS1067861,"G_23_1"
+67, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452958,SRS1067862,"G_21_1"
+68, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452957,SRS1067863,"G_19_1"
+69, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452956,SRS1067865,"G_17_1"
+70, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452955,SRS1067864,"G_15_1"
+71, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452954,SRS1067866,"G_13_1"
+72, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452953,SRS1067867,"G_11_1"
+73, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452952,SRS1067868,"G_9_1"
+74, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452951,SRS1067869,"G_7_1"
+75, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452950,SRS1067870,"G_5_1"
+76, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452949,SRS1067871,"G_3_1"
+77, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452948,SRS1067873,"G_1_1"
+78, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452947,SRS1067872,"E_23_1"
+79, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452946,SRS1067874,"E_21_1"
+80, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452945,SRS1067875,"E_19_1"
+81, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452944,SRS1067876,"E_17_1"
+82, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452943,SRS1067877,"E_15_1"
+83, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452942,SRS1067878,"E_13_1"
+84, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452941,SRS1067879,"E_11_1"
+85, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452940,SRS1067880,"E_9_1"
+86, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452939,SRS1067881,"E_7_1"
+87, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452938,SRS1067882,"E_3_1"
+88, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452937,SRS1067883,"E_1_1"
+89, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452936,SRS1067884,"C_23_1"
+90, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452935,SRS1067885,"C_21_1"
+91, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452934,SRS1067886,"C_19_1"
+92, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452933,SRS1067887,"C_17_1"
+93, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452932,SRS1067888,"C_15_1"
+94, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452931,SRS1067889,"C_13_1"
+95, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452930,SRS1067890,"C_11_1"
+96, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452929,SRS1067891,"C_9_1"
+97, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452928,SRS1067892,"C_7_1"
+98, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452927,SRS1067893,"C_5_1"
+99, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452926,SRS1067894,"C_3_1"
+100, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452925,SRS1067895,"C_1_1"
+101, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452924,SRS1067897,"A_23_1"
+102, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452923,SRS1067896,"A_21_1"
+103, Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452922,SRS1067899,"A_19_1"
+104, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452921,SRS1067898,"O_15_1"
+105, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452920,SRS1067900,"O_13_1"
+106, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452919,SRS1067901,"O_11_1"
+107, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452918,SRS1067902,"O_9_1"
+108, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452917,SRS1067903,"O_7_1"
+109, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452916,SRS1067904,"O_5_1"
+110, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452915,SRS1067905,"O_3_1"
+111, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452914,SRS1067906,"O_1_1"
+112, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452913,SRS1067907,"M_23_1"
+113, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452912,SRS1067908,"M_19_1"
+114, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452911,SRS1067909,"M_17_1"
+115, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452910,SRS1067910,"M_15_1"
+116, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452909,SRS1067911,"M_13_1"
+117, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452908,SRS1067912,"M_11_1"
+118, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452907,SRS1067913,"M_9_1"
+119, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452906,SRS1067914,"M_7_1"
+120, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452905,SRS1067915,"M_5_1"
+121, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452904,SRS1067916,"M_3_1"
+122, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452903,SRS1067917,"M_1_1"
+123, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452902,SRS1067918,"K_23_1"
+124, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452901,SRS1067919,"K_21_1"
+125, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452900,SRS1067920,"K_19_1"
+126, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452899,SRS1067921,"K_17_1"
+127, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452898,SRS1067922,"K_15_1"
+128, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452897,SRS1067923,"K_13_1"
+129, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452896,SRS1067924,"K_11_1"
+130, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452895,SRS1067925,"K_9_1"
+131, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452894,SRS1067926,"K_7_1"
+132, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452893,SRS1067927,"K_5_1"
+133, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452892,SRS1067928,"K_3_1"
+134, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452891,SRS1067929,"K_1_1"
+135, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452890,SRS1067930,"J_7_1"
+136, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452889,SRS1067931,"J_5_1"
+137, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452888,SRS1067932,"J_3_1"
+138, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452887,SRS1067933,"J_1_1"
+139, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452886,SRS1067934,"A_17_1"
+140, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452885,SRS1067935,"A_15_1"
+141, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452884,SRS1067936,"A_13_1"
+142, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452883,SRS1067938,"A_11_1"
+143, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452882,SRS1067937,"A_9_1"
+144, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452881,SRS1067939,"A_7_1"
+145, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452880,SRS1067940,"A_5_1"
+146, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452879,SRS1067941,"A_3_1"
+147, Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452878,SRS1067942,"A_1_1"
+148, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452877,SRS1067943,"P_17_1"
+149, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452876,SRS1067944,"P_15_1"
+150, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452875,SRS1067945,"P_13_1"
+151, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452874,SRS1067946,"G_24_1"
+152, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452873,SRS1067947,"G_22_1"
+153, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452872,SRS1067948,"G_20_1"
+154, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452871,SRS1067950,"G_18_1"
+155, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452870,SRS1067949,"G_16_1"
+156, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452869,SRS1067951,"G_14_1"
+157, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452868,SRS1067952,"G_12_1"
+158, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452867,SRS1067953,"G_10_1"
+159, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452866,SRS1067954,"G_8_1"
+160, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452865,SRS1067955,"G_6_1"
+161, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452864,SRS1067956,"G_4_1"
+162, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452863,SRS1067957,"G_2_1"
+163, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452862,SRS1067958,"E_24_1"
+164, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452861,SRS1067959,"E_22_1"
+165, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452860,SRS1067960,"E_20_1"
+166, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452859,SRS1067961,"E_18_1"
+167, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452858,SRS1067962,"E_16_1"
+168, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452857,SRS1067963,"E_14_1"
+169, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452856,SRS1067964,"E_12_1"
+170, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452855,SRS1067965,"E_10_1"
+171, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452854,SRS1067966,"E_8_1"
+172, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452853,SRS1067967,"E_6_1"
+173, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452852,SRS1067968,"E_4_1"
+174, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452851,SRS1067969,"E_2_1"
+175, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452850,SRS1067970,"C_24_1"
+176, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452849,SRS1067971,"C_22_1"
+177, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452848,SRS1067972,"C_20_1"
+178, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452847,SRS1067973,"C_18_1"
+179, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452846,SRS1067974,"C_16_1"
+180, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452845,SRS1067975,"C_14_1"
+181, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452844,SRS1067976,"C_12_1"
+182, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452843,SRS1067977,"C_10_1"
+183, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452842,SRS1067978,"C_8_1"
+184, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452841,SRS1067979,"C_6_1"
+185, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452840,SRS1067980,"C_2_1"
+186, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452839,SRS1067981,"A_24_1"
+187, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452838,SRS1067982,"A_22_1"
+188, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452837,SRS1067983,"A_20_1"
+189, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452836,SRS1067984,"A_18_1"
+190, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452835,SRS1067985,"A_16_1"
+191, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452834,SRS1067986,"A_14_1"
+192, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452833,SRS1067987,"A_12_1"
+193, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452832,SRS1067988,"A_10_1"
+194, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452831,SRS1067989,"A_8_1"
+195, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452830,SRS1067990,"A_6_1"
+196, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452829,SRS1067991,"A_4_1"
+197, Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452828,SRS1067992,"A_2_1"
+198, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452827,SRS1067993,"M_24_1"
+199, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452826,SRS1067994,"M_22_1"
+200, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452825,SRS1067995,"M_20_1"
+201, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452824,SRS1067996,"M_18_1"
+202, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452823,SRS1067997,"M_16_1"
+203, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452822,SRS1067998,"M_14_1"
+204, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452821,SRS1067999,"M_12_1"
+205, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452820,SRS1068000,"M_10_1"
+206, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452819,SRS1068001,"M_8_1"
+207, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452818,SRS1068002,"M_6_1"
+208, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452817,SRS1068003,"M_4_1"
+209, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452816,SRS1068004,"M_2_1"
+210, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452815,SRS1068005,"O_16_1"
+211, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452814,SRS1068006,"O_14_1"
+212, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452813,SRS1068007,"O_12_1"
+213, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452812,SRS1068008,"O_10_1"
+214, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452811,SRS1068009,"O_8_1"
+215, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452810,SRS1068010,"O_6_1"
+216, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452809,SRS1068011,"O_4_1"
+217, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452808,SRS1068012,"O_2_1"
+218, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452807,SRS1068013,"K_24_1"
+219, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452806,SRS1068014,"K_20_1"
+220, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452805,SRS1068015,"K_18_1"
+221, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452804,SRS1068016,"K_16_1"
+222, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452803,SRS1068017,"K_14_1"
+223, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452802,SRS1068018,"K_10_1"
+224, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452801,SRS1068019,"K_8_1"
+225, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452800,SRS1068020,"K_6_1"
+226, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452799,SRS1068021,"K_4_1"
+227, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452798,SRS1068022,"K_2_1"
+228, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452797,SRS1068023,"I_24_1"
+229, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452796,SRS1068024,"I_22_1"
+230, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452795,SRS1068025,"I_20_1"
+231, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452794,SRS1068026,"I_16_1"
+232, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452793,SRS1068027,"I_14_1"
+233, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452792,SRS1068028,"I_12_1"
+234, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452791,SRS1068029,"I_10_1"
+235, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452790,SRS1068030,"I_8_1"
+236, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452789,SRS1068031,"I_6_1"
+237, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452788,SRS1068032,"I_4_1"
+238, Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452787,SRS1068033,"I_2_1"
+239, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452786,SRS1068034,"H_7_1"
+240, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452785,SRS1068035,"H_5_1"
+241, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452784,SRS1068036,"H_3_1"
+242, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452783,SRS1068037,"H_1_1"
+243, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452782,SRS1068038,"F_23_1"
+244, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452781,SRS1068039,"F_21_1"
+245, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452780,SRS1068040,"F_19_1"
+246, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452779,SRS1068041,"F_17_1"
+247, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452778,SRS1068042,"F_15_1"
+248, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452777,SRS1068044,"F_13_1"
+249, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452776,SRS1068043,"F_9_1"
+250, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452775,SRS1068046,"F_7_1"
+251, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452774,SRS1068045,"F_5_1"
+252, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452773,SRS1068047,"F_3_1"
+253, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452772,SRS1068048,"F_1_1"
+254, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452771,SRS1068049,"D_23_1"
+255, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452770,SRS1068050,"D_21_1"
+256, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452769,SRS1068051,"D_19_1"
+257, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452768,SRS1068052,"D_17_1"
+258, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452767,SRS1068053,"D_13_1"
+259, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452766,SRS1068054,"D_11_1"
+260, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452765,SRS1068055,"D_9_1"
+261, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452764,SRS1068056,"D_7_1"
+262, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452763,SRS1068057,"D_5_1"
+263, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452762,SRS1068058,"D_3_1"
+264, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452761,SRS1068059,"D_1_1"
+265, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452760,SRS1068060,"B_23_1"
+266, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452759,SRS1068061,"B_21_1"
+267, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452758,SRS1068062,"B_19_1"
+268, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452757,SRS1068063,"B_17_1"
+269, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452756,SRS1068064,"B_15_1"
+270, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452755,SRS1068065,"B_13_1"
+271, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452754,SRS1068066,"B_11_1"
+272, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452753,SRS1068067,"B_9_1"
+273, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452752,SRS1068068,"B_7_1"
+274, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452751,SRS1068069,"B_5_1"
+275, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452750,SRS1068070,"B_3_1"
+276, Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452749,SRS1068071,"B_1_1"
+277, Kang,Drosophila simulans,20,P,Israel,south-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518595,SRS2947775,SFS70
+278, Kang,Drosophila simulans,20,P,Israel,south-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518574,SRS2947777,SFS69
+279, Kang,Drosophila simulans,20,P,Israel,south-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518573,SRS2947778,SFS62
+280, Kang,Drosophila simulans,20,P,Israel,south-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518572,SRS2947776,SFS65
+281, Kang,Drosophila simulans,20,P,Israel,south-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518571,SRS2947779,SFS59
+282, Kang,Drosophila simulans,20,P,Israel,south-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518570,SRS2947780,SFS39
+283, Kang,Drosophila simulans,20,P,Israel,south-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518559,SRS2947781,SFS38
+284, Kang,Drosophila simulans,20,P,Israel,south-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518558,SRS2947791,SFS16
+285, Kang,Drosophila simulans,20,P,Israel,south-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518557,SRS2947782,SFS36
+286, Kang,Drosophila simulans,20,P,Israel,north-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518554,SRS2947792,NFS68
+287, Kang,Drosophila simulans,20,P,Israel,north-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518553,SRS2947787,NFS65
+288, Kang,Drosophila simulans,20,P,Israel,north-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518552,SRS2947788,NFS64
+289, Kang,Drosophila simulans,20,P,Israel,north-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518551,SRS2947789,NFS63
+290, Kang,Drosophila simulans,20,P,Israel,north-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518550,SRS2947790,NFS61
+291, Kang,Drosophila simulans,20,P,Israel,north-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518549,SRS2947783,NFS58
+292, Kang,Drosophila simulans,20,P,Israel,north-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518547,SRS2947784,NFS56
+293, Kang,Drosophila simulans,20,P,Israel,north-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518514,SRS2947785,NFS55
+294, Kang,Drosophila simulans,20,P,Israel,north-facing slope of Evolution Canyon,Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,SAMN08518341,SRS2947786,NFS51
+295, Palmieri,Drosophila simulans,43,P,"Madagascar",NA,NA,NA,NA,1998,NA,NA,SAMN02713493,SRS584598,M252
+296, Sedghifar,Drosophila simulans,NA,P,USA,Panama,Panama City,8.9824 N,79.5199 W,2011,Sep,NA,SAMN10233408,SRS3924974,D. sim Panama
+297, Sedghifar,Drosophila simulans,NA,P,USA,GA,Savannah,32.0809 N,81.0912 W,2011,Sep,NA,SAMN10233407,SRS3924977,D. sim Georgia
+298, Sedghifar,Drosophila simulans,NA,P,USA,SC,Conway,33.8360 N,79.0478 W,2011,Sep,NA,SAMN10233406,SRS3924973,D. sim South Carolina
+299, Sedghifar,Drosophila simulans,NA,P,USA,NC,Raleigh,35.7796 N,78.6382 W,2011,Sep,NA,SAMN10233405,SRS3924979,D. sim North Carolina
+300, Sedghifar,Drosophila simulans,NA,P,USA,VA,Richmond,37.5407 N,77.4360 W,2011,Sep,NA,SAMN10233404,SRS3924978,D. sim Virginia
+301, Sedghifar,Drosophila simulans,NA,P,USA,NJ,Princeton,40.3573 N,74.6672 W,2011,Sep,NA,SAMN10233403,SRS3924975,D. sim New Jersey
+302, Sedghifar,Drosophila simulans,NA,P,USA,ME,Fairfield,44.5884 N,69.5986 W,2011,Sep,NA,SAMN10233402,SRS3924976,D. sim Maine
+303, Sedghifar,Drosophila simulans,NA,P,USA,RI,NA,41.84 N,NA,2011,Sep,NA,SAMN04390155,SRS1240068,D.sim Rhode Island
+304, Sedghifar,Drosophila simulans,NA,P,Australia,Queensland,NA,42.77 S,NA,2004,Feb,NA,SAMN04383930,SRS1240050,South_Aus
+305, Sedghifar,Drosophila simulans,NA,P,Australia,Tasmania,NA,25.54 S,NA,2004,Feb,NA,SAMN04383929,SRS1240053,North_Aus
+306, Sedghifar,Drosophila simulans,NA,P,USA,FL,NA,25.47 N,NA,2011,Sep,NA,SAMN04383927,SRS1235008,Florida
+307, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157435,SRS1466665,Sz99
+308, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157434,SRS1466664,Sz97
+309, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157433,SRS1466663,Sz93
+310, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157432,SRS1466661,Sz91
+311, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157431,SRS1466660,Sz90
+312, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157430,SRS1466659,Sz9
+313, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157429,SRS1466657,Sz87
+314, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157428,SRS1466658,Sz84
+315, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157427,SRS1466656,Sz83
+316, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157426,SRS1466655,Sz82
+317, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157425,SRS1466654,Sz80
+318, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157424,SRS1466653,Sz8
+319, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157423,SRS1466651,Sz77
+320, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157422,SRS1466649,Sz76
+321, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157421,SRS1466647,Sz75
+322, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157420,SRS1466646,Sz71
+323, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157419,SRS1466648,Sz68
+324, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157418,SRS1466645,Sz65
+325, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157417,SRS1466644,Sz64
+326, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157416,SRS1466643,Sz62
+327, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157415,SRS1466642,Sz60
+328, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157414,SRS1466641,Sz6
+329, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157413,SRS1466640,Sz58
+330, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157412,SRS1466637,Sz57
+331, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157411,SRS1466638,Sz56
+332, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157410,SRS1466636,Sz54
+333, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157409,SRS1466635,Sz53
+334, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157408,SRS1466634,Sz52
+335, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157407,SRS1466633,Sz5
+336, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157406,SRS1466632,Sz49
+337, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157405,SRS1466631,Sz48
+338, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157404,SRS1466630,Sz47
+339, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157403,SRS1466629,Sz46
+340, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157402,SRS1466628,Sz45
+341, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157401,SRS1466626,Sz43
+342, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157400,SRS1466625,Sz41
+343, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157399,SRS1466624,Sz40
+344, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157398,SRS1466623,Sz4
+345, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157397,SRS1466622,Sz39
+346, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157396,SRS1466621,Sz37
+347, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157395,SRS1466620,Sz35
+348, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157394,SRS1466619,Sz33
+349, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157393,SRS1466618,Sz31
+350, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157392,SRS1466616,Sz30
+351, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157391,SRS1466615,Sz3
+352, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157390,SRS1466614,Sz299
+353, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157389,SRS1466613,Sz298
+354, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157388,SRS1466612,Sz293
+355, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157387,SRS1466611,Sz291
+356, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157386,SRS1466610,Sz29
+357, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157385,SRS1466609,Sz289
+358, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157384,SRS1466608,Sz288
+359, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157383,SRS1466607,Sz287
+360, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157382,SRS1466605,Sz286
+361, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157381,SRS1466604,Sz285
+362, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157380,SRS1466603,Sz282
+363, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157379,SRS1466602,Sz281
+364, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157378,SRS1466601,Sz275
+365, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157377,SRS1466600,Sz274
+366, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157376,SRS1466599,Sz272
+367, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157375,SRS1466598,Sz271
+368, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157374,SRS1466597,Sz270
+369, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157373,SRS1466596,Sz27
+370, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157372,SRS1466594,Sz268
+371, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157371,SRS1466593,Sz267
+372, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157370,SRS1466591,Sz266
+373, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157369,SRS1466592,Sz265
+374, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157368,SRS1466590,Sz262
+375, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157367,SRS1466589,Sz261
+376, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157366,SRS1466588,Sz26
+377, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157365,SRS1466587,Sz259
+378, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157364,SRS1466586,Sz257
+379, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157363,SRS1466585,Sz254
+380, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157362,SRS1466583,Sz253
+381, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157361,SRS1466584,Sz252
+382, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157360,SRS1466581,Sz249
+383, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157359,SRS1466580,Sz248
+384, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157358,SRS1466579,Sz246
+385, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157357,SRS1466578,Sz244
+386, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157356,SRS1466577,Sz243
+387, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157355,SRS1466576,Sz241
+388, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157354,SRS1466575,Sz240
+389, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157353,SRS1466574,Sz24
+390, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157352,SRS1466771,Sz238
+391, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157351,SRS1466770,Sz237
+392, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157350,SRS1466769,Sz236
+393, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157349,SRS1466768,Sz234
+394, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157348,SRS1466766,Sz233
+395, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157347,SRS1466767,Sz232
+396, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157346,SRS1466765,Sz229
+397, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157345,SRS1466764,Sz228
+398, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157344,SRS1466763,Sz226
+399, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157343,SRS1466762,Sz225
+400, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157342,SRS1466760,Sz223
+401, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157341,SRS1466759,Sz220
+402, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157340,SRS1466758,Sz22
+403, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157339,SRS1466757,Sz218
+404, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157338,SRS1466755,Sz217
+405, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157337,SRS1466756,Sz214
+406, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157336,SRS1466754,Sz213
+407, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157335,SRS1466753,Sz212
+408, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157334,SRS1466752,Sz211
+409, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157333,SRS1466751,Sz210
+410, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157332,SRS1466749,Sz21
+411, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157331,SRS1466748,Sz209
+412, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157330,SRS1466747,Sz208
+413, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157329,SRS1466746,Sz207
+414, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157328,SRS1466745,Sz205
+415, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157327,SRS1466744,Sz204
+416, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157326,SRS1466743,Sz203
+417, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157325,SRS1466742,Sz202
+418, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157324,SRS1466741,Sz201
+419, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157323,SRS1466740,Sz200
+420, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157322,SRS1466738,Sz199
+421, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157321,SRS1466737,Sz197
+422, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157320,SRS1466736,Sz196
+423, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157319,SRS1466735,Sz194
+424, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157318,SRS1466733,Sz193
+425, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157317,SRS1466734,Sz191
+426, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157316,SRS1466732,Sz190
+427, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157315,SRS1466731,Sz19
+428, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157314,SRS1466729,Sz189
+429, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157313,SRS1466730,Sz186
+430, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157312,SRS1466727,Sz185
+431, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157311,SRS1466725,Sz184
+432, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157310,SRS1466726,Sz182
+433, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157309,SRS1466724,Sz181
+434, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157308,SRS1466723,Sz176
+435, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157307,SRS1466722,Sz175
+436, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157306,SRS1466721,Sz173
+437, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157305,SRS1466720,Sz172
+438, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157304,SRS1466719,Sz169
+439, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157303,SRS1466718,Sz168
+440, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157302,SRS1466715,Sz166
+441, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157301,SRS1466712,Sz164
+442, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157300,SRS1466710,Sz163
+443, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157299,SRS1466709,Sz162
+444, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157298,SRS1466707,Sz160
+445, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157297,SRS1466708,Sz16
+446, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157296,SRS1466704,Sz158
+447, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157295,SRS1466698,Sz155
+448, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157294,SRS1466697,Sz154
+449, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157293,SRS1466696,Sz153
+450, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157292,SRS1466690,Sz151
+451, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157291,SRS1466687,Sz15
+452, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157290,SRS1466686,Sz149
+453, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157289,SRS1466684,Sz146
+454, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157288,SRS1466685,Sz145
+455, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157287,SRS1466683,Sz143
+456, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157286,SRS1466682,Sz142
+457, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157285,SRS1466681,Sz141
+458, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157284,SRS1466680,Sz140
+459, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157283,SRS1466679,Sz14
+460, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157282,SRS1466677,Sz139
+461, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157281,SRS1466675,Sz138
+462, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157280,SRS1466676,Sz137
+463, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157279,SRS1466674,Sz136
+464, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157278,SRS1466673,Sz135
+465, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157277,SRS1466672,Sz133
+466, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157276,SRS1466671,Sz131
+467, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157275,SRS1466670,Sz130
+468, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157274,SRS1466669,Sz13
+469, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157273,SRS1466668,Sz129
+470, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157272,SRS1466666,Sz128
+471, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157271,SRS1466662,Sz127
+472, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157270,SRS1466650,Sz126
+473, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157269,SRS1466639,Sz125
+474, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157268,SRS1466627,Sz124
+475, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157267,SRS1466617,Sz123
+476, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157266,SRS1466606,Sz121
+477, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157265,SRS1466595,Sz120
+478, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157264,SRS1466582,Sz12
+479, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157263,SRS1466573,Sz116
+480, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157262,SRS1466761,Sz115
+481, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157261,SRS1466750,Sz113
+482, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157260,SRS1466739,Sz111
+483, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157259,SRS1466728,Sz110
+484, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157258,SRS1466716,Sz11
+485, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157257,SRS1466694,Sz106
+486, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157256,SRS1466678,Sz103
+487, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157255,SRS1466667,Sz102
+488, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157254,SRS1466571,Sz101
+489, Signor,Drosophila simulans,20,P,USA,California,Zuma,34.0259 N,118.7798 W,2012,Feb,11,SAMN05157253,SRS1466572,Sz100

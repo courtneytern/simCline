@@ -1,0 +1,140 @@
+1: Dmel_Portugal_Base_9
+Identifiers: BioSample: SAMEA104084008; SRA: ERS1747901
+Organism: Drosophila melanogaster
+Attributes:
+    /Alias="Dmel_Portugal_Base_9"
+    /description="Drosophila melanogaster Portugal Base replicate 9"
+    /ENA checklist="ERC000011"
+    /INSDC center alias="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC center name="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC first public="2018-04-11T17:02:46Z"
+    /INSDC last update="2017-05-19T15:04:07Z"
+    /INSDC status="public"
+    /SRA accession="ERS1747901"
+    /sample name="ERS1747901"
+    /Title="Drosophila melanogaster"
+    /collection date="2008"
+    /geographic location (region and locality)="northern Portugal (Povoa de Varzim)"
+Accession: SAMEA104084008	ID: 8925797
+
+2: Dsim_Fl_Hot_5
+Identifiers: BioSample: SAMEA104069549; SRA: ERS1733442
+Organism: Drosophila simulans
+Attributes:
+    /Alias="Dsim_Fl_Hot_5"
+    /description="Drosophila simulans Florida generation 60 Hot treatment replicate 5"
+    /ENA checklist="ERC000011"
+    /INSDC center alias="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC center name="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC first public="2018-04-11T17:02:46Z"
+    /INSDC last update="2017-05-24T08:59:39Z"
+    /INSDC status="public"
+    /SRA accession="ERS1733442"
+    /sample name="ERS1733442"
+    /Title="Drosophila simulans"
+    /collected by="Raymond Tobler, David Houle and Stephanie Schwinn"
+    /collection date="Nov-2010"
+    /geographic location (region and locality)="Tallahassee, Florida, USA"
+Accession: SAMEA104069549	ID: 8925796
+
+3: Dsim_Fl_Hot_3
+Identifiers: BioSample: SAMEA104069548; SRA: ERS1733441
+Organism: Drosophila simulans
+Attributes:
+    /Alias="Dsim_Fl_Hot_3"
+    /description="Drosophila simulans Florida generation 60 Hot treatment replicate 3"
+    /ENA checklist="ERC000011"
+    /INSDC center alias="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC center name="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC first public="2018-04-11T17:02:46Z"
+    /INSDC last update="2017-05-24T08:59:20Z"
+    /INSDC status="public"
+    /SRA accession="ERS1733441"
+    /sample name="ERS1733441"
+    /Title="Drosophila simulans"
+    /collected by="Raymond Tobler, David Houle and Stephanie Schwinn"
+    /collection date="Nov-2010"
+    /geographic location (region and locality)="Tallahassee, Florida, USA"
+Accession: SAMEA104069548	ID: 8925795
+
+4: Dsim_Fl_Hot_1
+Identifiers: BioSample: SAMEA104069547; SRA: ERS1733440
+Organism: Drosophila simulans
+Attributes:
+    /Alias="Dsim_Fl_Hot_1"
+    /description="Drosophila simulans Florida generation 60 Hot treatment replicate 1"
+    /ENA checklist="ERC000011"
+    /INSDC center alias="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC center name="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC first public="2018-04-11T17:02:46Z"
+    /INSDC last update="2017-05-24T08:55:47Z"
+    /INSDC status="public"
+    /SRA accession="ERS1733440"
+    /sample name="ERS1733440"
+    /Title="Drosophila simulans"
+    /collected by="Raymond Tobler, David Houle and Stephanie Schwinn"
+    /collection date="Nov-2010"
+    /geographic location (region and locality)="Tallahassee, Florida, USA"
+Accession: SAMEA104069547	ID: 8925794
+
+5: Dsim_Fl_Base_5
+Identifiers: BioSample: SAMEA104069546; SRA: ERS1733439
+Organism: Drosophila simulans
+Attributes:
+    /Alias="Dsim_Fl_Base_5"
+    /description="Drosophila simulans Florida Base replicate 5"
+    /ENA checklist="ERC000011"
+    /INSDC center alias="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC center name="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC first public="2018-04-11T17:02:46Z"
+    /INSDC last update="2017-05-19T15:05:59Z"
+    /INSDC status="public"
+    /SRA accession="ERS1733439"
+    /sample name="ERS1733439"
+    /Title="Drosophila simulans"
+    /collected by="Raymond Tobler, David Houle and Stephanie Schwinn"
+    /collection date="Nov-2010"
+    /geographic location (region and locality)="Tallahassee, Florida, USA"
+Accession: SAMEA104069546	ID: 8925793
+
+6: Dsim_Fl_Base_3
+Identifiers: BioSample: SAMEA104069545; SRA: ERS1733438
+Organism: Drosophila simulans
+Attributes:
+    /Alias="Dsim_Fl_Base_3"
+    /description="Drosophila simulans Florida Base replicate 3"
+    /ENA checklist="ERC000011"
+    /INSDC center alias="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC center name="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC first public="2018-04-11T17:02:46Z"
+    /INSDC last update="2017-05-19T15:06:08Z"
+    /INSDC status="public"
+    /SRA accession="ERS1733438"
+    /sample name="ERS1733438"
+    /Title="Drosophila simulans"
+    /collected by="Raymond Tobler, David Houle and Stephanie Schwinn"
+    /collection date="Nov-2010"
+    /geographic location (region and locality)="Tallahassee, Florida, USA"
+Accession: SAMEA104069545	ID: 8925792
+
+7: Dsim_Fl_Base_1
+Identifiers: BioSample: SAMEA104069544; SRA: ERS1733437
+Organism: Drosophila simulans
+Attributes:
+    /Alias="Dsim_Fl_Base_1"
+    /description="Drosophila simulans Florida Base replicate 1"
+    /ENA checklist="ERC000011"
+    /INSDC center alias="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC center name="INSTITUT FR POPULATIONSGENETIK, VETMEDUNI VIENNA"
+    /INSDC first public="2018-04-11T17:02:46Z"
+    /INSDC last update="2017-05-19T15:06:17Z"
+    /INSDC status="public"
+    /SRA accession="ERS1733437"
+    /sample name="ERS1733437"
+    /Title="Drosophila simulans"
+    /collected by="Raymond Tobler, David Houle and Stephanie Schwinn"
+    /collection date="Nov-2010"
+    /geographic location (region and locality)="Tallahassee, Florida, USA"
+Accession: SAMEA104069544	ID: 8925791
+
+

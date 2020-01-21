@@ -1,0 +1,12 @@
+author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier
+Sedghifar,Drosophila simulans,NA,P,USA,Panama,Panama City,8.9824 N,79.5199 W,2011,Sep,NA,SAMN10233408,SRS3924974,D. sim Panama
+Sedghifar,Drosophila simulans,NA,P,USA,GA,Savannah,32.0809 N,81.0912 W,2011,Sep,NA,SAMN10233407,SRS3924977,D. sim Georgia
+Sedghifar,Drosophila simulans,NA,P,USA,SC,Conway,33.8360 N,79.0478 W,2011,Sep,NA,SAMN10233406,SRS3924973,D. sim South Carolina
+Sedghifar,Drosophila simulans,NA,P,USA,NC,Raleigh,35.7796 N,78.6382 W,2011,Sep,NA,SAMN10233405,SRS3924979,D. sim North Carolina
+Sedghifar,Drosophila simulans,NA,P,USA,VA,Richmond,37.5407 N,77.4360 W,2011,Sep,NA,SAMN10233404,SRS3924978,D. sim Virginia
+Sedghifar,Drosophila simulans,NA,P,USA,NJ,Princeton,40.3573 N,74.6672 W,2011,Sep,NA,SAMN10233403,SRS3924975,D. sim New Jersey
+Sedghifar,Drosophila simulans,NA,P,USA,ME,Fairfield,44.5884 N,69.5986 W,2011,Sep,NA,SAMN10233402,SRS3924976,D. sim Maine
+Sedghifar,Drosophila simulans,NA,P,USA,RI,NA,41.84 N,NA,2011,Sep,NA,SAMN04390155,SRS1240068,D.sim Rhode Island
+Sedghifar,Drosophila simulans,NA,P,Australia,Queensland,NA,42.77 S,NA,2004,Feb,NA,SAMN04383930,SRS1240050,South_Aus
+Sedghifar,Drosophila simulans,NA,P,Australia,Tasmania,NA,25.54 S,NA,2004,Feb,NA,SAMN04383929,SRS1240053,North_Aus
+Sedghifar,Drosophila simulans,NA,P,USA,FL,NA,25.47 N,NA,2011,Sep,NA,SAMN04383927,SRS1235008,Florida

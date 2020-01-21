@@ -1,0 +1,7 @@
+author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier
+Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069549,ERS1733442,"Dsim_Fl_Hot_5"
+Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069548,ERS1733441,"Dsim_Fl_Hot_3"
+Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069547,ERS1733440,"Dsim_Fl_Hot_1"
+Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069546,ERS1733439,"Dsim_Fl_Base_5"
+Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069545,ERS1733438,"Dsim_Fl_Base_3"
+Barghi,Drosophila simulans,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA104069544,ERS1733437,"Dsim_Fl_Base_1"

@@ -1,0 +1,143 @@
+1: Invertebrate sample from Drosophila simulans
+Identifiers: BioSample: SAMN10233408; Sample name: D. sim Panama; SRA: SRS3924974
+Organism: Drosophila simulans
+Attributes:
+    /breed="not applicable"
+    /isolation source="Panama City, Panama"
+    /collection date="Sep-2011"
+    /geographic location="USA:Panama City, Panama"
+    /tissue="whole animal"
+    /age="adult"
+Accession: SAMN10233408	ID: 10233408
+
+2: Invertebrate sample from Drosophila simulans
+Identifiers: BioSample: SAMN10233407; Sample name: D. sim Georgia; SRA: SRS3924977
+Organism: Drosophila simulans
+Attributes:
+    /breed="not applicable"
+    /isolation source="Savannah, GA"
+    /collection date="Sep-2011"
+    /geographic location="USA:Savannah, GA"
+    /tissue="whole animal"
+    /age="adult"
+Accession: SAMN10233407	ID: 10233407
+
+3: Invertebrate sample from Drosophila simulans
+Identifiers: BioSample: SAMN10233406; Sample name: D. sim South Carolina; SRA: SRS3924973
+Organism: Drosophila simulans
+Attributes:
+    /breed="not applicable"
+    /isolation source="Conway, SC"
+    /collection date="Sep-2011"
+    /geographic location="USA:Conway, SC"
+    /tissue="whole animal"
+    /age="adult"
+Accession: SAMN10233406	ID: 10233406
+
+4: Invertebrate sample from Drosophila simulans
+Identifiers: BioSample: SAMN10233405; Sample name: D. sim North Carolina; SRA: SRS3924979
+Organism: Drosophila simulans
+Attributes:
+    /breed="not applicable"
+    /isolation source="Raleigh, NC"
+    /collection date="Sep-2011"
+    /geographic location="USA:Raleigh, NC"
+    /tissue="whole animal"
+    /age="adult"
+Accession: SAMN10233405	ID: 10233405
+
+5: Invertebrate sample from Drosophila simulans
+Identifiers: BioSample: SAMN10233404; Sample name: D. sim Virginia; SRA: SRS3924978
+Organism: Drosophila simulans
+Attributes:
+    /breed="not applicable"
+    /isolation source="Richmond, VA"
+    /collection date="Sep-2011"
+    /geographic location="USA:Richmond, VA"
+    /tissue="whole animal"
+    /age="adult"
+Accession: SAMN10233404	ID: 10233404
+
+6: Invertebrate sample from Drosophila simulans
+Identifiers: BioSample: SAMN10233403; Sample name: D. sim New Jersey; SRA: SRS3924975
+Organism: Drosophila simulans
+Attributes:
+    /breed="not applicable"
+    /isolation source="Princeton, NJ"
+    /collection date="Sep-2011"
+    /geographic location="USA:Princeton, NJ"
+    /tissue="whole animal"
+    /age="adult"
+Accession: SAMN10233403	ID: 10233403
+
+7: Invertebrate sample from Drosophila simulans
+Identifiers: BioSample: SAMN10233402; Sample name: D. sim Maine; SRA: SRS3924976
+Organism: Drosophila simulans
+Attributes:
+    /breed="not applicable"
+    /isolation source="Fairfield, ME"
+    /collection date="Sep-2011"
+    /geographic location="USA:Fairfield, ME"
+    /tissue="whole animal"
+    /age="adult"
+Accession: SAMN10233402	ID: 10233402
+
+8: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN04390155; Sample name: D.sim Rhode Island; SRA: SRS1240068
+Organism: Drosophila simulans
+Attributes:
+    /strain="PRO"
+    /development stage="Adul"
+    /sex="female"
+    /tissue="whole body"
+Accession: SAMN04390155	ID: 4390155
+
+9: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN04383930; Sample name: South_Aus; SRA: SRS1240050
+Organism: Drosophila simulans
+Attributes:
+    /strain="A_Tas"
+    /development stage="Adult"
+    /sex="female"
+    /tissue="WHOLE BODY"
+    /collected by="PEROT SAELAO"
+    /collection date="Sep-2011"
+Accession: SAMN04383930	ID: 4383930
+
+10: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN04383929; Sample name: North_Aus; SRA: SRS1240053
+Organism: Drosophila simulans
+Attributes:
+    /strain="J_Queen"
+    /development stage="Adult"
+    /sex="female"
+    /tissue="WHOLE BODY"
+    /collected by="PEROT SAELAO"
+    /collection date="Sep-2011"
+Accession: SAMN04383929	ID: 4383929
+
+11: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN04383928; Sample name: Maine
+Organism: Drosophila simulans
+Attributes:
+    /strain="PORT"
+    /development stage="Adult"
+    /sex="female"
+    /tissue="WHOLE BODY"
+    /collected by="PEROT SAELAO"
+    /collection date="Sep-2011"
+Accession: SAMN04383928	ID: 4383928
+
+12: Model organism or animal sample from Drosophila simulans
+Identifiers: BioSample: SAMN04383927; Sample name: Florida; SRA: SRS1235008
+Organism: Drosophila simulans
+Attributes:
+    /strain="LARA"
+    /development stage="Adult"
+    /sex="female"
+    /tissue="WHOLE BODY"
+    /collected by="PEROT SAELAO"
+    /collection date="Sep-2011"
+Accession: SAMN04383927	ID: 4383927
+
+

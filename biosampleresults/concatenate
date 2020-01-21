@@ -1,0 +1,12 @@
+###########################################
+### Script for concatenating .txt files ###
+###########################################
+#!/bin/bash/
+
+{
+ echo "row,author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+ cat *.csv | \
+ grep -v "author" | \
+
+ awk -F"," '{print NR"," ,$0}'
+} >concatenated.csv

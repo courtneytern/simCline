@@ -1,0 +1,238 @@
+#####################################
+### Script for parsing .txt files ###
+#####################################
+
+
+### ************** biosamp 1 ************** ### Barghi
+##ignore D. mel lines with tail function
+
+grep -E 'BioSample|Organism|Alias|collection date|location' biosample_result.txt | \
+tail -n +6 | \
+awk -F";" '
+
+BEGIN{
+print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+}
+{
+ if(NR%5==1) {
+  split($1, biosamp, ": ")
+  split($2, sra, ": ")
+ }
+ else if (NR%5==2) {
+  split($1,organism,": ")
+ }
+ else if (NR%5==3){
+  split($1, alias, "=")
+ }
+ else if (NR%5==4){
+  split($1, date,"=\"")
+  split(date[2],year,"-")
+  sub(/"/,"",year[2])
+ }
+ else{
+   split($1, location, "=\"")
+   split(location[2],country,", ")
+   sub(/"/,"",country[3])
+
+   print "Barghi,"organism[2]",1000,P,"country[3]","country[2]","country[1]"," \
+      "30.4383 N,84.2807 W,"year[2]","year[1]",NA,"biosamp[3]","sra[2]","alias[2]
+ }
+
+} ' > parse1.csv
+
+### ************** biosamp 2 ************** ### Machado
+grep -E 'BioSample|Organism|isolate|collection date|location' biosample_result-2.txt | \
+awk -F";" '
+
+BEGIN{
+print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+}
+{
+ if(NR%5==1) {
+  split($1, biosamp, ": ")
+  split($3, sra, ": ")
+ }
+ else if(NR%5==2){
+  split($1,organism,": ")
+ }
+ else if(NR%5==3){
+  split($1, isolate,"=")
+ }
+ else if (NR%5==4){
+  split($1, date, "=\"")
+  split(date[2],year,"-")
+  sub(/"/, "", year[3])
+
+  ##number of individuals varies by the date
+    if( index($0,"May-2011")!=0 ) {individ=44}
+    else if( index($0,"Sep-2010")!=0 ) {individ=50}
+    else if( index($0,"Jul-2010")!=0 ) {individ=65}
+    else if( index($0,"Aug-2011")!=0 ) {individ=44}
+    else if( index($0,"Sep-2011")!=0 ) {individ=50}
+    else if( index($0,"Nov-2011")!=0 ) {individ=41}
+    else if( index($0,"Oct-2011")!=0 ) {individ=38}
+    else {individ="NA"}
+ }
+ else{
+   split($1, location, "=\"")
+   split(location[2],country,": ")
+   sub(/"/, "", country[2])
+
+   ##latitude and p/i varies by location
+   pi="I"
+     if( index($0,"Florida")!=0 ) {lat=26}
+     else if( index($0,"Virginia")!=0 ) {lat=38}
+     else if( index($0,"Penn")!=0 ) {
+       lat=40
+       ##fix typo in .txt file
+         country[2]="Pennsylvania"
+
+       if( index(date[2],"2010")!=0 ) {pi="P"}
+     }
+     else if( index($0,"Maine")!=0 ) {lat=44}
+     else {lat="NA"}
+
+   print "Machado,"organism[2]","individ","pi","country[1]","country[2]",NA,"\
+      lat",NA,"year[3]","year[2]","year[1]","biosamp[3]","sra[2]","isolate[2]
+ }
+
+} ' > parse2.csv
+
+### ************** biosamp 3 ************** ### Kang
+grep -E 'BioSample|Organism|ecotype' biosample_result-3.txt | \
+awk -F";" '
+
+BEGIN{
+print "author,species,p/i,numInd,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+}
+{
+ if(NR%3==1) {
+  split($1, biosamp, ": ")
+  split($2, identifier, ": ")
+  split($3, sra, ": ")
+  }
+ else if (NR%3==2){
+  split($1,organism,": ")
+ }
+ else{
+   split($1, ecotype, "=\"")
+   split(ecotype[2],country,", ")
+   print "Kang,"organism[2]",20,P,Israel,"country[1]",Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,"biosamp[3]","sra[2]","identifier[2]
+ }
+
+} ' > parse3.csv
+
+### ************** biosamp 4 ************** ### Palmieri
+grep -E 'BioSample|Organism|location' biosample_result-4.txt | \
+awk -F";" '
+
+BEGIN{
+print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+}
+{
+ if(NR%3==1) {
+  split($1, biosamp, ": ")
+  split($2, identifier, ": ")
+  split($3, sra, ": ")
+  }
+ else if (NR%3==2){
+  split($1,organism,": ")
+ }
+ else{
+   split($1, location, "=")
+   print "Palmieri,"organism[2]",43,P,"location[2]",NA,NA,NA,NA,1998,NA,NA,"biosamp[3]","sra[2]","identifier[2]
+ }
+
+} ' > parse4.csv
+
+### ************** biosamp 5 ************** ### Sedghifar
+##don't need info from accession, but need to pull the line to allow uniform printing
+grep -E 'BioSample|Organism|source|Accession' biosample_result-5.txt | \
+awk -F";" '
+
+BEGIN{
+print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+}
+{
+ if( index($0,"BioSample")!= 0 ) {
+  split($1, biosamp, ": ")
+  split($2, identifier, ": ")
+  split($3, sra, ": ")
+
+  ##treat Australia vs US country and dates
+  country="USA"
+  year="2011"
+  month="Sep"
+  if ( index($0,"Aus")!=0 ){
+   country="Australia"
+   year="2004"
+   month="Feb"
+  }
+
+  ##treat locations with missing "location" lines
+  lat="NA"
+  if ( index(identifier[2],"Rhode Island")!=0) {city[2]="RI"; lat="41.84 N"}
+  if ( index(identifier[2],"Florida")!=0) {city[2]="FL"; lat="25.47 N"}
+  else if ( index(identifier[2],"South_Aus")!=0) {city[2]="Queensland"; lat="42.77 S"}
+  else if ( index(identifier[2],"North_Aus")!=0) {city[2]="Tasmania"; lat="25.54 S"}
+ }
+
+ else if ( index($0,"Organism")!= 0 ){
+  split($1,organism,": ")
+ }
+
+ else if ( index($0,"source")!=0 ){
+  split($1, location, "=\"")
+  split(location[2],city,", ")
+  sub(/"/,"",city[2])
+
+  ##add latitudes and longitudes
+  lat="NA";long="NA"
+  if ( index($0,"Panama")!=0 ) {lat="8.9824 N"; long="79.5199 W"}
+  else if ( index($0,"Savannah")!=0 ) {lat="32.0809 N"; long="81.0912 W"}
+  else if ( index($0,"Conway")!=0 ) {lat="33.8360 N"; long="79.0478 W"}
+  else if ( index($0,"Raleigh")!=0 ) {lat="35.7796 N"; long="78.6382 W"}
+  else if ( index($0,"Richmond")!=0 ) {lat="37.5407 N"; long="77.4360 W"}
+  else if ( index($0,"Princeton")!=0 ) {lat="40.3573 N"; long="74.6672 W"}
+  else if ( index($0,"Fairfield")!=0 ) {lat="44.5884 N"; long="69.5986 W"}
+ }
+
+ else {
+   print "Sedghifar,"organism[2]",NA,P,"country","city[2]","city[1]","lat","long","year","month",NA,"biosamp[3]","sra[2]","identifier[2]
+   city[1]="NA"; city[2]="NA"; sra[2]="NA"; lat="NA";long="NA"
+ }
+}
+ ##excludes Maine sample because there is no SRA number attached to it; cannot access it
+###END {
+  ###print "Sedghifar,Drosophila simulans,NA,P,USA,ME,NA,NA,NA,2011,Sep,NA,SAMN04383928,NA,Maine"}
+
+  ' | \
+grep -v ",," > parse5.csv
+
+### ************** biosamp 6 ************** ### Signor
+grep -E 'BioSample|date|Organism|location' biosample_result-6.txt  | \
+awk -F";" '
+
+BEGIN{
+print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+}
+{
+ if(NR%4==1) {
+  split($1, biosamp, ": ")
+  split($2, identifier, ": ")
+  split($3, sra, ": ")
+  }
+ else if(NR%4==2){
+  split($1,organism,": ")
+ }
+ else if(NR%4==3){
+  split($1,location,"=\"")
+  split(location[2],country,": ")
+  split(country[2],state,", ")
+  sub(/"/,"",state[2])
+
+   print "Signor,"organism[2]",20,P,"country[1]","state[1]","state[2] \
+      ",34.0259 N,118.7798 W,2012,Feb,11,"biosamp[3]","sra[2]","identifier[2]
+ }
+
+} ' > parse6.csv

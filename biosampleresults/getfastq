@@ -1,0 +1,17 @@
+###################################
+### Pull data from SRA database ###
+###################################
+#!/bin/bash
+
+##takes in parameter of the row number to access
+SRS= $( grep ^$1"," concatenated.csv | \
+awk -F"," '{
+  split ($0,array,",")
+  SRS= array[15]
+  name= array[2]""array[6]""array[7]""array[11]""array[14]
+  #print name
+  out SRS
+  #print name, SRS, then print out the first few lines of the file
+  # use SRS as a parameter for getting the file with fastq-dump
+}' )
+  ./sratoolkit.2.9.6-1-mac64/bin/fastq-dump -X 5 -Z ${SRS}
