@@ -3,6 +3,11 @@
 ###################################
 #!/bin/bash
 
+##############################
+##In rivanna, un-comment below
+##module load sratoolkit/2.9.1
+
+
 ##takes in parameter of the row number to access
 SRS=$(grep ^$1"," concatenated.csv | \
 awk -F"," '{
@@ -12,5 +17,6 @@ awk -F"," '{
   #print name
   print SRSnum
 }' )
-  ##echo ${SRS}
+
+  ##only need fastq-dump command by itself in rivanna
   ./sratoolkit.2.9.6-1-mac64/bin/fastq-dump -X 5 -Z ${SRS}
