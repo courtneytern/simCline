@@ -41,42 +41,34 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
 } ' > parse1.csv
 
 ### ************** biosamp 2 ************** ### Machado
-grep -E 'BioSample|Organism|isolate|collection date|location' biosample_result-2.txt | \
-awk -F";" '
+grep -v 'Run' SraRunTable.txt.csv | \
+awk -F"," '
 
 BEGIN{
 print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
 }
 {
- if(NR%5==1) {
-  split($1, biosamp, ": ")
-  split($3, sra, ": ")
- }
- else if(NR%5==2){
-  split($1,organism,": ")
- }
- else if(NR%5==3){
-  split($1, isolate,"=")
- }
- else if (NR%5==4){
-  split($1, date, "=\"")
-  split(date[2],year,"-")
-  sub(/"/, "", year[3])
+  organism=$33 #col AC
+  country=$22
+  split($24,loc,": ")
+    state=loc[2]
+  split($10,date,"-")
+    year=date[3]
+    month=date[2]
+    day=date[1]
+  biosamp=$6
+  sra=$1
+  identifier=$26
 
   ##number of individuals varies by the date
-    if( index($0,"May-2011")!=0 ) {individ=44}
-    else if( index($0,"Sep-2010")!=0 ) {individ=50}
-    else if( index($0,"Jul-2010")!=0 ) {individ=65}
-    else if( index($0,"Aug-2011")!=0 ) {individ=44}
-    else if( index($0,"Sep-2011")!=0 ) {individ=50}
-    else if( index($0,"Nov-2011")!=0 ) {individ=41}
-    else if( index($0,"Oct-2011")!=0 ) {individ=38}
+    if( index($0,"1-May-2011")!=0 ) {individ=44}
+    else if( index($0,"1-Sep-2010")!=0 ) {individ=50}
+    else if( index($0,"1-Jul-2010")!=0 ) {individ=65}
+    else if( index($0,"1-Aug-2011")!=0 ) {individ=44}
+    else if( index($0,"1-Sep-2011")!=0 ) {individ=50}
+    else if( index($0,"1-Nov-2011")!=0 ) {individ=41}
+    else if( index($0,"1-Oct-2011")!=0 ) {individ=38}
     else {individ="NA"}
- }
- else{
-   split($1, location, "=\"")
-   split(location[2],country,": ")
-   sub(/"/, "", country[2])
 
    ##latitude and p/i varies by location
    pi="I"
@@ -84,17 +76,13 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
      else if( index($0,"Virginia")!=0 ) {lat=38}
      else if( index($0,"Penn")!=0 ) {
        lat=40
-       ##fix typo in .txt file
-         country[2]="Pennsylvania"
-
-       if( index(date[2],"2010")!=0 ) {pi="P"}
+       if( index($0,"2010 pool")!=0 ) {pi="P"}
      }
      else if( index($0,"Maine")!=0 ) {lat=44}
      else {lat="NA"}
 
-   print "Machado,"organism[2]","individ","pi","country[1]","country[2]",NA,"\
-      lat",NA,"year[3]","year[2]","year[1]","biosamp[3]","sra[2]","isolate[2]
- }
+   print "Machado,"organism","individ","pi","country","state",NA,"\
+      lat",NA,"year","month","day","biosamp","sra","identifier
 
 } ' > parse2.csv
 
@@ -236,3 +224,59 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
  }
 
 } ' > parse6.csv
+
+### ************** sra run table 2 ************** ### Barghi...Kofler
+grep -v 'Run' SraRunTable2.txt.csv | \
+awk -F"," '
+
+BEGIN{
+print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+}
+{
+  organism=$22
+  individ=1000
+  pi="P"
+  country="USA"
+  state="Florida"
+  city="Tallahassee"
+  lat="30.4383 N"
+  long="84.2807 W"
+  year="2010" #previous barghi paper cited in current, copying date from other barghi data
+  month= "Nov"
+  day="NA"
+  biosamp=$7
+  sra=$1
+  identifier=$2
+
+   print "BarghiKofler,"organism","individ","pi","country","state","city","\
+      lat","long","year","month","day","biosamp","sra","identifier
+
+} ' > parse7.csv
+
+### ************** sra run table 3 ************** ### Nouhaud
+grep -v 'Run' SraRunTable3.txt.csv | \
+awk -F"," '
+
+BEGIN{
+print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+}
+{
+  organism=$38
+  individ=50
+  pi="P"
+  country="Madagascar"
+  state="NA"
+  city="NA"
+  lat="NA"
+  long="NA"
+  year="1998"
+  month= "NA"
+  day="NA"
+  biosamp=$7
+  sra=$1
+  identifier=$2
+
+   print "Nouhaud,"organism","individ","pi","country","state","city","\
+      lat","long","year","month","day","biosamp","sra","identifier
+
+} ' > parse8.csv
