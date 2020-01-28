@@ -5,15 +5,15 @@
 #
 #SBATCH -J simCline # A single job name for the array
 #SBATCH --ntasks-per-node=1 # one core
-#SBATCH -N 400 ####check true number later
+#SBATCH -N 1167
 #SBATCH -t 6:00:00 ### 6 hours
-#SBATCH --mem 1G
+#SBATCH --mem 28G
 #SBATCH -o /scratch/cat7ep/fastq/simCline.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/fastq/simCline.%A_%a.err # Standard error
 #SBATCH -p standard
 #SBATCH --account berglandlab
 #
-#SBATCH --array=1-400 ###check true number
+#SBATCH --array=1-1167 ###check true number
 
 srun ./getfastq.sh $SLURM_ARRAY_TASK_ID
 
@@ -34,4 +34,5 @@ awk -F"," '{
 
   ##only need fastq-dump command by itself in rivanna
   ##./sratoolkit.2.9.6-1-mac64/bin/fastq-dump -X 5 -Z
-  fastq-dump -X 5 ${SRS} > cat7ep@rivanna.hpc.virginia.edu:/scratch/cat7ep/fastq
+  
+fastq-dump -X 5 ${SRS} > cat7ep@rivanna.hpc.virginia.edu:/scratch/cat7ep/fastq
