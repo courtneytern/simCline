@@ -3,40 +3,33 @@
 #####################################
 
 
-### ************** biosamp 1 ************** ### Barghi
-##ignore D. mel lines with tail function
+### ************** biosamp 1 ************** ### Barghi SraRunTable5
+##ignore D. mel lines with -v
 
-grep -E 'BioSample|Organism|Alias|collection date|location' biosample_result.txt | \
-tail -n +6 | \
-awk -F";" '
+grep -v -E 'Run|Dmel' SraRunTable5.txt.csv | \
+awk -F"," '
 
 BEGIN{
 print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
 }
 {
- if(NR%5==1) {
-  split($1, biosamp, ": ")
-  split($2, sra, ": ")
- }
- else if (NR%5==2) {
-  split($1,organism,": ")
- }
- else if (NR%5==3){
-  split($1, alias, "=")
- }
- else if (NR%5==4){
-  split($1, date,"=\"")
-  split(date[2],year,"-")
-  sub(/"/,"",year[2])
- }
- else{
-   split($1, location, "=\"")
-   split(location[2],country,", ")
-   sub(/"/,"",country[3])
+  organism=$43
+  individ=1000
+  pi="P"
+  country="USA"
+  state="Florida"
+  city="Tallahassee"
+  lat="30.4383 N"
+  long="84.2807 W"
+  year="2010"
+  month= "Nov"
+  day="NA"
+  biosamp=$7
+  sra=$1
+  identifier=$2
 
-   print "Barghi,"organism[2]",1000,P,"country[3]","country[2]","country[1]"," \
-      "30.4383 N,84.2807 W,"year[2]","year[1]",NA,"biosamp[3]","sra[2]","alias[2]
- }
+  print "Barghi,"organism","individ","pi","country","state","city","\
+    lat","long","year","month","day","biosamp","sra","identifier
 
 } ' > parse1.csv
 
@@ -111,25 +104,30 @@ print "author,species,p/i,numInd,country,state,city,lat,long,year,month,day,bios
 } ' > parse3.csv
 
 ### ************** biosamp 4 ************** ### Palmieri
-grep -E 'BioSample|Organism|location' biosample_result-4.txt | \
-awk -F";" '
+grep -v 'Run' SraRunTable6.txt.csv | \
+awk -F"," '
 
 BEGIN{
 print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
 }
 {
- if(NR%3==1) {
-  split($1, biosamp, ": ")
-  split($2, identifier, ": ")
-  split($3, sra, ": ")
-  }
- else if (NR%3==2){
-  split($1,organism,": ")
- }
- else{
-   split($1, location, "=")
-   print "Palmieri,"organism[2]",43,P,"location[2]",NA,NA,NA,NA,1998,NA,NA,"biosamp[3]","sra[2]","identifier[2]
- }
+  organism=$29
+  individ=43
+  pi="P"
+  country=$21
+  state="NA"
+  city="NA"
+  lat="NA"
+  long="NA"
+  year="1998"
+  month= "NA"
+  day="NA"
+  biosamp=$8
+  sra=$1
+  identifier=$25
+
+print "Palmieri,"organism","individ","pi","country","state","city","\
+  lat","long","year","month","day","biosamp","sra","identifier
 
 } ' > parse4.csv
 
