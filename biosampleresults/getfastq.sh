@@ -5,8 +5,8 @@
 #SBATCH -N 1
 #SBATCH -t 6:00:00 ### 6 hours
 #SBATCH --mem 1G
-#SBATCH -o /scratch/cat7ep/fastq/simCline.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/fastq/simCline.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/simCline.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/simCline.%A_%a.err # Standard error
 #SBATCH -p standard
 #SBATCH --account berglandlab
 
@@ -32,4 +32,4 @@ SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," ~/simCline/biosampleresults/concatenated.
   ##only need fastq-dump command by itself in rivanna
   ##./sratoolkit.2.9.6-1-mac64/bin/fastq-dump -X 5 -Z
 
-fastq-dump -X 5 ${SRS} > /scratch/cat7ep/fastq/${SRS}.fastq
+fastq-dump --split-files ${SRS} > /scratch/cat7ep/fastq/${SRS}.fastq
