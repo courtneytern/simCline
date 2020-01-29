@@ -1,7 +1,4 @@
-###################################
-### Pull data from SRA database ###
-###################################
-#!/bin/bash
+#!/bin/sh
 #
 #SBATCH -J simCline # A single job name for the array
 #SBATCH --ntasks-per-node=1 # one core
