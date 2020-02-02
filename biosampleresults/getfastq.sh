@@ -17,6 +17,7 @@
 module load sratoolkit/2.9.1
 
 #SLURM_ARRAY_TASK_ID=4
+#sbatch --array=1-1206 /scratch/cat7ep/simCline/biosampleresults/getfastq.sh
 echo ${SLURM_ARRAY_TASK_ID}
 
 ##takes in parameter of the row number to access
