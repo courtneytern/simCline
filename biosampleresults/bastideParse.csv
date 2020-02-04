@@ -1,0 +1,20 @@
+author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier
+Bastide,Drosophila melanogaster,100,P,Italy,NA,Bolzano,46.4983N,11.3548E,2011,September,NA,SAMEA1919282,ERS177643,Italy darkest females A7 RII
+Bastide,Drosophila melanogaster,100,P,Italy,NA,Bolzano,46.4983N,11.3548E,2011,September,NA,SAMEA1919289,ERS177642,Italy darkest females A7 RI
+Bastide,Drosophila melanogaster,100,P,Italy,NA,Bolzano,46.4983N,11.3548E,2011,September,NA,SAMEA1919295,ERS177641,Italy lightest females A7 RIII
+Bastide,Drosophila melanogaster,100,P,Italy,NA,Bolzano,46.4983N,11.3548E,2011,September,NA,SAMEA1919281,ERS177640,Italy lightest females A7 RII
+Bastide,Drosophila melanogaster,100,P,Italy,NA,Bolzano,46.4983N,11.3548E,2011,September,NA,SAMEA1919292,ERS177639,Italy lightest females A7 RI
+Bastide,Drosophila melanogaster,120,P,Austria,NA,Vienna,48.2082N,16.3738E,2010,October,NA,SAMEA1919298,ERS177638,Austria reference population RIII
+Bastide,Drosophila melanogaster,161,P,Austria,NA,Vienna,48.2082N,16.3738E,2010,October,NA,SAMEA1919293,ERS177637,Austria reference population RIII
+Bastide,Drosophila melanogaster,102,P,Austria,NA,Vienna,48.2082N,16.3738E,2010,October,NA,SAMEA1919287,ERS177636,Austria reference population RII
+Bastide,Drosophila melanogaster,152,P,Austria,NA,Vienna,48.2082N,16.3738E,2010,October,NA,SAMEA1919285,ERS177635,Austria reference population RII
+Bastide,Drosophila melanogaster,109,P,Austria,NA,Vienna,48.2082N,16.3738E,2010,October,NA,SAMEA1919294,ERS177634,Austria reference population RI
+Bastide,Drosophila melanogaster,156,P,Austria,NA,Vienna,48.2082N,16.3738E,2010,October,NA,SAMEA1919283,ERS177633,Austria reference population RI
+Bastide,Drosophila melanogaster,100,P,Austria,NA,Vienna,48.2082N,16.3738E,2010,October,NA,SAMEA1919284,ERS177632,Austria darkest females A7 RII
+Bastide,Drosophila melanogaster,100,P,Austria,NA,Vienna,48.2082N,16.3738E,2010,October,NA,SAMEA1919288,ERS177631,Austria darkest females A7 RI
+Bastide,Drosophila melanogaster,100,P,Austria,NA,Vienna,48.2082N,16.3738E,2010,October,NA,SAMEA1919286,ERS177630,Austria lightest females A7 RII
+Bastide,Drosophila melanogaster,100,P,Austria,NA,Vienna,48.2082N,16.3738E,2010,October,NA,SAMEA1919290,ERS177629,Austria lightest females A7 RI
+Bastide,Drosophila melanogaster,98,P,Italy,NA,Bolzano,46.4983N,11.3548E,2011,September,NA,SAMEA1919297,ERS177647,Italy reference population RIII
+Bastide,Drosophila melanogaster,138,P,Italy,NA,Bolzano,46.4983N,11.3548E,2011,September,NA,SAMEA1919291,ERS177646,Italy reference population RII
+Bastide,Drosophila melanogaster,115,P,Italy,NA,Bolzano,46.4983N,11.3548E,2011,September,NA,SAMEA1919296,ERS177645,Italy reference population RI
+Bastide,Drosophila melanogaster,100,P,Italy,NA,Bolzano,46.4983N,11.3548E,2011,September,NA,SAMEA1919280,ERS177644,Italy darkest females A7 RIII

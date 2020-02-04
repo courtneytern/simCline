@@ -7,11 +7,11 @@ pond=($(echo ${sample} | cut -d"_" -f9-12))
 threads=10
 echo $sample
 echo $sampleB
-inputDir="/scratch/kbb7sh/Daphnia/SingleMoms2018/fastqs"
-interDir="/scratch/kbb7sh/Daphnia/SingleMoms2018/March2018SMIntB"
-outputDir="/scratch/kbb7sh/Daphnia/SingleMoms2018/March2018SMMapB"
+inputDir="/scratch/cat7ep/fastq"
+interDir="/scratch/cat7ep/interDir"
+outputDir="/scratch/cat7ep/bamfiles"
 
-flowcell=($( ls ${inputDir}/*.gz | awk '{split($0,a,"/"); print a[7]}' | awk '{split($0,a,"_"); print a[1]}' | sort | uniq ))
+flowcell=($( ls ${inputDir}/*.fastq | awk '{split($0,a,"/"); print a[4]}' | awk '{split($0,a,"_"); print a[1]}' | sort | uniq ))
 echo ${!flowcell[@]}
 
         ## map reads
