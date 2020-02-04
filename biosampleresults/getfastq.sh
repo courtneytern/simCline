@@ -31,6 +31,6 @@ SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," ~/simCline/biosampleresults/concatenated.
   }' )
 
   ##only need fastq-dump command by itself in rivanna
-  ##./sratoolkit.2.9.6-1-mac64/bin/fastq-dump -X 5 -Z
+  ##~/Downloads/sratoolkit.2.9.6-1-mac64/bin/fastq-dump -X 5 -Z
 
 fastq-dump --split-files ${SRS} > /scratch/cat7ep/fastq/${SRS}.fastq
