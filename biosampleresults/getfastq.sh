@@ -16,10 +16,10 @@
 ##In rivanna, un-comment below
 module load sratoolkit/2.9.1
 
-SLURM_ARRAY_TASK_ID=4
+##SLURM_ARRAY_TASK_ID=4
 #sbatch --array=1-19 /scratch/cat7ep/simCline/biosampleresults/getfastq.sh
 ###array=1-1206 for total concatenated, 1-19 for bastide only
-#echo ${SLURM_ARRAY_TASK_ID}
+echo ${SLURM_ARRAY_TASK_ID}
 
 ##takes in parameter of the row number to access
 SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," ~/simCline/biosampleresults/bastidecat.csv | \
