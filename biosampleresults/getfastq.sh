@@ -17,12 +17,12 @@
 module load sratoolkit/2.9.1
 
 ##SLURM_ARRAY_TASK_ID=4
-#sbatch --array=1-19 /scratch/cat7ep/simCline/biosampleresults/getfastq.sh
+#sbatch --array=1-1206 /scratch/cat7ep/simCline/biosampleresults/getfastq.sh
 ###array=1-1206 for total concatenated, 1-19 for bastide only
 echo ${SLURM_ARRAY_TASK_ID}
 
 ##takes in parameter of the row number to access
-SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," ~/simCline/biosampleresults/bastidecat.csv | \
+SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
     SRSnum= array[15]
@@ -32,4 +32,4 @@ SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," ~/simCline/biosampleresults/bastidecat.cs
   ##only need fastq-dump command by itself in rivanna
   ##~/Downloads/sratoolkit.2.9.6-1-mac64/bin/fastq-dump -X 5 -Z
 
-fastq-dump --split-files ${SRS} > /scratch/cat7ep/bastidefastq/${SRS}.fastq
+fastq-dump --split-files ${SRS} > /scratch/cat7ep/fastq/${SRS}.fastq
