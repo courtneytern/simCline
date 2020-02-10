@@ -26,8 +26,6 @@ SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," ~/simCline/biosampleresults/bastidecat.cs
   awk -F"," '{
     split ($0,array,",")
     SRSnum= array[15]
-      #name= array[2]""array[6]""array[7]""array[11]
-      #print name
     print SRSnum
   }' )
 
