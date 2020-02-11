@@ -107,7 +107,7 @@ if ($min>=33 && $max<=74)  {$diag{'Illumina 1.8+'}='x';}
 
 ## report
 print STDERR "# sampled raw quality values are in the range of [".$min."; ".$max."]\n";
-print STDERR "# format(s) marked below with 'x' agree with this range\n";
+## print STDERR "# format(s) marked below with 'x' agree with this range\n";
 
 foreach my $format (sort keys %diag) {
 	print STDERR sprintf("  %-13s : %2s  [%-30s] \n", $format, $diag{$format}, $comment{$format});
