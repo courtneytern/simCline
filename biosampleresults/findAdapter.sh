@@ -10,6 +10,6 @@ file=$1
 /scratch/cat7ep/simCline/biosampleresults/fastq_detect.pl ${file} | \
   grep 'x' | \
   awk '{
-    split($0,out,"\ :")
+    split($0,out," :")
     print out[1]
   }'
