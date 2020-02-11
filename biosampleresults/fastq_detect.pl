@@ -110,7 +110,7 @@ print STDERR "# sampled raw quality values are in the range of [".$min."; ".$max
 ## print STDERR "# format(s) marked below with 'x' agree with this range\n";
 
 foreach my $format (sort keys %diag) {
-	print STDERR sprintf("  %-13s : %2s  [%-30s] \n", $format, $diag{$format}, $comment{$format});
+	print sprintf("  %-13s : %2s  [%-30s] \n", $format, $diag{$format}, $comment{$format});
 }
 
 
