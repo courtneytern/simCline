@@ -12,8 +12,13 @@ file=$1
 
 ## grep the line with the version marked as the match
 ## split the line into just the name of the version and print
-  grep ' x ' temp_out.txt | \
+## store version in var
+version={  grep ' x ' temp_out.txt | \
   awk '{
     split($0,out," :")
     print out[1]
-  }'
+  }' }
+
+## translate
+if ${version}= "Sanger" | "Illumina 1.8+"{echo 33}
+else {echo 64} ## is +64; change to +33

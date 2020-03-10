@@ -29,7 +29,10 @@ SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," /scratch/cat7ep/simCline/biosampleresults
     print SRSnum
   }' )
 
+##runs findAdapter.sh with the input file to get either 33 or 64 translation
+version=$( /scratch/cat7ep/simCline/biosampleresults/findAdapter.sh ${SRS}.fastq )
+
   ##only need fastq-dump command by itself in rivanna
   ##~/Downloads/sratoolkit.2.9.6-1-mac64/bin/fastq-dump -X 5 -Z
 
-fastq-dump --split-files ${SRS} > /scratch/cat7ep/fastq/
+fastq-dump --split-files ${SRS} -Q ${version}> /scratch/cat7ep/fastq/
