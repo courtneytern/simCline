@@ -16,23 +16,23 @@ interDir="/scratch/cat7ep/interDir"
 outputDir="/scratch/cat7ep/bamfiles"
 
 ### trim out nextera and index seq
-java -jar /scratch/cat7ep/simCline/biosampleresults/trimmomatic-0.39.jar PE \
-        ${inputDir}/${cell}_${lane}_1_${sampleB}.fastq.gz \
-        ${inputDir}/${cell}_${lane}_2_${sampleB}.fastq.gz \
-        ${interDir}/${cell}_${lane}_1_${sampID}.P_trimm.fastq \
-        ${interDir}/${cell}_${lane}_1_${sampID}.U_trimm.fastq \
-        ${interDir}/${cell}_${lane}_2_${sampID}.P_trimm.fastq \
-        ${interDir}/${cell}_${lane}_2_${sampID}.U_trimm.fastq \
-        ILLUMINACLIP:/project/berglandlab/Karen/TrimmomaticAdaptors/NexteraPE-PE.fa:2:30:10:8:true
+java -jar /scratch/cat7ep/simCline/biosampleresults/trimmomatic-0.39 PE -phred33 \
+        ${inputDir}/${sra}_1.fastq.gz \
+        ${inputDir}/${sra}_2.fastq.gz \
+        ${interDir}/${sra}_1.P_trimm.fastq \
+        ${interDir}/${sra}_1.U_trimm.fastq \
+        ${interDir}/${sra}_2.P_trimm.fastq \
+        ${interDir}/${sra}_2.U_trimm.fastq \
+        ILLUMINACLIP:/scratch/cat7ep/simCline/biosampleresults/trimmomatic-0.39/adapters/NexteraPE-PE.fa:2:30:10:8:true
 
 
-### first, merge overlapping reads
+### first, merge overlapping reads from the paired reads
 ### f= forward reads, r= reverse reads, o=base name for output files, j=threads
 ~/pear-0.9.11/bin/pear \
-        -f ${interDir}/${cell}_${lane}_1_${sampID}.P_trimm.fastq \
-        -r ${interDir}/${cell}_${lane}_2_${sampID}.P_trimm.fastq \
-        -o ${interDir}/${cell}_${lane}_${sampID} \
-        -j ${threads}
+        -f ${interDir}/${sra}_1.P_trimm.fastq \
+        -r ${interDir}/${sra}_2.P_trimm.fastq \
+        -o ${interDir}/${sra} \
+      #  -j ${threads}
 
 ### next, map to reference genome
 bwa mem -t ${threads} -K 100000000 -Y \
