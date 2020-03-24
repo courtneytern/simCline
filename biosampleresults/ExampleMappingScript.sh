@@ -17,8 +17,8 @@ outputDir="/scratch/cat7ep/bamfiles"
 
 ### trim out nextera and index seq
 java -jar /scratch/cat7ep/simCline/biosampleresults/trimmomatic-0.39 PE -phred33 \
-        ${inputDir}/${sra}_1.fastq.gz \
-        ${inputDir}/${sra}_2.fastq.gz \
+        ${inputDir}/${sra}_1.fastq \
+        ${inputDir}/${sra}_2.fastq \
         ${interDir}/${sra}_1.P_trimm.fastq \
         ${interDir}/${sra}_1.U_trimm.fastq \
         ${interDir}/${sra}_2.P_trimm.fastq \
@@ -35,10 +35,10 @@ java -jar /scratch/cat7ep/simCline/biosampleresults/trimmomatic-0.39 PE -phred33
       #  -j ${threads}
 
 ### next, map to reference genome
-bwa mem -t ${threads} -K 100000000 -Y \
-        -R "@RG\tID:${sampID};${cell};${lane}\tSM:${pond}\tPL:illumina\tPU:${sampID};${cell};${lane}" \
-        /scratch/kbb7sh/genomefiles/totalHiCwithallbestgapclosed.fa \
-        ${interDir}/${cell}_${lane}_${sampID}.assembled.fastq | \
+bwa mem -K 100000000 -Y \
+        -R "@RG\tID:${sra}\tSP:simulans" \
+        /scratch/cat7ep/simCline/biosampleresults/dsim-all-chromosome-r2.02.fasta \
+        ${interDir}/${sra}.assembled.fastq | \
 samtools view -L /scratch/kbb7sh/genomefiles/D84Agoodscaffstouse.bed -Suh -q 20 -F 0x100 | \
 samtools sort -@ ${threads} -o ${interDir}/${cell}_${lane}_${pond}.sort.bam
 samtools index ${interDir}/${cell}_${lane}_${pond}.sort.bam
