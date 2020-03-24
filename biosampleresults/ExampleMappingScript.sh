@@ -40,8 +40,8 @@ bwa mem -K 100000000 -Y \
         /scratch/cat7ep/simCline/biosampleresults/dsim-all-chromosome-r2.02.fasta \
         ${interDir}/${sra}.assembled.fastq | \
 samtools view -L /scratch/kbb7sh/genomefiles/D84Agoodscaffstouse.bed -Suh -q 20 -F 0x100 | \
-samtools sort -@ ${threads} -o ${interDir}/${cell}_${lane}_${pond}.sort.bam
-samtools index ${interDir}/${cell}_${lane}_${pond}.sort.bam
+samtools sort -@ ${threads} -o ${interDir}/${sra}.sort.bam
+samtools index ${interDir}/${sra}.sort.bam
 
 ## unassembled reads
 bwa mem -t ${threads} -K 100000000 -Y \
