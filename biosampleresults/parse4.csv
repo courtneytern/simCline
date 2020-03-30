@@ -1,3 +1,2 @@
 author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier
-Palmieri,Drosophila simulans,43,P,Madagascar,NA,NA,NA,NA,1998,NA,NA,SAMN02713493,SRR1210633,M252-DNA
-Palmieri,Drosophila simulans,43,P,Madagascar,NA,NA,NA,NA,1998,NA,NA,SAMN02713493,SRR1212716,M252-RNA
+Palmieri,Drosophila simulans,43,P,Madagascar,NA,NA,NA,NA,1998,NA,NA,SAMN02713493,SRR1210633,Palmieri:NA:NA:Madagascar:NA:NA:1998:M252-DNA

@@ -1,539 +1,539 @@
 author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452878,SRR2859090,A_1_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452832,SRR2859091,A_10_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452883,SRR2859092,A_11_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452833,SRR2859093,A_12_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452884,SRR2859094,A_13_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452834,SRR2859095,A_14_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452885,SRR2859096,A_15_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452835,SRR2859097,A_16_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452886,SRR2859098,A_17_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452836,SRR2859099,A_18_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452922,SRR2859100,A_19_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452828,SRR2859101,A_2_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452837,SRR2859102,A_20_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452923,SRR2859103,A_21_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452838,SRR2859104,A_22_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452924,SRR2859105,A_23_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452839,SRR2859106,A_24_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452879,SRR2859107,A_3_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452829,SRR2859108,A_4_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452880,SRR2859109,A_5_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452830,SRR2859110,A_6_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452881,SRR2859111,A_7_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452831,SRR2859112,A_8_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452882,SRR2859113,A_9_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452749,SRR2859114,B_1_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452754,SRR2859115,B_11_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452755,SRR2859116,B_13_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452756,SRR2859117,B_15_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452757,SRR2859118,B_17_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452758,SRR2859119,B_19_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452759,SRR2859120,B_21_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452760,SRR2859121,B_23_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452750,SRR2859122,B_3_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452751,SRR2859123,B_5_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452752,SRR2859124,B_7_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452753,SRR2859125,B_9_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452925,SRR2859126,C_1_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452930,SRR2859128,C_11_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452844,SRR2859129,C_12_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452931,SRR2859130,C_13_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452932,SRR2859132,C_15_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452846,SRR2859133,C_16_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452933,SRR2859134,C_17_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452847,SRR2859135,C_18_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452934,SRR2859136,C_19_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452840,SRR2859137,C_2_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452848,SRR2859138,C_20_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452935,SRR2859139,C_21_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452849,SRR2859140,C_22_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452936,SRR2859141,C_23_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452850,SRR2859142,C_24_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452926,SRR2859143,C_3_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452927,SRR2859144,C_5_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452841,SRR2859145,C_6_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452928,SRR2859146,C_7_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452842,SRR2859147,C_8_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452929,SRR2859148,C_9_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452761,SRR2859149,D_1_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452766,SRR2859150,D_11_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452767,SRR2859151,D_13_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452768,SRR2859152,D_17_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452769,SRR2859153,D_19_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452770,SRR2859154,D_21_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452771,SRR2859155,D_23_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452762,SRR2859156,D_3_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452763,SRR2859157,D_5_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452764,SRR2859158,D_7_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452765,SRR2859159,D_9_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452937,SRR2859160,E_1_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452855,SRR2859161,E_10_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452941,SRR2859162,E_11_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452856,SRR2859163,E_12_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452942,SRR2859164,E_13_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452857,SRR2859165,E_14_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452943,SRR2859166,E_15_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452858,SRR2859167,E_16_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452944,SRR2859168,E_17_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452851,SRR2859170,E_2_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452860,SRR2859171,E_20_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452946,SRR2859172,E_21_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452861,SRR2859173,E_22_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452947,SRR2859174,E_23_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452862,SRR2859175,E_24_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452852,SRR2859177,E_4_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452853,SRR2859178,E_6_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452939,SRR2859179,E_7_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452854,SRR2859180,E_8_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452940,SRR2859181,E_9_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452772,SRR2859182,F_1_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452777,SRR2859183,F_13_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452778,SRR2859184,F_15_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452779,SRR2859185,F_17_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452781,SRR2859187,F_21_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452782,SRR2859188,F_23_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452773,SRR2859189,F_3_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452774,SRR2859190,F_5_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452775,SRR2859191,F_7_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452776,SRR2859192,F_9_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452948,SRR2859193,G_1_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452867,SRR2859194,G_10_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452953,SRR2859195,G_11_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452954,SRR2859197,G_13_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452869,SRR2859198,G_14_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452955,SRR2859199,G_15_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452870,SRR2859200,G_16_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452956,SRR2859201,G_17_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452871,SRR2859202,G_18_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452957,SRR2859203,G_19_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452863,SRR2859204,G_2_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452872,SRR2859205,G_20_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452958,SRR2859206,G_21_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452873,SRR2859207,G_22_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452959,SRR2859208,G_23_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452874,SRR2859209,G_24_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452864,SRR2859211,G_4_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452950,SRR2859212,G_5_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452865,SRR2859213,G_6_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452951,SRR2859214,G_7_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452866,SRR2859215,G_8_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452952,SRR2859216,G_9_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452783,SRR2859217,H_1_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452973,SRR2859218,H_11_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452974,SRR2859219,H_13_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452975,SRR2859220,H_15_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452976,SRR2859221,H_17_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452977,SRR2859222,H_19_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452978,SRR2859223,H_21_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452979,SRR2859224,H_23_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452784,SRR2859225,H_3_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452785,SRR2859226,H_5_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452786,SRR2859227,H_7_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452972,SRR2859228,H_9_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452960,SRR2859229,I_1_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452791,SRR2859230,I_10_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452965,SRR2859231,I_11_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452792,SRR2859232,I_12_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452966,SRR2859233,I_13_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452793,SRR2859234,I_14_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452967,SRR2859235,I_15_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452794,SRR2859236,I_16_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452968,SRR2859237,I_17_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452969,SRR2859238,I_19_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452787,SRR2859239,I_2_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452795,SRR2859240,I_20_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452970,SRR2859241,I_21_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452796,SRR2859242,I_22_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452971,SRR2859243,I_23_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452797,SRR2859244,I_24_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452961,SRR2859245,I_3_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452788,SRR2859246,I_4_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452962,SRR2859247,I_5_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452789,SRR2859248,I_6_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452963,SRR2859249,I_7_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452790,SRR2859250,I_8_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452964,SRR2859251,I_9_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452887,SRR2859252,J_1_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452981,SRR2859253,J_11_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452982,SRR2859254,J_13_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452984,SRR2859256,J_17_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452985,SRR2859257,J_19_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452986,SRR2859258,J_21_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452987,SRR2859259,J_23_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452888,SRR2859260,J_3_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452889,SRR2859261,J_5_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452890,SRR2859262,J_7_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452980,SRR2859263,J_9_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452891,SRR2859264,K_1_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452802,SRR2859265,K_10_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452896,SRR2859266,K_11_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452897,SRR2859267,K_13_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452803,SRR2859268,K_14_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452898,SRR2859269,K_15_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452804,SRR2859270,K_16_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452899,SRR2859271,K_17_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452805,SRR2859272,K_18_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452900,SRR2859273,K_19_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452798,SRR2859274,K_2_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452806,SRR2859275,K_20_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452901,SRR2859276,K_21_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452902,SRR2859277,K_23_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452807,SRR2859278,K_24_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452892,SRR2859279,K_3_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452799,SRR2859280,K_4_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452893,SRR2859281,K_5_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452800,SRR2859282,K_6_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452894,SRR2859283,K_7_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452801,SRR2859284,K_8_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452895,SRR2859285,K_9_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452988,SRR2859286,L_1_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452993,SRR2859287,L_11_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452994,SRR2859288,L_13_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452995,SRR2859289,L_15_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452996,SRR2859290,L_17_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452997,SRR2859291,L_19_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452998,SRR2859292,L_21_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452999,SRR2859293,L_23_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452989,SRR2859294,L_3_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452990,SRR2859295,L_5_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452991,SRR2859296,L_7_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452992,SRR2859297,L_9_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452903,SRR2859298,M_1_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452820,SRR2859299,M_10_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452908,SRR2859300,M_11_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452821,SRR2859301,M_12_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452909,SRR2859302,M_13_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452822,SRR2859303,M_14_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452910,SRR2859304,M_15_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452823,SRR2859305,M_16_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452911,SRR2859306,M_17_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452824,SRR2859307,M_18_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452816,SRR2859309,M_2_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452825,SRR2859310,M_20_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452826,SRR2859311,M_22_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452913,SRR2859312,M_23_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452827,SRR2859313,M_24_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452904,SRR2859314,M_3_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452817,SRR2859315,M_4_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452905,SRR2859316,M_5_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452818,SRR2859317,M_6_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452906,SRR2859318,M_7_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452819,SRR2859319,M_8_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452907,SRR2859320,M_9_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453000,SRR2859321,N_1_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453004,SRR2859322,N_11_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453005,SRR2859323,N_13_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453006,SRR2859324,N_15_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453007,SRR2859325,N_17_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453008,SRR2859326,N_19_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453009,SRR2859327,N_21_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453010,SRR2859328,N_23_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453001,SRR2859329,N_3_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453002,SRR2859330,N_7_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453003,SRR2859331,N_9_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452914,SRR2859332,O_1_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452812,SRR2859333,O_10_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452919,SRR2859334,O_11_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452813,SRR2859335,O_12_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452920,SRR2859336,O_13_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452814,SRR2859337,O_14_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452921,SRR2859338,O_15_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452815,SRR2859339,O_16_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452915,SRR2859341,O_3_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452809,SRR2859342,O_4_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452916,SRR2859343,O_5_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452810,SRR2859344,O_6_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452917,SRR2859345,O_7_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452811,SRR2859346,O_8_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452918,SRR2859347,O_9_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453011,SRR2859348,P_1_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453016,SRR2859349,P_11_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452875,SRR2859350,P_13_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452876,SRR2859351,P_15_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452877,SRR2859352,P_17_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453012,SRR2859353,P_3_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453013,SRR2859354,P_5_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453014,SRR2859355,P_7_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453015,SRR2859356,P_9_1
-Machado,Drosophila simulans,65,P,USA,Pennsylania,NA,40,NA,2010,Jul,01,SAMN03453017,SRR2859357,ECsimPA7_2010 pool of 65 individuals
-Machado,Drosophila simulans,50,P,USA,Pennsylania,NA,40,NA,2010,Sep,01,SAMN03453018,SRR2859358,ECsimPA9_2010 pool of 50 individuals
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452949,SRR2859210,G_3_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452749,SRR2396819,B_1_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452750,SRR2396820,B_3_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452751,SRR2396821,B_5_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452752,SRR2396822,B_7_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452753,SRR2396823,B_9_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452754,SRR2396824,B_11_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452755,SRR2396825,B_13_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452756,SRR2396826,B_15_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452757,SRR2396827,B_17_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452758,SRR2396828,B_19_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452759,SRR2396829,B_21_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452760,SRR2396830,B_23_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452762,SRR2396832,D_3_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452763,SRR2396833,D_5_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452764,SRR2396834,D_7_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452765,SRR2396835,D_9_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452766,SRR2396836,D_11_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452767,SRR2396837,D_13_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452768,SRR2396838,D_17_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452769,SRR2396839,D_19_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452770,SRR2396840,D_21_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452771,SRR2396841,D_23_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452772,SRR2396842,F_1_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452773,SRR2396843,F_3_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452774,SRR2396844,F_5_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452775,SRR2396845,F_7_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452776,SRR2396846,F_9_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452777,SRR2396847,F_13_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452778,SRR2396848,F_15_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452779,SRR2396849,F_17_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452780,SRR2396850,F_19_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452781,SRR2396851,F_21_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452782,SRR2396852,F_23_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452783,SRR2396853,H_1_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452784,SRR2396854,H_3_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452785,SRR2396855,H_5_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452786,SRR2396856,H_7_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452787,SRR2396857,I_2_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452788,SRR2396858,I_4_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452789,SRR2396859,I_6_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452790,SRR2396860,I_8_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452791,SRR2396861,I_10_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452792,SRR2396862,I_12_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452793,SRR2396863,I_14_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452794,SRR2396864,I_16_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452795,SRR2396865,I_20_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452796,SRR2396866,I_22_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452797,SRR2396867,I_24_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452798,SRR2396868,K_2_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452799,SRR2396869,K_4_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452800,SRR2396870,K_6_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452801,SRR2396871,K_8_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452802,SRR2396872,K_10_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452804,SRR2396874,K_16_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452805,SRR2396875,K_18_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452806,SRR2396876,K_20_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452807,SRR2396877,K_24_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452808,SRR2396878,O_2_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452809,SRR2396879,O_4_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452810,SRR2396880,O_6_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452811,SRR2396881,O_8_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452812,SRR2396882,O_10_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452813,SRR2396883,O_12_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452814,SRR2396884,O_14_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452815,SRR2396885,O_16_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452816,SRR2396886,M_2_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452817,SRR2396887,M_4_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452818,SRR2396888,M_6_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452820,SRR2396890,M_10_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452821,SRR2396891,M_12_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452822,SRR2396892,M_14_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452823,SRR2396893,M_16_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452824,SRR2396894,M_18_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452825,SRR2396895,M_20_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452826,SRR2396896,M_22_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452827,SRR2396897,M_24_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452828,SRR2396898,A_2_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452829,SRR2396899,A_4_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452830,SRR2396900,A_6_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452831,SRR2396901,A_8_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452832,SRR2396902,A_10_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452833,SRR2396903,A_12_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452834,SRR2396904,A_14_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452835,SRR2396905,A_16_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452836,SRR2396906,A_18_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452837,SRR2396907,A_20_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452838,SRR2396908,A_22_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452839,SRR2396909,A_24_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452840,SRR2396910,C_2_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452841,SRR2396911,C_6_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452842,SRR2396912,C_8_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452843,SRR2396913,C_10_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452844,SRR2396914,C_12_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452845,SRR2396915,C_14_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452846,SRR2396916,C_16_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452847,SRR2396917,C_18_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452848,SRR2396918,C_20_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452849,SRR2396919,C_22_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452850,SRR2396920,C_24_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452851,SRR2396921,E_2_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452852,SRR2396922,E_4_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452853,SRR2396923,E_6_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452854,SRR2396924,E_8_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452855,SRR2396925,E_10_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452856,SRR2396926,E_12_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452857,SRR2396927,E_14_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452858,SRR2396928,E_16_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452859,SRR2396929,E_18_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452860,SRR2396930,E_20_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452861,SRR2396931,E_22_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452862,SRR2396932,E_24_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452863,SRR2396933,G_2_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452864,SRR2396934,G_4_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452865,SRR2396935,G_6_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452866,SRR2396936,G_8_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452867,SRR2396937,G_10_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452868,SRR2396938,G_12_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452869,SRR2396939,G_14_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452870,SRR2396940,G_16_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452871,SRR2396941,G_18_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452872,SRR2396942,G_20_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452873,SRR2396943,G_22_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452875,SRR2396945,P_13_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452876,SRR2396946,P_15_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452877,SRR2396947,P_17_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452878,SRR2396948,A_1_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452879,SRR2396949,A_3_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452880,SRR2396950,A_5_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452881,SRR2396951,A_7_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452882,SRR2396952,A_9_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452883,SRR2396953,A_11_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452884,SRR2396954,A_13_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452885,SRR2396955,A_15_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452886,SRR2396956,A_17_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452887,SRR2396957,J_1_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452888,SRR2396958,J_3_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452889,SRR2396959,J_5_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452890,SRR2396960,J_7_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452891,SRR2396961,K_1_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452892,SRR2396962,K_3_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452893,SRR2396963,K_5_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452894,SRR2396964,K_7_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452895,SRR2396965,K_9_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452896,SRR2396966,K_11_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452897,SRR2396967,K_13_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452898,SRR2396968,K_15_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452899,SRR2396969,K_17_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452900,SRR2396970,K_19_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452901,SRR2396971,K_21_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452902,SRR2396972,K_23_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452903,SRR2396973,M_1_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452904,SRR2396974,M_3_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452905,SRR2396975,M_5_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452906,SRR2396976,M_7_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452907,SRR2396977,M_9_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452908,SRR2396978,M_11_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452910,SRR2396980,M_15_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452911,SRR2396981,M_17_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452912,SRR2396982,M_19_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452913,SRR2396983,M_23_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452914,SRR2396984,O_1_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452915,SRR2396985,O_3_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452916,SRR2396986,O_5_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452917,SRR2396987,O_7_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452918,SRR2396988,O_9_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452919,SRR2396989,O_11_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452920,SRR2396990,O_13_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452921,SRR2396991,O_15_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452922,SRR2396992,A_19_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452923,SRR2396993,A_21_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452924,SRR2396994,A_23_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452925,SRR2396995,C_1_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452926,SRR2396996,C_3_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452927,SRR2396997,C_5_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452928,SRR2396998,C_7_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452929,SRR2396999,C_9_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452930,SRR2397000,C_11_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452931,SRR2397001,C_13_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452932,SRR2397002,C_15_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452933,SRR2397003,C_17_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452934,SRR2397004,C_19_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452935,SRR2397005,C_21_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452936,SRR2397006,C_23_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452937,SRR2397007,E_1_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452938,SRR2397008,E_3_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452939,SRR2397009,E_7_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452940,SRR2397010,E_9_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452941,SRR2397011,E_11_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452942,SRR2397012,E_13_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452943,SRR2397013,E_15_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452944,SRR2397014,E_17_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452946,SRR2397016,E_21_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452947,SRR2397017,E_23_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452948,SRR2397018,G_1_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452949,SRR2397019,G_3_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452950,SRR2397020,G_5_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452951,SRR2397021,G_7_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452952,SRR2397022,G_9_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452953,SRR2397023,G_11_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452954,SRR2397024,G_13_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452955,SRR2397025,G_15_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452956,SRR2397026,G_17_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452957,SRR2397027,G_19_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452958,SRR2397028,G_21_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452959,SRR2397029,G_23_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452960,SRR2397030,I_1_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452961,SRR2397031,I_3_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452962,SRR2397032,I_5_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452963,SRR2397033,I_7_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452964,SRR2397034,I_9_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452965,SRR2397035,I_11_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452966,SRR2397036,I_13_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452967,SRR2397037,I_15_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452968,SRR2397038,I_17_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452969,SRR2397039,I_19_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452971,SRR2397041,I_23_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452972,SRR2397042,H_9_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452973,SRR2397043,H_11_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452974,SRR2397044,H_13_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452975,SRR2397045,H_15_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452976,SRR2397046,H_17_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452977,SRR2397047,H_19_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452978,SRR2397048,H_21_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452979,SRR2397049,H_23_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452980,SRR2397050,J_9_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452981,SRR2397051,J_11_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452982,SRR2397052,J_13_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452983,SRR2397053,J_15_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452984,SRR2397054,J_17_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452985,SRR2397055,J_19_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452986,SRR2397056,J_21_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452987,SRR2397057,J_23_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452988,SRR2397058,L_1_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452989,SRR2397059,L_3_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452990,SRR2397060,L_5_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452991,SRR2397061,L_7_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452992,SRR2397062,L_9_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452993,SRR2397063,L_11_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452994,SRR2397064,L_13_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452995,SRR2397065,L_15_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452996,SRR2397066,L_17_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452997,SRR2397067,L_19_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452998,SRR2397068,L_21_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452999,SRR2397069,L_23_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453000,SRR2397070,N_1_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453001,SRR2397071,N_3_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453002,SRR2397072,N_7_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453004,SRR2397074,N_11_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453005,SRR2397075,N_13_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453006,SRR2397076,N_15_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453007,SRR2397077,N_17_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453008,SRR2397078,N_19_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453009,SRR2397079,N_21_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453010,SRR2397080,N_23_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453011,SRR2397081,P_1_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453012,SRR2397082,P_3_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453013,SRR2397083,P_5_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453014,SRR2397084,P_7_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453015,SRR2397085,P_9_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453016,SRR2397086,P_11_1
-Machado,Drosophila simulans,65,P,USA,Pennsylania,NA,40,NA,2010,Jul,01,SAMN03453017,SRR2397087,ECsimPA7_2010 pool of 65 individuals
-Machado,Drosophila simulans,50,P,USA,Pennsylania,NA,40,NA,2010,Sep,01,SAMN03453018,SRR2397088,ECsimPA9_2010 pool of 50 individuals
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452970,SRR2397040,I_21_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452912,SRR2859308,M_19_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03452983,SRR2859255,J_15_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452843,SRR2859127,C_10_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452874,SRR2396944,G_24_1
-Machado,Drosophila simulans,44,I,USA,Florida,NA,26,NA,2011,May,01,SAMN03453003,SRR2397073,N_9_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452803,SRR2396873,K_14_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452819,SRR2396889,M_8_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452859,SRR2859169,E_18_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452868,SRR2859196,G_12_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452780,SRR2859186,F_19_1
-Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40,NA,2011,Nov,01,SAMN03452808,SRR2859340,O_2_1
-Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40,NA,2011,Aug,01,SAMN03452909,SRR2396979,M_13_1
-Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40,NA,2011,Sep,01,SAMN03452845,SRR2859131,C_14_1
-Machado,Drosophila simulans,38,I,USA,Maine,NA,44,NA,2011,Oct,01,SAMN03452761,SRR2396831,D_1_1
-Machado,Drosophila simulans,50,I,USA,Virginia,NA,38,NA,2010,Sep,01,SAMN03452938,SRR2859176,E_3_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452878,SRR2859090,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_1_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452832,SRR2859091,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_10_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452883,SRR2859092,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_11_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452833,SRR2859093,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_12_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452884,SRR2859094,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_13_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452834,SRR2859095,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_14_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452885,SRR2859096,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_15_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452835,SRR2859097,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_16_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452886,SRR2859098,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_17_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452836,SRR2859099,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_18_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452922,SRR2859100,Machado:NA:Virginia:USA:Sep:01:2010:A_19_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452828,SRR2859101,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_2_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452837,SRR2859102,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_20_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452923,SRR2859103,Machado:NA:Virginia:USA:Sep:01:2010:A_21_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452838,SRR2859104,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_22_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452924,SRR2859105,Machado:NA:Virginia:USA:Sep:01:2010:A_23_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452839,SRR2859106,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_24_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452879,SRR2859107,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_3_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452829,SRR2859108,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_4_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452880,SRR2859109,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_5_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452830,SRR2859110,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_6_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452881,SRR2859111,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_7_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452831,SRR2859112,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_8_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452882,SRR2859113,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_9_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452749,SRR2859114,Machado:NA:Maine:USA:Oct:01:2011:B_1_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452754,SRR2859115,Machado:NA:Maine:USA:Oct:01:2011:B_11_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452755,SRR2859116,Machado:NA:Maine:USA:Oct:01:2011:B_13_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452756,SRR2859117,Machado:NA:Maine:USA:Oct:01:2011:B_15_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452757,SRR2859118,Machado:NA:Maine:USA:Oct:01:2011:B_17_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452758,SRR2859119,Machado:NA:Maine:USA:Oct:01:2011:B_19_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452759,SRR2859120,Machado:NA:Maine:USA:Oct:01:2011:B_21_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452760,SRR2859121,Machado:NA:Maine:USA:Oct:01:2011:B_23_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452750,SRR2859122,Machado:NA:Maine:USA:Oct:01:2011:B_3_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452751,SRR2859123,Machado:NA:Maine:USA:Oct:01:2011:B_5_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452752,SRR2859124,Machado:NA:Maine:USA:Oct:01:2011:B_7_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452753,SRR2859125,Machado:NA:Maine:USA:Oct:01:2011:B_9_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452925,SRR2859126,Machado:NA:Virginia:USA:Sep:01:2010:C_1_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452930,SRR2859128,Machado:NA:Virginia:USA:Sep:01:2010:C_11_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452844,SRR2859129,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_12_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452931,SRR2859130,Machado:NA:Virginia:USA:Sep:01:2010:C_13_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452932,SRR2859132,Machado:NA:Virginia:USA:Sep:01:2010:C_15_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452846,SRR2859133,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_16_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452933,SRR2859134,Machado:NA:Virginia:USA:Sep:01:2010:C_17_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452847,SRR2859135,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_18_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452934,SRR2859136,Machado:NA:Virginia:USA:Sep:01:2010:C_19_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452840,SRR2859137,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_2_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452848,SRR2859138,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_20_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452935,SRR2859139,Machado:NA:Virginia:USA:Sep:01:2010:C_21_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452849,SRR2859140,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_22_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452936,SRR2859141,Machado:NA:Virginia:USA:Sep:01:2010:C_23_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452850,SRR2859142,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_24_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452926,SRR2859143,Machado:NA:Virginia:USA:Sep:01:2010:C_3_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452927,SRR2859144,Machado:NA:Virginia:USA:Sep:01:2010:C_5_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452841,SRR2859145,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_6_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452928,SRR2859146,Machado:NA:Virginia:USA:Sep:01:2010:C_7_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452842,SRR2859147,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_8_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452929,SRR2859148,Machado:NA:Virginia:USA:Sep:01:2010:C_9_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452761,SRR2859149,Machado:NA:Maine:USA:Oct:01:2011:D_1_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452766,SRR2859150,Machado:NA:Maine:USA:Oct:01:2011:D_11_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452767,SRR2859151,Machado:NA:Maine:USA:Oct:01:2011:D_13_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452768,SRR2859152,Machado:NA:Maine:USA:Oct:01:2011:D_17_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452769,SRR2859153,Machado:NA:Maine:USA:Oct:01:2011:D_19_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452770,SRR2859154,Machado:NA:Maine:USA:Oct:01:2011:D_21_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452771,SRR2859155,Machado:NA:Maine:USA:Oct:01:2011:D_23_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452762,SRR2859156,Machado:NA:Maine:USA:Oct:01:2011:D_3_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452763,SRR2859157,Machado:NA:Maine:USA:Oct:01:2011:D_5_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452764,SRR2859158,Machado:NA:Maine:USA:Oct:01:2011:D_7_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452765,SRR2859159,Machado:NA:Maine:USA:Oct:01:2011:D_9_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452937,SRR2859160,Machado:NA:Virginia:USA:Sep:01:2010:E_1_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452855,SRR2859161,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_10_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452941,SRR2859162,Machado:NA:Virginia:USA:Sep:01:2010:E_11_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452856,SRR2859163,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_12_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452942,SRR2859164,Machado:NA:Virginia:USA:Sep:01:2010:E_13_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452857,SRR2859165,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_14_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452943,SRR2859166,Machado:NA:Virginia:USA:Sep:01:2010:E_15_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452858,SRR2859167,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_16_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452944,SRR2859168,Machado:NA:Virginia:USA:Sep:01:2010:E_17_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452851,SRR2859170,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_2_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452860,SRR2859171,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_20_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452946,SRR2859172,Machado:NA:Virginia:USA:Sep:01:2010:E_21_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452861,SRR2859173,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_22_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452947,SRR2859174,Machado:NA:Virginia:USA:Sep:01:2010:E_23_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452862,SRR2859175,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_24_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452852,SRR2859177,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_4_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452853,SRR2859178,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_6_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452939,SRR2859179,Machado:NA:Virginia:USA:Sep:01:2010:E_7_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452854,SRR2859180,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_8_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452940,SRR2859181,Machado:NA:Virginia:USA:Sep:01:2010:E_9_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452772,SRR2859182,Machado:NA:Maine:USA:Oct:01:2011:F_1_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452777,SRR2859183,Machado:NA:Maine:USA:Oct:01:2011:F_13_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452778,SRR2859184,Machado:NA:Maine:USA:Oct:01:2011:F_15_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452779,SRR2859185,Machado:NA:Maine:USA:Oct:01:2011:F_17_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452781,SRR2859187,Machado:NA:Maine:USA:Oct:01:2011:F_21_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452782,SRR2859188,Machado:NA:Maine:USA:Oct:01:2011:F_23_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452773,SRR2859189,Machado:NA:Maine:USA:Oct:01:2011:F_3_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452774,SRR2859190,Machado:NA:Maine:USA:Oct:01:2011:F_5_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452775,SRR2859191,Machado:NA:Maine:USA:Oct:01:2011:F_7_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452776,SRR2859192,Machado:NA:Maine:USA:Oct:01:2011:F_9_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452948,SRR2859193,Machado:NA:Virginia:USA:Sep:01:2010:G_1_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452867,SRR2859194,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_10_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452953,SRR2859195,Machado:NA:Virginia:USA:Sep:01:2010:G_11_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452954,SRR2859197,Machado:NA:Virginia:USA:Sep:01:2010:G_13_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452869,SRR2859198,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_14_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452955,SRR2859199,Machado:NA:Virginia:USA:Sep:01:2010:G_15_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452870,SRR2859200,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_16_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452956,SRR2859201,Machado:NA:Virginia:USA:Sep:01:2010:G_17_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452871,SRR2859202,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_18_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452957,SRR2859203,Machado:NA:Virginia:USA:Sep:01:2010:G_19_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452863,SRR2859204,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_2_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452872,SRR2859205,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_20_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452958,SRR2859206,Machado:NA:Virginia:USA:Sep:01:2010:G_21_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452873,SRR2859207,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_22_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452959,SRR2859208,Machado:NA:Virginia:USA:Sep:01:2010:G_23_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452874,SRR2859209,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_24_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452864,SRR2859211,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_4_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452950,SRR2859212,Machado:NA:Virginia:USA:Sep:01:2010:G_5_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452865,SRR2859213,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_6_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452951,SRR2859214,Machado:NA:Virginia:USA:Sep:01:2010:G_7_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452866,SRR2859215,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_8_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452952,SRR2859216,Machado:NA:Virginia:USA:Sep:01:2010:G_9_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452783,SRR2859217,Machado:NA:Maine:USA:Oct:01:2011:H_1_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452973,SRR2859218,Machado:NA:Florida:USA:May:01:2011:H_11_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452974,SRR2859219,Machado:NA:Florida:USA:May:01:2011:H_13_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452975,SRR2859220,Machado:NA:Florida:USA:May:01:2011:H_15_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452976,SRR2859221,Machado:NA:Florida:USA:May:01:2011:H_17_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452977,SRR2859222,Machado:NA:Florida:USA:May:01:2011:H_19_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452978,SRR2859223,Machado:NA:Florida:USA:May:01:2011:H_21_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452979,SRR2859224,Machado:NA:Florida:USA:May:01:2011:H_23_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452784,SRR2859225,Machado:NA:Maine:USA:Oct:01:2011:H_3_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452785,SRR2859226,Machado:NA:Maine:USA:Oct:01:2011:H_5_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452786,SRR2859227,Machado:NA:Maine:USA:Oct:01:2011:H_7_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452972,SRR2859228,Machado:NA:Florida:USA:May:01:2011:H_9_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452960,SRR2859229,Machado:NA:Virginia:USA:Sep:01:2010:I_1_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452791,SRR2859230,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_10_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452965,SRR2859231,Machado:NA:Virginia:USA:Sep:01:2010:I_11_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452792,SRR2859232,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_12_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452966,SRR2859233,Machado:NA:Virginia:USA:Sep:01:2010:I_13_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452793,SRR2859234,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_14_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452967,SRR2859235,Machado:NA:Virginia:USA:Sep:01:2010:I_15_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452794,SRR2859236,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_16_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452968,SRR2859237,Machado:NA:Virginia:USA:Sep:01:2010:I_17_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452969,SRR2859238,Machado:NA:Virginia:USA:Sep:01:2010:I_19_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452787,SRR2859239,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_2_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452795,SRR2859240,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_20_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452970,SRR2859241,Machado:NA:Virginia:USA:Sep:01:2010:I_21_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452796,SRR2859242,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_22_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452971,SRR2859243,Machado:NA:Virginia:USA:Sep:01:2010:I_23_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452797,SRR2859244,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_24_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452961,SRR2859245,Machado:NA:Virginia:USA:Sep:01:2010:I_3_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452788,SRR2859246,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_4_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452962,SRR2859247,Machado:NA:Virginia:USA:Sep:01:2010:I_5_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452789,SRR2859248,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_6_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452963,SRR2859249,Machado:NA:Virginia:USA:Sep:01:2010:I_7_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452790,SRR2859250,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_8_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452964,SRR2859251,Machado:NA:Virginia:USA:Sep:01:2010:I_9_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452887,SRR2859252,Machado:NA:Pennsylvania:USA:Aug:01:2011:J_1_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452981,SRR2859253,Machado:NA:Florida:USA:May:01:2011:J_11_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452982,SRR2859254,Machado:NA:Florida:USA:May:01:2011:J_13_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452984,SRR2859256,Machado:NA:Florida:USA:May:01:2011:J_17_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452985,SRR2859257,Machado:NA:Florida:USA:May:01:2011:J_19_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452986,SRR2859258,Machado:NA:Florida:USA:May:01:2011:J_21_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452987,SRR2859259,Machado:NA:Florida:USA:May:01:2011:J_23_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452888,SRR2859260,Machado:NA:Pennsylvania:USA:Aug:01:2011:J_3_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452889,SRR2859261,Machado:NA:Pennsylvania:USA:Aug:01:2011:J_5_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452890,SRR2859262,Machado:NA:Pennsylvania:USA:Aug:01:2011:J_7_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452980,SRR2859263,Machado:NA:Florida:USA:May:01:2011:J_9_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452891,SRR2859264,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_1_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452802,SRR2859265,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_10_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452896,SRR2859266,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_11_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452897,SRR2859267,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_13_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452803,SRR2859268,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_14_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452898,SRR2859269,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_15_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452804,SRR2859270,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_16_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452899,SRR2859271,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_17_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452805,SRR2859272,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_18_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452900,SRR2859273,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_19_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452798,SRR2859274,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_2_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452806,SRR2859275,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_20_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452901,SRR2859276,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_21_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452902,SRR2859277,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_23_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452807,SRR2859278,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_24_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452892,SRR2859279,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_3_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452799,SRR2859280,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_4_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452893,SRR2859281,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_5_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452800,SRR2859282,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_6_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452894,SRR2859283,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_7_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452801,SRR2859284,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_8_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452895,SRR2859285,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_9_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452988,SRR2859286,Machado:NA:Florida:USA:May:01:2011:L_1_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452993,SRR2859287,Machado:NA:Florida:USA:May:01:2011:L_11_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452994,SRR2859288,Machado:NA:Florida:USA:May:01:2011:L_13_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452995,SRR2859289,Machado:NA:Florida:USA:May:01:2011:L_15_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452996,SRR2859290,Machado:NA:Florida:USA:May:01:2011:L_17_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452997,SRR2859291,Machado:NA:Florida:USA:May:01:2011:L_19_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452998,SRR2859292,Machado:NA:Florida:USA:May:01:2011:L_21_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452999,SRR2859293,Machado:NA:Florida:USA:May:01:2011:L_23_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452989,SRR2859294,Machado:NA:Florida:USA:May:01:2011:L_3_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452990,SRR2859295,Machado:NA:Florida:USA:May:01:2011:L_5_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452991,SRR2859296,Machado:NA:Florida:USA:May:01:2011:L_7_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452992,SRR2859297,Machado:NA:Florida:USA:May:01:2011:L_9_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452903,SRR2859298,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_1_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452820,SRR2859299,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_10_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452908,SRR2859300,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_11_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452821,SRR2859301,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_12_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452909,SRR2859302,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_13_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452822,SRR2859303,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_14_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452910,SRR2859304,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_15_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452823,SRR2859305,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_16_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452911,SRR2859306,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_17_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452824,SRR2859307,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_18_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452816,SRR2859309,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_2_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452825,SRR2859310,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_20_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452826,SRR2859311,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_22_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452913,SRR2859312,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_23_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452827,SRR2859313,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_24_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452904,SRR2859314,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_3_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452817,SRR2859315,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_4_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452905,SRR2859316,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_5_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452818,SRR2859317,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_6_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452906,SRR2859318,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_7_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452819,SRR2859319,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_8_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452907,SRR2859320,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_9_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453000,SRR2859321,Machado:NA:Florida:USA:May:01:2011:N_1_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453004,SRR2859322,Machado:NA:Florida:USA:May:01:2011:N_11_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453005,SRR2859323,Machado:NA:Florida:USA:May:01:2011:N_13_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453006,SRR2859324,Machado:NA:Florida:USA:May:01:2011:N_15_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453007,SRR2859325,Machado:NA:Florida:USA:May:01:2011:N_17_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453008,SRR2859326,Machado:NA:Florida:USA:May:01:2011:N_19_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453009,SRR2859327,Machado:NA:Florida:USA:May:01:2011:N_21_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453010,SRR2859328,Machado:NA:Florida:USA:May:01:2011:N_23_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453001,SRR2859329,Machado:NA:Florida:USA:May:01:2011:N_3_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453002,SRR2859330,Machado:NA:Florida:USA:May:01:2011:N_7_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453003,SRR2859331,Machado:NA:Florida:USA:May:01:2011:N_9_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452914,SRR2859332,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_1_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452812,SRR2859333,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_10_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452919,SRR2859334,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_11_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452813,SRR2859335,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_12_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452920,SRR2859336,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_13_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452814,SRR2859337,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_14_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452921,SRR2859338,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_15_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452815,SRR2859339,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_16_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452915,SRR2859341,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_3_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452809,SRR2859342,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_4_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452916,SRR2859343,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_5_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452810,SRR2859344,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_6_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452917,SRR2859345,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_7_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452811,SRR2859346,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_8_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452918,SRR2859347,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_9_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453011,SRR2859348,Machado:NA:Florida:USA:May:01:2011:P_1_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453016,SRR2859349,Machado:NA:Florida:USA:May:01:2011:P_11_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452875,SRR2859350,Machado:NA:Pennsylvania:USA:Sep:01:2011:P_13_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452876,SRR2859351,Machado:NA:Pennsylvania:USA:Sep:01:2011:P_15_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452877,SRR2859352,Machado:NA:Pennsylvania:USA:Sep:01:2011:P_17_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453012,SRR2859353,Machado:NA:Florida:USA:May:01:2011:P_3_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453013,SRR2859354,Machado:NA:Florida:USA:May:01:2011:P_5_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453014,SRR2859355,Machado:NA:Florida:USA:May:01:2011:P_7_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453015,SRR2859356,Machado:NA:Florida:USA:May:01:2011:P_9_1
+Machado,Drosophila simulans,65,P,USA,Pennsylania,NA,40 N,NA,2010,Jul,01,SAMN03453017,SRR2859357,Machado:NA:Pennsylania:USA:Jul:01:2010:ECsimPA7_2010 pool of 65 individuals
+Machado,Drosophila simulans,50,P,USA,Pennsylania,NA,40 N,NA,2010,Sep,01,SAMN03453018,SRR2859358,Machado:NA:Pennsylania:USA:Sep:01:2010:ECsimPA9_2010 pool of 50 individuals
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452949,SRR2859210,Machado:NA:Virginia:USA:Sep:01:2010:G_3_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452749,SRR2396819,Machado:NA:Maine:USA:Oct:01:2011:B_1_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452750,SRR2396820,Machado:NA:Maine:USA:Oct:01:2011:B_3_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452751,SRR2396821,Machado:NA:Maine:USA:Oct:01:2011:B_5_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452752,SRR2396822,Machado:NA:Maine:USA:Oct:01:2011:B_7_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452753,SRR2396823,Machado:NA:Maine:USA:Oct:01:2011:B_9_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452754,SRR2396824,Machado:NA:Maine:USA:Oct:01:2011:B_11_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452755,SRR2396825,Machado:NA:Maine:USA:Oct:01:2011:B_13_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452756,SRR2396826,Machado:NA:Maine:USA:Oct:01:2011:B_15_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452757,SRR2396827,Machado:NA:Maine:USA:Oct:01:2011:B_17_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452758,SRR2396828,Machado:NA:Maine:USA:Oct:01:2011:B_19_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452759,SRR2396829,Machado:NA:Maine:USA:Oct:01:2011:B_21_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452760,SRR2396830,Machado:NA:Maine:USA:Oct:01:2011:B_23_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452762,SRR2396832,Machado:NA:Maine:USA:Oct:01:2011:D_3_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452763,SRR2396833,Machado:NA:Maine:USA:Oct:01:2011:D_5_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452764,SRR2396834,Machado:NA:Maine:USA:Oct:01:2011:D_7_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452765,SRR2396835,Machado:NA:Maine:USA:Oct:01:2011:D_9_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452766,SRR2396836,Machado:NA:Maine:USA:Oct:01:2011:D_11_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452767,SRR2396837,Machado:NA:Maine:USA:Oct:01:2011:D_13_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452768,SRR2396838,Machado:NA:Maine:USA:Oct:01:2011:D_17_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452769,SRR2396839,Machado:NA:Maine:USA:Oct:01:2011:D_19_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452770,SRR2396840,Machado:NA:Maine:USA:Oct:01:2011:D_21_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452771,SRR2396841,Machado:NA:Maine:USA:Oct:01:2011:D_23_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452772,SRR2396842,Machado:NA:Maine:USA:Oct:01:2011:F_1_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452773,SRR2396843,Machado:NA:Maine:USA:Oct:01:2011:F_3_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452774,SRR2396844,Machado:NA:Maine:USA:Oct:01:2011:F_5_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452775,SRR2396845,Machado:NA:Maine:USA:Oct:01:2011:F_7_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452776,SRR2396846,Machado:NA:Maine:USA:Oct:01:2011:F_9_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452777,SRR2396847,Machado:NA:Maine:USA:Oct:01:2011:F_13_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452778,SRR2396848,Machado:NA:Maine:USA:Oct:01:2011:F_15_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452779,SRR2396849,Machado:NA:Maine:USA:Oct:01:2011:F_17_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452780,SRR2396850,Machado:NA:Maine:USA:Oct:01:2011:F_19_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452781,SRR2396851,Machado:NA:Maine:USA:Oct:01:2011:F_21_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452782,SRR2396852,Machado:NA:Maine:USA:Oct:01:2011:F_23_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452783,SRR2396853,Machado:NA:Maine:USA:Oct:01:2011:H_1_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452784,SRR2396854,Machado:NA:Maine:USA:Oct:01:2011:H_3_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452785,SRR2396855,Machado:NA:Maine:USA:Oct:01:2011:H_5_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452786,SRR2396856,Machado:NA:Maine:USA:Oct:01:2011:H_7_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452787,SRR2396857,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_2_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452788,SRR2396858,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_4_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452789,SRR2396859,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_6_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452790,SRR2396860,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_8_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452791,SRR2396861,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_10_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452792,SRR2396862,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_12_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452793,SRR2396863,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_14_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452794,SRR2396864,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_16_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452795,SRR2396865,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_20_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452796,SRR2396866,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_22_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452797,SRR2396867,Machado:NA:Pennsylvania:USA:Nov:01:2011:I_24_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452798,SRR2396868,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_2_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452799,SRR2396869,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_4_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452800,SRR2396870,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_6_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452801,SRR2396871,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_8_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452802,SRR2396872,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_10_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452804,SRR2396874,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_16_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452805,SRR2396875,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_18_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452806,SRR2396876,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_20_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452807,SRR2396877,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_24_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452808,SRR2396878,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_2_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452809,SRR2396879,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_4_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452810,SRR2396880,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_6_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452811,SRR2396881,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_8_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452812,SRR2396882,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_10_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452813,SRR2396883,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_12_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452814,SRR2396884,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_14_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452815,SRR2396885,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_16_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452816,SRR2396886,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_2_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452817,SRR2396887,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_4_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452818,SRR2396888,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_6_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452820,SRR2396890,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_10_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452821,SRR2396891,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_12_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452822,SRR2396892,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_14_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452823,SRR2396893,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_16_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452824,SRR2396894,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_18_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452825,SRR2396895,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_20_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452826,SRR2396896,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_22_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452827,SRR2396897,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_24_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452828,SRR2396898,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_2_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452829,SRR2396899,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_4_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452830,SRR2396900,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_6_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452831,SRR2396901,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_8_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452832,SRR2396902,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_10_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452833,SRR2396903,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_12_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452834,SRR2396904,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_14_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452835,SRR2396905,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_16_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452836,SRR2396906,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_18_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452837,SRR2396907,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_20_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452838,SRR2396908,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_22_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452839,SRR2396909,Machado:NA:Pennsylvania:USA:Sep:01:2011:A_24_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452840,SRR2396910,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_2_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452841,SRR2396911,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_6_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452842,SRR2396912,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_8_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452843,SRR2396913,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_10_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452844,SRR2396914,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_12_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452845,SRR2396915,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_14_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452846,SRR2396916,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_16_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452847,SRR2396917,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_18_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452848,SRR2396918,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_20_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452849,SRR2396919,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_22_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452850,SRR2396920,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_24_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452851,SRR2396921,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_2_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452852,SRR2396922,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_4_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452853,SRR2396923,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_6_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452854,SRR2396924,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_8_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452855,SRR2396925,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_10_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452856,SRR2396926,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_12_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452857,SRR2396927,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_14_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452858,SRR2396928,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_16_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452859,SRR2396929,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_18_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452860,SRR2396930,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_20_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452861,SRR2396931,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_22_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452862,SRR2396932,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_24_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452863,SRR2396933,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_2_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452864,SRR2396934,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_4_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452865,SRR2396935,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_6_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452866,SRR2396936,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_8_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452867,SRR2396937,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_10_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452868,SRR2396938,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_12_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452869,SRR2396939,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_14_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452870,SRR2396940,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_16_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452871,SRR2396941,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_18_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452872,SRR2396942,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_20_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452873,SRR2396943,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_22_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452875,SRR2396945,Machado:NA:Pennsylvania:USA:Sep:01:2011:P_13_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452876,SRR2396946,Machado:NA:Pennsylvania:USA:Sep:01:2011:P_15_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452877,SRR2396947,Machado:NA:Pennsylvania:USA:Sep:01:2011:P_17_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452878,SRR2396948,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_1_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452879,SRR2396949,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_3_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452880,SRR2396950,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_5_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452881,SRR2396951,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_7_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452882,SRR2396952,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_9_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452883,SRR2396953,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_11_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452884,SRR2396954,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_13_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452885,SRR2396955,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_15_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452886,SRR2396956,Machado:NA:Pennsylvania:USA:Aug:01:2011:A_17_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452887,SRR2396957,Machado:NA:Pennsylvania:USA:Aug:01:2011:J_1_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452888,SRR2396958,Machado:NA:Pennsylvania:USA:Aug:01:2011:J_3_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452889,SRR2396959,Machado:NA:Pennsylvania:USA:Aug:01:2011:J_5_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452890,SRR2396960,Machado:NA:Pennsylvania:USA:Aug:01:2011:J_7_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452891,SRR2396961,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_1_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452892,SRR2396962,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_3_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452893,SRR2396963,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_5_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452894,SRR2396964,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_7_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452895,SRR2396965,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_9_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452896,SRR2396966,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_11_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452897,SRR2396967,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_13_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452898,SRR2396968,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_15_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452899,SRR2396969,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_17_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452900,SRR2396970,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_19_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452901,SRR2396971,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_21_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452902,SRR2396972,Machado:NA:Pennsylvania:USA:Aug:01:2011:K_23_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452903,SRR2396973,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_1_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452904,SRR2396974,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_3_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452905,SRR2396975,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_5_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452906,SRR2396976,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_7_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452907,SRR2396977,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_9_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452908,SRR2396978,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_11_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452910,SRR2396980,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_15_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452911,SRR2396981,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_17_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452912,SRR2396982,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_19_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452913,SRR2396983,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_23_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452914,SRR2396984,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_1_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452915,SRR2396985,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_3_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452916,SRR2396986,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_5_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452917,SRR2396987,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_7_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452918,SRR2396988,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_9_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452919,SRR2396989,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_11_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452920,SRR2396990,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_13_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452921,SRR2396991,Machado:NA:Pennsylvania:USA:Aug:01:2011:O_15_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452922,SRR2396992,Machado:NA:Virginia:USA:Sep:01:2010:A_19_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452923,SRR2396993,Machado:NA:Virginia:USA:Sep:01:2010:A_21_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452924,SRR2396994,Machado:NA:Virginia:USA:Sep:01:2010:A_23_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452925,SRR2396995,Machado:NA:Virginia:USA:Sep:01:2010:C_1_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452926,SRR2396996,Machado:NA:Virginia:USA:Sep:01:2010:C_3_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452927,SRR2396997,Machado:NA:Virginia:USA:Sep:01:2010:C_5_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452928,SRR2396998,Machado:NA:Virginia:USA:Sep:01:2010:C_7_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452929,SRR2396999,Machado:NA:Virginia:USA:Sep:01:2010:C_9_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452930,SRR2397000,Machado:NA:Virginia:USA:Sep:01:2010:C_11_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452931,SRR2397001,Machado:NA:Virginia:USA:Sep:01:2010:C_13_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452932,SRR2397002,Machado:NA:Virginia:USA:Sep:01:2010:C_15_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452933,SRR2397003,Machado:NA:Virginia:USA:Sep:01:2010:C_17_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452934,SRR2397004,Machado:NA:Virginia:USA:Sep:01:2010:C_19_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452935,SRR2397005,Machado:NA:Virginia:USA:Sep:01:2010:C_21_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452936,SRR2397006,Machado:NA:Virginia:USA:Sep:01:2010:C_23_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452937,SRR2397007,Machado:NA:Virginia:USA:Sep:01:2010:E_1_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452938,SRR2397008,Machado:NA:Virginia:USA:Sep:01:2010:E_3_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452939,SRR2397009,Machado:NA:Virginia:USA:Sep:01:2010:E_7_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452940,SRR2397010,Machado:NA:Virginia:USA:Sep:01:2010:E_9_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452941,SRR2397011,Machado:NA:Virginia:USA:Sep:01:2010:E_11_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452942,SRR2397012,Machado:NA:Virginia:USA:Sep:01:2010:E_13_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452943,SRR2397013,Machado:NA:Virginia:USA:Sep:01:2010:E_15_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452944,SRR2397014,Machado:NA:Virginia:USA:Sep:01:2010:E_17_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452946,SRR2397016,Machado:NA:Virginia:USA:Sep:01:2010:E_21_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452947,SRR2397017,Machado:NA:Virginia:USA:Sep:01:2010:E_23_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452948,SRR2397018,Machado:NA:Virginia:USA:Sep:01:2010:G_1_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452949,SRR2397019,Machado:NA:Virginia:USA:Sep:01:2010:G_3_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452950,SRR2397020,Machado:NA:Virginia:USA:Sep:01:2010:G_5_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452951,SRR2397021,Machado:NA:Virginia:USA:Sep:01:2010:G_7_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452952,SRR2397022,Machado:NA:Virginia:USA:Sep:01:2010:G_9_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452953,SRR2397023,Machado:NA:Virginia:USA:Sep:01:2010:G_11_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452954,SRR2397024,Machado:NA:Virginia:USA:Sep:01:2010:G_13_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452955,SRR2397025,Machado:NA:Virginia:USA:Sep:01:2010:G_15_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452956,SRR2397026,Machado:NA:Virginia:USA:Sep:01:2010:G_17_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452957,SRR2397027,Machado:NA:Virginia:USA:Sep:01:2010:G_19_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452958,SRR2397028,Machado:NA:Virginia:USA:Sep:01:2010:G_21_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452959,SRR2397029,Machado:NA:Virginia:USA:Sep:01:2010:G_23_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452960,SRR2397030,Machado:NA:Virginia:USA:Sep:01:2010:I_1_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452961,SRR2397031,Machado:NA:Virginia:USA:Sep:01:2010:I_3_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452962,SRR2397032,Machado:NA:Virginia:USA:Sep:01:2010:I_5_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452963,SRR2397033,Machado:NA:Virginia:USA:Sep:01:2010:I_7_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452964,SRR2397034,Machado:NA:Virginia:USA:Sep:01:2010:I_9_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452965,SRR2397035,Machado:NA:Virginia:USA:Sep:01:2010:I_11_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452966,SRR2397036,Machado:NA:Virginia:USA:Sep:01:2010:I_13_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452967,SRR2397037,Machado:NA:Virginia:USA:Sep:01:2010:I_15_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452968,SRR2397038,Machado:NA:Virginia:USA:Sep:01:2010:I_17_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452969,SRR2397039,Machado:NA:Virginia:USA:Sep:01:2010:I_19_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452971,SRR2397041,Machado:NA:Virginia:USA:Sep:01:2010:I_23_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452972,SRR2397042,Machado:NA:Florida:USA:May:01:2011:H_9_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452973,SRR2397043,Machado:NA:Florida:USA:May:01:2011:H_11_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452974,SRR2397044,Machado:NA:Florida:USA:May:01:2011:H_13_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452975,SRR2397045,Machado:NA:Florida:USA:May:01:2011:H_15_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452976,SRR2397046,Machado:NA:Florida:USA:May:01:2011:H_17_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452977,SRR2397047,Machado:NA:Florida:USA:May:01:2011:H_19_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452978,SRR2397048,Machado:NA:Florida:USA:May:01:2011:H_21_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452979,SRR2397049,Machado:NA:Florida:USA:May:01:2011:H_23_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452980,SRR2397050,Machado:NA:Florida:USA:May:01:2011:J_9_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452981,SRR2397051,Machado:NA:Florida:USA:May:01:2011:J_11_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452982,SRR2397052,Machado:NA:Florida:USA:May:01:2011:J_13_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452983,SRR2397053,Machado:NA:Florida:USA:May:01:2011:J_15_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452984,SRR2397054,Machado:NA:Florida:USA:May:01:2011:J_17_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452985,SRR2397055,Machado:NA:Florida:USA:May:01:2011:J_19_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452986,SRR2397056,Machado:NA:Florida:USA:May:01:2011:J_21_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452987,SRR2397057,Machado:NA:Florida:USA:May:01:2011:J_23_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452988,SRR2397058,Machado:NA:Florida:USA:May:01:2011:L_1_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452989,SRR2397059,Machado:NA:Florida:USA:May:01:2011:L_3_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452990,SRR2397060,Machado:NA:Florida:USA:May:01:2011:L_5_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452991,SRR2397061,Machado:NA:Florida:USA:May:01:2011:L_7_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452992,SRR2397062,Machado:NA:Florida:USA:May:01:2011:L_9_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452993,SRR2397063,Machado:NA:Florida:USA:May:01:2011:L_11_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452994,SRR2397064,Machado:NA:Florida:USA:May:01:2011:L_13_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452995,SRR2397065,Machado:NA:Florida:USA:May:01:2011:L_15_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452996,SRR2397066,Machado:NA:Florida:USA:May:01:2011:L_17_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452997,SRR2397067,Machado:NA:Florida:USA:May:01:2011:L_19_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452998,SRR2397068,Machado:NA:Florida:USA:May:01:2011:L_21_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452999,SRR2397069,Machado:NA:Florida:USA:May:01:2011:L_23_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453000,SRR2397070,Machado:NA:Florida:USA:May:01:2011:N_1_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453001,SRR2397071,Machado:NA:Florida:USA:May:01:2011:N_3_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453002,SRR2397072,Machado:NA:Florida:USA:May:01:2011:N_7_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453004,SRR2397074,Machado:NA:Florida:USA:May:01:2011:N_11_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453005,SRR2397075,Machado:NA:Florida:USA:May:01:2011:N_13_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453006,SRR2397076,Machado:NA:Florida:USA:May:01:2011:N_15_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453007,SRR2397077,Machado:NA:Florida:USA:May:01:2011:N_17_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453008,SRR2397078,Machado:NA:Florida:USA:May:01:2011:N_19_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453009,SRR2397079,Machado:NA:Florida:USA:May:01:2011:N_21_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453010,SRR2397080,Machado:NA:Florida:USA:May:01:2011:N_23_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453011,SRR2397081,Machado:NA:Florida:USA:May:01:2011:P_1_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453012,SRR2397082,Machado:NA:Florida:USA:May:01:2011:P_3_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453013,SRR2397083,Machado:NA:Florida:USA:May:01:2011:P_5_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453014,SRR2397084,Machado:NA:Florida:USA:May:01:2011:P_7_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453015,SRR2397085,Machado:NA:Florida:USA:May:01:2011:P_9_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453016,SRR2397086,Machado:NA:Florida:USA:May:01:2011:P_11_1
+Machado,Drosophila simulans,65,P,USA,Pennsylania,NA,40 N,NA,2010,Jul,01,SAMN03453017,SRR2397087,Machado:NA:Pennsylania:USA:Jul:01:2010:ECsimPA7_2010 pool of 65 individuals
+Machado,Drosophila simulans,50,P,USA,Pennsylania,NA,40 N,NA,2010,Sep,01,SAMN03453018,SRR2397088,Machado:NA:Pennsylania:USA:Sep:01:2010:ECsimPA9_2010 pool of 50 individuals
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452970,SRR2397040,Machado:NA:Virginia:USA:Sep:01:2010:I_21_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452912,SRR2859308,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_19_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03452983,SRR2859255,Machado:NA:Florida:USA:May:01:2011:J_15_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452843,SRR2859127,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_10_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452874,SRR2396944,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_24_1
+Machado,Drosophila simulans,44,I,USA,Florida,NA,26 N,NA,2011,May,01,SAMN03453003,SRR2397073,Machado:NA:Florida:USA:May:01:2011:N_9_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452803,SRR2396873,Machado:NA:Pennsylvania:USA:Nov:01:2011:K_14_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452819,SRR2396889,Machado:NA:Pennsylvania:USA:Nov:01:2011:M_8_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452859,SRR2859169,Machado:NA:Pennsylvania:USA:Sep:01:2011:E_18_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452868,SRR2859196,Machado:NA:Pennsylvania:USA:Sep:01:2011:G_12_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452780,SRR2859186,Machado:NA:Maine:USA:Oct:01:2011:F_19_1
+Machado,Drosophila simulans,41,I,USA,Pennsylvania,NA,40 N,NA,2011,Nov,01,SAMN03452808,SRR2859340,Machado:NA:Pennsylvania:USA:Nov:01:2011:O_2_1
+Machado,Drosophila simulans,44,I,USA,Pennsylvania,NA,40 N,NA,2011,Aug,01,SAMN03452909,SRR2396979,Machado:NA:Pennsylvania:USA:Aug:01:2011:M_13_1
+Machado,Drosophila simulans,50,I,USA,Pennsylvania,NA,40 N,NA,2011,Sep,01,SAMN03452845,SRR2859131,Machado:NA:Pennsylvania:USA:Sep:01:2011:C_14_1
+Machado,Drosophila simulans,38,I,USA,Maine,NA,44 N,NA,2011,Oct,01,SAMN03452761,SRR2396831,Machado:NA:Maine:USA:Oct:01:2011:D_1_1
+Machado,Drosophila simulans,50,I,USA,Virginia,NA,38 N,NA,2010,Sep,01,SAMN03452938,SRR2859176,Machado:NA:Virginia:USA:Sep:01:2010:E_3_1

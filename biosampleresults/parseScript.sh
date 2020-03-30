@@ -29,7 +29,7 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
   identifier=$2
 
   print "Barghi,"organism","individ","pi","country","state","city","\
-    lat","long","year","month","day","biosamp","sra","identifier
+    lat","long","year","month","day","biosamp","sra",Barghi:"city":"state":"country":"month":"day":"year":"identifier
 
 } ' > parse1.csv
 
@@ -42,6 +42,7 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
 }
 {
   organism=$33 #col AC
+  city="NA"
   country=$22
   split($24,loc,": ")
     state=loc[2]
@@ -65,46 +66,47 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
 
    ##latitude and p/i varies by location
    pi="I"
-     if( index($0,"Florida")!=0 ) {lat=26}
-     else if( index($0,"Virginia")!=0 ) {lat=38}
+     if( index($0,"Florida")!=0 ) {lat="26 N"}
+   else if( index($0,"Virginia")!=0 ) {lat="38 N"}
      else if( index($0,"Penn")!=0 ) {
-       lat=40
+       lat="40 N"
        if( index($0,"2010 pool")!=0 ) {pi="P"}
      }
-     else if( index($0,"Maine")!=0 ) {lat=44}
+   else if( index($0,"Maine")!=0 ) {lat="44 N"}
      else {lat="NA"}
 
    print "Machado,"organism","individ","pi","country","state",NA,"\
-      lat",NA,"year","month","day","biosamp","sra","identifier
+      lat",NA,"year","month","day","biosamp","sra",Machado:"city":"state":"country":"month":"day":"year":"identifier
 
 } ' > parse2.csv
 
-### ************** biosamp 3 ************** ### Kang
-grep -E 'BioSample|Organism|ecotype' biosample_result-3.txt | \
-awk -F";" '
-
-BEGIN{
-print "author,species,p/i,numInd,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
-}
-{
- if(NR%3==1) {
-  split($1, biosamp, ": ")
-  split($2, identifier, ": ")
-  split($3, sra, ": ")
-  }
- else if (NR%3==2){
-  split($1,organism,": ")
- }
- else{
-   split($1, ecotype, "=\"")
-   split(ecotype[2],country,", ")
-   print "Kang,"organism[2]",20,P,Israel,"country[1]",Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,"biosamp[3]","sra[2]","identifier[2]
- }
-
-} ' > parse3.csv
+# ### ************** biosamp 3 ************** ### Kang
+# grep -E 'BioSample|Organism|ecotype' biosample_result-3.txt | \
+# awk -F";" '
+#
+# BEGIN{
+# print "author,species,p/i,numInd,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+# }
+# {
+#  if(NR%3==1) {
+#   split($1, biosamp, ": ")
+#   split($2, identifier, ": ")
+#   split($3, sra, ": ")
+#   }
+#  else if (NR%3==2){
+#   split($1,organism,": ")
+#  }
+#  else{
+#    split($1, ecotype, "=\"")
+#    split(ecotype[2],country,", ")
+#    print "Kang,"organism[2]",20,P,Israel,"country[1]",Mount Carmel,32.7427 N,35.0484 E,2014,Oct,26,"biosamp[3]","sra[2]","identifier[2]
+#  }
+#
+# } ' > parse3.csv
 
 ### ************** biosamp 4 ************** ### Palmieri
-grep -v 'Run' SraRunTable6.txt.csv | \
+## Don't want the RNA-seq data
+grep -v -E 'Run|RNA-Seq' SraRunTable6.txt.csv | \
 awk -F"," '
 
 BEGIN{
@@ -127,27 +129,31 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
   identifier=$25
 
 print "Palmieri,"organism","individ","pi","country","state","city","\
-  lat","long","year","month","day","biosamp","sra","identifier
+  lat","long","year","month","day","biosamp","sra",Palmieri:"city":"state":"country":"month":"day":"year":"identifier
 
 } ' > parse4.csv
 
 ### ************** biosamp 5 ************** ### Sedghifar
 ##don't need info from accession, but need to pull the line to allow uniform printing
 grep -E 'BioSample|Organism|source|Accession' biosample_result-5.txt | \
+#grep -v 'Australia' | \
 awk -F";" '
 
 BEGIN{
 print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
-}
+} #end of begin
 {
+  day="NA"
+
  if( index($0,"BioSample")!= 0 ) {
   split($1, biosamp, ": ")
   split($2, identifier, ": ")
+     gsub(" ","",identifier[2])
   split($3, sra, ": ")
 
-  ##treat Australia vs US country and dates
-  country="USA"
-  year="2011"
+   ##treat Australia vs US country and dates
+   country="USA"
+   year="2011"
   month="Sep"
   if ( index($0,"Aus")!=0 ){
    country="Australia"
@@ -157,10 +163,10 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
 
   ##treat locations with missing "location" lines
   lat="NA"
-  if ( index(identifier[2],"Rhode Island")!=0) {city[2]="RI"; lat="41.84 N"}
+  if ( index(identifier[2],"RhodeIsland")!=0) {city[2]="RI"; lat="41.84 N"}
   if ( index(identifier[2],"Florida")!=0) {city[2]="FL"; lat="25.47 N"}
-  else if ( index(identifier[2],"South_Aus")!=0) {city[2]="Queensland"; lat="42.77 S"}
-  else if ( index(identifier[2],"North_Aus")!=0) {city[2]="Tasmania"; lat="25.54 S"}
+  else if ( index(identifier[2],"South_Aus")!=0) {city[2]="Queensland"; lat="42.77S"}
+  else if ( index(identifier[2],"North_Aus")!=0) {city[2]="Tasmania"; lat="25.54S"}
  }
 
  else if ( index($0,"Organism")!= 0 ){
@@ -184,16 +190,12 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
  }
 
  else {
-   print "Sedghifar,"organism[2]",NA,P,"country","city[2]","city[1]","lat","long","year","month",NA,"biosamp[3]","sra[2]","identifier[2]
+   print "Sedghifar,"organism[2]",NA,P,"country","city[2]","city[1]","lat","long","year","month","day","biosamp[3]","sra[2]",Sedghifar:"city[1]":"city[2]":"country":"month":"day":"year":"identifier[2]
    city[1]="NA"; city[2]="NA"; sra[2]="NA"; lat="NA";long="NA"
  }
 }
- ##excludes Maine sample because there is no SRA number attached to it; cannot access it
-###END {
-  ###print "Sedghifar,Drosophila simulans,NA,P,USA,ME,NA,NA,NA,2011,Sep,NA,SAMN04383928,NA,Maine"}
-
   ' | \
-grep -v ",," > parse5.csv
+grep -v -E ",,|Australia" > parse5.csv
 
 ### ************** biosamp 6 ************** ### Signor
 grep -E 'BioSample|date|Organism|location' biosample_result-6.txt  | \
@@ -203,6 +205,10 @@ BEGIN{
 print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
 }
 {
+  month="Feb"
+  day="11"
+  year="2012"
+
  if(NR%4==1) {
   split($1, biosamp, ": ")
   split($2, identifier, ": ")
@@ -217,8 +223,8 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
   split(country[2],state,", ")
   sub(/"/,"",state[2])
 
-   print "Signor,"organism[2]",20,P,"country[1]","state[1]","state[2] \
-      ",34.0259 N,118.7798 W,2012,Feb,11,"biosamp[3]","sra[2]","identifier[2]
+   print "Signor,"organism[2]",20,I,"country[1]","state[1]","state[2] \
+      ",34.0259N,118.7798W,"year","month","day","biosamp[3]","sra[2]",Palmieri:"state[2]":"state[1]":"country[1]":"month":"day":"year":"identifier[2]
  }
 
 } ' > parse6.csv
@@ -247,34 +253,35 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
   identifier=$2
 
    print "BarghiKofler,"organism","individ","pi","country","state","city","\
-      lat","long","year","month","day","biosamp","sra","identifier
+      lat","long","year","month","day","biosamp","sra",BarghiKofler:"city":"state":"country":"month":"day":"year":"identifier
 
-} ' > parse7.csv
+} ' | \
+grep "Base" > parse7.csv #only include base populations
 
-### ************** sra run table 3 ************** ### Nouhaud
-grep -v 'Run' SraRunTable3.txt.csv | \
-awk -F"," '
-
-BEGIN{
-print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
-}
-{
-  organism=$38
-  individ=50
-  pi="P"
-  country="Madagascar"
-  state="NA"
-  city="NA"
-  lat="NA"
-  long="NA"
-  year="1998"
-  month= "NA"
-  day="NA"
-  biosamp=$7
-  sra=$1
-  identifier=$2
-
-   print "Nouhaud,"organism","individ","pi","country","state","city","\
-      lat","long","year","month","day","biosamp","sra","identifier
-
-} ' > parse8.csv
+# ### ************** sra run table 3 ************** ### Nouhaud
+# grep -v 'Run' SraRunTable3.txt.csv | \
+# awk -F"," '
+#
+# BEGIN{
+# print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+# }
+# {
+#   organism=$38
+#   individ=50
+#   pi="P"
+#   country="Madagascar"
+#   state="NA"
+#   city="NA"
+#   lat="NA"
+#   long="NA"
+#   year="1998"
+#   month= "NA"
+#   day="NA"
+#   biosamp=$7
+#   sra=$1
+#   identifier=$2
+#
+#    print "Nouhaud,"organism","individ","pi","country","state","city","\
+#       lat","long","year","month","day","biosamp","sra","identifier
+#
+# } ' > parse8.csv

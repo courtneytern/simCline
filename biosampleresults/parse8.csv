@@ -1,5 +1,0 @@
-author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier
-Nouhaud,Drosophila simulans,50,P,Madagascar,NA,NA,NA,NA,1998,NA,NA,SAMEA4936709,ERR2809790,M252_PacBio_14_smrtcells
-Nouhaud,Drosophila simulans,50,P,Madagascar,NA,NA,NA,NA,1998,NA,NA,SAMEA4936743,ERR2809829,PacBio_RNAseq_M252_28_1
-Nouhaud,Drosophila simulans,50,P,Madagascar,NA,NA,NA,NA,1998,NA,NA,SAMEA4936744,ERR2809887,PacBio_RNAseq_M252_28_2
-Nouhaud,Drosophila simulans,50,P,Madagascar,NA,NA,NA,NA,1998,NA,NA,SAMEA4936745,ERR2809888,PacBio_RNAseq_M252_18

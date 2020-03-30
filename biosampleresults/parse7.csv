@@ -1,406 +1,50 @@
-author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier
-BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860933,Dsim_Fl_Base_4
-BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860934,Dsim_Fl_Base_6
-BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860935,Dsim_Fl_Base_7
-BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860937,Dsim_Fl_Base_9
-BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860939,Dsim_Fl_Base_2
-BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860941,Dsim_Fl_Base_6
-BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860942,Dsim_Fl_Base_7
-BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860944,Dsim_Fl_Base_9
-BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860946,Dsim_Fl_Base_2
-BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860948,Dsim_Fl_Base_6
-BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860949,Dsim_Fl_Base_7
-BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860951,Dsim_Fl_Base_9
-BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860953,Dsim_Fl_Base_2
-BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860954,Dsim_Fl_Base_4
-BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860955,Dsim_Fl_Base_6
-BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860956,Dsim_Fl_Base_7
-BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860958,Dsim_Fl_Base_9
-BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860961,Dsim_Fl_Base_4
-BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860962,Dsim_Fl_Base_6
-BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860963,Dsim_Fl_Base_7
-BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860965,Dsim_Fl_Base_9
-BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860967,Dsim_Fl_Base_2
-BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860968,Dsim_Fl_Base_4
-BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860969,Dsim_Fl_Base_6
-BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860970,Dsim_Fl_Base_7
-BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860972,Dsim_Fl_Base_9
-BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860975,Dsim_Fl_Base_4
-BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860976,Dsim_Fl_Base_6
-BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860977,Dsim_Fl_Base_7
-BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860979,Dsim_Fl_Base_9
-BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860981,Dsim_Fl_Base_2
-BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860982,Dsim_Fl_Base_4
-BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860983,Dsim_Fl_Base_6
-BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860984,Dsim_Fl_Base_7
-BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860986,Dsim_Fl_Base_9
-BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860988,Dsim_Fl_Base_2
-BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860989,Dsim_Fl_Base_4
-BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860990,Dsim_Fl_Base_6
-BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860991,Dsim_Fl_Base_7
-BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860993,Dsim_Fl_Base_9
-BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860995,Dsim_Fl_Base_2
-BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860996,Dsim_Fl_Base_4
-BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860998,Dsim_Fl_Base_7
-BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2861000,Dsim_Fl_Base_9
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044028,ERR2861002,Dsim_Fl_Hot_F10_2
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044030,ERR2861003,Dsim_Fl_Hot_F10_4
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044032,ERR2861004,Dsim_Fl_Hot_F10_6
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044033,ERR2861005,Dsim_Fl_Hot_F10_7
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044034,ERR2861006,Dsim_Fl_Hot_F10_8
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044035,ERR2861007,Dsim_Fl_Hot_F10_9
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044036,ERR2861008,Dsim_Fl_Hot_F10_10
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044028,ERR2861009,Dsim_Fl_Hot_F10_2
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044030,ERR2861010,Dsim_Fl_Hot_F10_4
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044032,ERR2861011,Dsim_Fl_Hot_F10_6
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044033,ERR2861012,Dsim_Fl_Hot_F10_7
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044034,ERR2861013,Dsim_Fl_Hot_F10_8
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044035,ERR2861014,Dsim_Fl_Hot_F10_9
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044036,ERR2861015,Dsim_Fl_Hot_F10_10
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044027,ERR2861016,Dsim_Fl_Hot_F10_1
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044028,ERR2861017,Dsim_Fl_Hot_F10_2
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044029,ERR2861018,Dsim_Fl_Hot_F10_3
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044030,ERR2861019,Dsim_Fl_Hot_F10_4
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044031,ERR2861020,Dsim_Fl_Hot_F10_5
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044032,ERR2861021,Dsim_Fl_Hot_F10_6
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044033,ERR2861022,Dsim_Fl_Hot_F10_7
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044035,ERR2861024,Dsim_Fl_Hot_F10_9
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044036,ERR2861025,Dsim_Fl_Hot_F10_10
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044027,ERR2861026,Dsim_Fl_Hot_F10_1
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044028,ERR2861027,Dsim_Fl_Hot_F10_2
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044029,ERR2861028,Dsim_Fl_Hot_F10_3
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044030,ERR2861029,Dsim_Fl_Hot_F10_4
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044031,ERR2861030,Dsim_Fl_Hot_F10_5
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044032,ERR2861031,Dsim_Fl_Hot_F10_6
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044033,ERR2861032,Dsim_Fl_Hot_F10_7
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044036,ERR2861035,Dsim_Fl_Hot_F10_10
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044027,ERR2861036,Dsim_Fl_Hot_F10_1
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044028,ERR2861037,Dsim_Fl_Hot_F10_2
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044029,ERR2861038,Dsim_Fl_Hot_F10_3
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044030,ERR2861039,Dsim_Fl_Hot_F10_4
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044031,ERR2861040,Dsim_Fl_Hot_F10_5
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044032,ERR2861041,Dsim_Fl_Hot_F10_6
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044033,ERR2861042,Dsim_Fl_Hot_F10_7
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044034,ERR2861043,Dsim_Fl_Hot_F10_8
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044035,ERR2861044,Dsim_Fl_Hot_F10_9
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044036,ERR2861045,Dsim_Fl_Hot_F10_10
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044038,ERR2861046,Dsim_Fl_Hot_F20_2
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044040,ERR2861047,Dsim_Fl_Hot_F20_4
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044042,ERR2861048,Dsim_Fl_Hot_F20_6
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044043,ERR2861049,Dsim_Fl_Hot_F20_7
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044044,ERR2861050,Dsim_Fl_Hot_F20_8
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044045,ERR2861051,Dsim_Fl_Hot_F20_9
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044046,ERR2861052,Dsim_Fl_Hot_F20_10
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044038,ERR2861053,Dsim_Fl_Hot_F20_2
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044040,ERR2861054,Dsim_Fl_Hot_F20_4
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044042,ERR2861055,Dsim_Fl_Hot_F20_6
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044043,ERR2861056,Dsim_Fl_Hot_F20_7
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044044,ERR2861057,Dsim_Fl_Hot_F20_8
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044045,ERR2861058,Dsim_Fl_Hot_F20_9
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044046,ERR2861059,Dsim_Fl_Hot_F20_10
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044038,ERR2861060,Dsim_Fl_Hot_F20_2
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044040,ERR2861061,Dsim_Fl_Hot_F20_4
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044042,ERR2861062,Dsim_Fl_Hot_F20_6
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044043,ERR2861063,Dsim_Fl_Hot_F20_7
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044044,ERR2861064,Dsim_Fl_Hot_F20_8
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044045,ERR2861065,Dsim_Fl_Hot_F20_9
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044046,ERR2861066,Dsim_Fl_Hot_F20_10
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044038,ERR2861067,Dsim_Fl_Hot_F20_2
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044040,ERR2861068,Dsim_Fl_Hot_F20_4
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044042,ERR2861069,Dsim_Fl_Hot_F20_6
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044043,ERR2861070,Dsim_Fl_Hot_F20_7
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044044,ERR2861071,Dsim_Fl_Hot_F20_8
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044045,ERR2861072,Dsim_Fl_Hot_F20_9
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044046,ERR2861073,Dsim_Fl_Hot_F20_10
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044037,ERR2861074,Dsim_Fl_Hot_F20_1
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044038,ERR2861075,Dsim_Fl_Hot_F20_2
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044039,ERR2861076,Dsim_Fl_Hot_F20_3
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044040,ERR2861077,Dsim_Fl_Hot_F20_4
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044041,ERR2861078,Dsim_Fl_Hot_F20_5
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044042,ERR2861079,Dsim_Fl_Hot_F20_6
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044043,ERR2861080,Dsim_Fl_Hot_F20_7
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044044,ERR2861081,Dsim_Fl_Hot_F20_8
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044045,ERR2861082,Dsim_Fl_Hot_F20_9
-BarghiKofler,Drosophila simulans Florida generation 20 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044046,ERR2861083,Dsim_Fl_Hot_F20_10
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044047,ERR2861084,Dsim_Fl_Hot_F30_1
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044048,ERR2861085,Dsim_Fl_Hot_F30_2
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044049,ERR2861086,Dsim_Fl_Hot_F30_3
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044050,ERR2861087,Dsim_Fl_Hot_F30_4
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044051,ERR2861088,Dsim_Fl_Hot_F30_5
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044052,ERR2861089,Dsim_Fl_Hot_F30_6
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044053,ERR2861090,Dsim_Fl_Hot_F30_7
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044054,ERR2861091,Dsim_Fl_Hot_F30_8
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044055,ERR2861092,Dsim_Fl_Hot_F30_9
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044056,ERR2861093,Dsim_Fl_Hot_F30_10
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044048,ERR2861094,Dsim_Fl_Hot_F30_2
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044050,ERR2861095,Dsim_Fl_Hot_F30_4
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044052,ERR2861096,Dsim_Fl_Hot_F30_6
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044053,ERR2861097,Dsim_Fl_Hot_F30_7
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044054,ERR2861098,Dsim_Fl_Hot_F30_8
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044055,ERR2861099,Dsim_Fl_Hot_F30_9
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044056,ERR2861100,Dsim_Fl_Hot_F30_10
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044052,ERR2861103,Dsim_Fl_Hot_F30_6
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044053,ERR2861104,Dsim_Fl_Hot_F30_7
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044054,ERR2861105,Dsim_Fl_Hot_F30_8
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044055,ERR2861106,Dsim_Fl_Hot_F30_9
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044056,ERR2861107,Dsim_Fl_Hot_F30_10
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044048,ERR2861108,Dsim_Fl_Hot_F30_2
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044050,ERR2861109,Dsim_Fl_Hot_F30_4
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044053,ERR2861111,Dsim_Fl_Hot_F30_7
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044054,ERR2861112,Dsim_Fl_Hot_F30_8
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044055,ERR2861113,Dsim_Fl_Hot_F30_9
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044056,ERR2861114,Dsim_Fl_Hot_F30_10
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044047,ERR2861115,Dsim_Fl_Hot_F30_1
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044048,ERR2861116,Dsim_Fl_Hot_F30_2
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044049,ERR2861117,Dsim_Fl_Hot_F30_3
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044050,ERR2861118,Dsim_Fl_Hot_F30_4
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044051,ERR2861119,Dsim_Fl_Hot_F30_5
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044052,ERR2861120,Dsim_Fl_Hot_F30_6
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044053,ERR2861121,Dsim_Fl_Hot_F30_7
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044054,ERR2861122,Dsim_Fl_Hot_F30_8
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044055,ERR2861123,Dsim_Fl_Hot_F30_9
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044056,ERR2861124,Dsim_Fl_Hot_F30_10
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044057,ERR2861125,Dsim_Fl_Hot_F40_1
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044058,ERR2861126,Dsim_Fl_Hot_F40_2
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044059,ERR2861127,Dsim_Fl_Hot_F40_3
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044060,ERR2861128,Dsim_Fl_Hot_F40_4
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044061,ERR2861129,Dsim_Fl_Hot_F40_5
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044062,ERR2861130,Dsim_Fl_Hot_F40_6
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044064,ERR2861132,Dsim_Fl_Hot_F40_8
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044065,ERR2861133,Dsim_Fl_Hot_F40_9
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044066,ERR2861134,Dsim_Fl_Hot_F40_10
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044058,ERR2861135,Dsim_Fl_Hot_F40_2
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044060,ERR2861136,Dsim_Fl_Hot_F40_4
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044062,ERR2861137,Dsim_Fl_Hot_F40_6
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044063,ERR2861138,Dsim_Fl_Hot_F40_7
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044064,ERR2861139,Dsim_Fl_Hot_F40_8
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044065,ERR2861140,Dsim_Fl_Hot_F40_9
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044066,ERR2861141,Dsim_Fl_Hot_F40_10
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044058,ERR2861142,Dsim_Fl_Hot_F40_2
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044060,ERR2861143,Dsim_Fl_Hot_F40_4
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044062,ERR2861144,Dsim_Fl_Hot_F40_6
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044063,ERR2861145,Dsim_Fl_Hot_F40_7
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044064,ERR2861146,Dsim_Fl_Hot_F40_8
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044065,ERR2861147,Dsim_Fl_Hot_F40_9
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044066,ERR2861148,Dsim_Fl_Hot_F40_10
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044058,ERR2861149,Dsim_Fl_Hot_F40_2
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044060,ERR2861150,Dsim_Fl_Hot_F40_4
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044062,ERR2861151,Dsim_Fl_Hot_F40_6
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044063,ERR2861152,Dsim_Fl_Hot_F40_7
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044064,ERR2861153,Dsim_Fl_Hot_F40_8
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044065,ERR2861154,Dsim_Fl_Hot_F40_9
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044066,ERR2861155,Dsim_Fl_Hot_F40_10
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044057,ERR2861156,Dsim_Fl_Hot_F40_1
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044058,ERR2861157,Dsim_Fl_Hot_F40_2
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044059,ERR2861158,Dsim_Fl_Hot_F40_3
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044060,ERR2861159,Dsim_Fl_Hot_F40_4
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044061,ERR2861160,Dsim_Fl_Hot_F40_5
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044062,ERR2861161,Dsim_Fl_Hot_F40_6
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044063,ERR2861162,Dsim_Fl_Hot_F40_7
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044064,ERR2861163,Dsim_Fl_Hot_F40_8
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044065,ERR2861164,Dsim_Fl_Hot_F40_9
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044066,ERR2861165,Dsim_Fl_Hot_F40_10
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044067,ERR2861166,Dsim_Fl_Hot_F50_1
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044068,ERR2861167,Dsim_Fl_Hot_F50_2
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044069,ERR2861168,Dsim_Fl_Hot_F50_3
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044070,ERR2861169,Dsim_Fl_Hot_F50_4
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044071,ERR2861170,Dsim_Fl_Hot_F50_5
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044072,ERR2861171,Dsim_Fl_Hot_F50_6
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044073,ERR2861172,Dsim_Fl_Hot_F50_7
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044074,ERR2861173,Dsim_Fl_Hot_F50_8
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044075,ERR2861174,Dsim_Fl_Hot_F50_9
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044076,ERR2861175,Dsim_Fl_Hot_F50_10
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044068,ERR2861176,Dsim_Fl_Hot_F50_2
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044070,ERR2861177,Dsim_Fl_Hot_F50_4
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044072,ERR2861178,Dsim_Fl_Hot_F50_6
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044074,ERR2861180,Dsim_Fl_Hot_F50_8
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044075,ERR2861181,Dsim_Fl_Hot_F50_9
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044076,ERR2861182,Dsim_Fl_Hot_F50_10
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044068,ERR2861183,Dsim_Fl_Hot_F50_2
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044070,ERR2861184,Dsim_Fl_Hot_F50_4
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044073,ERR2861186,Dsim_Fl_Hot_F50_7
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044074,ERR2861187,Dsim_Fl_Hot_F50_8
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044075,ERR2861188,Dsim_Fl_Hot_F50_9
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044076,ERR2861189,Dsim_Fl_Hot_F50_10
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044067,ERR2861190,Dsim_Fl_Hot_F50_1
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044068,ERR2861191,Dsim_Fl_Hot_F50_2
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044069,ERR2861192,Dsim_Fl_Hot_F50_3
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044070,ERR2861193,Dsim_Fl_Hot_F50_4
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044071,ERR2861194,Dsim_Fl_Hot_F50_5
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044072,ERR2861195,Dsim_Fl_Hot_F50_6
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044073,ERR2861196,Dsim_Fl_Hot_F50_7
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044074,ERR2861197,Dsim_Fl_Hot_F50_8
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044075,ERR2861198,Dsim_Fl_Hot_F50_9
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044076,ERR2861199,Dsim_Fl_Hot_F50_10
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044067,ERR2861200,Dsim_Fl_Hot_F50_1
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044068,ERR2861201,Dsim_Fl_Hot_F50_2
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044069,ERR2861202,Dsim_Fl_Hot_F50_3
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044072,ERR2861205,Dsim_Fl_Hot_F50_6
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044073,ERR2861206,Dsim_Fl_Hot_F50_7
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044074,ERR2861207,Dsim_Fl_Hot_F50_8
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044075,ERR2861208,Dsim_Fl_Hot_F50_9
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044076,ERR2861209,Dsim_Fl_Hot_F50_10
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044078,ERR2861210,Dsim_Fl_Hot_F60_2
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044080,ERR2861211,Dsim_Fl_Hot_F60_4
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044082,ERR2861212,Dsim_Fl_Hot_F60_6
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044083,ERR2861213,Dsim_Fl_Hot_F60_7
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044084,ERR2861214,Dsim_Fl_Hot_F60_8
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044085,ERR2861215,Dsim_Fl_Hot_F60_9
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044086,ERR2861216,Dsim_Fl_Hot_F60_10
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044078,ERR2861217,Dsim_Fl_Hot_F60_2
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044080,ERR2861218,Dsim_Fl_Hot_F60_4
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044082,ERR2861219,Dsim_Fl_Hot_F60_6
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044083,ERR2861220,Dsim_Fl_Hot_F60_7
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044084,ERR2861221,Dsim_Fl_Hot_F60_8
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044085,ERR2861222,Dsim_Fl_Hot_F60_9
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044086,ERR2861223,Dsim_Fl_Hot_F60_10
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044078,ERR2861224,Dsim_Fl_Hot_F60_2
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044080,ERR2861225,Dsim_Fl_Hot_F60_4
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044082,ERR2861226,Dsim_Fl_Hot_F60_6
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044083,ERR2861227,Dsim_Fl_Hot_F60_7
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044085,ERR2861229,Dsim_Fl_Hot_F60_9
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044086,ERR2861230,Dsim_Fl_Hot_F60_10
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044078,ERR2861231,Dsim_Fl_Hot_F60_2
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044080,ERR2861232,Dsim_Fl_Hot_F60_4
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044082,ERR2861233,Dsim_Fl_Hot_F60_6
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044083,ERR2861234,Dsim_Fl_Hot_F60_7
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044084,ERR2861235,Dsim_Fl_Hot_F60_8
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044085,ERR2861236,Dsim_Fl_Hot_F60_9
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044086,ERR2861237,Dsim_Fl_Hot_F60_10
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044080,ERR2861239,Dsim_Fl_Hot_F60_4
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044082,ERR2861240,Dsim_Fl_Hot_F60_6
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044083,ERR2861241,Dsim_Fl_Hot_F60_7
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044084,ERR2861242,Dsim_Fl_Hot_F60_8
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044085,ERR2861243,Dsim_Fl_Hot_F60_9
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044086,ERR2861244,Dsim_Fl_Hot_F60_10
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055153,ERR2864337,Dsim_Fl_Hot_F88_r1_c1
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055154,ERR2864338,Dsim_Fl_Hot_F88_r1_c2
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055155,ERR2864339,Dsim_Fl_Hot_F88_r1_c3
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055156,ERR2864340,Dsim_Fl_Hot_F88_r1_c4
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055157,ERR2864341,Dsim_Fl_Hot_F88_r1_c5
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055159,ERR2864343,Dsim_Fl_Hot_F88_r1_c7
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055160,ERR2864344,Dsim_Fl_Hot_F88_r1_c8
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055161,ERR2864345,Dsim_Fl_Hot_F88_r1_c9
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055162,ERR2864346,Dsim_Fl_Hot_F88_r1_c10
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 11,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055163,ERR2864347,Dsim_Fl_Hot_F88_r1_c11
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 12,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055164,ERR2864348,Dsim_Fl_Hot_F88_r1_c12
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 13,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055165,ERR2864349,Dsim_Fl_Hot_F88_r1_c13
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 14,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055166,ERR2864350,Dsim_Fl_Hot_F88_r1_c14
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 15,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055167,ERR2864351,Dsim_Fl_Hot_F88_r1_c15
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 16,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055168,ERR2864352,Dsim_Fl_Hot_F88_r1_c16
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 17,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055169,ERR2864353,Dsim_Fl_Hot_F88_r1_c17
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 18,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055170,ERR2864354,Dsim_Fl_Hot_F88_r1_c18
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 19,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055171,ERR2864355,Dsim_Fl_Hot_F88_r1_c19
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 20,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055172,ERR2864356,Dsim_Fl_Hot_F88_r1_c20
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 16,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055168,ERR2864357,Dsim_Fl_Hot_F88_r1_c16
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 17,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055169,ERR2864358,Dsim_Fl_Hot_F88_r1_c17
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 18,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055170,ERR2864359,Dsim_Fl_Hot_F88_r1_c18
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 19,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055171,ERR2864360,Dsim_Fl_Hot_F88_r1_c19
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 20,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055172,ERR2864361,Dsim_Fl_Hot_F88_r1_c20
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055173,ERR2864362,Dsim_Fl_Hot_F103_r3_c1
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055174,ERR2864363,Dsim_Fl_Hot_F103_r3_c2
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055175,ERR2864364,Dsim_Fl_Hot_F103_r3_c3
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055176,ERR2864365,Dsim_Fl_Hot_F103_r3_c4
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055177,ERR2864366,Dsim_Fl_Hot_F103_r3_c5
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055178,ERR2864367,Dsim_Fl_Hot_F103_r3_c6
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055179,ERR2864368,Dsim_Fl_Hot_F103_r3_c7
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055180,ERR2864369,Dsim_Fl_Hot_F103_r3_c8
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055181,ERR2864370,Dsim_Fl_Hot_F103_r3_c9
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055182,ERR2864371,Dsim_Fl_Hot_F103_r3_c10
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 11,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055183,ERR2864372,Dsim_Fl_Hot_F103_r3_c11
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 12,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055184,ERR2864373,Dsim_Fl_Hot_F103_r3_c12
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 13,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055185,ERR2864374,Dsim_Fl_Hot_F103_r3_c13
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 14,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055186,ERR2864375,Dsim_Fl_Hot_F103_r3_c14
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 15,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055187,ERR2864376,Dsim_Fl_Hot_F103_r3_c15
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 16,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055188,ERR2864377,Dsim_Fl_Hot_F103_r3_c16
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 17,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055189,ERR2864378,Dsim_Fl_Hot_F103_r3_c17
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 19,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055191,ERR2864380,Dsim_Fl_Hot_F103_r3_c19
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 20,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055192,ERR2864381,Dsim_Fl_Hot_F103_r3_c20
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 21,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055193,ERR2864382,Dsim_Fl_Hot_F103_r3_c21
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 22,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055194,ERR2864383,Dsim_Fl_Hot_F103_r3_c22
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 23,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055195,ERR2864384,Dsim_Fl_Hot_F103_r3_c23
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 24,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055196,ERR2864385,Dsim_Fl_Hot_F103_r3_c24
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 27,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055199,ERR2864388,Dsim_Fl_Hot_F103_r3_c27
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 28,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055200,ERR2864389,Dsim_Fl_Hot_F103_r3_c28
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 29,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055201,ERR2864390,Dsim_Fl_Hot_F103_r3_c29
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 30,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055202,ERR2864391,Dsim_Fl_Hot_F103_r3_c30
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 31,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055203,ERR2864392,Dsim_Fl_Hot_F103_r3_c31
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 32,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055204,ERR2864393,Dsim_Fl_Hot_F103_r3_c32
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 33,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055205,ERR2864394,Dsim_Fl_Hot_F103_r3_c33
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 34,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055206,ERR2864395,Dsim_Fl_Hot_F103_r3_c34
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 35,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055207,ERR2864396,Dsim_Fl_Hot_F103_r3_c35
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 36,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055208,ERR2864397,Dsim_Fl_Hot_F103_r3_c36
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055209,ERR2864398,Dsim_Fl_Hot_F88_r4_c1
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055210,ERR2864399,Dsim_Fl_Hot_F88_r4_c2
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055211,ERR2864400,Dsim_Fl_Hot_F88_r4_c3
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055212,ERR2864401,Dsim_Fl_Hot_F88_r4_c4
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055213,ERR2864402,Dsim_Fl_Hot_F88_r4_c5
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055214,ERR2864403,Dsim_Fl_Hot_F88_r4_c6
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055215,ERR2864404,Dsim_Fl_Hot_F88_r4_c7
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055209,ERR2864405,Dsim_Fl_Hot_F88_r4_c1
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055210,ERR2864406,Dsim_Fl_Hot_F88_r4_c2
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055211,ERR2864407,Dsim_Fl_Hot_F88_r4_c3
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055212,ERR2864408,Dsim_Fl_Hot_F88_r4_c4
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055213,ERR2864409,Dsim_Fl_Hot_F88_r4_c5
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055214,ERR2864410,Dsim_Fl_Hot_F88_r4_c6
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055215,ERR2864411,Dsim_Fl_Hot_F88_r4_c7
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055216,ERR2864412,Dsim_Fl_Hot_F88_r4_c8
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055217,ERR2864413,Dsim_Fl_Hot_F88_r4_c9
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055218,ERR2864414,Dsim_Fl_Hot_F88_r4_c10
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 11,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055219,ERR2864415,Dsim_Fl_Hot_F88_r4_c11
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 12,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055220,ERR2864416,Dsim_Fl_Hot_F88_r4_c12
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 13,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055221,ERR2864417,Dsim_Fl_Hot_F88_r4_c13
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 14,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055222,ERR2864418,Dsim_Fl_Hot_F88_r4_c14
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 15,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055223,ERR2864419,Dsim_Fl_Hot_F88_r4_c15
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 16,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055224,ERR2864420,Dsim_Fl_Hot_F88_r4_c16
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 17,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055225,ERR2864421,Dsim_Fl_Hot_F88_r4_c17
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 18,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055226,ERR2864422,Dsim_Fl_Hot_F88_r4_c18
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 19,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055227,ERR2864423,Dsim_Fl_Hot_F88_r4_c19
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 4 cross 20,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055228,ERR2864424,Dsim_Fl_Hot_F88_r4_c20
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055229,ERR2864425,Dsim_Fl_Hot_F103_r7_c1
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055230,ERR2864426,Dsim_Fl_Hot_F103_r7_c2
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055231,ERR2864427,Dsim_Fl_Hot_F103_r7_c3
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055232,ERR2864428,Dsim_Fl_Hot_F103_r7_c4
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055233,ERR2864429,Dsim_Fl_Hot_F103_r7_c5
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055234,ERR2864430,Dsim_Fl_Hot_F103_r7_c6
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055235,ERR2864431,Dsim_Fl_Hot_F103_r7_c7
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055236,ERR2864432,Dsim_Fl_Hot_F103_r7_c8
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055237,ERR2864433,Dsim_Fl_Hot_F103_r7_c9
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055238,ERR2864434,Dsim_Fl_Hot_F103_r7_c10
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 11,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055239,ERR2864435,Dsim_Fl_Hot_F103_r7_c11
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 7 cross 12,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055240,ERR2864436,Dsim_Fl_Hot_F103_r7_c12
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 1,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055241,ERR2864437,Dsim_Fl_Hot_F103_r10_c1
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055242,ERR2864438,Dsim_Fl_Hot_F103_r10_c2
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 3,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055243,ERR2864439,Dsim_Fl_Hot_F103_r10_c3
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055244,ERR2864440,Dsim_Fl_Hot_F103_r10_c4
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055245,ERR2864441,Dsim_Fl_Hot_F103_r10_c5
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055246,ERR2864442,Dsim_Fl_Hot_F103_r10_c6
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055247,ERR2864443,Dsim_Fl_Hot_F103_r10_c7
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055248,ERR2864444,Dsim_Fl_Hot_F103_r10_c8
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055249,ERR2864445,Dsim_Fl_Hot_F103_r10_c9
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 11,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055251,ERR2864447,Dsim_Fl_Hot_F103_r10_c11
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 12,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055252,ERR2864448,Dsim_Fl_Hot_F103_r10_c12
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044070,ERR2861203,Dsim_Fl_Hot_F50_4
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 10 cross 10,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055250,ERR2864446,Dsim_Fl_Hot_F103_r10_c10
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044073,ERR2861179,Dsim_Fl_Hot_F50_7
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044084,ERR2861228,Dsim_Fl_Hot_F60_8
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 25,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055197,ERR2864386,Dsim_Fl_Hot_F103_r3_c25
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044034,ERR2861033,Dsim_Fl_Hot_F10_8
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 18,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055190,ERR2864379,Dsim_Fl_Hot_F103_r3_c18
-BarghiKofler,Drosophila simulans Florida generation 60 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044078,ERR2861238,Dsim_Fl_Hot_F60_2
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044072,ERR2861185,Dsim_Fl_Hot_F50_6
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044035,ERR2861034,Dsim_Fl_Hot_F10_9
-BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860932,Dsim_Fl_Base_2
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044052,ERR2861110,Dsim_Fl_Hot_F30_6
-BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860974,Dsim_Fl_Base_2
-BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860997,Dsim_Fl_Base_6
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044048,ERR2861101,Dsim_Fl_Hot_F30_2
-BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860940,Dsim_Fl_Base_4
-BarghiKofler,Drosophila simulans Florida generation 50 Hot treatment replicate 5,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044071,ERR2861204,Dsim_Fl_Hot_F50_5
-BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860960,Dsim_Fl_Base_2
-BarghiKofler,Drosophila simulans Florida generation 88 Hot treatment replicate 1 cross 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055158,ERR2864342,Dsim_Fl_Hot_F88_r1_c6
-BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860947,Dsim_Fl_Base_4
-BarghiKofler,Drosophila simulans Florida generation 30 Hot treatment replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044050,ERR2861102,Dsim_Fl_Hot_F30_4
-BarghiKofler,Drosophila simulans Florida generation 103 Hot treatment replicate 3 cross 26,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5055198,ERR2864387,Dsim_Fl_Hot_F103_r3_c26
-BarghiKofler,Drosophila simulans Florida generation 40 Hot treatment replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044063,ERR2861131,Dsim_Fl_Hot_F40_7
-BarghiKofler,Drosophila simulans Florida generation 10 Hot treatment replicate 8,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044034,ERR2861023,Dsim_Fl_Hot_F10_8
+BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860933,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_4
+BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860934,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_6
+BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860935,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_7
+BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860937,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_9
+BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860939,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_2
+BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860941,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_6
+BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860942,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_7
+BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860944,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_9
+BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860946,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_2
+BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860948,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_6
+BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860949,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_7
+BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860951,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_9
+BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860953,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_2
+BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860954,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_4
+BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860955,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_6
+BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860956,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_7
+BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860958,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_9
+BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860961,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_4
+BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860962,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_6
+BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860963,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_7
+BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860965,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_9
+BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860967,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_2
+BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860968,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_4
+BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860969,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_6
+BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860970,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_7
+BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860972,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_9
+BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860975,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_4
+BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860976,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_6
+BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860977,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_7
+BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860979,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_9
+BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860981,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_2
+BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860982,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_4
+BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860983,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_6
+BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860984,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_7
+BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860986,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_9
+BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860988,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_2
+BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860989,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_4
+BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860990,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_6
+BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860991,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_7
+BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2860993,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_9
+BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860995,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_2
+BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860996,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_4
+BarghiKofler,Drosophila simulans Florida Base replicate 7,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044023,ERR2860998,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_7
+BarghiKofler,Drosophila simulans Florida Base replicate 9,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044025,ERR2861000,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_9
+BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860932,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_2
+BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860974,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_2
+BarghiKofler,Drosophila simulans Florida Base replicate 6,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044022,ERR2860997,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_6
+BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860940,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_4
+BarghiKofler,Drosophila simulans Florida Base replicate 2,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044020,ERR2860960,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_2
+BarghiKofler,Drosophila simulans Florida Base replicate 4,1000,P,USA,Florida,Tallahassee,30.4383 N,84.2807 W,2010,Nov,NA,SAMEA5044021,ERR2860947,BarghiKofler:Tallahassee:Florida:USA:Nov:NA:2010:Dsim_Fl_Base_4

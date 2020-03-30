@@ -8,5 +8,8 @@
  cat parse*.csv | \
  grep -v "author" | \
 
- awk -F"," '{print NR"," ,$0}'
+ awk -F"," '{
+ row=$0
+ gsub(" ","_",row)
+ print NR"," ,row}'
 } >concatenated.csv
