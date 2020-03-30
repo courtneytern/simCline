@@ -2,14 +2,15 @@ module load bwa/0.7.17
 module load samtools/1.9
 module load picard/2.20.6
 
-# define some parameters
+# define some parameters. Take in SRA accession number and unique identifier
 sra=${1}
+identifier=$2
 # sampleB=($(echo ${sample} | cut -d"_" -f1-8))
 # sampID=($(echo ${sample} | cut -d"_" -f1-7))
 # pond=($(echo ${sample} | cut -d"_" -f9-12))
 
 # threads=10
-echo $sra
+echo $sra $identifier
 #echo $sampleB
 inputDir="/scratch/cat7ep/fastq"
 interDir="/scratch/cat7ep/interDir"
@@ -36,7 +37,7 @@ java -jar /scratch/cat7ep/simCline/biosampleresults/trimmomatic-0.39 PE -phred33
 
 ### next, map to reference genome
 bwa mem -K 100000000 -Y \
-        -R "@RG\tID:${sra}\tSP:simulans" \
+        -R "@RG\tID:${sra}\tSM:${identifier}\PL:illumina" \
         /scratch/cat7ep/simCline/biosampleresults/dsim-all-chromosome-r2.02.fasta \
         ${interDir}/${sra}.assembled.fastq | \
 samtools view -L /scratch/kbb7sh/genomefiles/D84Agoodscaffstouse.bed -Suh -q 20 -F 0x100 | \
