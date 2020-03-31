@@ -5,5 +5,5 @@
 
 cat /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
 #SRA={ awk -F"," '{$15}' }
-SRA=ERR2864366
+SRA="ERR2864366"
 cp /scratch/cat7ep/fastq/${SRA}*.fastq /project/berglandlab/courtney/simCline/fastq
