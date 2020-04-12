@@ -1,5 +1,6 @@
+module load gcc/7.1.0
 module load bwa/0.7.17
-module load samtools/1.9
+module load samtools/1.10
 module load picard/2.20.6
 
 # define some parameters. Take in SRA accession number and unique identifier
@@ -36,15 +37,14 @@ java -jar /scratch/cat7ep/simCline/biosampleresults/trimmomatic-0.39 PE -phred33
       #  -j ${threads}
 
 ### next, map to reference genome
-bwa mem -K 100000000 -Y \
-        -R "@RG\tID:${sra}\tSM:${identifier}\PL:illumina" \
-        /scratch/cat7ep/simCline/biosampleresults/dsim-all-chromosome-r2.02.fasta \
+bwa mem -R "@RG\tID:${sra}\tSM:${identifier}\PL:illumina" \
+        /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta \
         ${interDir}/${sra}.assembled.fastq | \
 samtools view -L /scratch/kbb7sh/genomefiles/D84Agoodscaffstouse.bed -Suh -q 20 -F 0x100 | \
 samtools sort -@ ${threads} -o ${interDir}/${sra}.sort.bam
 samtools index ${interDir}/${sra}.sort.bam
 
-## unassembled reads
+# ## unassembled reads
 bwa mem -t ${threads} -K 100000000 -Y \
         -R "@RG\tID:${sampID};${cell};${lane}\tSM:${pond}\tPL:illumina\tPU:${sampID};${cell};${lane}" \
         /scratch/kbb7sh/genomefiles/totalHiCwithallbestgapclosed.fa \
@@ -53,16 +53,16 @@ bwa mem -t ${threads} -K 100000000 -Y \
 samtools view -L /scratch/kbb7sh/genomefiles/D84Agoodscaffstouse.bed -Suh -q 20 -F 0x100 | \
 samtools sort -@ ${threads} -o ${interDir}/${cell}_${lane}_${pond}.filt.unassembled.sort.bam
 samtools index ${interDir}/${cell}_${lane}_${pond}.filt.unassembled.sort.bam
-
-## Next, merge assembled and unassembled bam files and mark duplicates
+#
+# ## Next, merge assembled and unassembled bam files and mark duplicates
 samtools merge ${interDir}/${cell}_${lane}_${pond}.filt.merged.bam \
         ${interDir}/${cell}_${lane}_${pond}.sort.bam \
         ${interDir}/${cell}_${lane}_${pond}.filt.unassembled.sort.bam
 samtools index ${interDir}/${cell}_${lane}_${pond}.filt.merged.bam
 
 ### next, merge bam files to single bam file
-samtools merge ${interDir}/${pond}_finalmap.bam ${interDir}/*${pond}.filt.merged.bam
-samtools index ${interDir}/${pond}_finalmap.bam
+# samtools merge ${interDir}/${pond}_finalmap.bam ${interDir}/*${pond}.filt.merged.bam
+# samtools index ${interDir}/${pond}_finalmap.bam
 
 ### Mark duplicates
 java -jar $EBROOTPICARD/picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=1000 \
