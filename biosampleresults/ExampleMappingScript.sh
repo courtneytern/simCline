@@ -65,7 +65,7 @@ samtools index ${interDir}/${cell}_${lane}_${pond}.filt.merged.bam
 # samtools index ${interDir}/${pond}_finalmap.bam
 
 ### Mark duplicates
-java -jar $EBROOTPICARD/picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=1000 \
+java -jar $EBROOTPICARD/picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=5000 \
 REMOVE_DUPLICATES=true \
 INPUT=${interDir}/${pond}_finalmap.bam \
 OUTPUT=${outputDir}/${pond}_finalmap_mdup.bam METRICS_FILE=${interDir}/${pond}_finalmap_mdups.metrics CREATE_INDEX=true
