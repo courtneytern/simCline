@@ -64,8 +64,8 @@ java -jar $EBROOTPICARD/picard.jar MarkDuplicates \
      REMOVE_DUPLICATES=true \
      CREATE_INDEX=true
 
-#indel realignment
-gatk HaplotypeCaller \
-    -i ${outputDir}/${sra}.finalmap.bam \
-    -o ${outputDir}/${sra}.removeindels.vcf \
-    -r /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta 
+# #indel realignment
+# gatk HaplotypeCaller \
+#     -i ${outputDir}/${sra}.finalmap.bam \
+#     -o ${outputDir}/${sra}.removeindels.vcf \
+#     -r /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta
