@@ -55,11 +55,10 @@ else if [ -f ${inputDir}/${sra}_1.fastq ]; then
   samtools index ${interDir}/${sra}.mergedbam.bam
 
 #remove duplicates
-java -jar $EBROOTPICARD/picard.jar MarkDuplicates \
+java -jar $EBROOTPICARD/picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=5000 \
      INPUT=${interDir}/${sra}.mergedbam.bam \
      OUTPUT=${outputDir}/${sra}.finalmap.bam \
      METRICS_FILE=${interDir}/${sra}.metrics \
-     MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=5000 \
      COMMENT= ${identifier} \
      REMOVE_DUPLICATES=true \
      CREATE_INDEX=true
