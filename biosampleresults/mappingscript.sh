@@ -77,6 +77,7 @@ else if [ -f ${inputDir}/${sra}_1.fastq ]; then
       samtools sort -o ${interDir}/${sra}.unpaired.sort.bam
       samtools index ${interDir}/${sra}.unpaired.sort.bam
   }
+else;
 echo "Outside of if/else"
 
 #remove duplicates
