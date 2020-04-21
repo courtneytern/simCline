@@ -5,6 +5,8 @@ module load picard/2.20.6
 module load gatk/4.0.0.0
 
 # define some parameters. Take in SRA accession number and unique identifier
+#test SRR2396839_1.fastq SRR2396839_2.fastq paired
+#test SRS3924975_1.fastq unpaired
 sra=${1}
 identifier=${2}
 
@@ -81,12 +83,12 @@ java -jar $EBROOTPICARD/picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_ENDS
      CREATE_INDEX=true
 
 # go to indel realignment script
-if ${paired}=="true"; then
-  #open paired indel realignment script
-else if ${paired}=="false"; then
-  #open unpaired indel realignment script
-else
-  echo "ERROR in paired variable"
+# if ${paired}=="true"; then
+#   #open paired indel realignment script
+# else if ${paired}=="false"; then
+#   #open unpaired indel realignment script
+# else
+#   echo "ERROR in paired variable"
 
 # gatk HaplotypeCaller \
 #     -i ${outputDir}/${sra}.finalmap.bam \
