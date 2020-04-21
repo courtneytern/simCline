@@ -10,6 +10,9 @@ module load gatk/4.0.0.0
 sra=${1}
 identifier=${2}
 
+echo "SRA= "${sra}
+echo "Identifier= "${identifier}
+
 #Create directories
 inputDir="/project/berglandlab/courtney/simCline/fastq"
 interDir="/scratch/cat7ep/interDir"
