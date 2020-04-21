@@ -26,7 +26,8 @@ cd ${interDir}
 paired="null"
 echo "changed directory"
 #if paired, trim and merge
-if [ -f ${inputDir}/${sra}_1.fastq ] && [ -f ${inputDir}/${sra}_2.fastq ]; then
+if [ -f ${inputDir}/${sra}_1.fastq ] && [ -f ${inputDir}/${sra}_2.fastq ]
+then
   {
     ${paired}="true"
     echo ${paired}
@@ -64,7 +65,8 @@ if [ -f ${inputDir}/${sra}_1.fastq ] && [ -f ${inputDir}/${sra}_2.fastq ]; then
       samtools index ${interDir}/${sra}.mergedbam.bam
   }
 #if unpaired
-else if [ -f ${inputDir}/${sra}_1.fastq ]; then
+elif [ -f ${inputDir}/${sra}_1.fastq ]
+then
   {
     ${paired}="false"
     echo ${paired}
@@ -78,6 +80,7 @@ else if [ -f ${inputDir}/${sra}_1.fastq ]; then
       samtools index ${interDir}/${sra}.unpaired.sort.bam
   }
 else{}
+fi
 
 echo "Outside of if/else"
 
