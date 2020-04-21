@@ -22,7 +22,7 @@ outputDir="/project/berglandlab/courtney/simCline/bamfiles"
 #AdapterRemoval path
 AdapterRemoval="/project/berglandlab/courtney/adapterremoval-2.3.1/build/AdapterRemoval"
 #set current working directory to the intermediate directory
-cd ${interDir}
+#cd ${interDir}
 paired="null"
 
 #if paired, trim and merge
