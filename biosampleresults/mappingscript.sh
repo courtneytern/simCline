@@ -75,8 +75,8 @@ else if [ -f ${inputDir}/${sra}_1.fastq ]; then
 
 #remove duplicates
 java -jar $EBROOTPICARD/picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=5000 \
-     INPUT=${interDir}/${sra}.mergedbam.bam \
-     OUTPUT=${outputDir}/${sra}.finalmap.bam \
+     I=${interDir}/${sra}.mergedbam.bam \
+     O=${outputDir}/${sra}.finalmap.bam \
      METRICS_FILE=${interDir}/${sra}.metrics \
      COMMENT= ${identifier} \
      REMOVE_DUPLICATES=true \
