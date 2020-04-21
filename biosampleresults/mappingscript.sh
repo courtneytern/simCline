@@ -88,7 +88,7 @@ else if ${paired}=="false"; then
 else
   echo "ERROR in paired variable"
 
-gatk HaplotypeCaller \
-    -i ${outputDir}/${sra}.finalmap.bam \
-    -o ${outputDir}/${sra}.removeindels.vcf \
-    -r /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta
+# gatk HaplotypeCaller \
+#     -i ${outputDir}/${sra}.finalmap.bam \
+#     -o ${outputDir}/${sra}.removeindels.vcf \
+#     -r /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta
