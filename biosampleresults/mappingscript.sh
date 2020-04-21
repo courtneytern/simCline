@@ -6,6 +6,7 @@ module load gatk/4.0.0.0
 
 # define some parameters. Take in SRA accession number and unique identifier
 #test SRR2396839_1.fastq SRR2396839_2.fastq paired
+#### ./mappingscript.sh SRR2396839 TESTPAIR
 #test SRS3924975_1.fastq unpaired
 sra=${1}
 identifier=${2}
@@ -28,6 +29,7 @@ paired="null"
 if [ -f ${inputDir}/${sra}_1.fastq ] && [ -f ${inputDir}/${sra}_2.fastq ]; then
   {
     ${paired}="true"
+    echo ${paired}
 
     ${AdapterRemoval} --file1 ${inputDir}/${sra}_1.fastq --file2 ${inputDir}/${sra}_2.fastq \
                       --basename ${sra}_paired --trimns --trimqualities --collapse
@@ -65,6 +67,7 @@ if [ -f ${inputDir}/${sra}_1.fastq ] && [ -f ${inputDir}/${sra}_2.fastq ]; then
 else if [ -f ${inputDir}/${sra}_1.fastq ]; then
   {
     ${paired}="false"
+    echo ${paired}
     ${AdapterRemoval} --file1 ${inputDir}/${sra}_1.fastq --basename ${sra}_unpaired --trimns --trimqualities
 
       bwa mem -R "@RG\tID:${sra}\tSM:${identifier}\PL:illumina" \
@@ -74,7 +77,7 @@ else if [ -f ${inputDir}/${sra}_1.fastq ]; then
       samtools sort -o ${interDir}/${sra}.unpaired.sort.bam
       samtools index ${interDir}/${sra}.unpaired.sort.bam
   }
-
+echo "Outside of if/else"
 
 #remove duplicates
 java -jar $EBROOTPICARD/picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=5000 \
