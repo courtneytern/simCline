@@ -38,17 +38,11 @@ then
     #paired reads
     bwa mem -R "@RG\tID:${sra}\tSM:${identifier}\PL:illumina" \
             /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta \
-            ${interDir}/${sra}_paired.pair1.truncated | \
-    samtools view -uh -q 20 -F 0x100 | \
-    samtools sort -o ${interDir}/${sra}.pair1.sort.bam
-    samtools index ${interDir}/${sra}.pair1.sort.bam
-
-    bwa mem -R "@RG\tID:${sra}\tSM:${identifier}\PL:illumina" \
-            /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta \
+            ${interDir}/${sra}_paired.pair1.truncated \
             ${interDir}/${sra}_paired.pair2.truncated | \
     samtools view -uh -q 20 -F 0x100 | \
-    samtools sort -o ${interDir}/${sra}.pair2.sort.bam
-    samtools index ${interDir}/${sra}.pair2.sort.bam
+    samtools sort -o ${interDir}/${sra}.pairs.sort.bam
+    samtools index ${interDir}/${sra}.pairs.sort.bam
 
     bwa mem -R "@RG\tID:${sra}\tSM:${identifier}\PL:illumina" \
             /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta \
@@ -60,8 +54,7 @@ then
     #merge collapsed and uncollapsed bam files
       samtools merge ${interDir}/${sra}.mergedbam.bam \
                ${interDir}/${sra}.collapsed.sort.bam \
-               ${interDir}/${sra}.pair1.sort.bam \
-               ${interDir}/${sra}.pair2.sort.bam
+               ${interDir}/${sra}.pairs.sort.bam
       samtools index ${interDir}/${sra}.mergedbam.bam
 
       inputBam=${interDir}/${sra}.mergedbam.bam
