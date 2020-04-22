@@ -29,7 +29,7 @@ echo "changed directory"
 if [ -f ${inputDir}/${sra}_1.fastq ] && [ -f ${inputDir}/${sra}_2.fastq ]
 then
   {
-    ${paired}="true"
+    paired="true"
     echo ${paired}
 
     ${AdapterRemoval} --file1 ${inputDir}/${sra}_1.fastq --file2 ${inputDir}/${sra}_2.fastq \
@@ -63,12 +63,14 @@ then
                ${interDir}/${sra}.pair1.sort.bam \
                ${interDir}/${sra}.pair2.sort.bam
       samtools index ${interDir}/${sra}.mergedbam.bam
+
+      inputBam=${interDir}/${sra}.mergedbam.bam
   }
 #if unpaired
 elif [ -f ${inputDir}/${sra}_1.fastq ]
 then
   {
-    ${paired}="false"
+    paired="false"
     echo ${paired}
     ${AdapterRemoval} --file1 ${inputDir}/${sra}_1.fastq --basename ${sra}_unpaired --trimns --trimqualities
 
@@ -78,6 +80,8 @@ then
       samtools view -uh -q 20 -F 0x100 | \
       samtools sort -o ${interDir}/${sra}.unpaired.sort.bam
       samtools index ${interDir}/${sra}.unpaired.sort.bam
+
+      inputBam=${interDir}/${sra}.unpaired.sort.bam
   }
 else{}
 fi
@@ -86,7 +90,7 @@ echo "Outside of if/else"
 
 #remove duplicates
 java -jar $EBROOTPICARD/picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=5000 \
-     I=${interDir}/${sra}.mergedbam.bam \
+     I=${inputBam} \
      O=${outputDir}/${sra}.finalmap.bam \
      METRICS_FILE=${interDir}/${sra}.metrics \
      COMMENT= ${identifier} \
