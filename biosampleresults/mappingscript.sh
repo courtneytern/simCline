@@ -3,7 +3,7 @@
 #SBATCH -J simCline # A single job name for the array
 #SBATCH --ntasks-per-node=1 # one core
 #SBATCH -N 1
-#SBATCH -t 30:00 ### 30 min
+#SBATCH -t 1:00:00 ### 1 hr
 #SBATCH --mem 1G
 #SBATCH -o /scratch/cat7ep/slurmOut/simCline.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/simCline.%A_%a.err # Standard error
@@ -11,8 +11,8 @@
 #SBATCH --account berglandlab
 
 
-##SLURM_ARRAY_TASK_ID=4
-#sbatch --array=1-826 /scratch/cat7ep/simCline/biosampleresults/getSRA.sh
+SLURM_ARRAY_TASK_ID=4
+#sbatch --array=1-826 /scratch/cat7ep/simCline/biosampleresults/mappingscript.sh
 module load gcc/7.1.0
 module load bwa/0.7.17
 module load samtools/1.10
@@ -20,7 +20,6 @@ module load picard/2.20.6
 module load gatk/4.0.0.0
 
 echo ${SLURM_ARRAY_TASK_ID}
-
 
 # define some parameters. Take in SRA accession number and unique identifier
 #test SRR2396839_1.fastq SRR2396839_2.fastq paired
