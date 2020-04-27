@@ -1,15 +1,44 @@
+#!/bin/sh
+#
+#SBATCH -J simCline # A single job name for the array
+#SBATCH --ntasks-per-node=1 # one core
+#SBATCH -N 1
+#SBATCH -t 30:00 ### 30 min
+#SBATCH --mem 1G
+#SBATCH -o /scratch/cat7ep/slurmOut/simCline.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/simCline.%A_%a.err # Standard error
+#SBATCH -p standard
+#SBATCH --account berglandlab
+
+
+##SLURM_ARRAY_TASK_ID=4
+#sbatch --array=1-826 /scratch/cat7ep/simCline/biosampleresults/getSRA.sh
 module load gcc/7.1.0
 module load bwa/0.7.17
 module load samtools/1.10
 module load picard/2.20.6
 module load gatk/4.0.0.0
 
+echo ${SLURM_ARRAY_TASK_ID}
+
+
 # define some parameters. Take in SRA accession number and unique identifier
 #test SRR2396839_1.fastq SRR2396839_2.fastq paired
 #### ./mappingscript.sh SRR2396839 TESTPAIR
 #test SRS3924975_1.fastq unpaired
-sra=${1}
-identifier=${2}
+row=grep ^${SLURM_ARRAY_TASK_ID}"," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv
+sra=$( ${row} | \
+  awk -F"," '{
+    split ($0,array,",")
+    SRSnum= array[15]
+    print SRSnum
+  }' )
+identifier=$( ${row} | \
+  awk -F"," '{
+    split ($0,array,",")
+    id= array[16]
+    print id
+  }' )
 
 echo "SRA= "${sra}
 echo "Identifier= "${identifier}
