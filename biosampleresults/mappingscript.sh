@@ -25,14 +25,13 @@ echo ${SLURM_ARRAY_TASK_ID}
 #test SRR2396839_1.fastq SRR2396839_2.fastq paired
 #### ./mappingscript.sh SRR2396839 TESTPAIR
 #test SRS3924975_1.fastq unpaired
-row=grep ^${SLURM_ARRAY_TASK_ID}"," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv
-sra=$( ${row} | \
+sra=$( grep ^${SLURM_ARRAY_TASK_ID}"," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
     SRSnum= array[15]
     print SRSnum
   }' )
-identifier=$( ${row} | \
+identifier=$( grep ^${SLURM_ARRAY_TASK_ID}"," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
     id= array[16]
