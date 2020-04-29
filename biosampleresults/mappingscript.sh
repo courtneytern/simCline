@@ -3,7 +3,7 @@
 #SBATCH -J simCline # A single job name for the array
 #SBATCH --ntasks-per-node=1 # one core
 #SBATCH -N 1
-#SBATCH -t 1:00:00 ### 1 hr
+#SBATCH -t 3:00:00 ### 3 hr
 #SBATCH --mem 1G
 #SBATCH -o /scratch/cat7ep/slurmOut/simCline.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/simCline.%A_%a.err # Standard error
@@ -11,7 +11,7 @@
 #SBATCH --account berglandlab
 
 
-SLURM_ARRAY_TASK_ID=4
+##SLURM_ARRAY_TASK_ID=4
 #sbatch --array=1-826 /scratch/cat7ep/simCline/biosampleresults/mappingscript.sh
 module load gcc/7.1.0
 module load bwa/0.7.17
