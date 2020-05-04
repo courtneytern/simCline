@@ -3,7 +3,7 @@
 #SBATCH -J simCline # A single job name for the array
 #SBATCH --ntasks-per-node=1 # one core
 #SBATCH -N 1
-#SBATCH -t 3:00:00 ### 3 hr
+#SBATCH -t 6:00:00 ### 6 hr
 #SBATCH --mem 1G
 #SBATCH -o /scratch/cat7ep/slurmOut/simCline.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/simCline.%A_%a.err # Standard error
@@ -87,7 +87,7 @@ then
       inputBam=${interDir}/${sra}.mergedbam.bam
   }
 #if unpaired
-elif [ -f ${inputDir}/${sra}_1.fastq ]
+else
 then
   {
     paired="false"
@@ -103,7 +103,6 @@ then
 
       inputBam=${interDir}/${sra}.unpaired.sort.bam
   }
-else{}
 fi
 
 echo "Outside of if/else"
