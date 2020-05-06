@@ -12,7 +12,6 @@ then
 }
 
 else
-then
 {
    echo ${SRS}
 }
