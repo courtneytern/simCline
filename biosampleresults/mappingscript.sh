@@ -88,7 +88,6 @@ then
   }
 #if unpaired
 else
-then
   {
     paired="false"
     echo ${paired}
