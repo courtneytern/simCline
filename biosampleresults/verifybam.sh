@@ -5,8 +5,15 @@ SRS=$( grep ^[1-826]"," /scratch/cat7ep/simCline/biosampleresults/concatenated.c
     print SRSnum
   }' )
 
-if [ -f /project/berglandlab/courtney/simCline/bamfiles/*${SRS}*]
-then {}
+if [ -f /project/berglandlab/courtney/simCline/bamfiles/*${SRS}* ]
+then
+{
+   echo ""
+}
+
 else
-then { echo ${SRS} }
+then
+{
+   echo ${SRS}
+}
 fi
