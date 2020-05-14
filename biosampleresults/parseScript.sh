@@ -19,8 +19,8 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
   country="USA"
   state="Florida"
   city="Tallahassee"
-  lat="30.4383 N"
-  long="84.2807 W"
+  lat=30.4383
+  long=84.2807
   year="2010"
   month= "Nov"
   day="NA"
@@ -66,17 +66,31 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
 
    ##latitude and p/i varies by location
    pi="I"
-     if( index($0,"Florida")!=0 ) {lat="26 N"}
-   else if( index($0,"Virginia")!=0 ) {lat="38 N"}
-     else if( index($0,"Penn")!=0 ) {
-       lat="40 N"
+   if( index($0,"Florida")!=0 ) {
+      lat=25.5
+      long=-80.477
+      city="Homestead"
+    }
+   else if( index($0,"Virginia")!=0 ) {
+     lat=38
+     long=-78.47
+     city="Charlottesville"
+   }
+   else if( index($0,"Penn")!=0 ) {
+       lat=39.88
+       long=-75.41
+       city="Linvilla"
        if( index($0,"2010 pool")!=0 ) {pi="P"}
      }
-   else if( index($0,"Maine")!=0 ) {lat="44 N"}
-     else {lat="NA"}
+   else if( index($0,"Maine")!=0 ) {
+     lat=44
+     long=-69.96
+     city="Bowdoin"
+   }
+   else {lat="NA"}
 
-   print "Machado,"organism","individ","pi","country","state",NA,"\
-      lat",NA,"year","month","day","biosamp","sra",Machado:"city":"state":"country":"month":"day":"year":"identifier
+   print "Machado,"organism","individ","pi","country","state","city","\
+      lat","long","year","month","day","biosamp","sra",Machado:"city":"state":"country":"month":"day":"year":"identifier
 
 } ' > parse2.csv
 
@@ -163,10 +177,10 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
 
   ##treat locations with missing "location" lines
   lat="NA"
-  if ( index(identifier[2],"RhodeIsland")!=0) {city[2]="RI"; lat="41.84 N"}
-  if ( index(identifier[2],"Florida")!=0) {city[2]="FL"; lat="25.47 N"}
-  else if ( index(identifier[2],"South_Aus")!=0) {city[2]="Queensland"; lat="42.77S"}
-  else if ( index(identifier[2],"North_Aus")!=0) {city[2]="Tasmania"; lat="25.54S"}
+  if ( index(identifier[2],"RhodeIsland")!=0) {city[2]="Rhode_Island"; lat=41.84}
+  else if ( index(identifier[2],"Florida")!=0) {city[2]="Florida"; lat=25.47}
+  else if ( index(identifier[2],"South_Aus")!=0) {city[2]="Queensland"; lat=-42.77}
+  else if ( index(identifier[2],"North_Aus")!=0) {city[2]="Tasmania"; lat=-5.54}
  }
 
  else if ( index($0,"Organism")!= 0 ){
@@ -178,15 +192,15 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
   split(location[2],city,", ")
   sub(/"/,"",city[2])
 
-  ##add latitudes and longitudes
+  ##add latitudes and longitudes, write out full states
   lat="NA";long="NA"
-  if ( index($0,"Panama")!=0 ) {lat="8.9824 N"; long="79.5199 W"}
-  else if ( index($0,"Savannah")!=0 ) {lat="32.0809 N"; long="81.0912 W"}
-  else if ( index($0,"Conway")!=0 ) {lat="33.8360 N"; long="79.0478 W"}
-  else if ( index($0,"Raleigh")!=0 ) {lat="35.7796 N"; long="78.6382 W"}
-  else if ( index($0,"Richmond")!=0 ) {lat="37.5407 N"; long="77.4360 W"}
-  else if ( index($0,"Princeton")!=0 ) {lat="40.3573 N"; long="74.6672 W"}
-  else if ( index($0,"Fairfield")!=0 ) {lat="44.5884 N"; long="69.5986 W"}
+  if ( index($0,"Panama")!=0 ) {lat=8.9824 N; long=-79.5199}
+  else if ( index($0,"Savannah")!=0 ) {lat=32.0809; long=-81.0912; city[2]="Georgia"}
+  else if ( index($0,"Conway")!=0 ) {lat=33.8360; long=-79.0478; city[2]="South Carolina"}
+  else if ( index($0,"Raleigh")!=0 ) {lat=35.7796; long=-78.6382; city[2]="North Carolina"}
+  else if ( index($0,"Richmond")!=0 ) {lat=37.5407; long=-77.4360; city[2]="Virginia"}
+  else if ( index($0,"Princeton")!=0 ) {lat=40.3573; long=-74.6672; city[2]="New Jersey"}
+  else if ( index($0,"Fairfield")!=0 ) {lat=44.5884; long=-69.5986; city[2]="Maine"}
  }
 
  else {
@@ -224,7 +238,7 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
   sub(/"/,"",state[2])
 
    print "Signor,"organism[2]",20,I,"country[1]","state[1]","state[2] \
-      ",34.0259N,118.7798W,"year","month","day","biosamp[3]","sra[2]",Palmieri:"state[2]":"state[1]":"country[1]":"month":"day":"year":"identifier[2]
+      ",34.0259,118.7798,"year","month","day","biosamp[3]","sra[2]",Palmieri:"state[2]":"state[1]":"country[1]":"month":"day":"year":"identifier[2]
  }
 
 } ' > parse6.csv
@@ -243,8 +257,8 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
   country="USA"
   state="Florida"
   city="Tallahassee"
-  lat="30.4383 N"
-  long="84.2807 W"
+  lat=30.4383
+  long=-84.2807
   year="2010" #previous barghi paper cited in current, copying date from other barghi data
   month= "Nov"
   day="NA"
