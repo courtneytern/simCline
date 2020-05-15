@@ -13,6 +13,7 @@
 
 ##SLURM_ARRAY_TASK_ID=4
 #sbatch --array=1-826 /scratch/cat7ep/simCline/biosampleresults/mappingscript.sh
+#sbatch --array=826,15,22,24,25,26,31,37,109,321,586,588,592,598,713,731,744,749,759,811 /scratch/cat7ep/simCline/biosampleresults/mappingscript.sh
 module load gcc/7.1.0
 module load bwa/0.7.17
 module load samtools/1.10
