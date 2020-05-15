@@ -33,7 +33,7 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
 
 
     print "Bastide,"organism[2]","num[2]",P,"country",NA,"city \
-       ","lat","long","year","month",NA,"biosamp[3]","sra[2]","identifier[2]
+       ","lat","long","year","month",NA,"biosamp[3]","sra[2]",Bastide:"city":NA:"country":"month":NA:"year":"identifier[2]
  }
 
 } ' >  bastideParse.csv
@@ -43,5 +43,9 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
  cat bastideParse.csv | \
  grep -v "author" | \
 
- awk -F"," '{print NR"," ,$0}'
-} >bastidecat.csv
+ awk -F"," '{
+ row=$0
+ gsub(" ","_",row)
+ print NR"," ,row
+  }'
+} > bastidecat.csv
