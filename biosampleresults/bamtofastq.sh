@@ -19,5 +19,5 @@ module load samtools/1.10
 #each line in destmapped.txt is a file name in /project/berglandlab/dest_mapped/
 cat /scratch/cat7ep/simCline/destmapped.txt | \
 while read -r filename; do
-  samtools bam2fq /project/berglandlab/dest_mapped/"$filename"/sim.bam > /scratch/cat7ep/fastq/"$filename".fastq
+  samtools bam2fq /project/berglandlab/dest_mapped/$filename/sim.bam > /scratch/cat7ep/fastq/$filename.fastq
 done
