@@ -1,12 +1,12 @@
 #!/bin/sh
 #
-#SBATCH -J simCline # A single job name for the array
+#SBATCH -J getSRA # A single job name for the array
 #SBATCH --ntasks-per-node=1 # one core
 #SBATCH -N 1
 #SBATCH -t 30:00 ### 30 min
 #SBATCH --mem 1G
-#SBATCH -o /scratch/cat7ep/slurmOut/simCline.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/simCline.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/getSRA.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/getSRA.%A_%a.err # Standard error
 #SBATCH -p standard
 #SBATCH --account berglandlab
 
