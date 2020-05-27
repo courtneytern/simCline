@@ -8,7 +8,7 @@ module load samtools
 
 cd /project/berglandlab/dest_mapped/
 
-for dir in */; do
+for dir in *_*; do
   #get only the 2L, 2R, 3L, 3R columns from mel.bam and sim.bam
   samtools idxstats ./$dir/mel.bam | \
     grep -E "2L|2R|3L|3R" | grep -vE "mapped|sim" \
