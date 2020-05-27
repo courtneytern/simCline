@@ -133,11 +133,11 @@ print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,bios
   country=$21
   state="NA"
   city="NA"
-  lat="NA"
-  long="NA"
+  lat="-19.8730"
+  long="47.0291"
   year="1998"
-  month= "NA"
-  day="NA"
+  month= "Mar"
+  day="19"
   biosamp=$8
   sra=$1
   identifier=$25
