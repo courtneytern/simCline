@@ -582,7 +582,7 @@ row,author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp
 581, Machado,Drosophila_simulans,50,I,USA,Pennsylvania,Linvilla,39.88,-75.41,2011,Sep,01,SAMN03452845,SRR2859131,Machado:Linvilla:Pennsylvania:USA:Sep:01:2011:C_14_1
 582, Machado,Drosophila_simulans,38,I,USA,Maine,Bowdoin,44,-69.96,2011,Oct,01,SAMN03452761,SRR2396831,Machado:Bowdoin:Maine:USA:Oct:01:2011:D_1_1
 583, Machado,Drosophila_simulans,50,I,USA,Virginia,Charlottesville,38,-78.47,2010,Sep,01,SAMN03452938,SRR2859176,Machado:Charlottesville:Virginia:USA:Sep:01:2010:E_3_1
-584, Palmieri,Drosophila_simulans,43,P,Madagascar,NA,NA,NA,NA,1998,NA,NA,SAMN02713493,SRR1210633,Palmieri:NA:NA:Madagascar:NA:NA:1998:M252-DNA
+584, Palmieri,Drosophila_simulans,43,P,Madagascar,NA,NA,-19.8730,47.0291,1998,Mar,19,SAMN02713493,SRR1210633,Palmieri:NA:NA:Madagascar:Mar:19:1998:M252-DNA
 585, Sedghifar,Drosophila_simulans,NA,P,USA,Panama,Panama_City,8.9824,-79.5199,2011,Sep,NA,SAMN10233408,SRS3924974,Sedghifar:Panama_City:Panama:USA:Sep:NA:2011:D.simPanama
 586, Sedghifar,Drosophila_simulans,NA,P,USA,Georgia,Savannah,32.0809,-81.0912,2011,Sep,NA,SAMN10233407,SRS3924977,Sedghifar:Savannah:Georgia:USA:Sep:NA:2011:D.simGeorgia
 587, Sedghifar,Drosophila_simulans,NA,P,USA,South_Carolina,Conway,33.836,-79.0478,2011,Sep,NA,SAMN10233406,SRS3924973,Sedghifar:Conway:South_Carolina:USA:Sep:NA:2011:D.simSouthCarolina
