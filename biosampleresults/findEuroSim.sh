@@ -8,7 +8,8 @@ module load samtools
 
 cd /project/berglandlab/dest_mapped/
 
-for dir in /scratch/cat7ep/simCline/biosampleresults/secondHalfEuro.txt; do
+cat /scratch/cat7ep/simCline/biosampleresults/secondHalfEuro.txt | \
+while read dir; do
   #get only the 2L, 2R, 3L, 3R columns from mel.bam and sim.bam
   samtools idxstats ./$dir/mel.bam | \
     grep -E "2L|2R|3L|3R" | grep -vE "mapped|sim" \
