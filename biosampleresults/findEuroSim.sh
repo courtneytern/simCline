@@ -1,8 +1,8 @@
 #!/bin/sh
 #
 #SBATCH -J findEuro # A single job name for the array
-#SBATCH --ntasks= 232
-#SBATCH --ntasks-per-node= 300
+#SBATCH --ntasks=232
+#SBATCH --ntasks-per-node=300
 #SBATCH -N 1
 #SBATCH -t 6:00:00 ### 6 hours
 #SBATCH --mem 10G
