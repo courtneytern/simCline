@@ -1,15 +1,5 @@
 #!/bin/sh
 #
-#SBATCH -J findEuro # A single job name for the array
-#SBATCH --ntasks-per-node=1 # one core
-#SBATCH -N 1
-#SBATCH -t 24:00:00 ### 24 hours
-#SBATCH --mem 30G
-#SBATCH -o /scratch/cat7ep/slurmOut/05282020/findEuro.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/05282020/findEuro.%A_%a.err # Standard error
-#SBATCH -p standard
-#SBATCH --account berglandlab
-
 module load samtools
 #testing with UA_Cho_15_65
 
@@ -18,7 +8,7 @@ module load samtools
 
 cd /project/berglandlab/dest_mapped/
 
-for dir in *_*; do
+for dir in /scratch/cat7ep/simCline/biosampleresults/secondHalfEuro.txt; do
   #get only the 2L, 2R, 3L, 3R columns from mel.bam and sim.bam
   samtools idxstats ./$dir/mel.bam | \
     grep -E "2L|2R|3L|3R" | grep -vE "mapped|sim" \
