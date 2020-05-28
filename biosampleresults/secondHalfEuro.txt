@@ -1,12 +1,3 @@
-FR_Got_15_47
-FR_Got_15_48
-FR_Got_15_49
-FR_Got_16_8
-FR_Vil_14_05
-FR_Vil_14_07
-FR_Vil_15_40
-FR_Vil_15_41
-FR_Vil_16_9
 GA_at_14_fall
 GA_at_14_spring
 GA_ha_08_spring
