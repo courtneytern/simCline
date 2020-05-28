@@ -2,7 +2,7 @@
 #
 #SBATCH -J findEuro # A single job name for the array
 #SBATCH --ntasks=100
-#SBATCH --N 3
+#SBATCH -N 3
 #SBATCH -t 6:00:00 ### 6 hours
 #SBATCH --mem 10G
 #SBATCH -o /scratch/cat7ep/slurmOut/05282020/findEuro.%A_%a.out # Standard output
