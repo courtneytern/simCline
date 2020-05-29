@@ -5,7 +5,6 @@
 
 ### Barghi ###
 ##ignore D. mel lines
-
 grep -v -E 'Run|Dmel' SraRunTable_Barghi.txt.csv | \
 awk -F"," '
 
@@ -21,7 +20,7 @@ awk -F"," '
   state="Florida"
   city="Tallahassee"
   lat=30.4383
-  long=84.2807
+  long=-84.2807
   year="2010"
   month= "Nov"
   day="NA"
@@ -32,9 +31,10 @@ awk -F"," '
   print "Barghi,"organism","individ","pi","continent","country","state","city","\
     lat","long","year","month","day","biosamp","sra",Barghi:"city":"state":"continent":"month":"day":"year":"identifier
 
-} ' > parseBarghi.csv
+} ' | \
+grep "Base" > parseBarghi.csv #only want Base populations
 
-### ************** biosamp 2 ************** ### Machado
+### Machado ###
 grep -v 'Run' SraRunTable_Machado.txt.csv | \
 awk -F"," '
 
@@ -96,7 +96,7 @@ awk -F"," '
 
 } ' > parseMachado.csv
 
-### ************** biosamp 4 ************** ### Palmieri
+### Palmieri ###
 ## Don't want the RNA-seq data
 grep -v -E 'Run|RNA-Seq' SraRunTable_Palmieri.txt.csv | \
 awk -F"," '
@@ -126,7 +126,7 @@ print "Palmieri,"organism","individ","pi","continent","country","state","city","
 
 } ' > parsePalmieri.csv
 
-### ************** biosamp 5 ************** ### Sedghifar
+### Sedghifar ###
 #don't need Australia info
 grep -v -E 'Run|Aus' SraRunTable_Sedghifar.txt.csv | \
 awk -F"," '
@@ -136,11 +136,9 @@ awk -F"," '
 # }
 {
   organism=$20
-  individ="NA"
   pi="P"
   continent="North America"
   country="USA"
-  city="NA"
   year=2011
   month="Sep"
   day="NA"
@@ -148,29 +146,40 @@ awk -F"," '
   sra=$1
   identifier=$28
 
-  if ( index($0,"Panama")!=0 ) {lat=8.9824 N; long=-79.5199;
-    state="Panama"; city="Panama City"}
-  else if ( index($0,"Savannah")!=0 ) {lat=32.0809; long=-81.0912;
-    state="Georgia"; city="Savannah"}
-  else if ( index($0,"Conway")!=0 ) {lat=33.8360; long=-79.0478;
-    state="South Carolina"; city="Conway"}
-  else if ( index($0,"Raleigh")!=0 ) {lat=35.7796; long=-78.6382;
-    state="North Carolina"; city= "Raleigh"}
-  else if ( index($0,"Richmond")!=0 ) {lat=37.5407; long=-77.4360;
-    state="Virginia"; city="Richmod"}
-  else if ( index($0,"Princeton")!=0 ) {lat=40.3573; long=-74.6672;
-    state="New Jersey"; city="Princeton"}
-  else if ( index($0,"Fairfield")!=0 ) {lat=44.5884; long=-69.5986;
-    state="Maine"; city="Fairfield"}
-  else if ( index($0,"Rhode Island")!=0 ) {lat=41.84; long="NA"; state="Rhode_Island"}
-  else if ( index($0,"Florida")!=0 ) {lat=25.47; long="NA"; state="Florida"}
+  if ( index($0,"Panama")!=0 ) {lat=8.60 N; long=-79.3;
+    state="Panama"; city="Panama City";
+    individ=18; year=2012; month="Jan"}
+  else if ( index($0,"Savannah")!=0 ) {lat=32.05; long=-81.11;
+    state="Georgia"; city="Savannah";
+    individ=45}
+  else if ( index($0,"Conway")!=0 ) {lat=33.89; long=-78.95;
+    state="South Carolina"; city="Conway";
+    individ=50}
+  else if ( index($0,"Raleigh")!=0 ) {lat=35.50; long=-78.38;
+    state="North Carolina"; city= "Raleigh";
+    individ=50}
+  else if ( index($0,"Richmond")!=0 ) {lat=37.57; long=-77.40;
+    state="Virginia"; city="Richmod";
+    individ=25}
+  else if ( index($0,"Princeton")!=0 ) {lat=40.33; long=-74.73;
+    state="New Jersey"; city="Princeton";
+    individ=34}
+  else if ( index($0,"Fairfield")!=0 ) {lat=44.68; long=-69.69;
+    state="Maine"; city="Fairfield";
+    individ=50}
+  else if ( index($0,"Rhode Island")!=0 ) {lat=41.84; long=-71.40;
+    state="Rhode_Island"; city="Providence";
+    individ=33}
+  else if ( index($0,"Florida")!=0 ) {lat=25.74; long=-80.42;
+    state="Florida"; city="Miami";
+    individ=33}
 
  print "Sedghifar,"organism","individ","pi","continent","country","state","city","\
    lat","long","year","month","day","biosamp","sra",Sedghifar:"city":"state":"continent":"month":"day":"year":"identifier
 
 } ' > parseSedghifar.csv
 
-### ************** biosamp 6 ************** ### Signor
+### Signor ###
 grep -v 'Run' SraRunTable_Signor.txt.csv  | \
 awk -F"," '
 
@@ -186,7 +195,7 @@ awk -F"," '
   state="California"
   city="Zuma"
   lat=34.0259
-  long=118.7798
+  long=-118.7798
   year=2012
   month="Feb"
   day="11"
@@ -200,7 +209,7 @@ awk -F"," '
 
 } ' > parseSignor.csv
 
-### ************** sra run table 2 ************** ### Barghi...Kofler
+### Barghi...Kofler ###
 grep -v 'Run' SraRunTable_BarghiKofler.txt.csv | \
 awk -F"," '
 

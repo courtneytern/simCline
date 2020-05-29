@@ -4,7 +4,7 @@
 #!/bin/bash/
 
 {
- echo "row,author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+ echo "row,author,species,numInd,p/i,continent,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
  cat parse*.csv | \
  #grep -v "author" | \
 
