@@ -11,7 +11,7 @@ cd /project/berglandlab/dest_mapped/
 cat /scratch/cat7ep/simCline/biosampleresults/secondHalfEuro.txt | \
 while read dir; do
 
- if [ -f ./$dir/mel.bam ] #if files exist
+ if [ ! -f ./$dir/mel.bam ] #if file does not exist
  then{
    echo "$dir/mel.bam does not exist"
    continue  # Skip this one iteration
