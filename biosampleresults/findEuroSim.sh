@@ -10,15 +10,6 @@ cd /project/berglandlab/dest_mapped/
 
 cat /scratch/cat7ep/simCline/biosampleresults/secondHalfEuro.txt | \
 while read dir; do
-
- if [ ! -f ./$dir/mel.bam ] #if file does not exist
- then
-  {
-   echo "$dir/mel.bam does not exist"
-   continue  # Skip this one iteration
- }
- fi
-
   #get only the 2L, 2R, 3L, 3R columns from mel.bam and sim.bam
   samtools idxstats ./$dir/mel.bam | \
     grep -E "2L|2R|3L|3R" | grep -vE "mapped|sim" \
