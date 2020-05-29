@@ -1,9 +1,2 @@
-VA_ch_15_fall
-VA_ch_15_spring
-WI_cp_12_fall
-WI_cp_12_frost
-WI_cp_12_spring
-WI_cp_13_fall
-WI_cp_13_spring
 WI_cp_14_fall
 WI_cp_14_spring
