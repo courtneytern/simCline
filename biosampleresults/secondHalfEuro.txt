@@ -1,5 +1,3 @@
-PA_li_14_spring
-PA_li_15_fall
 PA_li_15_spring
 PA_st_14_fall
 PA_st_14_spring
