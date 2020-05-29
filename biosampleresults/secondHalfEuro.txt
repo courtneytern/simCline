@@ -1,22 +1,3 @@
-GA_at_14_spring
-GA_ha_08_spring
-GS_Des_15_1
-GS_Sai_15_2
-HU_Sze_16_14
-IL_ur_15_spring
-IT_Mez_15_43
-IT_Mez_15_44
-IT_Tre_16_15
-KA_to_14_fall
-KA_to_14_spring
-MA_la_12_fall
-MA_la_12_spring
-MA_la_14_fall
-MA_la_14_spring
-ME_bo_09_fall.r1
-ME_bo_09_fall.r2
-MI_bh_14_fall
-MI_bh_14_spring
 NC_ra_03_n
 NY_it_12_fall
 NY_it_12_spring
@@ -34,7 +15,6 @@ PA_li_12_sum
 PA_li_13_spring
 PA_li_14_fall
 PA_li_14_spring
-
 PA_li_15_fall
 PA_li_15_spring
 PA_st_14_fall
@@ -86,7 +66,6 @@ UA_Cho_15_67
 UA_Cho_15_68
 UA_Cho_15_69
 UA_Cho_15_70
-
 UA_Cho_16_54
 UA_Cho_16_55
 UA_Cho_16_62
@@ -111,7 +90,6 @@ UA_Ode_14_19
 UA_Ode_14_20
 UA_Ode_14_21
 UA_Ode_14_22
-
 UA_Ode_15_20
 UA_Ode_15_22
 UA_Ode_15_66
