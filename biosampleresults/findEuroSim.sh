@@ -14,7 +14,7 @@ while read dir; do
  if [ ! -f ./$dir/mel.bam ] #if file does not exists
  then
    echo "$dir/mel.bam does not exist"
-   break  # Skip entire rest of loop.
+   continue  # Skip this one iteration
  fi
 
   #get only the 2L, 2R, 3L, 3R columns from mel.bam and sim.bam
