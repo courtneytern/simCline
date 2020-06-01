@@ -15,7 +15,7 @@
 module load sratoolkit/2.9.1
 
 ##SLURM_ARRAY_TASK_ID=4
-#sbatch --array=1-19 /scratch/cat7ep/simCline/biosampleresults/getfastq.sh
+#sbatch --array=1-811 /scratch/cat7ep/simCline/biosampleresults/getfastq.sh
 ###array=1-811 for total concatenated.csv
 echo ${SLURM_ARRAY_TASK_ID}
 
