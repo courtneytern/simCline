@@ -4,7 +4,7 @@ id=$( cat /scratch/cat7ep/simCline2err.txt | awk -F" " '{
    print array[2]
 }' )
 
-for n in $id; do
+for n in $notOK; do
 SRS=$( grep ^$n"," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
