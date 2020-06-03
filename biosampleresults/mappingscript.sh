@@ -11,9 +11,8 @@
 #SBATCH --account berglandlab
 
 
-##SLURM_ARRAY_TASK_ID=4
+SLURM_ARRAY_TASK_ID=4
 #sbatch --array=1-826 /scratch/cat7ep/simCline/biosampleresults/mappingscript.sh
-#sbatch --array=826,15,22,24,25,26,31,37,109,321,586,588,592,598,713,731,744,749,759,811 /scratch/cat7ep/simCline/biosampleresults/mappingscript.sh
 module load gcc/7.1.0
 module load bwa/0.7.17
 module load samtools/1.10
@@ -43,12 +42,12 @@ echo "SRA= ""${sra}"
 echo "Identifier= ""${identifier}"
 
 #Create directories
-inputDir="/project/berglandlab/courtney/simCline/fastq"
+inputDir="/scratch/cat7ep/fasterq"
 interDir="/scratch/cat7ep/interDir"
-outputDir="/project/berglandlab/courtney/simCline/bamfiles"
+outputDir="/project/berglandlab/courtney/simCline/bamfinal"
 
 #AdapterRemoval path
-AdapterRemoval="/project/berglandlab/courtney/adapterremoval-2.3.1/build/AdapterRemoval"
+alias AdapterRemoval="/project/berglandlab/courtney/adapterremoval-2.3.1/build/AdapterRemoval"
 #set current working directory to the intermediate directory
 cd ${interDir}
 paired="null"
@@ -60,7 +59,7 @@ then
     paired="true"
     echo ${paired}
 
-    ${AdapterRemoval} --file1 ${inputDir}/"${sra}"_1.fastq --file2 ${inputDir}/"${sra}"_2.fastq \
+    AdapterRemoval --file1 ${inputDir}/"${sra}"_1.fastq --file2 ${inputDir}/"${sra}"_2.fastq \
                       --basename "${sra}"_paired --trimns --trimqualities --collapse
 
     #paired reads
@@ -92,7 +91,7 @@ else
   {
     paired="false"
     echo ${paired}
-    ${AdapterRemoval} --file1 ${inputDir}/"${sra}"_1.fastq --basename "${sra}"_unpaired --trimns --trimqualities
+    AdapterRemoval --file1 ${inputDir}/"${sra}"_1.fastq --basename "${sra}"_unpaired --trimns --trimqualities
 
       bwa mem -R "@RG\tID:${sra}\tSM:${identifier}\PL:illumina" \
               /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta \
