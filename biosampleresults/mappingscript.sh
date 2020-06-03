@@ -28,13 +28,13 @@ echo "${SLURM_ARRAY_TASK_ID}"
 sra=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
-    SRSnum= array[15]
+    SRSnum= array[16]
     print SRSnum
   }' )
 identifier=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
-    id= array[16]
+    id= array[17]
     print id
   }' )
 
