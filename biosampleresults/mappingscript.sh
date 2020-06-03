@@ -11,8 +11,8 @@
 #SBATCH --account berglandlab
 
 
-SLURM_ARRAY_TASK_ID=4
-#sbatch --array=1-826 /scratch/cat7ep/simCline/biosampleresults/mappingscript.sh
+#SLURM_ARRAY_TASK_ID=4
+#sbatch --array=1-811 /scratch/cat7ep/simCline/biosampleresults/mappingscript.sh
 module load gcc/7.1.0
 module load bwa/0.7.17
 module load samtools/1.10
