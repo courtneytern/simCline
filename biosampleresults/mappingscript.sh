@@ -91,7 +91,7 @@ else
   {
     paired="false"
     echo ${paired}
-    AdapterRemoval --file1 ${inputDir}/"${sra}"_1.fastq --basename "${sra}"_unpaired --trimns --trimqualities
+    AdapterRemoval --file1 ${inputDir}/"${sra}".fastq --basename "${sra}"_unpaired --trimns --trimqualities
 
       bwa mem -R "@RG\tID:${sra}\tSM:${identifier}\PL:illumina" \
               /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta \
