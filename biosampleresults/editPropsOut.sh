@@ -22,3 +22,9 @@ while read line; do
  nSim=$( echo $prop $nFlies | awk '{ print $1*$2 }' )
  echo "$sampName,$prop,$nFlies,$nSim" >> propsOutEdited.csv
 done
+
+#only get those with over 5 count 
+cat ./propsOutEdited.csv | awk -F "," '{
+ if ($4>5)
+  print $0
+}' > over5sim.csv

@@ -27,3 +27,11 @@ for dir in *_*; do
 
   echo "$dir $prop" >> /scratch/cat7ep/simCline/biosampleresults/propsOut.txt
 done
+
+#now move the fastq files from scratch to fastqEuro
+grep -v "Samp" /scratch/cat7ep/simCline/biosampleresults/over5sim.csv | \
+while read line; do
+  samp=$( awk -F "," '{ print $1 }' )
+  echo $samp
+  mv /scratch/cat7ep/fastq/$samp.fastq /scratch/cat7ep/fastqEurp/$samp.fastq
+done
