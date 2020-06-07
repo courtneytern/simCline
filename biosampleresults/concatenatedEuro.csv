@@ -1,0 +1,10 @@
+row,author,species,numInd,p/i,continent,country,state,city,lat,long,year,month,day,biosamp,sra,identifier
+1,DrosEU,Drosophila_simulans,40,P,Europe,Spain,NA,Gimenells,41.61759,0.620015,2014,Oct,20,SRX2885339,SRR5647769,ES_Gim_14_34
+2,DrosEU,Drosophila_simulans,40,P,Europe,Spain,NA,Gimenells,41.61759,0.620015,2014,Aug,13,SRX2885332,SRR5647776,ES_Gim_14_35
+3,DrosEU,Drosophila_simulans,40,P,Europe,Spain,NA,Gimenells,41.65642,0.388472,2016,Aug,25,SRX5298997,SRR8494470,ES_Gim_16_33
+4,DrosEU,Drosophila_simulans,40,P,Europe,Spain,Purullena,El Bejarin,37.33779,-3.178615,2016,Aug,30,SRX5299005,SRR8494462,ES_Pur_16_35
+5,DrosEU,Drosophila_simulans,40,P,Europe,France,NA,Gotheron,44.977,4.93,2015,Sep,9,SRX5246585,SRR8439123,FR_Got_15_48
+6,DrosEU,Drosophila_simulans,40,P,Europe,Italy,NA,Mezzocorona,46.21286,11.08755,2015,Sep,29,SRX5246590,SRR8439118,IT_Mez_15_43
+7,DrosEU,Drosophila_simulans,40,P,Europe,Italy,NA,Mezzolombardo,46.21794,11.12342,2015,Oct,10,SRX5246589,SRR8439119,IT_Mez_15_44
+8,DrosEU,Drosophila_simulans,40,P,Europe,Italy,Trentino,San Michele,46.2,11.13333,2016,Aug,24,SRX5299011,SRR8494456,IT_Tre_16_15
+9,DrosEU,Drosophila_simulans,40,P,Europe,Portugal,NA,Recarei,41.15,-8.41,2015,Sep,1,SRX5246558,SRR8439150,PT_Rec_15_16

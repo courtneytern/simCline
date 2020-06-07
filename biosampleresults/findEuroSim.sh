@@ -31,7 +31,47 @@ done
 #now move the fastq files from scratch to fastqEuro
 grep -v "Samp" /scratch/cat7ep/simCline/biosampleresults/over5sim.csv | \
 while read line; do
-  samp=$( awk -F "," '{ print $1 }' )
-  echo $samp
-  mv /scratch/cat7ep/fastq/$samp.fastq /scratch/cat7ep/fastqEurp/$samp.fastq
+  echo $line > tempLine.txt
+  samp=$( awk -F "," '{ print $1 }' tempLine.txt)
+  mv /scratch/cat7ep/fastq/$samp.fastq /scratch/cat7ep/fastqEuro/$samp.fastq
 done
+
+#split fastq into separate files per read
+cd /scratch/cat7ep/fastqEuro/
+grep -v "Samp" /scratch/cat7ep/simCline/biosampleresults/over5sim.csv | \
+while read line; do
+  echo $line > tempLine.txt
+  samp=$( awk -F "," '{ print $1 }' tempLine.txt)
+  cat $samp.fastq | grep '^@.*/1$' -A 3 --no-group-separator > /scratch/cat7ep/fastqEuro/"$samp"_1.fastq
+  cat $samp.fastq | grep '^@.*/2$' -A 3 --no-group-separator > /scratch/cat7ep/fastqEuro/"$samp"_2.fastq
+done
+
+#create metadata table with same formatting at concatenated.csv
+#****EDIT LOCALLY*****
+cd ~/Downloads/GitHub/simCline/biosampleresults
+grep -v "Samp" ./over5sim.csv | \
+while read line; do
+  echo $line > tempLine.txt
+  samp=$( awk -F "," '{ print $1 }' tempLine.txt )
+  grep "$samp" ./euroMetadata.csv >> euroMetadataFinal.csv
+done
+
+#parse metadata for European samples
+{
+  echo "row,author,species,numInd,p/i,continent,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+  cat euroMetadataFinal.csv | \
+
+    awk -F "," '{
+     split($4,date,"/")
+     month=date[1]
+       if(date[1]==8) {month="Aug"}
+       else if (date[1]==9) {month="Sep"}
+       else if (date[1]==10) {month="Oct"}
+     day=date[2]
+      if(index($0,"Trentino")!=0) {state="Trentino"; city="San Michele"}
+      else if(index($0,"Purullena")!=0) {state="Purullena"; city="El Bejarin"}
+      else {state="NA"; city=$3}
+
+     print NR","$11",Drosophila_simulans,"$12",P,"$10","$2","state","city","$5","$6","$15","month","day","$14","$13","$1
+   }'
+ } > concatenatedEuro.csv
