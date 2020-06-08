@@ -2,7 +2,7 @@
 #
 #SBATCH -J mapping # A single job name for the array
 #SBATCH --ntasks-per-node=20 # twenty cores
-#SBATCH -N 1
+#SBATCH -N 2
 #SBATCH -t 24:00:00 ### 24 hr
 #SBATCH --mem 30G
 #SBATCH -o /scratch/cat7ep/slurmOut/mapping.%A_%a.out # Standard output
