@@ -19,6 +19,9 @@ separator = character that separates the name of the read from the part that
     and you want to use the full name info to pair your sequences, use 'None'
     (as text) for the separator. Eg:
         python fastqCombinePairedEnd.py input1 input2 None
+
+        RUN AS:
+        python /fastqCombinePairedEnd.py /scratch/cat7ep/fastqEuro/$IDENTIFIER_1.fastq /scratch/cat7ep/fastqEuro/$IDENTIFIER_2.fastq /
 """
 
 # Importing modules
