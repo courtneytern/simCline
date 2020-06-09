@@ -49,14 +49,12 @@ cd ${interDir}
 paired="null"
 echo "changed directory"
 
-#if paired, trim and merge. should all be paired for the European samples
-if [ -f ${inputDir}/"${identifier}"_1.fastq ] && [ -f ${inputDir}/"${identifier}"_2.fastq ]
-then
-  {
-    paired="true"
-    echo ${paired}
+#all paired for the European samples
+#fastq files come from the fastqCombinePairedEnd output
+paired="true"
+echo ${paired}
 
-    AdapterRemoval --file1 ${inputDir}/"${identifier}"_1.fastq --file2 ${inputDir}/"${identifier}"_2.fastq \
+    AdapterRemoval --file1 ${inputDir}/"${identifier}"_1.fastq_pairs_R1.fastq --file2 ${inputDir}/"${identifier}"_2.fastq_pairs_R2.fastq \
                       --basename "${identifier}"_paired --trimns --trimqualities --collapse
 
     #paired reads
@@ -82,26 +80,6 @@ then
       samtools index ${interDir}/"${identifier}".mergedbam.bam
 
       inputBam=${interDir}/${identifier}.mergedbam.bam
-  }
-#if unpaired
-else
-  {
-    paired="false"
-    echo ${paired}
-    AdapterRemoval --file1 ${inputDir}/"${identifier}".fastq --basename "${identifier}"_unpaired --trimns --trimqualities
-
-      bwa mem -R "@RG\tID:${sra}\tSM:${identifier}\PL:illumina" \
-              /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta \
-              ${interDir}/"${identifier}"_unpaired.truncated | \
-      samtools view -uh -q 20 -F 0x100 | \
-      samtools sort -o ${interDir}/"${identifier}".unpaired.sort.bam
-      samtools index ${interDir}/"${identifier}".unpaired.sort.bam
-
-      inputBam=${interDir}/${identifier}.unpaired.sort.bam
-  }
-fi
-
-echo "Outside of if/else"
 
 #remove duplicates
 java -jar "$EBROOTPICARD"/picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=5000 \
