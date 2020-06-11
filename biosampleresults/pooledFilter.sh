@@ -25,11 +25,11 @@ idEuro=$( grep ",P," ./concatenatedEuro.csv| \
 
 for line in $sra; do
   echo $line >> /scratch/cat7ep/simCline/biosampleresults/inputPooledSamps.txt
-  echo $line.finalmap.bam >> /scratch/cat7ep/simCline/biosampleresults/inputPooledBam.txt
+  echo $bamDir/$line.finalmap.bam >> /scratch/cat7ep/simCline/biosampleresults/inputPooledBam.txt
 done
 for line in $idEuro; do
   echo $line >> /scratch/cat7ep/simCline/biosampleresults/inputPooledSamps.txt
-  echo $line.finalmap.bam >> /scratch/cat7ep/simCline/biosampleresults/inputPooledBam.txt
+  echo $bamDir/$line.finalmap.bam >> /scratch/cat7ep/simCline/biosampleresults/inputPooledBam.txt
 done
 
 ###Make VCF file with samtools to VarScan pipe
