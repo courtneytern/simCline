@@ -25,6 +25,7 @@ setwd("/scratch/cat7ep/simCline/biosampleresults")
 
 ### load data
 samps <- fread("./concatenated.csv")
+samps <- rbind(samps, fread("./concatenatedEuro.csv"))
 
 ### time plot
 ### find sites with multiple time points
@@ -56,7 +57,8 @@ setkey(samps, country, year)
 worldData <- as.data.table(map_data("world"))
 
 samps.ag.ag <- samps.ag[,list(n=sum(nTime), lat=samps$lat, 
-                                            long=samps$long ), 
+                                            long=samps$long,
+                                            pool.indiv=samps$`p/i`), 
                           list(country) ]
 # samps.ag.ag <- samps.ag[,list(n=sum(nTime), lat=mean(samps$lat[which(samps$lat!="NA")]), 
 #                               long=mean(samps$long[which(samps$long!="NA")]) ), 
@@ -76,7 +78,7 @@ world <- 	ggplot() +
   geom_polygon(data = worldData,
                aes(x=long, y = lat, group = group), fill="lightgrey") +
   geom_point(data = samps.ag.ag,
-             aes(x=long, y=lat), size=3, alpha=.5) +
+             aes(x=long, y=lat, color=pool.indiv), size=3, alpha=.5) +
   xlab("Longitude") + ylab("Latitude") + scale_fill_manual(values="black")
 
 ggsave(world, file="./worldPlot.pdf", height=4, width=6)
