@@ -32,11 +32,4 @@ for line in $idEuro; do
   echo $bamDir/$line.finalmap.bam >> /scratch/cat7ep/simCline/biosampleresults/inputPooledBam.txt
 done
 
-###Make VCF file with samtools to VarScan pipe
-samtools mpileup -f /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta \
-   -b /scratch/cat7ep/simCline/biosampleresults/inputPooledBam.txt \
-   -q 10 -Q 15 | \
-java -jar $EBROOTVARSCAN/VarScan.v2.4.4.jar mpileup2snp \
-   --output-vcf 1 \
-   --vcf-sample-list /scratch/cat7ep/simCline/biosampleresults/inputPooledSamps.txt \
-   --variants > /project/berglandlab/courtney/simCline/pooledData.vcf
+#go to makeVCF.sh
