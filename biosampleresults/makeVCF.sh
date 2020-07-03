@@ -10,7 +10,7 @@
 #SBATCH -p standard
 #SBATCH --account berglandlab
 
-#sbatch /scratch/cat7ep/simCline/biosampleresults/makeVCF.sh
+####sbatch /scratch/cat7ep/simCline/biosampleresults/makeVCF.sh
 
 ###Make VCF file with samtools to VarScan pipe
 samtools mpileup -f /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta \
