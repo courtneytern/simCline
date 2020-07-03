@@ -1,10 +1,10 @@
 #!/bin/sh
 #
 #SBATCH -J makeVCF # A single job name for the array
-#SBATCH --ntasks-per-node=1
+#SBATCH --ntasks-per-node=20 #tweny cores
 #SBATCH -N 1
 #SBATCH -t 96:00:00 ### 96 hrs= 4 days
-#SBATCH --mem 30G
+#SBATCH --mem 0 #take as much as it needs
 #SBATCH -o /scratch/cat7ep/slurmOut/makeVCF.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/makeVCF.%A_%a.err # Standard error
 #SBATCH -p standard
