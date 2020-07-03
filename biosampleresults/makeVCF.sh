@@ -10,6 +10,8 @@
 #SBATCH -p standard
 #SBATCH --account berglandlab
 
+module load samtools/1.10
+module load varscan/2.4.4
 ####sbatch /scratch/cat7ep/simCline/biosampleresults/makeVCF.sh
 
 ###Make VCF file with samtools to VarScan pipe
