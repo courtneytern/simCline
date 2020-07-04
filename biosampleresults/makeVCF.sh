@@ -12,6 +12,8 @@
 
 module load samtools/1.10
 module load varscan/2.4.4
+
+cd /scratch/cat7ep/simCline/biosampleresults/
 ####sbatch /scratch/cat7ep/simCline/biosampleresults/makeVCF.sh
 
 ###Make VCF file with samtools to VarScan pipe
