@@ -32,7 +32,7 @@ awk -F"," '
     lat","long","year","month","day","biosamp","sra",Barghi:"city":"state":"continent":"month":"day":"year":"identifier
 
 } ' | \
-grep "Base" > parseBarghi.csv #only want Base populations
+grep "Base" | grep "ERR1980726" > parseBarghi.csv #only want one sample of Base population
 
 ### Machado ###
 grep -v 'Run' SraRunTable_Machado.txt.csv | \
@@ -208,33 +208,3 @@ awk -F"," '
    lat","long","year","month","day","biosamp","sra",Signor:"city":"state":"continent":"month":"day":"year":"identifier
 
 } ' > parseSignor.csv
-
-### Barghi...Kofler ###
-grep -v 'Run' SraRunTable_BarghiKofler.txt.csv | \
-awk -F"," '
-
-# BEGIN{
-# print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
-# }
-{
-  organism=$22
-  individ=1000
-  pi="P"
-  continent="North America"
-  country="USA"
-  state="Florida"
-  city="Tallahassee"
-  lat=30.4383
-  long=-84.2807
-  year="2010" #previous barghi paper cited in current, copying date from other barghi data
-  month= "Nov"
-  day="NA"
-  biosamp=$7
-  sra=$1
-  identifier=$2
-
-   print "BarghiKofler,"organism","individ","pi","continent","country","state","city","\
-      lat","long","year","month","day","biosamp","sra",BarghiKofler:"city":"state":"continent":"month":"day":"year":"identifier
-
-} ' | \
-grep "Base" > parseBarghiKofler.csv #only include base populations
