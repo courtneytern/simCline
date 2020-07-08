@@ -1,9 +1,6 @@
 #!/bin/bash
 
 #This script filters the pooled sequencing data from the final bam files
-module load samtools/1.10
-module load varscan/2.4.4
-
 #set directories
 bamDir="/project/berglandlab/courtney/simCline/bamfinal"
 

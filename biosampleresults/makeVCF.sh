@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 #SBATCH -J makeVCF # A single job name for the array
-#SBATCH --ntasks-per-node=20 #tweny cores
+#SBATCH --ntasks-per-node=20 #twenty cores
 #SBATCH -N 1
 #SBATCH -t 96:00:00 ### 96 hrs= 4 days
 #SBATCH --mem 0 #take as much as it needs
