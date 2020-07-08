@@ -23,4 +23,4 @@ samtools mpileup -f /project/berglandlab/courtney/simCline/refgenomes/combinedre
 java -jar $EBROOTVARSCAN/VarScan.v2.4.4.jar mpileup2snp \
    --output-vcf 1 \
    --vcf-sample-list /scratch/cat7ep/simCline/biosampleresults/inputPooledSamps.txt \
-   --variants > /project/berglandlab/courtney/simCline/pooledData.vcf
+   --variants - > /project/berglandlab/courtney/simCline/pooledData.vcf
