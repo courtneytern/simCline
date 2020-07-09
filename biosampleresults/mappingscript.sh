@@ -42,7 +42,7 @@ echo "SRA= ""${sra}"
 echo "Identifier= ""${identifier}"
 
 #Create directories
-inputDir="/scratch/cat7ep/fasterq"
+inputDir="/scratch/cat7ep/fasterqKang"
 interDir="/scratch/cat7ep/interDir"
 outputDir="/project/berglandlab/courtney/simCline/bamfinal"
 

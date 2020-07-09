@@ -27,4 +27,4 @@ SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," /scratch/cat7ep/simCline/biosampleresults
     print SRSnum
   }' )
 
-fasterq-dump ${SRS} -t /scratch/cat7ep/interDir --outdir /scratch/cat7ep/fasterq/
+fasterq-dump ${SRS} -t /scratch/cat7ep/interDir --outdir /scratch/cat7ep/fasterqKang/
