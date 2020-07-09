@@ -1,8 +1,9 @@
 #!/bin/sh
 module load gcc/9.2.0
 module load mvapich2/2.3.3
-module load gcc/9.2.0
-module load openmpi/3.1.4
+module load openmpi/3.1.6
+module load intel/20.0
+module load intelmpi/20.0
 module load python/3.7.7
 
 #groupget command pulls all files from one project number from ENA
