@@ -208,3 +208,33 @@ awk -F"," '
    lat","long","year","month","day","biosamp","sra",Signor:"city":"state":"continent":"month":"day":"year":"identifier
 
 } ' > parseSignor.csv
+
+### Kang ###
+grep -v 'Run' SraRunTable_Kang.txt.csv  | \
+awk -F"," '
+
+# BEGIN{
+# print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+# }
+{
+  organism=$28
+  individ=20
+  pi="P"
+  continent="Asia"
+  country="Israel"
+  state="Mount Carmel"
+  city="Nahal Oren"
+  lat=32.43
+  long=34.58
+  year=2014
+  month="Oct"
+  day="26"
+  biosamp=$6
+  sra=$1
+  identifier=$31
+
+
+ print "Kang,"organism","individ","pi","continent","country","state","city","\
+   lat","long","year","month","day","biosamp","sra",Kang:"city":"state":"continent":"month":"day":"year":"identifier
+
+} ' > parseKang.csv
