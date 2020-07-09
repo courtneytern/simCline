@@ -20,7 +20,7 @@ module load sratoolkit/2.9.1
 echo ${SLURM_ARRAY_TASK_ID}
 
 ##takes in parameter of the row number to access
-SRS=$( grep "Kang," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
+SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
     SRSnum= array[16]
