@@ -1,12 +1,12 @@
 #!/bin/sh
 #
-#SBATCH -J mapping # A single job name for the array
+#SBATCH -J Kangmapping # A single job name for the array
 #SBATCH --ntasks-per-node=20 # twenty cores
 #SBATCH -N 1
 #SBATCH -t 24:00:00 ### 24 hr
 #SBATCH --mem 0
-#SBATCH -o /scratch/cat7ep/slurmOut/mapping.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/mapping.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/Kangmapping.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/Kangmapping.%A_%a.err # Standard error
 #SBATCH -p standard
 #SBATCH --account berglandlab
 
