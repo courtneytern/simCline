@@ -1,4 +1,15 @@
 #!/bin/sh
+#
+#SBATCH -J ENAfastq # A single job name for the array
+#SBATCH --ntasks-per-node=20 # twenty cores
+#SBATCH -N 1
+#SBATCH -t 24:00:00 ### 24 hr
+#SBATCH --mem 0
+#SBATCH -o /scratch/cat7ep/slurmOut/ENAfastq.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/ENAfastq.%A_%a.err # Standard error
+#SBATCH -p standard
+#SBATCH --account berglandlab
+
 module load gcc/9.2.0
 module load mvapich2/2.3.3
 module load openmpi/3.1.6
