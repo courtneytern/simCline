@@ -111,7 +111,7 @@ awk -F"," '
   continent="Africa"
   country=$21
   state="NA"
-  city="NA"
+  city="Antsirabe"
   lat=-19.8730
   long=47.0291
   year="1998"
@@ -238,3 +238,44 @@ awk -F"," '
    lat","long","year","month","day","biosamp","sra",Kang:"city":"state":"continent":"month":"day":"year":"identifier
 
 } ' > parseKang.csv
+
+### Jackson ###
+grep -v 'Run' SraRunTable_Jackson.txt.csv  | \
+awk -F"," '
+
+# BEGIN{
+# print "author,species,numInd,p/i,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
+# }
+{
+  organism="Drosophila simulans"
+  individ=25
+  pi="I"
+  continent="Africa"
+
+  if(index($0,"Kenyan")!=0){
+    country="Kenya"
+    state="NA"
+    city="Nairobi"
+    lat=-1.2921
+    long=36.8219
+    year=2006
+  }
+  else {
+    country="Madagascar"
+    state="NA"
+    city="Joffreville"
+    lat=-12.4938
+    long=49.2056
+    year=2002
+  }
+  month="NA"
+  day="NA"
+  biosamp=$7
+  sra=$1
+  identifier=$43
+
+
+ print "Jackson,"organism","individ","pi","continent","country","state","city","\
+   lat","long","year","month","day","biosamp","sra",Jackson:"city":"state":"continent":"month":"day":"year":"identifier
+
+} ' > parseJackson.csv
