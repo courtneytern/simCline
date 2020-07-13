@@ -4,6 +4,7 @@ while read line
 do
 {
    cd /scratch/cat7ep/fastqJackson/PRJEB7673/$line
-   gunzip ./$line* > /scratch/cat7ep/fastqJackson/
+   gunzip ./*.gz
+   mv ./*.fastq /scratch/cat7ep/fastqJackson
 }
 done <  /scratch/cat7ep/simCline/biosampleresults/jacksonAccessionNos.txt
