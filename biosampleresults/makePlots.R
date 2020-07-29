@@ -9,14 +9,8 @@
 
 ### libraries
 library(data.table)
-library(gdata)
-library(cowplot)
-library(data.table)
-library(foreach)
 library(ggplot2)
-library(ggmap)
 library(maps)
-library(mapdata)
 
 
 ### set working directory
