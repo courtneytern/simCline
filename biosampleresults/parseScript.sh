@@ -219,7 +219,7 @@ awk -F"," '
 {
   organism=$28
   individ=20
-  pi="P"
+  pi="I"
   continent="Asia"
   country="Israel"
   state="Mount Carmel"
