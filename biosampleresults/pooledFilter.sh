@@ -15,7 +15,7 @@ sra=$( grep ",P," ./concatenated.csv | grep -v "DrosEU" | \
     print SRSnum
   }' )
 #now get european
-idEuro=$( grep ",P," ./concatenatedEuro.csv| \
+idEuro=$( grep ",P," ./concatenatedEuro.csv | \
   awk -F"," '{
     split ($0,array,",")
     id= array[16]
