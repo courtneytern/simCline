@@ -23,12 +23,22 @@ idEuro=$( grep ",P," ./concatenatedEuro.csv | \
   }' )
 
 for line in $sra; do
-  echo $line >> /scratch/cat7ep/simCline/biosampleresults/inputPooledSamps.txt
   echo $bamDir/$line.finalmap.bam >> /scratch/cat7ep/simCline/biosampleresults/inputPooledBam.txt
 done
 for line in $idEuro; do
-  echo $line >> /scratch/cat7ep/simCline/biosampleresults/inputPooledSamps.txt
   echo $bamDir/$line.finalmap.bam >> /scratch/cat7ep/simCline/biosampleresults/inputPooledBam.txt
+done
+
+##now create the sample name list
+samps=$( grep ",P," ./concatenated.csv | \
+  awk -F"," '{
+    split ($0,array,",")
+    name= array[17]
+    print name
+  }' )
+
+for line in $samps; do
+  echo $line >> /scratch/cat7ep/simCline/biosampleresults/inputPooledSamps.txt
 done
 
 #go to makeVCF.sh
