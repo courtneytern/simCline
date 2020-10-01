@@ -5,6 +5,8 @@ library(SeqArray)
 library(ggplot2)
 library(data.table)
 
+setwd("~/Downloads/GitHub/simCline/biosampleresults/")
+
 gds.output <- "~/Downloads/GitHub/simCline/biosampleresults/pooledData.gds"
 
 gds.file <- seqOpen(gds.output)
