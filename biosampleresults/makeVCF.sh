@@ -5,8 +5,8 @@
 #SBATCH -N 1
 #SBATCH -t 96:00:00 ### 96 hrs= 4 days
 #SBATCH --mem 0 #take as much as it needs
-#SBATCH -o /scratch/cat7ep/slurmOut/makeVCF5.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/makeVCF5.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/makeVCF6.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/makeVCF6.%A_%a.err # Standard error
 #SBATCH -p standard
 #SBATCH --account berglandlab
 
