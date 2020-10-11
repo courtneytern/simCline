@@ -51,8 +51,9 @@ ggplot(data=dat, aes(x=freqAlt)) + geom_histogram() + facet_wrap(~identifier)
 
 #################LEA###############
 setwd("~/Downloads/GitHub/simCline/biosampleresults/")
-vcf.file<- "~/Downloads/GitHub/simCline/biosampleresults/pooledData.vcf/"
-lcmm.file<- "~/Downloads/GitHub/simCline/biosampleresults/pooledData.lfmm/"
+
+vcf.file<- "~/Downloads/GitHub/simCline/biosampleresults/pooledData.vcf"
+lcmm.file<- "~/Downloads/GitHub/simCline/biosampleresults/pooledData.lfmm"
 vcf2lfmm(vcf.file, lcmm.file, force = TRUE)
 pc<- pca("~/Downloads/GitHub/simCline/biosampleresults/pooledData.lfmm")
 
