@@ -10,7 +10,7 @@ setwd("/scratch/cat7ep/simCline/biosampleresults/")
 
 pdf(file="/scratch/cat7ep/simCline/biosampleresults/pca.pdf")
 
-pc<- pca("/scratch/cat7ep/simCline/biosampleresults/pooledData.geno")
+pc<- pca("/scratch/cat7ep/simCline/biosampleresults/pooledData2.vcf")
 
 # Display information on analysis.
 show(pc)

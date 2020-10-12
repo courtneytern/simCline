@@ -47,3 +47,10 @@ dat.merged <- merge(dat, concatenated)
 
 #plot frequency of alternate alleles for each of the 42 populations
 ggplot(data=dat, aes(x=freqAlt)) + geom_histogram() + facet_wrap(~identifier)
+
+####export gds as vcf
+vcf.fn<- "pooledData2.vcf"
+seqGDS2VCF(gds.file, vcf.fn, info.var=NULL, fmt.var=NULL, use_Rsamtools=TRUE,
+           verbose=TRUE)
+
+
