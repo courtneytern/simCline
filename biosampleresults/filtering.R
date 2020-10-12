@@ -45,5 +45,5 @@ setkey(dat, identifier)
 dat.merged <- merge(dat, concatenated)
 
 
-#plot frequency of alternate alleles for each of the 422 populations
+#plot frequency of alternate alleles for each of the 42 populations
 ggplot(data=dat, aes(x=freqAlt)) + geom_histogram() + facet_wrap(~identifier)

@@ -4,8 +4,8 @@ library(LEA)
 # setwd("~/Downloads/GitHub/simCline/biosampleresults/")
 setwd("/scratch/cat7ep/simCline/biosampleresults/")
 
-vcf.file<- "/pooledData.vcf"
-lfmm.file<- "/pooledData.lfmm"
+vcf.file<- "pooledData.vcf"
+lfmm.file<- "pooledData.lfmm"
 vcf2lfmm(vcf.file, lfmm.file, force = TRUE)
 
 # pc<- pca("~/Downloads/GitHub/simCline/biosampleresults/pooledData.lfmm")
