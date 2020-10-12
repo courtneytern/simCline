@@ -10,6 +10,8 @@
 #SBATCH -p standard
 #SBATCH --account berglandlab
 
+####sbatch /scratch/cat7ep/simCline/biosampleresults/lea.sh
+
 #load dependencies for R
 module load gcc/7.1.0
 module load openmpi/3.1.4
