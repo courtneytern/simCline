@@ -7,6 +7,8 @@ setwd("/scratch/cat7ep/simCline/biosampleresults/")
 vcf.file<- "/scratch/cat7ep/simCline/biosampleresults/pooledData2.vcf"
 lfmm.file<- "/scratch/cat7ep/simCline/biosampleresults/pooledData.lfmm"
 vcf2lfmm(vcf.file, lfmm.file, force = TRUE)
+#vcf.file<- "~/Downloads/GitHub/simCline/biosampleresults/pooledData2.vcf"
+#lfmm.file<- "~/Downloads/GitHub/simCline/biosampleresults/pooledData.lfmm"
 
 # pdf(file="/scratch/cat7ep/simCline/biosampleresults/pca.pdf")
 # 

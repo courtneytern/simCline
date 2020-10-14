@@ -3,3 +3,4 @@ biosampleresults/pooledData.vcf
 biosampleresults/pooledData.gds
 *.gds
 *.vcf
+biosampleresults/test.lfmm
