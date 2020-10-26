@@ -23,7 +23,7 @@ nAlleles=seqGetData(gds.file, "$num_allele")
 samp.ids <- as.numeric(sample(x=as.character(snp.dt[nAlleles==2]$id), size=10000))
 seqSetFilter(gds.file, variant.id=samp.ids)
 
-################
+####
 adList<- seqGetData(gds.file, "annotation/format/AD")
 rdList<- seqGetData(gds.file, "annotation/format/RD")
 
@@ -34,7 +34,7 @@ dat <- data.table(ad=expand.grid(adList$data)$Var1,
                   variant.id=rep(seqGetData(gds.file, "variant.id"), each=dim(adList$data)[1]))
 dat[,freqAlt:=ad/(ad+rd)]
 
-#functions of dat[] variables
+#######functions of dat[] variables
 dat.ag <- dat[,list(population=population,nmissing=sum(is.na(ad)), aveAD=mean(ad, na.rm=T), freqAlt=sum(ad, na.rm=T)/sum(ad+rd, na.rm=T)), list(variant.id)]
 
 #don't remember why we wanted to merge 
@@ -54,9 +54,9 @@ seqGDS2VCF(gds.file, vcf.fn, info.var=NULL, fmt.var=NULL, use_Rsamtools=TRUE,
            verbose=TRUE)
 
 library(LEA)
-write.lfmm(dat,"test.lfmm")
+write.lfmm(dat,"pooled.lfmm")
 
-pc<- pca("~/Downloads/GitHub/simCline/biosampleresults/test.lfmm",K=10)
+ pc<- pca("pooled.lfmm",K=10,center = TRUE, scale = FALSE)
 
 
 
