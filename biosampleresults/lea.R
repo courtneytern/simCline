@@ -17,7 +17,7 @@ lfmm.file<- "/scratch/cat7ep/simCline/biosampleresults/pooled.lfmm"
 
 pdf(file="/scratch/cat7ep/simCline/biosampleresults/pca.pdf")
 
-pc<- pca("/scratch/cat7ep/simCline/biosampleresults/pooled.lfmm")
+pc<- pca("/scratch/cat7ep/simCline/biosampleresults/pooled.lfmm",K=10)
 
 # Display information on analysis.
 show(pc)
