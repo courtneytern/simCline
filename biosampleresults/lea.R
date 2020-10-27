@@ -1,4 +1,9 @@
 #################LEA###############
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+BiocManager::install("LEA")
+
 library(LEA)
 
 # setwd("~/Downloads/GitHub/simCline/biosampleresults/")

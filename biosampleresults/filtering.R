@@ -53,10 +53,13 @@ vcf.fn<- "pooledData2.vcf"
 seqGDS2VCF(gds.file, vcf.fn, info.var=NULL, fmt.var=NULL, use_Rsamtools=TRUE,
            verbose=TRUE)
 
+###reduce lfmm
+dat2<- dat[seq(1,length(dat[[1]])/10,by=1)] #take half 
 library(LEA)
 write.lfmm(dat,"pooled.lfmm")
+write.lfmm(dat2,"pooled2.lfmm")
 
- pc<- pca("pooled.lfmm",K=10,center = TRUE, scale = FALSE)
+ pc<- pca("pooled2.lfmm",K=10,center = TRUE, scale = FALSE)
 
 
 
