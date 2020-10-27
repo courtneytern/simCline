@@ -2,7 +2,7 @@
 #
 #SBATCH -J lea # A single job name for the array
 #SBATCH --ntasks-per-node=1 # one core
-#SBATCH -N 1
+#SBATCH -N 3
 #SBATCH -t 6:00:00 ### 6 hours
 #SBATCH --mem 0
 #SBATCH -o /scratch/cat7ep/slurmOut/lea.%A_%a.out # Standard output
