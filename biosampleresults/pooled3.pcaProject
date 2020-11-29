@@ -1,0 +1,5 @@
+new("pcaProject", projDir = "/Users/ctern/Downloads/GitHub/simCline/biosampleresults/", 
+    pcaDir = "pooled3.pca/", n = 24L, L = 10000L, K = 10L, center = TRUE, 
+    scale = FALSE, pcaProject.file = "pooled3.pcaProject", input.file = "pooled3.lfmm", 
+    eigenvalue.file = "pooled3.eigenvalues", eigenvector.file = "pooled3.eigenvectors", 
+    sdev.file = "pooled3.sdev", projection.file = "pooled3.projections")
