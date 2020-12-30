@@ -9,12 +9,12 @@
 #SBATCH --array=1-288
 
 # This script will initiate a pipeline which will do some quality QC on the reads and then will proceed to map the reads to a reference genome.
-# Prepared by Joaquin C. B. Nunez, PhD -- Sep 24, 2020 
+# Prepared by Joaquin C. B. Nunez, PhD -- Sep 24, 2020
 # yey2sn@virginia.edu
-  
+
 # NOTES ON NOMENCLATURE: This script uses nomenclature which can be confusing. The first part of the script split raw reads into insert-"merged"-reads (hereby called merged) and unmerged reads (those which were not merged). As such, all operations done using ether of these reads will have the term "merged" or "unmerged" attached to them. At a later point in the script, I combine bam files using "samtools merge" the output of this combination is a joint-bam file (hereby called "joint"). Thus, the joint suffix referes to this step. Other suffix used here are: "srt" which mean picard sorted, and "rmdp" which mean picard-removed duplicated reads.
-  
-#Load Rivanna modules 
+
+#Load Rivanna modules
 module load gcc/7.1.0
 module load bwa
 module load bbmap
@@ -24,17 +24,17 @@ module load qualimap
 module load picard
 
 #Define important file locations
-#RAW READS indicates the folder where the raw reads are stored.
-RAW_READS=/project/berglandlab/Overwintering_Experiment/Year_2018_2019/usftp21.novogene.com/raw_data
+#RAW READS indicates the folder where the raw reads are stored. (As fastq)
+RAW_READS=/scratch/cat7ep/fasterq
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/yey2sn
+WORKING_FOLDER=/scratch/cat7ep
 
 #This is the location where the reference genome and all its indexes are stored.
-REFERENCE=/project/berglandlab/Dmel_fasta_refences/holo_dmel_6.12.fa
+REFERENCE=/project/berglandlab/courtney/simCline/refgenomes
 
 # This is a file with the name all the samples to be processed. one sample name per line
-SAMPLE_FILE=/project/berglandlab/Overwintering_Experiment/Year_2018_2019/code/Sample_file_master.txt
+SAMPLE_FILE=/scratch/cat7ep/simCline/biosampleresults/individFileNames.txt
 
 #This is a unique number id which identifies this run
 unique_run_id=`date +%N`
@@ -46,13 +46,13 @@ PIPELINE=TrimMap
 CPU=1 # number of cores
 QUAL=40 # Quality threshold for samtools
 JAVAMEM=18g # Java memory
-  
+
 ###########################################################################
 ###########################################################################
 # Determine sample to process, "i"
 ###########################################################################
 ###########################################################################
- 
+
 i=`sed -n ${SLURM_ARRAY_TASK_ID}p $SAMPLE_FILE`
 
 ###########################################################################
@@ -70,7 +70,7 @@ then
 	echo "Warning log exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "Log doesnt exist. lets fix that"
 	touch $WORKING_FOLDER/${PIPELINE}.warnings.log
 	date
@@ -81,7 +81,7 @@ then
 	echo "Warning log exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "Log doesnt exist. lets fix that"
 	touch $WORKING_FOLDER/${PIPELINE}.completion.log
 	date
@@ -98,14 +98,14 @@ cd $WORKING_FOLDER
 ###########################################################################
 # this part of the script will check and generate, if necessary, all of the output folders used in the script
 
-#Generating new folders 
-echo "have you checked if the folders where already built with mkdir?"
+#Generating new folders
+echo "have you checked if the folders were already built with mkdir?"
 if [[ -d "merged_reads" ]]
 then
 	echo "Working merged_reads folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/merged_reads
 	date
@@ -116,7 +116,7 @@ then
 	echo "Working unmerged_reads folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/unmerged_reads
 	date
@@ -127,7 +127,7 @@ then
 	echo "Working mapping_stats folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/mapping_stats
 	date
@@ -138,7 +138,7 @@ then
 	echo "Working read_stats folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/read_stats
 	date
@@ -149,7 +149,7 @@ then
 	echo "Working joint_bams folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/joint_bams
 	date
@@ -160,7 +160,7 @@ then
 	echo "Working joint_bams_qualimap folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/joint_bams_qualimap
 	date
@@ -176,8 +176,8 @@ fi
 # Setting sample name to user input
 
 #while read i #${files}
-#	do #---- Open Do------ <----	
-	
+#	do #---- Open Do------ <----
+
 	echo ${i} "is now processing"
 	date
 
@@ -185,7 +185,7 @@ fi
 	mkdir $WORKING_FOLDER/unmerged_reads/${i}
 
 	echo "now merging reads for" ${i}
-	
+
 	read1=`echo $RAW_READS/${i}/${i}*_1.fq.gz`
 	read2=`echo $RAW_READS/${i}/${i}*_2.fq.gz`
 
@@ -195,22 +195,22 @@ fi
 	outu1=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.1.fq \
 	outu2=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.2.fq \
 	-strict
-		
-	#Sanity checks	
+
+	#Sanity checks
 	if [ -s $WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.fq ]; then
 	echo ${i} "merged reads file is not empty... thats good"
 	else
 	echo "File is empty -- WARNING ISSUED!"
 	echo ${i} "Merged reads is empty! check the script, debug, and rerun" >> $WORKING_FOLDER/${PIPELINE}.warnings.log
 	fi
-	
+
 	if [ -s $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.1.fq ]; then
 	echo ${i} "Pair 1 reads file is not empty... thats good"
 	else
 	echo "File is empty -- WARNING ISSUED!"
 	echo ${i} "Pair 1 reads is empty! check the script, debug, and rerun" >> $WORKING_FOLDER/${PIPELINE}.warnings.log
 	fi
-	
+
 	if [ -s $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.2.fq ]; then
 	echo ${i} "Pair 2 reads file is not empty... thats good"
 	else
@@ -221,36 +221,36 @@ fi
 	########################################
 	#Now do some light trimming on the reads
 	echo ${i} "Trimming merge reads"
-	
+
 	bbduk.sh \
 	in=`echo $WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.fq` \
 	out=$WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.trim.fq \
 	ftl=15 ftr=285 qtrim=w trimq=20
 
 	rm  $WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.fq
-	
+
 	fastqc $WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.trim.fq \
 	-t 20 \
 	-o $WORKING_FOLDER/read_stats
-	
+
 	########################################
 	#Now do some light trimming on the reads
 	echo ${i} "Trimming unmerged reads"
-	
+
 	bbduk.sh \
 	in=`echo $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.1.fq` \
 	in2=`echo $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.2.fq` \
 	out=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.trim.1.fq \
 	out2=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.trim.2.fq \
 	ftl=15 qtrim=w trimq=20
-	
+
 	rm $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.1.fq
 	rm $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.2.fq
-	
+
 	fastqc $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.trim.1.fq \
 	-t 20 \
 	-o $WORKING_FOLDER/read_stats
-	
+
 	fastqc $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.trim.2.fq \
 	-t 20 \
 	-o $WORKING_FOLDER/read_stats
@@ -260,17 +260,17 @@ fi
 # Map reads to a reference
 ###########################################################################
 ###########################################################################
-# this part will map reads to the reference genome. Because the reads are likely split into two groups, this script will loop over both types of reads. After reads have been mapped, they will be compressed into bam files, sorted, and duplicates will be removed. I will also conduct an intermediary QC step with Qualimap. Because there are inherent QC steps here, I have avoided adding extra "warnings" in the log. Remember to take a look at the qualimap and the flagstat outputs to check for inconsistencies.  
+# this part will map reads to the reference genome. Because the reads are likely split into two groups, this script will loop over both types of reads. After reads have been mapped, they will be compressed into bam files, sorted, and duplicates will be removed. I will also conduct an intermediary QC step with Qualimap. Because there are inherent QC steps here, I have avoided adding extra "warnings" in the log. Remember to take a look at the qualimap and the flagstat outputs to check for inconsistencies.
 
 	for j in merged unmerged
 	do # Begin loop of j
-	
+
 		########################################
 #J loop#	# Starting mapping
 	echo "I will first map ${j} reads of" ${i}
-	
+
 #J loop#	# I will conduct the mapping with BWA-MEM
-	
+
 	if [[ ${j} == "merged" ]]; then
 		echo "seems this is merged data, lets map it"
 		bwa mem \
@@ -279,7 +279,7 @@ fi
 		$REFERENCE \
 		$WORKING_FOLDER/${j}_reads/${i}/${i}.${j}.reads.strict.trim.fq \
 		> $WORKING_FOLDER/${j}_reads/${i}/${i}.${j}.sam
-		
+
 	elif [[ ${j} == "unmerged" ]]; then
 		echo "seems this is unmerged data, lets map it using a 1-2 approach"
 		bwa mem \
@@ -289,7 +289,7 @@ fi
 		$WORKING_FOLDER/unmerged_reads/${i}/${i}.${j}.reads.trim.1.fq \
 		$WORKING_FOLDER/unmerged_reads/${i}/${i}.${j}.reads.trim.2.fq \
 		> $WORKING_FOLDER/unmerged_reads/${i}/${i}.${j}.sam
-	
+
 	else
 		echo "I cant tell what type of data is this -- WARNING!"
 		echo ${i} "Something is wrong at the mapping stage" $(date) \
@@ -350,7 +350,7 @@ fi
 	mv $WORKING_FOLDER/${j}_reads/${i}/${i}.${j}.reads.strict.trim_fastqc.zip \
 	$WORKING_FOLDER/read_stats
 
-#J loop#	
+#J loop#
 	done # End loop of j
 
 ###########################################################################
@@ -389,7 +389,7 @@ qualimap bamqc \
  -bam $WORKING_FOLDER/joint_bams/${i}.joint.srt.rmdp.bam   \
  -outdir $WORKING_FOLDER/joint_bams_qualimap/Qualimap_JointBam_${i} \
  --java-mem-size=$JAVAMEM
- 
+
 # Remove intermediary files
 rm $WORKING_FOLDER/joint_bams/${i}.joint.bam
 rm $WORKING_FOLDER/joint_bams/${i}.joint.srt.bam
@@ -399,7 +399,7 @@ rm $WORKING_FOLDER/joint_bams/${i}.joint.srt.bam
 # Inform that sample is done
 ###########################################################################
 ###########################################################################
-# This part of the pipeline will produce a notification of completion. 
+# This part of the pipeline will produce a notification of completion.
 
 echo ${i} " completed" >> $WORKING_FOLDER/${PIPELINE}.completion.log
 
