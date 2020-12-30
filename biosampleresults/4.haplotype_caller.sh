@@ -9,7 +9,7 @@
 #SBATCH --array=1-282
 
 # This script will initiate a pipeline which will add read group info and index bams. It will then proceed to call haplotypes (gVCFs)
-# Prepared by Joaquin C. B. Nunez, PhD -- Sep 25, 2020 
+# Prepared by Joaquin C. B. Nunez, PhD -- Sep 25, 2020
 # yey2sn@virginia.edu
 
 
@@ -22,10 +22,10 @@ module load tabix
 PIPELINE=Haplocaller
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/yey2sn
+WORKING_FOLDER=/scratch/cat7ep
 
 # User defined inputs -- this represents the name of the samples
-BIO_SAMPLES=/project/berglandlab/Overwintering_Experiment/Year_2018_2019/code/Biological_samples_master.txt
+BIO_SAMPLES=/scratch/cat7ep/simCline/biosampleresults/individFileNames.txt
 
 #Where the bam files are located
 BAMS_FOLDER=/scratch/yey2sn/joint_bams
@@ -55,7 +55,7 @@ HET=0.005
 # Determine sample to process, "i"
 ###########################################################################
 ###########################################################################
- 
+
 i=`sed -n ${SLURM_ARRAY_TASK_ID}p $BIO_SAMPLES`
 
 ###########################################################################
@@ -73,7 +73,7 @@ then
 	echo "Warning log exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "Log doesnt exist. lets fix that"
 	touch $WORKING_FOLDER/${PIPELINE}.completion.log
 	date
@@ -96,7 +96,7 @@ then
 	echo "Working RGSM_final_bams folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/RGSM_final_bams
 	date
@@ -108,7 +108,7 @@ then
 	echo "Working haplotype_calling folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/haplotype_calling
 	date
@@ -149,7 +149,7 @@ gatk --java-options "-Xmx${JAVAMEM}" HaplotypeCaller \
 	-I $WORKING_FOLDER/RGSM_final_bams/${i}.RG.bam \
 	-O $WORKING_FOLDER/haplotype_calling/${i}.raw.g.vcf \
 	--heterozygosity $HET \
-	-ERC GVCF 
+	-ERC GVCF
 
 ###########################################################################
 ###########################################################################
@@ -163,4 +163,3 @@ tabix $WORKING_FOLDER/haplotype_calling/${i}.raw.g.vcf.gz
 echo ${i} "completed" $(date) >> $WORKING_FOLDER/${PIPELINE}.completion.log
 
 echo "done" $(date)
-		     
