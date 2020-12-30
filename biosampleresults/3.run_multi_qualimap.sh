@@ -8,8 +8,8 @@
 #SBATCH --account=berglandlab
 
 JAVAMEM=28G
-WORKING_DIRECTORY=/scratch/yey2sn
+WORKING_DIRECTORY=/scratch/cat7ep/simCline/biosampleresults
 
 module load qualimap
 
-qualimap  multi-bamqc  -outdir /scratch/yey2sn/multi_bamQC --java-mem-size=$JAVAMEM -d $WORKING_DIRECTORY/bam_qc_guide_file.txt
+qualimap  multi-bamqc  -outdir /scratch/cat7ep/multi_bamQC --java-mem-size=$JAVAMEM -d $WORKING_DIRECTORY/bam_qc_guide_file.txt
