@@ -12,30 +12,32 @@
 module load fastqc
 
 #change to folder containing reads
-cd /project/berglandlab/Overwintering_Experiment/Year_2018_2019/usftp21.novogene.com/raw_data
+cd /scratch/cat7ep/fasterq
 
 #Make an array of all folder containing reads
-files=OW*
+files=*
 #echo ${files}
+#set output directory
+outdir="/scratch/cat7ep/fastqc"
 
 #Run loop running fastqc
 for i in  ${files}
 	do
 		echo "now processing" ${i}
-		fastqc ${i}/*.fq.gz
+		fastqc -o ${outdir} ${i}.fastq
 	done
-	
+
 # Now consolidate all files into a single folder
-mkdir ../QC_raw_reads
-find * -name "*fastqc.zip" -exec cp {} ../QC_raw_reads \;
-
-cd ../QC_raw_reads
-
-=
-#Now run multi QC
-# I downloaded a multiQC singularity thanks to Cory.
-module load singularity
-#singularity pull --name multiqc.sif shub://cory-weller/singularity:multiqc
-singularity run /home/yey2sn/software/multiqc.sif ./
-
-echo "completed"
+# mkdir ../QC_raw_reads
+# find * -name "*fastqc.zip" -exec cp {} ../QC_raw_reads \;
+#
+# cd ../QC_raw_reads
+#
+# =
+# #Now run multi QC
+# # I downloaded a multiQC singularity thanks to Cory.
+# module load singularity
+# #singularity pull --name multiqc.sif shub://cory-weller/singularity:multiqc
+# singularity run /home/yey2sn/software/multiqc.sif ./
+#
+# echo "completed"
