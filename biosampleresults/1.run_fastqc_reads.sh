@@ -11,7 +11,7 @@
 #SBATCH --account=berglandlab
 
 
-######sbatch /scratch/cat7ep/simCline/biosampleresults/1.run_fastqc_reads.sh 
+######sbatch /scratch/cat7ep/simCline/biosampleresults/1.run_fastqc_reads.sh
 #Load fastqc
 module load fastqc
 
@@ -28,7 +28,7 @@ outdir="/scratch/cat7ep/fastqc"
 for i in  ${files}
 	do
 		echo "now processing" ${i}
-		fastqc -o ${outdir} ${i}.fastq
+		fastqc -o ${outdir} ${i}
 	done
 
 # Now consolidate all files into a single folder
