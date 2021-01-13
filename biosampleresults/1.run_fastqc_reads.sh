@@ -1,13 +1,13 @@
 #! /bin/bash
 #
-#SBATCH -J fastqc # A single job name for the array
+#SBATCH -J fastqcKang # A single job name for the array
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=20
 #SBATCH --mem=20G
 #SBATCH --time=72:00:00
 #SBATCH --partition=standard
-#SBATCH -o /scratch/cat7ep/slurmOut/fastqc.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/fastqc.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/fastqcKang.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/fastqcKang.%A_%a.err # Standard error
 #SBATCH --account=berglandlab
 
 
@@ -16,7 +16,7 @@
 module load fastqc
 
 #change to folder containing reads
-cd /scratch/cat7ep/fasterq
+cd /scratch/cat7ep/fasterqKang
 
 #Make an array of all folder containing reads
 files=*
@@ -42,6 +42,6 @@ for i in  ${files}
 # # I downloaded a multiQC singularity thanks to Cory.
 # module load singularity
 # #singularity pull --name multiqc.sif shub://cory-weller/singularity:multiqc
-# singularity run /home/yey2sn/software/multiqc.sif ./
+# singularity run /scratch/cat7ep/multiqc.sif ./
 #
 # echo "completed"
