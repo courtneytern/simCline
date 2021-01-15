@@ -19,7 +19,7 @@ setwd("/scratch/cat7ep/simCline/biosampleresults")
 
 ### load data
 samps <- fread("./concatenated.csv")
-samps <- rbind(samps, fread("./concatenatedEuro.csv"))
+# samps <- rbind(samps, fread("./concatenatedEuro.csv"))
 
 ### time plot
 ### find sites with multiple time points
@@ -79,10 +79,10 @@ ggsave(world, file="./worldPlot.pdf", height=4, width=6)
 
 
 ## north america
-min.lat.na <- 25
-max.lat.na <- 50
-min.long.na <- -130
-max.long.na <- -65
+# min.lat.na <- 25
+# max.lat.na <- 50
+# min.long.na <- -130
+# max.long.na <- -65
 
 
 ### num. flies plot

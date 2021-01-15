@@ -107,7 +107,7 @@ awk -F"," '
 {
   organism=$29
   individ=43
-  pi="P"
+  pi="I"
   continent="Africa"
   country=$21
   state="NA"
