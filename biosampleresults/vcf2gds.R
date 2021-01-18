@@ -12,4 +12,4 @@ seqVCF2GDS(vcf.fn = vcf.file, out.fn = gds.output)
 
 #########################################
 
-#go to filtering.R
+#go to pooledStatsPlots.R
