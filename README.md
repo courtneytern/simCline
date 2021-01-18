@@ -24,3 +24,25 @@ from European and African populations.
 3. Run `getfastqENA.sh`
 
 Now you can go on to map the fastq files to your reference genome
+
+## Mapping pipeline
+Since this dataset uses some _simulans_ data pulled from _melanogaster_ samples, along with the raw _simulans_ data, the reference genome used in this pipeline contains both the _simulans_ and _melanogaster_ references. <br>
+Both individual and pooled are mapped to the reference genome all together with `mappingscript.sh`. `mappingscriptEuro.sh` is the same thing but recongifured for the metadata format of the European DEST samples.
+1. AdapterRemoval trims the adapter sequences
+2. BWA MEM maps the trimmed reads to the reference genome
+3. samtools sorts and indexes the mapped reads
+   1. also merges paired reads, if applicable
+4. Picard marks and removes duplicate reads
+   - Outputs to finalmap.bam files in the specified output directory
+
+## Pooled pipeline
+1. Separate out pooled file names from individual with `pooledSetup.sh`
+   1. Makes the input .txt files required for mpileup and VarScan
+2. Run samtools mpileup and VarScan with `makeVCF.sh`
+   - Outputs `pooledData.vcf`
+3. Convert vcf to gds file with `vcf2gds.R`
+   - Uses SeqArray library in R
+4. Run SNP table statistics and create PCA plot in `pooledStatsPlots.R`
+   - Calculates read depth. alternate allele frequencies, etc
+   - More nuanced steps of PCA plot can be read in `lea.R`, but everything necessary in lea.R is in pooledStatsPlots.R.
+   - Outputs `pca.pdf`
