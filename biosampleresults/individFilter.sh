@@ -5,8 +5,16 @@
 cd /scratch/cat7ep/simCline/biosampleresults/
 
 ###make list of input bam files
-#first take the pooled samples that don't include Jackson or Kang
-sra=$( grep ",I," ./concatenated.csv | grep -vE "Jackson|Kang" | \
+# #first take the pooled samples that don't include Jackson or Kang
+# sra=$( grep ",I," ./concatenated.csv | grep -vE "Jackson|Kang" | \
+#   awk -F"," '{
+#     split ($0,array,",")
+#     SRSnum= array[16]
+#     print SRSnum
+#   }' )
+
+#first take the pooled samples
+sra=$( grep ",I," ./concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
     SRSnum= array[16]
