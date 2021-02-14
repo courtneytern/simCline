@@ -32,7 +32,7 @@ module load picard
 RAW_READS=/scratch/cat7ep/fasterq
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep
+WORKING_FOLDER=/scratch/cat7ep/individTrimMapPipeline
 
 #This is the location where the reference genome and all its indexes are stored.
 REFERENCE=/project/berglandlab/courtney/simCline/refgenomes
@@ -68,27 +68,22 @@ i=`sed -n ${SLURM_ARRAY_TASK_ID}p $SAMPLE_FILE`
 
 # Welcome message
 echo "your unique run id is" $unique_run_id
+date
 
 if [[ -e "${PIPELINE}.warnings.log" ]]
 then
-	echo "Warning log exist"
-	echo "lets move on"
-	date
+	echo "Warning log exists"
 else
 	echo "Log doesnt exist. lets fix that"
 	touch $WORKING_FOLDER/${PIPELINE}.warnings.log
-	date
 fi
 
 if [[ -e "${PIPELINE}.completion.log" ]]
 then
-	echo "Warning log exist"
-	echo "lets move on"
-	date
+	echo "Warning log exists"
 else
 	echo "Log doesnt exist. lets fix that"
 	touch $WORKING_FOLDER/${PIPELINE}.completion.log
-	date
 fi
 
 
@@ -103,71 +98,53 @@ cd $WORKING_FOLDER
 # this part of the script will check and generate, if necessary, all of the output folders used in the script
 
 #Generating new folders
-echo "have you checked if the folders were already built with mkdir?"
+echo "Check if folders have been made"
 if [[ -d "merged_reads" ]]
 then
-	echo "Working merged_reads folder exist"
-	echo "lets move on"
-	date
+	echo "Working merged_reads folder exists"
 else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/merged_reads
-	date
 fi
 
 if [ -d "unmerged_reads" ]
 then
 	echo "Working unmerged_reads folder exist"
-	echo "lets move on"
-	date
 else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/unmerged_reads
-	date
 fi
 
 if [ -d "mapping_stats" ]
 then
 	echo "Working mapping_stats folder exist"
-	echo "lets move on"
-	date
 else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/mapping_stats
-	date
 fi
 
 if [ -d "read_stats" ]
 then
 	echo "Working read_stats folder exist"
-	echo "lets move on"
-	date
 else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/read_stats
-	date
 fi
 
 if [ -d "joint_bams" ]
 then
 	echo "Working joint_bams folder exist"
-	echo "lets move on"
-	date
 else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/joint_bams
-	date
 fi
 
 if [ -d "joint_bams_qualimap" ]
 then
 	echo "Working joint_bams_qualimap folder exist"
-	echo "lets move on"
-	date
 else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/joint_bams_qualimap
-	date
 fi
 
 ###########################################################################
@@ -182,16 +159,13 @@ fi
 #while read i #${files}
 #	do #---- Open Do------ <----
 
-	echo ${i} "is now processing"
-	date
+	echo "now merging reads for" ${i}
 
 	mkdir $WORKING_FOLDER/merged_reads/${i}
 	mkdir $WORKING_FOLDER/unmerged_reads/${i}
 
-	echo "now merging reads for" ${i}
-
-	read1=`echo $RAW_READS/${i}/${i}*_1.fq.gz`
-	read2=`echo $RAW_READS/${i}/${i}*_2.fq.gz`
+	read1=`echo $RAW_READS/${i}*_1.fastq`
+	read2=`echo $RAW_READS/${i}*_2.fastq`
 
 	bbmerge.sh \
 	in1=$read1 in2=$read2 \
@@ -202,21 +176,21 @@ fi
 
 	#Sanity checks
 	if [ -s $WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.fq ]; then
-	echo ${i} "merged reads file is not empty... thats good"
+	echo ${i} "all good"
 	else
 	echo "File is empty -- WARNING ISSUED!"
 	echo ${i} "Merged reads is empty! check the script, debug, and rerun" >> $WORKING_FOLDER/${PIPELINE}.warnings.log
 	fi
 
 	if [ -s $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.1.fq ]; then
-	echo ${i} "Pair 1 reads file is not empty... thats good"
+	echo ${i} "all good"
 	else
 	echo "File is empty -- WARNING ISSUED!"
 	echo ${i} "Pair 1 reads is empty! check the script, debug, and rerun" >> $WORKING_FOLDER/${PIPELINE}.warnings.log
 	fi
 
 	if [ -s $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.2.fq ]; then
-	echo ${i} "Pair 2 reads file is not empty... thats good"
+	echo ${i} "all good"
 	else
 	echo "File is empty -- WARNING ISSUED!"
 	echo ${i} "Pair 2 reads is empty! check the script, debug, and rerun" >> $WORKING_FOLDER/${PIPELINE}.warnings.log

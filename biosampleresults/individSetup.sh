@@ -23,7 +23,7 @@ sra=$( grep ",I," ./concatenated.csv | \
 
 #move the individual files to a different folder
   for line in $sra; do
-    echo /scratch/cat7ep/fasterq/$line >> ./individFileNames.txt
+    echo $line >> ./individFileNames.txt
   done
 
   for line in /scratch/cat7ep/simCline/biosampleresults/individFileNames.txt; do
