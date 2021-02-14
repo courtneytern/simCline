@@ -6,9 +6,11 @@
 #SBATCH --time=8:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/fastqcJackson.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/fastqcJackson.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap.%A_%a.err # Standard error
 #SBATCH --array=1-759
+
+####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
 
 # This script will initiate a pipeline which will do some quality QC on the reads and then will proceed to map the reads to a reference genome.
 # Prepared by Joaquin C. B. Nunez, PhD -- Sep 24, 2020
