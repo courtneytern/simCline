@@ -164,8 +164,8 @@ fi
 	mkdir $WORKING_FOLDER/merged_reads/${i}
 	mkdir $WORKING_FOLDER/unmerged_reads/${i}
 
-	read1=`echo $RAW_READS/${i}*_1.fastq`
-	read2=`echo $RAW_READS/${i}*_2.fastq`
+	read1=$RAW_READS/${i}*_1.fastq
+	read2=$RAW_READS/${i}*_2.fastq
 
 	bbmerge.sh \
 	in1=$read1 in2=$read2 \
@@ -201,7 +201,7 @@ fi
 	echo ${i} "Trimming merge reads"
 
 	bbduk.sh \
-	in=`echo $WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.fq` \
+	in=$WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.fq \
 	out=$WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.trim.fq \
 	ftl=15 ftr=285 qtrim=w trimq=20
 
@@ -216,8 +216,8 @@ fi
 	echo ${i} "Trimming unmerged reads"
 
 	bbduk.sh \
-	in=`echo $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.1.fq` \
-	in2=`echo $WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.2.fq` \
+	in=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.1.fq \
+	in2=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.2.fq \
 	out=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.trim.1.fq \
 	out2=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.trim.2.fq \
 	ftl=15 qtrim=w trimq=20
