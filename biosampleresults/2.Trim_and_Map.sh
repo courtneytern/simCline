@@ -8,7 +8,7 @@
 #SBATCH --account=berglandlab
 #SBATCH -o /scratch/cat7ep/slurmOut/fastqcJackson.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/fastqcJackson.%A_%a.err # Standard error
-#SBATCH --array=1-288
+#SBATCH --array=1-759
 
 # This script will initiate a pipeline which will do some quality QC on the reads and then will proceed to map the reads to a reference genome.
 # Prepared by Joaquin C. B. Nunez, PhD -- Sep 24, 2020

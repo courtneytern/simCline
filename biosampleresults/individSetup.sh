@@ -13,7 +13,7 @@ cd /scratch/cat7ep/simCline/biosampleresults/
 #     print SRSnum
 #   }' )
 
-#first take the pooled samples
+#first take the individual samples
 sra=$( grep ",I," ./concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
@@ -23,7 +23,11 @@ sra=$( grep ",I," ./concatenated.csv | \
 
 #move the individual files to a different folder
   for line in $sra; do
-    echo /scratch/cat7ep/fasterq/$line* >> ./individFileNames.txt
+    echo /scratch/cat7ep/fasterq/$line >> ./individFileNames.txt
+  done
+
+  for line in /scratch/cat7ep/simCline/biosampleresults/individFileNames.txt; do
+    mv $line* /scratch/cat7ep/individFastq
   done
 
 sed 's/ /\n/g' ./individFileNames.txt > ./individFileNames.txt
