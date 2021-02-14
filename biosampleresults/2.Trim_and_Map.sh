@@ -167,7 +167,10 @@ fi
 	read1=$RAW_READS/${i}*_1.fastq
 	read2=$RAW_READS/${i}*_2.fastq
 
-	bbmerge.sh \
+	echo $read1
+	echo $read2
+
+	/scratch/cat7ep/simCline/biosampleresults/bbmerge.sh \
 	in1=$read1 in2=$read2 \
 	out=$WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.fq \
 	outu1=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.1.fq \
