@@ -19,7 +19,7 @@
 # NOTES ON NOMENCLATURE: This script uses nomenclature which can be confusing. The first part of the script split raw reads into insert-"merged"-reads (hereby called merged) and unmerged reads (those which were not merged). As such, all operations done using ether of these reads will have the term "merged" or "unmerged" attached to them. At a later point in the script, I combine bam files using "samtools merge" the output of this combination is a joint-bam file (hereby called "joint"). Thus, the joint suffix referes to this step. Other suffix used here are: "srt" which mean picard sorted, and "rmdp" which mean picard-removed duplicated reads.
 
 #Load Rivanna modules
-module load gcc/7.1.0
+module load gcc/9.2.0
 module load bwa
 module load bbmap
 module load fastqc
@@ -164,13 +164,13 @@ fi
 	mkdir $WORKING_FOLDER/merged_reads/${i}
 	mkdir $WORKING_FOLDER/unmerged_reads/${i}
 
-	read1=`echo $RAW_READS/${i}*_1.fastq`
-	read2=`echo $RAW_READS/${i}*_2.fastq`
+	read1=`echo $RAW_READS/${i}_1.fastq`
+	read2=`echo $RAW_READS/${i}_2.fastq`
 
 	echo "read 1: "$read1
 	echo "read 2: "$read2
 
-	/scratch/cat7ep/simCline/biosampleresults/bbmerge.sh \
+  bbmerge.sh \
 	in1=$read1 in2=$read2 \
 	out=$WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.fq \
 	outu1=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.1.fq \
