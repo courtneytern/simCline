@@ -5,8 +5,8 @@
 #SBATCH -N 1
 #SBATCH -t 6:00:00 ### 6 hours
 #SBATCH --mem 30G
-#SBATCH -o /scratch/cat7ep/slurmOut/simCline2.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/simCline2.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/simClineSignor.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/simClineSignor.%A_%a.err # Standard error
 #SBATCH -p standard
 #SBATCH --account berglandlab
 
@@ -15,7 +15,7 @@
 module load sratoolkit/2.9.1
 
 ##SLURM_ARRAY_TASK_ID=4
-#sbatch --array=1-811 /scratch/cat7ep/simCline/biosampleresults/getfastq.sh
+#sbatch --array=591-773 /scratch/cat7ep/simCline/biosampleresults/getfastq.sh
 ###array=1-811 for total concatenated.csv
 echo ${SLURM_ARRAY_TASK_ID}
 
@@ -27,4 +27,5 @@ SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," /scratch/cat7ep/simCline/biosampleresults
     print SRSnum
   }' )
 
-fasterq-dump ${SRS} -t /scratch/cat7ep/interDir --outdir /scratch/cat7ep/fasterqKang/
+#-f forces tool to override if the older version of the file exists
+fasterq-dump ${SRS} -t /scratch/cat7ep/interDir --outdir /scratch/cat7ep/fasterq/ -f
