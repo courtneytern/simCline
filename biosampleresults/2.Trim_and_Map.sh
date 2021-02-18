@@ -203,7 +203,7 @@ fi
 	#Now do some light trimming on the reads
 	echo ${i} "Trimming merge reads"
 
-	/scratch/cat7ep/simCline/biosampleresults/bbduk.sh \
+	bbduk.sh \
 	in=$WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.fq \
 	out=$WORKING_FOLDER/merged_reads/${i}/${i}.merged.reads.strict.trim.fq \
 	ftl=15 ftr=285 qtrim=w trimq=20
@@ -218,7 +218,7 @@ fi
 	#Now do some light trimming on the reads
 	echo ${i} "Trimming unmerged reads"
 
-	/scratch/cat7ep/simCline/biosampleresults/bbduk.sh \
+	bbduk.sh \
 	in=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.1.fq \
 	in2=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.2.fq \
 	out=$WORKING_FOLDER/unmerged_reads/${i}/${i}.unmerged.reads.trim.1.fq \
