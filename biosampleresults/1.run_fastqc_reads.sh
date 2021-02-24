@@ -32,10 +32,10 @@ for i in  ${files}
 	done
 
 # Now consolidate all files into a single folder
-# mkdir ../QC_raw_reads
-# find * -name "*fastqc.zip" -exec cp {} ../QC_raw_reads \;
-#
-# cd ../QC_raw_reads
+mkdir ../QC_raw_reads
+find * -name "*fastqc.zip" -exec cp {} ../QC_raw_reads \;
+
+cd ../QC_raw_reads
 #
 # =
 # #Now run multi QC
