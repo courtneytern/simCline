@@ -3,7 +3,7 @@ cd /scratch/cat7ep/simCline/biosampleresults
 fastqDir=/scratch/cat7ep/fasterq
 
 #get the SRS numbers from the Machado files only
-machado=$( grep ",Machado," ./concatenated.csv | \
+machado=$( grep "Machado" ./concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
     SRSnum= array[16]
