@@ -8,9 +8,10 @@
 #SBATCH --account=berglandlab
 #SBATCH -o /scratch/cat7ep/slurmOut/trimmap.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/trimmap.%A_%a.err # Standard error
-#SBATCH --array=1-759
+#SBATCH --array=577-759
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
+## 577-759 is just Signor
 
 # This script will initiate a pipeline which will do some quality QC on the reads and then will proceed to map the reads to a reference genome.
 # Prepared by Joaquin C. B. Nunez, PhD -- Sep 24, 2020
