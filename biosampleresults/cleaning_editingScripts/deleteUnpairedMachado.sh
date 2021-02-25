@@ -8,10 +8,7 @@ machado=$( grep "Machado" ./concatenated.csv | \
     split ($0,array,",")
     SRSnum= array[16]
     print SRSnum
-  }' )
-
-# make spaces into new lines 
-tr ' ' '\n' < ${machado}
+  }' ) 
 
 for line in $machado; do
   if [[ -e "${fastqDir}/${line}.fastq" ]] # if the unpaired file exists
