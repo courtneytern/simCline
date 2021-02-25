@@ -10,6 +10,9 @@ machado=$( grep "Machado" ./concatenated.csv | \
     print SRSnum
   }' )
 
+# make spaces into new lines 
+tr ' ' '\n' < ${machado}
+
 for line in $machado; do
   if [[ -e "${fastqDir}/${line}.fastq" ]] # if the unpaired file exists
   then
