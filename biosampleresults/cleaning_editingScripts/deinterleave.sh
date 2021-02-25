@@ -13,6 +13,8 @@
 ## This script will reformat the interleaved file that was not split from fasterq-dump automatically
 # The Signor files were not automatically split. the array will split them
 
+######## sbatch /scratch/cat7ep/simCline/biosampleresults/cleaning_editingScripts/deinterleave.sh
+
 module load gcc/9.2.0
 module load bbmap
 
@@ -26,4 +28,4 @@ sra=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/biosampleresul
     print SRSnum
   }' )
 
-reformat.sh in=${sra}.fastq out1=${sra}_1.fq out2=${sra}_2.fq
+reformat.sh in=${sra}.fastq out1=${sra}_1.fastq out2=${sra}_2.fastq
