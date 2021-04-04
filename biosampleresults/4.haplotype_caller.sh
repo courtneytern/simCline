@@ -6,12 +6,15 @@
 #SBATCH --time=12:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
+#SBATCH -o /scratch/cat7ep/slurmOut/hapcaller.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/hapcaller.%A_%a.err # Standard error
 #SBATCH --array=1-282
 
 # This script will initiate a pipeline which will add read group info and index bams. It will then proceed to call haplotypes (gVCFs)
 # Prepared by Joaquin C. B. Nunez, PhD -- Sep 25, 2020
 # yey2sn@virginia.edu
 
+####### sbatch /scratch/cat7ep/simCline/biosampleresults/4.haplotype_caller.sh
 
 #Load Modules
 module load gatk
@@ -31,7 +34,7 @@ BIO_SAMPLES=/scratch/cat7ep/simCline/biosampleresults/individFileNames.txt
 BAMS_FOLDER=/scratch/cat7ep/individTrimMapPipeline/joint_bams
 
 #Reference genome
-REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/dsim-mod.fasta
+REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta
 
 #Sample suffixes and post-fixes. What tags are expected across all samples?
 # Understanding of this comes from the previous pipeline
