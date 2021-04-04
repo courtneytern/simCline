@@ -3,49 +3,99 @@
 library(SeqArray)
 library(ggplot2)
 library(data.table)
+library(dplyr)
 
 setwd("~/Downloads/GitHub/simCline/biosampleresults/")
 
 gds.output <- "~/Downloads/GitHub/simCline/biosampleresults/pooled.gds"
-
 gds.file <- seqOpen(gds.output)
 snp.dt <- data.table(chr=seqGetData(gds.file, "chromosome"),
                      pos=seqGetData(gds.file, "position"),
                      nAlleles=seqGetData(gds.file, "$num_allele"),
                      id=seqGetData(gds.file, "variant.id"),
                      seqMissing(gds.file, per.variant=T))
+
 # filter where not dmels
 snp.dt <- snp.dt[grepl("Dsim_Scf_2L|Dsim_Scf_2R|Dsim_Scf_3L|Dsim_Scf_3R", chr)]
-
 # keep only where 2 alleles
 nAlleles=seqGetData(gds.file, "$num_allele")
-#sample 100,000 ids
-samp.ids <- as.numeric(sample(x=as.character(snp.dt[nAlleles==2]$id), size=10000))
-seqSetFilter(gds.file, variant.id=samp.ids)
+# get ids for previous filters
+ids <- snp.dt[nAlleles==2]$id
+seqSetFilter(gds.file, variant.id=ids)
+####sample 100,000 ids
+# samp.ids <- as.numeric(sample(x=as.character(snp.dt[nAlleles==2]$id), size=10000))
+# seqSetFilter(gds.file, variant.id=samp.ids)
 
 ####
 adList<- seqGetData(gds.file, "annotation/format/AD")
 rdList<- seqGetData(gds.file, "annotation/format/RD")
-
 # compile variables of interest
-dat <- data.table(ad=expand.grid(adList$data)$Var1,
+dat <- data.table(population=rep(seqGetData(gds.file, "sample.id"), dim(adList$data)[2]),
+                  variant.id=rep(seqGetData(gds.file, "variant.id"), each=dim(adList$data)[1]),
+                  ad=expand.grid(adList$data)$Var1,
                   rd=expand.grid(rdList$data)$Var1,
-                  population=rep(seqGetData(gds.file, "sample.id"), dim(adList$data)[2]),
-                  variant.id=rep(seqGetData(gds.file, "variant.id"), each=dim(adList$data)[1]))
+                  position=seqGetData(gds.file,"position"),
+                  chromosome=seqGetData(gds.file,"chromosome")
+                  )
 dat[,freqAlt:=ad/(ad+rd)]
 
-#######functions of dat[] variables
-# dat.ag <- dat[,list(population=population,nmissing=sum(is.na(ad)), aveAD=mean(ad, na.rm=T), freqAlt=sum(ad, na.rm=T)/sum(ad+rd, na.rm=T)), list(variant.id)]
-# 
-# #don't remember why we wanted to merge 
-# concatenated<- fread("concatenated.csv")
-# setnames(dat, "population", "identifier")
-# setkey(concatenated, identifier)
-# setkey(dat, identifier)
-# dat.merged <- merge(dat, concatenated)
+#get unique chromosome and snps per chromosome
+chroms<- unique(dat$chromosome)
+length(chroms)
 
+numSnpsList<- list()
+for(i in 0:length(chroms) ){
+  numSnpsList[i]<- length(which(dat$chromosome==chroms[i]))
+}
+length(unique(dat$variant.id))
+#snps per chromosome as a table
+numSnps<- data.table(Chromosome=chroms,numSnps=numSnpsList)
+numSnps
+
+##remove palmieri 
+dat<- dat[-(which(population=="Palmieri:NA:NA:Africa:Mar:19:1998:M252-DNA"))]
+
+#missing rate, mean RD, median RD, lower5th/upper 95th quantile, per population
+dat.ag <- dat[,list(propMissing=mean(rd==0, na.rm=T), aveRD=mean(rd, na.rm=T), medRD=as.double(median(rd,na.rm=T)), 
+                    lower5=quantile(rd, 0.05, na.rm=T), upper95=quantile(rd, 0.95, na.rm=T) ), 
+              list(population)]
+#avg alt depth, freq alt per SNP
+## include columns for chromosome and position
+dat.ag2 <- dat[,list(nmissing=mean(is.na(ad)), aveAD=mean(ad, na.rm=T), freqAlt=sum(ad, na.rm=T)/sum(ad+rd, na.rm=T),
+                     chrom= chromosome[1], pos= position[1]), 
+               list(variant.id)]
+
+### Plots ###
+# prop missing vs average read depth per population
+p<- ggplot(data=dat.ag, aes(x=propMissing,y=aveRD)) + geom_point()
+p
+# nmissing histogram per snp 
+q<- ggplot(data=dat.ag2, aes(x=nmissing)) + geom_histogram()
+q
+# alt frequency histogram per snp
+v<- ggplot(data=dat.ag2, aes(x=freqAlt)) + geom_histogram()
+v
+
+
+### Make summary table 
+# check some quantiles for nmissing
+quantile(dat.ag2$nmissing, c(.75,.8,.9,.95))
+
+threshold<- quantile(dat.ag2$nmissing, .9) # set threshold
+# sets list of variant id, then whether it passed the missing threshold or not 
+nmissingPassed<- data.frame(chrom=dat.ag2$chrom,
+                         pos=dat.ag2$pos,
+                         var.id=dat.ag2$variant.id,
+                         nmissing= dat.ag2$nmissing, 
+                         thresholdPass= dat.ag2$nmissing<=threshold)
+#summary of nmissing by variant id, remove pos and chrom info 
+nmissingPassed2<- distinct(data.frame(var.id=dat.ag2$variant.id,
+                            nmissing= dat.ag2$nmissing, 
+                            thresholdPass= dat.ag2$nmissing<=threshold))
+
+###
+#plot frequency of alternate alleles for each of the populations
 pdf(file="altAlleles.pdf")
-#plot frequency of alternate alleles for each of the 42 populations
 ggplot(data=dat, aes(x=freqAlt)) + geom_histogram() + facet_wrap(~population)
 dev.off()
 
@@ -62,7 +112,7 @@ rownames(dat3) <- seqGetData(gds.file, "sample.id")
   
 write.lfmm(dat3,"pooled3.lfmm")
 
-##run pca
+### run pca
  pc<- pca("pooled3.lfmm",K=10,center = TRUE, scale = FALSE)
  tw = tracy.widom(pc)
  pc.dt <- as.data.table(pc$projections)
@@ -74,13 +124,7 @@ write.lfmm(dat3,"pooled3.lfmm")
  pc.dt
 ##save
  write.csv(pc.dt, file="pc_pooled.csv")
-
- 
- library(ggplot2)
- library(data.table)
- 
  pc.dt <- fread(file="pc_pooled.csv")
- 
  pc.k <- kmeans(pc.dt[,c("PC1", "PC2", "PC3", "PC4", "PC5"), with=F], centers=3)
  pc.dt[,cluster:=pc.k$cluster]
  
