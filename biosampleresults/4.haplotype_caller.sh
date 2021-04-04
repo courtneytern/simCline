@@ -25,16 +25,16 @@ module load tabix
 PIPELINE=Haplocaller
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=scratch/cat7ep/individTrimMapPipeline
+WORKING_FOLDER=/scratch/cat7ep/individTrimMapPipeline
 
 # User defined inputs -- this represents the name of the samples
-BIO_SAMPLES=scratch/cat7ep/simCline/biosampleresults/individBiosamples.txt
+BIO_SAMPLES=/scratch/cat7ep/simCline/biosampleresults/individBiosamples.txt
 
 #Where the bam files are located
-BAMS_FOLDER=scratch/cat7ep/individTrimMapPipeline/joint_bams
+BAMS_FOLDER=/scratch/cat7ep/individTrimMapPipeline/joint_bams
 
 #Reference genome
-REFERENCE=project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta
+REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/dsim-mod.fasta
 
 #Sample suffixes and post-fixes. What tags are expected across all samples?
 # Understanding of this comes from the previous pipeline
