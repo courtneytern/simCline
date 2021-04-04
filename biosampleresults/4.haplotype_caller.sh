@@ -28,10 +28,10 @@ WORKING_FOLDER=/scratch/cat7ep
 BIO_SAMPLES=/scratch/cat7ep/simCline/biosampleresults/individFileNames.txt
 
 #Where the bam files are located
-BAMS_FOLDER=/scratch/yey2sn/joint_bams
+BAMS_FOLDER=/scratch/cat7ep/individTrimMapPipeline/joint_bams
 
 #Reference genome
-REFERENCE=/project/berglandlab/Dmel_fasta_refences/holo_dmel_6.12.fa
+REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/dsim-mod.fasta
 
 #Sample suffixes and post-fixes. What tags are expected across all samples?
 # Understanding of this comes from the previous pipeline
@@ -43,7 +43,7 @@ SUFFIX="joint.srt.rmdp"
 JAVAMEM=18G
 
 #Read Information
-Group_library="Overwinter_2018_2019"
+Group_library="Simcline_2021"
 Library_Platform="illumina"
 Group_platform="Novogene"
 
