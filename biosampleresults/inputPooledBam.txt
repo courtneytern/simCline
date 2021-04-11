@@ -3,7 +3,6 @@
 /project/berglandlab/courtney/simCline/bamfinal/SRR2859358.finalmap.bam
 /project/berglandlab/courtney/simCline/bamfinal/SRR2397087.finalmap.bam
 /project/berglandlab/courtney/simCline/bamfinal/SRR2397088.finalmap.bam
-/project/berglandlab/courtney/simCline/bamfinal/SRR1210633.finalmap.bam
 /project/berglandlab/courtney/simCline/bamfinal/SRR3084252.finalmap.bam
 /project/berglandlab/courtney/simCline/bamfinal/SRR3091655.finalmap.bam
 /project/berglandlab/courtney/simCline/bamfinal/SRR8038347.finalmap.bam
