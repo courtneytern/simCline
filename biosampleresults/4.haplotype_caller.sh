@@ -147,7 +147,7 @@ java -jar $PICARD BuildBamIndex \
 ###########################################################################
 # Call haplotypes with GATK
 
-gatk --java-options "-Xmx${JAVAMEM}" '-DGATK_STACKTRACE_ON_USER_EXCEPTION=true' \
+gatk --java-options "-Xmx${JAVAMEM} -DGATK_STACKTRACE_ON_USER_EXCEPTION=true" \
 	HaplotypeCaller \
 	-R $REFERENCE \
 	-I $WORKING_FOLDER/RGSM_final_bams/${i}.RG.bam \
