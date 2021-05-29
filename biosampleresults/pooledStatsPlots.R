@@ -7,6 +7,10 @@ library(dplyr)
 
 setwd("~/Downloads/GitHub/simCline/biosampleresults/")
 
+##########################
+### Setup/filtering ######
+##########################
+
 gds.output <- "~/Downloads/GitHub/simCline/biosampleresults/pooled.gds"
 gds.file <- seqOpen(gds.output)
 snp.dt <- data.table(chr=seqGetData(gds.file, "chromosome"),
@@ -52,9 +56,6 @@ length(unique(dat$variant.id))
 numSnps<- data.table(Chromosome=chroms,numSnps=numSnpsList)
 numSnps
 
-##remove palmieri 
-dat<- dat[-(which(population=="Palmieri:NA:NA:Africa:Mar:19:1998:M252-DNA"))]
-
 #missing rate, mean RD, median RD, lower5th/upper 95th quantile, per population
 dat.ag <- dat[,list(propMissing=mean(rd==0, na.rm=T), aveRD=mean(rd, na.rm=T), medRD=as.double(median(rd,na.rm=T)), 
                     lower5=quantile(rd, 0.05, na.rm=T), upper95=quantile(rd, 0.95, na.rm=T) ), 
@@ -65,7 +66,10 @@ dat.ag2 <- dat[,list(nmissing=mean(is.na(ad)), aveAD=mean(ad, na.rm=T), freqAlt=
                      chrom= chromosome[1], pos= position[1]), 
                list(variant.id)]
 
-### Plots ###
+########################
+### Plots/tables #######
+########################
+
 # prop missing vs average read depth per population
 p<- ggplot(data=dat.ag, aes(x=propMissing,y=aveRD)) + geom_point()
 p
@@ -75,7 +79,6 @@ q
 # alt frequency histogram per snp
 v<- ggplot(data=dat.ag2, aes(x=freqAlt)) + geom_histogram()
 v
-
 
 ### Make summary table 
 # check some quantiles for nmissing
@@ -93,42 +96,46 @@ nmissingPassed2<- distinct(data.frame(var.id=dat.ag2$variant.id,
                             nmissing= dat.ag2$nmissing, 
                             thresholdPass= dat.ag2$nmissing<=threshold))
 
-###
 #plot frequency of alternate alleles for each of the populations
 pdf(file="altAlleles.pdf")
 ggplot(data=dat, aes(x=freqAlt)) + geom_histogram() + facet_wrap(~population)
 dev.off()
 
 ####export gds as reduced vcf
-vcf.fn<- "pooledData2.vcf"
+vcf.fn<- "pooledData_reduced.vcf"
 seqGDS2VCF(gds.file, vcf.fn, info.var=NULL, fmt.var=NULL, use_Rsamtools=TRUE,
            verbose=TRUE)
 
-###lfmm
+
+#####################
+##### LEA ###########
+#####################
+
 library(LEA)
+
+###lfmm
 dat3<- adList$data/(adList$data+rdList$data)
 colnames(dat3) <- paste("snp", seqGetData(gds.file, "variant.id"), sep="")
 rownames(dat3) <- seqGetData(gds.file, "sample.id")
   
-write.lfmm(dat3,"pooled3.lfmm")
+write.lfmm(dat3,"pooled.lfmm")
 
 ### run pca
- pc<- pca("pooled3.lfmm",K=10,center = TRUE, scale = FALSE)
- tw = tracy.widom(pc)
+ pc<- pca("pooled.lfmm",K=10,center = TRUE, scale = FALSE)
+ tw <- tracy.widom(pc)
  pc.dt <- as.data.table(pc$projections)
  
  setnames(pc.dt, names(pc.dt), gsub("V", "PC", names(pc.dt)))
  pc.dt[,sampleId:=seqGetData(gds.file, "sample.id")]
- 
  # pc.dt <- merge(pc.dt, samps, by="sampleId")
- pc.dt
-##save
- write.csv(pc.dt, file="pc_pooled.csv")
- pc.dt <- fread(file="pc_pooled.csv")
+ 
+##save datatable of pc components
  pc.k <- kmeans(pc.dt[,c("PC1", "PC2", "PC3", "PC4", "PC5"), with=F], centers=3)
  pc.dt[,cluster:=pc.k$cluster]
+ write.csv(pc.dt, file="pc_pooled.csv")
+ pc.dt <- fread(file="pc_pooled.csv")
  
-pdf(file="pca.pdf")
+pdf(file="pca_pooled.pdf")
  ggplot() +
    geom_point(data=pc.dt, aes(x=PC1, y=PC2, color=as.factor(cluster))) 
 dev.off()
