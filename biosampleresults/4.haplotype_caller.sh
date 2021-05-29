@@ -3,7 +3,7 @@
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=20G
-#SBATCH --time=12:00:00
+#SBATCH --time=72:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
 #SBATCH -o /scratch/cat7ep/slurmOut/hapcaller.%A_%a.out # Standard output
