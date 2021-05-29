@@ -43,7 +43,7 @@ SUFFIX="joint.srt.rmdp"
 #Parameters
 
 #Java
-JAVAMEM=18G
+JAVAMEM=4G
 
 #Read Information
 Group_library="Simcline_2021"
