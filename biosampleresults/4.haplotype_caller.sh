@@ -124,7 +124,7 @@ fi
 ###########################################################################
 
 java -jar $PICARD AddOrReplaceReadGroups \
-	I=$BAMS_FOLDER/${i}.$SUFFIX.bam \
+	I=$BAMS_FOLDER/${i}.${SUFFIX}.bam \
 	O=$WORKING_FOLDER/RGSM_final_bams/${i}.RG.bam \
 	RGLB=$Group_library \
 	RGPL=$Library_Platform \
