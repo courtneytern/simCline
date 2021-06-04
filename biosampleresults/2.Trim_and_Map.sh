@@ -6,12 +6,13 @@
 #SBATCH --time=8:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/trimmap.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/trimmap.%A_%a.err # Standard error
-#SBATCH --array=577-759
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap2.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap2.%A_%a.err # Standard error
+#SBATCH --array=1-576
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
 ## 577-759 is just Signor
+# run first with 1-576, then Signor afterwards
 
 # This script will initiate a pipeline which will do some quality QC on the reads and then will proceed to map the reads to a reference genome.
 # Prepared by Joaquin C. B. Nunez, PhD -- Sep 24, 2020
@@ -50,7 +51,7 @@ PIPELINE=TrimMap
 #Define parameters
 CPU=1 # number of cores
 QUAL=40 # Quality threshold for samtools
-JAVAMEM=18g # Java memory
+JAVAMEM=18G # Java memory
 
 ###########################################################################
 ###########################################################################
@@ -157,8 +158,8 @@ fi
 
 # Setting sample name to user input
 
-#while read i #${files}
-#	do #---- Open Do------ <----
+while read i #${files}
+	do #---- Open Do------ <----
 
 	echo "now merging reads for" ${i}
 
