@@ -58,8 +58,10 @@ numSnps
 
 #missing rate, mean RD, median RD, lower5th/upper 95th quantile, per population
 dat.ag <- dat[,list(propMissing=mean(rd==0, na.rm=T), aveRD=mean(rd, na.rm=T), medRD=as.double(median(rd,na.rm=T)), 
-                    lower5=quantile(rd, 0.05, na.rm=T), upper95=quantile(rd, 0.95, na.rm=T) ), 
+                    lower5RD=quantile(rd, 0.05, na.rm=T), upper95RD=quantile(rd, 0.95, na.rm=T) ), 
               list(population)]
+write.csv(dat.ag, file="pooled_pops_summary.csv")
+
 #avg alt depth, freq alt per SNP
 ## include columns for chromosome and position
 dat.ag2 <- dat[,list(nmissing=mean(is.na(ad)), aveAD=mean(ad, na.rm=T), freqAlt=sum(ad, na.rm=T)/sum(ad+rd, na.rm=T),
@@ -73,8 +75,9 @@ dat.ag2 <- dat[,list(nmissing=mean(is.na(ad)), aveAD=mean(ad, na.rm=T), freqAlt=
 # prop missing vs average read depth per population
 p<- ggplot(data=dat.ag, aes(x=propMissing,y=aveRD)) + geom_point()
 p
+
 # nmissing histogram per snp 
-q<- ggplot(data=dat.ag2, aes(x=nmissing)) + geom_histogram()
+q<- ggplot(data=dat.ag2, aes(x=nmissing)) + geom_histogram() 
 q
 # alt frequency histogram per snp
 v<- ggplot(data=dat.ag2, aes(x=freqAlt)) + geom_histogram()
@@ -130,7 +133,7 @@ write.lfmm(dat3,"pooled.lfmm")
  # pc.dt <- merge(pc.dt, samps, by="sampleId")
  
 ##save datatable of pc components
- pc.k <- kmeans(pc.dt[,c("PC1", "PC2", "PC3", "PC4", "PC5"), with=F], centers=3)
+ pc.k <- kmeans(pc.dt[,c("PC1", "PC2", "PC3", "PC4", "PC5"), with=F], centers=2)
  pc.dt[,cluster:=pc.k$cluster]
  write.csv(pc.dt, file="pc_pooled.csv")
  pc.dt <- fread(file="pc_pooled.csv")
