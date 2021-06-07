@@ -6,8 +6,8 @@
 #SBATCH --time=8:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/trimmap6.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/trimmap6.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap7.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap7.%A_%a.err # Standard error
 #SBATCH --array=1-576
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
@@ -37,7 +37,7 @@ RAW_READS=/scratch/cat7ep/fasterq
 WORKING_FOLDER=/scratch/cat7ep/individTrimMapPipeline
 
 #This is the location where the reference genome and all its indexes are stored.
-REFERENCE=/project/berglandlab/courtney/simCline/refgenomes
+REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/simulans
 
 # This is a file with the name all the samples to be processed. one sample name per line
 SAMPLE_FILE=/scratch/cat7ep/simCline/biosampleresults/individFileNames.txt
