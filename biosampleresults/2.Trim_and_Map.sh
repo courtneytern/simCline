@@ -6,8 +6,8 @@
 #SBATCH --time=8:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/trimmap7.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/trimmap7.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap8.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap8.%A_%a.err # Standard error
 #SBATCH --array=1-576
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
@@ -261,7 +261,7 @@ fi
 		bwa mem \
 		-M \
 		-t $CPU \
-		$REFERENCE \
+		$REFERENCE/dsim-mod.fasta \
 		$WORKING_FOLDER/${j}_reads/${i}/${i}.${j}.reads.strict.trim.fq \
 		> $WORKING_FOLDER/${j}_reads/${i}/${i}.${j}.sam
 
@@ -270,7 +270,7 @@ fi
 		bwa mem \
 		-M \
 		-t $CPU \
-		$REFERENCE \
+		$REFERENCE/dsim-mod.fasta \
 		$WORKING_FOLDER/unmerged_reads/${i}/${i}.${j}.reads.trim.1.fq \
 		$WORKING_FOLDER/unmerged_reads/${i}/${i}.${j}.reads.trim.2.fq \
 		> $WORKING_FOLDER/unmerged_reads/${i}/${i}.${j}.sam
