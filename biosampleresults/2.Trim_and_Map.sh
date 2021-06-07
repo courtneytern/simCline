@@ -6,8 +6,8 @@
 #SBATCH --time=8:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/trimmap2.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/trimmap2.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap3.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap3.%A_%a.err # Standard error
 #SBATCH --array=1-576
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
@@ -158,7 +158,7 @@ fi
 
 # Setting sample name to user input
 
-while read i #${files}
+while read $i #${files}
 	do #---- Open Do------ <----
 
 	echo "now merging reads for" ${i}
@@ -243,7 +243,9 @@ while read i #${files}
 # Map reads to a reference
 ###########################################################################
 ###########################################################################
-# this part will map reads to the reference genome. Because the reads are likely split into two groups, this script will loop over both types of reads. After reads have been mapped, they will be compressed into bam files, sorted, and duplicates will be removed. I will also conduct an intermediary QC step with Qualimap. Because there are inherent QC steps here, I have avoided adding extra "warnings" in the log. Remember to take a look at the qualimap and the flagstat outputs to check for inconsistencies.
+# this part will map reads to the reference genome. Because the reads are likely split into two groups, this script will loop over both types of reads. After
+# reads have been mapped, they will be compressed into bam files, sorted, and duplicates will be removed. I will also conduct an intermediary QC step with Qualimap.
+# Because there are inherent QC steps here, I have avoided adding extra "warnings" in the log. Remember to take a look at the qualimap and the flagstat outputs to check for inconsistencies.
 
 	for j in merged unmerged
 	do # Begin loop of j

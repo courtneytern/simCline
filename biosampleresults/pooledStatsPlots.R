@@ -79,6 +79,7 @@ p
 # nmissing histogram per snp 
 q<- ggplot(data=dat.ag2, aes(x=nmissing)) + geom_histogram() 
 q
+
 # alt frequency histogram per snp
 v<- ggplot(data=dat.ag2, aes(x=freqAlt)) + geom_histogram()
 v
@@ -99,9 +100,31 @@ nmissingPassed2<- distinct(data.frame(var.id=dat.ag2$variant.id,
                             nmissing= dat.ag2$nmissing, 
                             thresholdPass= dat.ag2$nmissing<=threshold))
 
-#plot frequency of alternate alleles for each of the populations
-pdf(file="altAlleles.pdf")
-ggplot(data=dat, aes(x=freqAlt)) + geom_histogram() + facet_wrap(~population)
+####### Make PDF of summary graphs #########
+pdf(file="pooled_data_summary_plots")
+# prop missing vs average read depth per population
+p<- ggplot(data=dat.ag, aes(x=propMissing,y=aveRD)) + 
+  labs(title='Prop Missing vs Average Read Depth Per Population') + geom_point()
+p
+
+x<- ggplot(data=dat.ag, aes(x=aveRD)) + 
+  labs(title='Average Read Depth Per Population') + geom_histogram()
+x
+
+# nmissing histogram per snp 
+q<- ggplot(data=dat.ag2, aes(x=nmissing)) + 
+  labs(title='N Missing Per SNP') + geom_histogram() 
+q
+
+# alt frequency histogram per snp
+v<- ggplot(data=dat.ag2, aes(x=freqAlt)) + 
+  labs(title='Alternate Frequency Per SNP') + geom_histogram()
+v
+
+#alt alleles freq per population
+w<- ggplot(data=dat, aes(x=freqAlt)) + 
+  labs(title='Alternate Frequency Per Population') + geom_histogram() + facet_wrap(~population)
+w
 dev.off()
 
 ####export gds as reduced vcf
