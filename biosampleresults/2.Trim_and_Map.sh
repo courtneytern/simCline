@@ -6,8 +6,8 @@
 #SBATCH --time=8:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/trimmap3.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/trimmap3.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap4.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap4.%A_%a.err # Standard error
 #SBATCH --array=1-576
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
