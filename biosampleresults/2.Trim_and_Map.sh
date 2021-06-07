@@ -6,8 +6,8 @@
 #SBATCH --time=8:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/trimmap5.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/trimmap5.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap6.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap6.%A_%a.err # Standard error
 #SBATCH --array=1-576
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
@@ -31,7 +31,7 @@ module load picard
 
 #Define important file locations
 #RAW READS indicates the folder where the raw reads are stored. (As fastq)
-RAW_READS=/scratch/cat7ep/individFastq
+RAW_READS=/scratch/cat7ep/fasterq
 
 #Working folder is core folder where this pipeline is being run.
 WORKING_FOLDER=/scratch/cat7ep/individTrimMapPipeline
