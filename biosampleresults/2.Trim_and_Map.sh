@@ -31,7 +31,7 @@ module load picard
 
 #Define important file locations
 #RAW READS indicates the folder where the raw reads are stored. (As fastq)
-RAW_READS=/scratch/cat7ep/fasterq
+RAW_READS=/scratch/cat7ep/individFastq
 
 #Working folder is core folder where this pipeline is being run.
 WORKING_FOLDER=/scratch/cat7ep/individTrimMapPipeline
