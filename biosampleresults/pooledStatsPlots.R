@@ -101,7 +101,7 @@ nmissingPassed2<- distinct(data.frame(var.id=dat.ag2$variant.id,
                             thresholdPass= dat.ag2$nmissing<=threshold))
 
 ####### Make PDF of summary graphs #########
-pdf(file="pooled_data_summary_plots")
+pdf(file="pooled_data_summary_plots.pdf")
 # prop missing vs average read depth per population
 p<- ggplot(data=dat.ag, aes(x=propMissing,y=aveRD)) + 
   labs(title='Prop Missing vs Average Read Depth Per Population') + geom_point()
