@@ -12,7 +12,6 @@
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
 ## 577-759 is just Signor
-# run first with 1-576, then Signor afterwards
 
 # This script will initiate a pipeline which will do some quality QC on the reads and then will proceed to map the reads to a reference genome.
 # Prepared by Joaquin C. B. Nunez, PhD -- Sep 24, 2020
@@ -34,7 +33,7 @@ module load picard
 RAW_READS=/scratch/cat7ep/fasterq
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep/individTrimMapPipeline
+WORKING_FOLDER=/scratch/cat7ep/individPipeline/TrimMap
 
 #This is the location where the reference genome and all its indexes are stored.
 REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/simulans
@@ -154,7 +153,9 @@ fi
 # Trim and merge reads
 ###########################################################################
 ###########################################################################
-# This part of the pipeline will trim and merge the reads. It is very likely that the reads will be split into merged and unmerged. Both reads will be mapped. This loop operates using a while-read-do-done structure. the while loop is feed a file "SAMPLE_FILE" where  all sample names are stored, one name per line. This can be leveraged for parallelization.
+# This part of the pipeline will trim and merge the reads. It is very likely that the reads will be split into merged and unmerged.
+# Both reads will be mapped. This loop operates using a while-read-do-done structure. the while loop is feed a file "SAMPLE_FILE"
+# where  all sample names are stored, one name per line. This can be leveraged for parallelization.
 
 # Setting sample name to user input
 
