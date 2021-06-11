@@ -8,7 +8,7 @@
 #SBATCH --account=berglandlab
 #SBATCH -o /scratch/cat7ep/slurmOut/trimmap-Signor.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/trimmap-Signor.%A_%a.err # Standard error
-#SBATCH --array=577-759
+#SBATCH --array=1-577
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
 ## 577-759 is just Signor
