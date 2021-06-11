@@ -34,5 +34,5 @@ WORKING_FOLDER=/scratch/cat7ep/individPipeline/TrimMap
 WORKING_DIRECTORY=/scratch/cat7ep/individPipeline
 
   for line in $sra; do
-    echo $WORKING_FOLDER/joint_bams_qualimap/Qualimap_JointBam_${line} >> $WORKING_DIRECTORY/bam_qc_guide_file.txt
+    echo -e $line'\t'$WORKING_FOLDER/joint_bams_qualimap/Qualimap_JointBam_${line} >> $WORKING_DIRECTORY/bam_qc_guide_file.txt
   done
