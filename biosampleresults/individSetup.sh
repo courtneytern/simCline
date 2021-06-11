@@ -26,8 +26,13 @@ sra=$( grep ",I," ./concatenated.csv | \
     echo $line >> ./individFileNames.txt
   done
 
-  for line in /scratch/cat7ep/simCline/biosampleresults/individFileNames.txt; do
-    mv $line* /scratch/cat7ep/individFastq
-  done
-
+# file with the file names for all individual samples
 sed 's/ /\n/g' ./individFileNames.txt > ./individFileNames.txt
+
+# file with bam qc file paths for step 3 run_multi_qualimap
+WORKING_FOLDER=/scratch/cat7ep/individPipeline/TrimMap
+WORKING_DIRECTORY=/scratch/cat7ep/individPipeline
+
+  for line in $sra; do
+    echo $WORKING_FOLDER/joint_bams_qualimap/Qualimap_JointBam_${line} >> $WORKING_DIRECTORY/bam_qc_guide_file.txt
+  done
