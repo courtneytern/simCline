@@ -6,9 +6,9 @@
 #SBATCH --time=12:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/trimmap-fix1.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/trimmap-fix1.%A_%a.err # Standard error
-#SBATCH --array=3-11
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap-fix2.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap-fix2.%A_%a.err # Standard error
+#SBATCH --array=13,15-18,22-24,28-29,34-39,41-50,54,57,59-63,75,84,92-99,101,102,104,105,108,110,111,113,114,129,138,158,159,164,165,182,185-190,198,199
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
 ## 1-577 non-Signor
