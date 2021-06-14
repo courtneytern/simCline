@@ -3,15 +3,16 @@
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=20G
-#SBATCH --time=8:00:00
+#SBATCH --time=12:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/trimmap-Signor.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/trimmap-Signor.%A_%a.err # Standard error
-#SBATCH --array=1-577
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap-fix1.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap-fix1.%A_%a.err # Standard error
+#SBATCH --array=3-11
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
-## 577-759 is just Signor
+## 1-577 non-Signor
+## 577-759 is just Signor. See 2.x to run Signor (interleaved)
 
 # This script will initiate a pipeline which will do some quality QC on the reads and then will proceed to map the reads to a reference genome.
 # Prepared by Joaquin C. B. Nunez, PhD -- Sep 24, 2020
