@@ -8,7 +8,7 @@
 #SBATCH --account=berglandlab
 #SBATCH -o /scratch/cat7ep/slurmOut/trimmap-fix3.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/trimmap-fix3.%A_%a.err # Standard error
-#SBATCH --array=222-224,228-231,233-242,275-291,299-306,322-324,369,377-389,425-434,438-447,472-481,509-511,525-535,564-576
+#SBATCH --array=576
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
 ## 1-577 non-Signor
