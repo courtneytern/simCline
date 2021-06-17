@@ -3,11 +3,11 @@
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=20G
-#SBATCH --time=12:00:00
+#SBATCH --time=24:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/trimmap-fix4.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/trimmap-fix4.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap-fix5.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap-fix5.%A_%a.err # Standard error
 #SBATCH --array=576
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
