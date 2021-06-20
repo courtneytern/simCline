@@ -8,7 +8,7 @@
 #SBATCH --account=berglandlab
 #SBATCH -o /scratch/cat7ep/slurmOut/hapcaller.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/hapcaller.%A_%a.err # Standard error
-#SBATCH --array=1-282
+#SBATCH --array=1-758
 
 # This script will initiate a pipeline which will add read group info and index bams. It will then proceed to call haplotypes (gVCFs)
 # Prepared by Joaquin C. B. Nunez, PhD -- Sep 25, 2020
