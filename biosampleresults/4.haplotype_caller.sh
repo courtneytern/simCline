@@ -6,8 +6,8 @@
 #SBATCH --time=72:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/hapcaller2.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/hapcaller2.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/hapcaller.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/hapcaller.%A_%a.err # Standard error
 #SBATCH --array=1-282
 
 # This script will initiate a pipeline which will add read group info and index bams. It will then proceed to call haplotypes (gVCFs)
@@ -25,16 +25,16 @@ module load tabix
 PIPELINE=Haplocaller
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep/individTrimMapPipeline
+WORKING_FOLDER=/scratch/cat7ep/individPipeline/HapCaller
 
 # User defined inputs -- this represents the name of the samples
-BIO_SAMPLES=/scratch/cat7ep/simCline/biosampleresults/individBiosamples.txt
+BIO_SAMPLES=/scratch/cat7ep/simCline/biosampleresults/individFileNames.txt
 
 #Where the bam files are located
-BAMS_FOLDER=/scratch/cat7ep/individTrimMapPipeline/joint_bams
+BAMS_FOLDER=/scratch/cat7ep/individPipeline/TrimMap/joint_bams
 
 #Reference genome
-REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/dsim-mod.fasta
+REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/simulans/dsim-mod.fasta
 
 #Sample suffixes and post-fixes. What tags are expected across all samples?
 # Understanding of this comes from the previous pipeline
