@@ -21,7 +21,7 @@ sra=$( grep ",I," ./concatenated.csv | \
     print SRSnum
   }' )
 
-#move the individual files to a different folder
+#make file with list of sample names
   for line in $sra; do
     echo $line >> ./individFileNames.txt
   done
@@ -36,3 +36,10 @@ WORKING_DIRECTORY=/scratch/cat7ep/individPipeline
   for line in $sra; do
     echo -e $line'\t'$WORKING_FOLDER/joint_bams_qualimap/Qualimap_JointBam_${line} >> $WORKING_DIRECTORY/bam_qc_guide_file.txt
   done
+
+# file with vcf sample paths for step 5 MergeVCF_genomics
+  WORKING_FOLDER=/scratch/cat7ep/individPipeline/HapCaller
+
+    for line in $sra; do
+      echo -e $line'\t'$WORKING_FOLDER/haplotype_calling/${line}.raw.g.vcf.gz >> $WORKING_DIRECTORY/Samples_to_haplotype.txt
+    done
