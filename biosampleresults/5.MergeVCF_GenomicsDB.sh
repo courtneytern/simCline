@@ -6,11 +6,16 @@
 #SBATCH --time=72:00:00
 #SBATCH --partition=largemem
 #SBATCH --account=berglandlab
+#SBATCH -o /scratch/cat7ep/slurmOut/mergeVCF_dbi.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/merrgeVCF_dbi.%A_%a.err # Standard error
 #SBATCH --array=1-5
 
 # This script will merge gVCFs into a unified database for genotype calling.
 # Because this and following steps are so memory intensive, this will be done using
 # a per chromosome approach
+
+####### sbatch /scratch/cat7ep/simCline/biosampleresults/5.MergeVCF_GenomicsDB.sh
+
 
 #Load Modules
 module load gatk
@@ -19,20 +24,18 @@ module load gatk
 PIPELINE=GenomicsDBImport
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/yey2sn
+WORKING_FOLDER=/scratch/cat7ep/individPipeline
 
 # User defined inputs -- this represents the name of the samples
-OW_sample_map=/scratch/yey2sn/Samples_to_haplotype.txt
+OW_sample_map=/scratch/cat7ep/individPipeline/Samples_to_haplotype.txt
 #This file looks like this
 #  sample1      sample1.vcf.gz
 #  sample2      sample2.vcf.gz
 #  sample3      sample3.vcf.gz
+## second column is the path
 
-#Where the bam files are located
-BAMS_FOLDER=/scratch/yey2sn/joint_bams
-
-#Intervals to analyze
-intervals=/scratch/yey2sn/Intervals_Dmel.txt
+#Intervals to analyze (chromosome arms)
+intervals=/scratch/cat7ep/simCline/biosampleresults/intervals.txt
 
 #Parameters
 
@@ -73,7 +76,7 @@ then
 	echo "Working TEMP_MERGEVCF folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/TEMP_GenomicsDBImport_${i}
 	date
@@ -87,7 +90,7 @@ fi
 
   gatk --java-options "-Xmx${JAVAMEM} -Xms${JAVAMEM}" \
        GenomicsDBImport \
-       --genomicsdb-workspace-path $WORKING_FOLDER/OVERWINTER_2018_2019_DBI_${i} \
+       --genomicsdb-workspace-path $WORKING_FOLDER/SIMCLINE_DBI_${i} \
        --batch-size 50 \
        --sample-name-map $OW_sample_map \
        --tmp-dir=$WORKING_FOLDER/TEMP_MERGEVCF_${i} \
