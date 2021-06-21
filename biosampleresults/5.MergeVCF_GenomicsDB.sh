@@ -73,7 +73,7 @@ echo ${i} "is being processed" $(date)
 
 if [[ -d "TEMP_GenomicsDBImport" ]]
 then
-	echo "Working TEMP_MERGEVCF folder exist"
+	echo "Working TEMP_GenomicsDBImport_ folder exist"
 	echo "lets move on"
 	date
 else
@@ -93,7 +93,7 @@ fi
        --genomicsdb-workspace-path $WORKING_FOLDER/SIMCLINE_DBI_${i} \
        --batch-size 50 \
        --sample-name-map $OW_sample_map \
-       --tmp-dir=$WORKING_FOLDER/TEMP_MERGEVCF_${i} \
+       --tmp-dir $WORKING_FOLDER/TEMP_GenomicsDBImport_${i} \
        --reader-threads $CPU \
        -L ${i}
 
