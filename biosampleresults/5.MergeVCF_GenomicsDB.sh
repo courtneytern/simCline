@@ -24,10 +24,10 @@ module load gatk
 PIPELINE=GenomicsDBImport
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep/individPipeline
+WORKING_FOLDER=/scratch/cat7ep/individPipeline/MergeVCF
 
 # User defined inputs -- this represents the name of the samples
-OW_sample_map=/scratch/cat7ep/individPipeline/Samples_to_haplotype.txt
+sample_map=/scratch/cat7ep/individPipeline/Samples_to_haplotype.txt
 #This file looks like this
 #  sample1      sample1.vcf.gz
 #  sample2      sample2.vcf.gz
@@ -71,7 +71,7 @@ echo ${i} "is being processed" $(date)
 ###########################################################################
 # this part of the script will check and generate, if necessary, all of the output folders used in the script
 
-if [[ -d "TEMP_GenomicsDBImport" ]]
+if [[ -d "TEMP_GenomicsDBImport"_$i ]]
 then
 	echo "Working TEMP_GenomicsDBImport_ folder exist"
 	echo "lets move on"
@@ -92,7 +92,7 @@ fi
        GenomicsDBImport \
        --genomicsdb-workspace-path $WORKING_FOLDER/SIMCLINE_DBI_${i} \
        --batch-size 50 \
-       --sample-name-map $OW_sample_map \
+       --sample-name-map $sample_map \
        --tmp-dir $WORKING_FOLDER/TEMP_GenomicsDBImport_${i} \
        --reader-threads $CPU \
        -L ${i}
