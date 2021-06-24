@@ -21,7 +21,7 @@ module load gatk
 PIPELINE=GenotypeGVCFs
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep/GenotypeGenomics
+WORKING_FOLDER=/scratch/cat7ep/individPipeline/MergeVCF
 
 #Reference genome
 REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/simulans/dsim-mod.fasta
