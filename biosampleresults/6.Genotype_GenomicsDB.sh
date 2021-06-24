@@ -6,9 +6,13 @@
 #SBATCH --time=72:00:00
 #SBATCH --partition=largemem
 #SBATCH --account=berglandlab
+#SBATCH -o /scratch/cat7ep/slurmOut/genotype_genomics.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/genotype_genomics.%A_%a.err # Standard error
 #SBATCH --array=1-5
 
 # This script will conduct genotype calling on the GenomeDBI object
+
+####### sbatch /scratch/cat7ep/simCline/biosampleresults/6.Genotype_GenomicsDB.sh
 
 #Load Modules
 module load gatk
@@ -17,13 +21,13 @@ module load gatk
 PIPELINE=GenotypeGVCFs
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/yey2sn
+WORKING_FOLDER=/scratch/cat7ep/GenotypeGenomics
 
 #Reference genome
-REFERENCE=/project/berglandlab/Dmel_fasta_refences/holo_dmel_6.12.fa
+REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/simulans/dsim-mod.fasta
 
 #Intervals to analyze
-intervals=/scratch/yey2sn/Intervals_Dmel.txt
+intervals=/scratch/cat7ep/simCline/biosampleresults/intervals.txt
 
 #Parameters
 
@@ -58,7 +62,7 @@ echo ${i} "is being processed" $(date)
 ###########################################################################
 ###########################################################################
 
-GenomeDB_path=`echo $WORKING_FOLDER/OVERWINTER_2018_2019_DBI_${i}`
+GenomeDB_path=`echo $WORKING_FOLDER/SIMCLINE_DBI_${i}`
 
 ###########################################################################
 ###########################################################################
