@@ -6,18 +6,23 @@
 #SBATCH --time=24:00:00
 #SBATCH --partition=largemem
 #SBATCH --account=berglandlab
+#SBATCH -o /scratch/cat7ep/slurmOut/gatherVCFs.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/gatherVCFs.%A_%a.err # Standard error
 
 # This script is a pipeline which gather VCFs from all chromosomes.
+### Using genotyped.raw.vcf.gz because there's no recalibration step for simulans
+
+####### sbatch /scratch/cat7ep/simCline/biosampleresults/8.Gather_VCFs.sh
 
 #Load Modules
 module load picard
 module load tabix
 
 #Name of pipeline
-PIPELINE=OW_final_2018_2019
+PIPELINE=Simcline_final_2021
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/yey2sn
+WORKING_FOLDER=/scratch/cat7ep/individPipeline/MergeVCF
 
 #Parameters
 #Java
@@ -44,16 +49,16 @@ cd $WORKING_FOLDER
 
 java -Xmx$JAVAMEM \
  -jar $PICARD GatherVcfs \
-  I=$WORKING_FOLDER/2L.recalibratedSNP.vcf.gz \
-  I=$WORKING_FOLDER/2R.recalibratedSNP.vcf.gz \
-  I=$WORKING_FOLDER/3L.recalibratedSNP.vcf.gz \
-  I=$WORKING_FOLDER/3R.recalibratedSNP.vcf.gz \
-  I=$WORKING_FOLDER/X.recalibratedSNP.vcf.gz \
+  I=$WORKING_FOLDER/Dsim_Scf_2L.genotyped.raw.vcf.gz \
+  I=$WORKING_FOLDER/Dsim_Scf_2R.genotyped.raw.vcf.gz \
+  I=$WORKING_FOLDER/Dsim_Scf_3L.genotyped.raw.vcf.gz \
+  I=$WORKING_FOLDER/Dsim_Scf_3R.genotyped.raw.vcf.gz \
+  I=$WORKING_FOLDER/Dsim_Scf_X.genotyped.raw.vcf.gz \
   O=$WORKING_FOLDER/$PIPELINE.vcf
-	
+
 #bgzip and tabix
 	bgzip $WORKING_FOLDER/$PIPELINE.vcf
 	tabix $WORKING_FOLDER/$PIPELINE.vcf.gz
-	
+
 
 echo "done" $(date)
