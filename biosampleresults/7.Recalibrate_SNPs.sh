@@ -8,19 +8,26 @@
 #SBATCH --account=berglandlab
 #SBATCH --array=1-5
 
+###################################
+### Not necessary for simcline! ###
+###################################
+
 # This script is a pipeline which applies GATK variant recalibration to VCFs.
 
 #Load Modules
 module load gatk
 module load vcftools
 module load tabix
-module load gcc/7.1.0  
+module load gcc/7.1.0
 module load openmpi/3.1.4
-module load gcc/8.3.0 
+module load gcc/8.3.0
 module load cuda/10.2.89
 module load intel/18.0
 module load intelmpi/18.0
 module load R/4.0.0
+# # bedtools on rivanna now
+# module load gcc/9.2.0
+# module load bedtools/2.29.2
 
 #Load local software
 vcflib=/home/yey2sn/software/vcflib/bin
@@ -30,13 +37,13 @@ bedtools=/home/yey2sn/software/bedtools2/bin/bedtools
 PIPELINE=RecalibrateSNPs
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/yey2sn
+WORKING_FOLDER=/scratch/cat7ep/individPipeline/MergeVCF
 
 #Reference genome
-REFERENCE=/project/berglandlab/Dmel_fasta_refences/holo_dmel_6.12.fa
+REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/simulans/dsim-mod.fasta
 
 #Intervals to analyze
-intervals=/scratch/yey2sn/Intervals_Dmel.txt
+intervals=/scratch/cat7ep/simCline/biosampleresults/intervals.txt
 
 #DGRP true SNP panels
 # this file is generating by randomly sampling SNPs from the DGRP2 VCF panel.
@@ -70,7 +77,7 @@ then
 	echo "Working R_plots_Recalibrate folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/R_plots_Recalibrate
 	date
@@ -81,7 +88,7 @@ then
 	echo "Working RECALL folder exist"
 	echo "lets move on"
 	date
-else 
+else
 	echo "folder doesnt exist. lets fix that"
 	mkdir $WORKING_FOLDER/RECALL
 	date
@@ -110,7 +117,7 @@ echo ${i} "is being processed" $(date)
 		--recode-INFO-all \
 		--remove-indels \
 		--out ${i}.genotypedSNPs.raw
-		
+
 #bgzip and tabix
 bgzip ${i}.genotypedSNPs.raw.recode.vcf
 tabix ${i}.genotypedSNPs.raw.recode.vcf.gz
