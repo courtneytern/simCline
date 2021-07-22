@@ -21,6 +21,7 @@ seqVCF2GDS(vcf.fn = vcf.file, out.fn = gds.output)
 #########################
 ### Individ #############
 #########################
+
 #load vcf and gds files 
 vcf.file <- "~/Downloads/GitHub/simCline/biosampleresults/pooledData.vcf"
 gds.output <- "~/Downloads/GitHub/simCline/biosampleresults/pooled.gds"
