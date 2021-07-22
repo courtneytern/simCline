@@ -14,8 +14,8 @@ library(maps)
 
 
 ### set working directory
-setwd("/scratch/cat7ep/simCline/biosampleresults")
-# setwd("~/Downloads/GitHub/simCline/biosampleresults")
+# setwd("/scratch/cat7ep/simCline/biosampleresults")
+setwd("~/Downloads/GitHub/simCline/biosampleresults")
 
 ### load data
 samps <- fread("./concatenated.csv")
@@ -31,19 +31,6 @@ samps.ag <- samps[,list(nSamps=length(row),
 
 setkey(samps.ag, country, year)
 setkey(samps, country, year)
-
-
-### plot multi-sample populations
-
-# multi_sample <- ggplot() +
-#   geom_line(data= samps[J(samps.ag[maxDelta>10])], aes(x=as.Date(yday, origin = as.Date("2018-01-01")), y=lat, group=locality, linetype=continent)) +
-#   geom_point(data=samps[J(samps.ag[maxDelta>10])], aes(x=as.Date(yday, origin = as.Date("2018-01-01")), y=lat, group=locality, color=season)) +
-#   facet_grid(.~year) +
-#   theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position="bottom", legend.direction="vertical") +
-#   scale_x_date(date_labels = "%b", limits = as.Date(c(110,355), origin = as.Date("2018-01-01"))) +
-#   xlab("Collection Date") + ylab("Latitude")
-# 
-# ggsave(multi_sample, file="./DEST/populationInfo/multiSample.pdf")
 
 
 ### world map plot
@@ -72,10 +59,11 @@ world <- 	ggplot() +
   geom_polygon(data = worldData,
                aes(x=long, y = lat, group = group), fill="lightgrey") +
   geom_point(data = samps.ag.ag,
-             aes(x=long, y=lat, color=pool.indiv), size=3, alpha=.5) +
+             aes(x=long, y=lat, color=pool.indiv), size=2, alpha=.5) +
   xlab("Longitude") + ylab("Latitude") + scale_fill_manual(values="black")
+world
 
-ggsave(world, file="./worldPlot.pdf", height=4, width=6)
+ggsave(world, file="./metadata/worldPlot.pdf", height=4, width=6)
 
 
 ## north america
