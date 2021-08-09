@@ -5,3 +5,4 @@ biosampleresults/pooledData.gds
 *.vcf
 biosampleresults/test.lfmm
 *.lfmm
+biosampleresults/.Rhistory
