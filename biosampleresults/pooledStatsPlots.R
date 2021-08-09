@@ -53,6 +53,11 @@ write.csv(agg, file="aggregated_ad_rd.csv")
 agg<- as.data.table(agg)
 # now calc freq alt 
 agg[,freqAlt:=ad/(ad+rd)]
+
+#replace NA with 0
+agg$ad[is.na(agg$ad)] <- 0
+agg$rd[is.na(agg$rd)] <- 0
+# paste together for treemix format
 agg[,newCol:=paste(ad,rd,sep=",")]
 ## for individ, sum ad and rd first per pop, then paste and datw
 
@@ -60,7 +65,7 @@ agg[,newCol:=paste(ad,rd,sep=",")]
 datw <- dcast(agg, variant.id ~ population, value.var="newCol")
 # rename columns to something shorter
 colnames(datw)
-newColNames <- c("variant.id","Barghi:FL:Tallahassee","ES_Gim_14_34","ES_Gim_14_35","ES_Gim_16_33",
+newColNames <- c("Barghi:FL:Tallahassee","ES_Gim_14_34","ES_Gim_14_35","ES_Gim_16_33",
                  "ES_Pur_16_35","FR_Got_15_48","IT_Mez_15_43","IT_Mez_15_44","IT_Tre_16_15",
                  "Machado:Linvilla:65","Machado:Linvilla:50","PT_Rec_15_16","Sedghifar:SC:Conway",
                  "Sedghifar:ME:Fairfield","Sedghifar:FL:Miami","Sedghifar:Panama",
@@ -70,7 +75,8 @@ newColNames <- c("variant.id","Barghi:FL:Tallahassee","ES_Gim_14_34","ES_Gim_14_
 
 colnames(datw) <- newColNames
 # Write to txt file to be zipped for treemix 
-write.table(datw,file="treemix_input.txt",row.names=FALSE)
+write.table(datw,file="treemix_input.txt",quote=FALSE,row.names=FALSE)
+gzip(filename="treemix_input.txt",destname="treemix_input.gz")
 
 #### vvv This one works if you need to aggregate 
 # datw <- dcast(dat, variant.id ~ population, value.var=c("ad","rd"),fun.aggregate=sum)
