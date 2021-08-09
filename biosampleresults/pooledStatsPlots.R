@@ -4,6 +4,8 @@ library(SeqArray)
 library(ggplot2)
 library(data.table)
 library(dplyr)
+library(plyr) # for groupby and summarise_all 
+library(R.utils) # for gzip
 
 setwd("~/Downloads/GitHub/simCline/biosampleresults/")
 
@@ -11,8 +13,8 @@ setwd("~/Downloads/GitHub/simCline/biosampleresults/")
 ### Setup/filtering ######
 ##########################
 
-gds.output <- "~/Downloads/GitHub/simCline/biosampleresults/pooled.gds"
-gds.file <- seqOpen(gds.output)
+gds.output <- "./pooled.gds"
+gds.file <- seqOpen(gds.output, allow.duplicate=T)
 snp.dt <- data.table(chr=seqGetData(gds.file, "chromosome"),
                      pos=seqGetData(gds.file, "position"),
                      nAlleles=seqGetData(gds.file, "$num_allele"),
@@ -38,10 +40,42 @@ dat <- data.table(population=rep(seqGetData(gds.file, "sample.id"), dim(adList$d
                   variant.id=rep(seqGetData(gds.file, "variant.id"), each=dim(adList$data)[1]),
                   ad=expand.grid(adList$data)$Var1,
                   rd=expand.grid(rdList$data)$Var1,
-                  position=seqGetData(gds.file,"position"),
-                  chromosome=seqGetData(gds.file,"chromosome")
+                  position=rep(seqGetData(gds.file, "position"), each=dim(adList$data)[1]),
+                  chromosome=rep(seqGetData(gds.file, "chromosome"), each=dim(adList$data)[1])
                   )
-dat[,freqAlt:=ad/(ad+rd)]
+
+# aggregate duplicate Machado rows 
+agg<- dat %>% group_by(population,variant.id,position,chromosome) %>% summarise_all(sum)
+# save agg in new csv
+write.csv(agg, file="aggregated_ad_rd.csv")
+## agg <- read.csv("aggregated_ad_rd.csv")
+
+agg<- as.data.table(agg)
+# now calc freq alt 
+agg[,freqAlt:=ad/(ad+rd)]
+agg[,newCol:=paste(ad,rd,sep=",")]
+## for individ, sum ad and rd first per pop, then paste and datw
+
+# try this with ad and rd first, then do newCol 
+datw <- dcast(agg, variant.id ~ population, value.var="newCol")
+# rename columns to something shorter
+colnames(datw)
+newColNames <- c("variant.id","Barghi:FL:Tallahassee","ES_Gim_14_34","ES_Gim_14_35","ES_Gim_16_33",
+                 "ES_Pur_16_35","FR_Got_15_48","IT_Mez_15_43","IT_Mez_15_44","IT_Tre_16_15",
+                 "Machado:Linvilla:65","Machado:Linvilla:50","PT_Rec_15_16","Sedghifar:SC:Conway",
+                 "Sedghifar:ME:Fairfield","Sedghifar:FL:Miami","Sedghifar:Panama",
+                 "Sedghifar:NJ:Princeton","Sedghifar:RI:Providence","Sedghifar:NC:Raleigh",
+                 "Sedghifar:VA:Richmond","Sedghifar:GA:Savannah"
+                 )
+
+colnames(datw) <- newColNames
+# Write to txt file to be zipped for treemix 
+write.table(datw,file="treemix_input.txt",row.names=FALSE)
+
+#### vvv This one works if you need to aggregate 
+# datw <- dcast(dat, variant.id ~ population, value.var=c("ad","rd"),fun.aggregate=sum)
+# datw ## output for TreeMix 
+
 
 #get unique chromosome and snps per chromosome
 chroms<- unique(dat$chromosome)
