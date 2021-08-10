@@ -37,4 +37,6 @@ OUTGROUP="Sedghifar:SC:Conway"
 cd /scratch/cat7ep/simCline/biosampleresults
 
 # picking Sedghifar Conway as the outgroup based on PCA
-$TREEMIX_PATH -i $INPUT_FILE -o $OUT_STEM -root $OUTGROUP -k 1000
+# m is number of migratiion events
+# k is SNP grouping 
+$TREEMIX_PATH -i $INPUT_FILE -o $OUT_STEM -root $OUTGROUP -m 2 -k 1000
