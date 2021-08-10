@@ -24,6 +24,9 @@
 # make
 # export DESTDIR="$HOME/Software/LocalInstall" && make -j4 install
 
+module load gcc/9.2.0 intel/20.0 gsl/2.6
+module load intel/20.0  mvapich2/2.3.3 boost/1.68.0
+
 # Set paths
 TREEMIX_PATH="$HOME/Software/LocalInstall/usr/local/bin/treemix"
 
@@ -34,4 +37,4 @@ OUTGROUP="Sedghifar:SC:Conway"
 cd /scratch/cat7ep/simCline/biosampleresults
 
 # picking Sedghifar Conway as the outgroup based on PCA
-$TREEMIX_PATH -i $INPUT_FILE -o $OUT_STEM -root $OUTGROUP
+$TREEMIX_PATH -i $INPUT_FILE -o $OUT_STEM -root $OUTGROUP -k 1000
