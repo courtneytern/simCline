@@ -43,6 +43,16 @@ dat <- data.table(population=rep(seqGetData(gds.file, "sample.id"), dim(adList$d
                   position=rep(seqGetData(gds.file, "position"), each=dim(adList$data)[1]),
                   chromosome=rep(seqGetData(gds.file, "chromosome"), each=dim(adList$data)[1])
                   )
+write.csv(dat, file="dat_pooledpops.csv")
+## dat <- read.csv("dat_pooledpops.csv")
+dat.ag2 <- dat[,list(nmissing=mean(is.na(ad)), aveAD=mean(ad, na.rm=T), aveRD=mean(rd, na.rm=T), 
+                     freqAlt=sum(ad, na.rm=T)/sum(ad+rd, na.rm=T),
+                     chrom= chromosome[1], pos= position[1]), 
+               list(variant.id)]
+
+##########################
+### Make data tables #####
+##########################
 
 # aggregate duplicate Machado rows 
 agg<- dat %>% group_by(population,variant.id,position,chromosome) %>% summarise_all(sum)
@@ -54,15 +64,38 @@ agg<- as.data.table(agg)
 # now calc freq alt 
 agg[,freqAlt:=ad/(ad+rd)]
 
-#replace NA with 0
-agg$ad[is.na(agg$ad)] <- 0
-agg$rd[is.na(agg$rd)] <- 0
-# paste together for treemix format
-agg[,newCol:=paste(ad,rd,sep=",")]
+# calc ad/rd per variant id -- merge dat.ag2 aveAD and aveRD with dat 
+setkey(agg,variant.id)
+setkey(dat.ag2,variant.id)
+# left outer join. necessitate keeping all of dat
+## subset dat.ag2 to be just the variant id, aveAD, and aveRD
+merged <- merge(agg, dat.ag2[,c(1,3,4)], all.x=TRUE)
+
+# if NA in either ad or rd, construct treemix "x,y" with both avgs
+## if not NA, use the actual val for "x,y"
+# take as parameters: ad col, rd col, aveAD col, aveRD col 
+checkNA <- function(a,r,aa,ar){
+  if( is.na(a)|is.na(r) ) {
+    return(paste(aa,ar,sep=","))
+  } # if
+  else
+    return(paste(a,r,sep=","))
+}
+merged[,newCol:=mapply(checkNA,merged$ad,merged$rd,merged$aveAD,merged$aveRD)]
+write.csv(merged,"merged.csv")
+
+# #replace NA with 0
+# ### faulty-- fix this 
+# agg$ad[is.na(agg$ad)] <- 0
+# agg$rd[is.na(agg$rd)] <- 0
+# # paste together for treemix format
+# agg[,newCol:=paste(ad,rd,sep=",")]
 ## for individ, sum ad and rd first per pop, then paste and datw
 
 # try this with ad and rd first, then do newCol 
-datw <- dcast(agg, variant.id ~ population, value.var="newCol")
+datw <- dcast(merged, variant.id ~ population, value.var="newCol")
+# drop the var.id column
+datw <- datw[,-1]
 # rename columns to something shorter
 colnames(datw)
 newColNames <- c("Barghi:FL:Tallahassee","ES_Gim_14_34","ES_Gim_14_35","ES_Gim_16_33",
@@ -78,7 +111,7 @@ colnames(datw) <- newColNames
 write.table(datw,file="treemix_input.txt",quote=FALSE,row.names=FALSE)
 gzip(filename="treemix_input.txt",destname="treemix_input.gz")
 
-#### vvv This one works if you need to aggregate 
+#### vvv This one works if you need to aggregate with duplicates
 # datw <- dcast(dat, variant.id ~ population, value.var=c("ad","rd"),fun.aggregate=sum)
 # datw ## output for TreeMix 
 
@@ -97,16 +130,10 @@ numSnps<- data.table(Chromosome=chroms,numSnps=numSnpsList)
 numSnps
 
 #missing rate, mean RD, median RD, lower5th/upper 95th quantile, per population
-dat.ag <- dat[,list(propMissing=mean(rd==0, na.rm=T), aveRD=mean(rd, na.rm=T), medRD=as.double(median(rd,na.rm=T)), 
+dat.ag <- dat[,list(propMissing=mean(is.na(ad)), aveRD=mean(rd, na.rm=T), medRD=as.double(median(rd,na.rm=T)), 
                     lower5RD=quantile(rd, 0.05, na.rm=T), upper95RD=quantile(rd, 0.95, na.rm=T) ), 
               list(population)]
 write.csv(dat.ag, file="pooled_pops_summary.csv")
-
-#avg alt depth, freq alt per SNP
-## include columns for chromosome and position
-dat.ag2 <- dat[,list(nmissing=mean(is.na(ad)), aveAD=mean(ad, na.rm=T), freqAlt=sum(ad, na.rm=T)/sum(ad+rd, na.rm=T),
-                     chrom= chromosome[1], pos= position[1]), 
-               list(variant.id)]
 
 ########################
 ### Plots/tables #######

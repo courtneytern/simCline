@@ -6,8 +6,8 @@
 #SBATCH --time=24:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/treemix.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/treemix.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/treemix2.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/treemix2.%A_%a.err # Standard error
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/treemix.sh
 
@@ -38,5 +38,5 @@ cd /scratch/cat7ep/simCline/biosampleresults
 
 # picking Sedghifar Conway as the outgroup based on PCA
 # m is number of migratiion events
-# k is SNP grouping 
+# k is SNP grouping
 $TREEMIX_PATH -i $INPUT_FILE -o $OUT_STEM -root $OUTGROUP -m 2 -k 1000
