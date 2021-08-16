@@ -10,3 +10,5 @@ biosampleresults/aggregated_ad_rd.csv
 *.gz
 biosampleresults/treemix-1.13
 biosampleresults/pooled_tree.llik
+biosampleresults/dat_pooledpops.csv
+biosampleresults/merged.csv
