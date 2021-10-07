@@ -23,8 +23,8 @@ library(data.table)
 #########################
 
 #load vcf and gds files 
-vcf.file <- "~/Downloads/GitHub/simCline/biosampleresults/Simcline_final_2021.vcf.gz"
-gds.output <- "~/Downloads/GitHub/simCline/biosampleresults/individ.gds"
+vcf.file <- "/scratch/cat7ep/individPipeline/MergeVCF/Simcline_final_2021.vcf.gz"
+gds.output <- "/scratch/cat7ep/simCline/biosampleresults/individ.gds"
 #create GDS file 
 seqVCF2GDS(vcf.fn = vcf.file, out.fn = gds.output)
 
