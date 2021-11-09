@@ -15,7 +15,6 @@ setwd("~/Downloads/GitHub/simCline/biosampleresults/")
 
 gds.output <- "./pooled.gds"
 gds.file <- seqOpen(gds.output, allow.duplicate=T)
-individ.gds <- seqOpen("./individ.gds")
 snp.dt <- data.table(chr=seqGetData(gds.file, "chromosome"),
                      pos=seqGetData(gds.file, "position"),
                      nAlleles=seqGetData(gds.file, "$num_allele"),
