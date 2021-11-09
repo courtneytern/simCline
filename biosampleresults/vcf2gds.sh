@@ -9,6 +9,8 @@
 #SBATCH -o /scratch/cat7ep/slurmOut/vcf2gds100721.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/vcf2gds100721.%A_%a.err # Standard error
 
+### sbatch /scratch/cat7ep/simCline/biosampleresults/vcf2gds.sh
+
 module load gcc/7.1.0  openmpi/3.1.4  intel/18.0  intelmpi/18.0
 module load R
 
