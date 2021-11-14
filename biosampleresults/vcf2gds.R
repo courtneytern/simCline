@@ -8,8 +8,10 @@ library(data.table)
 #########################
 
 #load vcf and gds files 
-vcf.file <- "~/Downloads/GitHub/simCline/biosampleresults/pooledData.vcf"
-gds.output <- "~/Downloads/GitHub/simCline/biosampleresults/pooled.gds"
+vcf.file <- "/scratch/cat7ep/simCline/biosampleresults/pooledData.vcf"
+# vcf.file <- "~/Downloads/GitHub/simCline/biosampleresults/pooledData.vcf"
+gds.output <- "/scratch/cat7ep/simCline/biosampleresults/pooled.gds"
+# gds.output <- "~/Downloads/GitHub/simCline/biosampleresults/pooled.gds"
 #create GDS file
 seqVCF2GDS(vcf.fn = vcf.file, out.fn = gds.output)
 
