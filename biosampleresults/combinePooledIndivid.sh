@@ -5,7 +5,7 @@
 #SBATCH --mem=20G
 #SBATCH --time=24:00:00
 #SBATCH --partition=standard
-#SBATCH --account=berglandlab
+#SBATCH --account=berglandlab_standard
 #SBATCH -o /scratch/cat7ep/slurmOut/combinePooledIndivid.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/combinePooledIndivid.%A_%a.err # Standard error
 
