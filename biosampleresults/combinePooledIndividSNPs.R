@@ -16,9 +16,9 @@ individ.gds<- seqOpen("./individ.gds")
 pooled.gds<- seqOpen("./pooled.gds")
 
 # get the intersection of chromosome and position between pooled and individ samples
-individ.snps<- seqGetData(individ.gds,"$chrom_pos")
-pooled.snps<- seqGetData(pooled.gds,"$chrom_pos")
-intersectPos<- intersect(individ.snps,pooled.snps)
+# individ.snps<- seqGetData(individ.gds,"$chrom_pos")
+# pooled.snps<- seqGetData(pooled.gds,"$chrom_pos")
+# intersectPos<- intersect(individ.snps,pooled.snps)
 #chroms<- c("Dsim_Scf_2L", "Dsim_Scf_2R", "Dsim_Scf_3L","Dsim_Scf_3R","Dsim_Scf_X" )
 
 # make table with the chromosome and position assoc with variant id
@@ -37,11 +37,13 @@ joined_snps<- intersect(individ.dt,pooled.dt)
 # pooledTreemix<- read.table("./pooledTreemixInput.txt")
 
 # filter by only the chr/pos in common between ind and pooled
-seqSetFilterPos(individ.gds,chr=joined_snps$chr,pos=joined_snps$pos)
-seqSetFilterPos(pooled.gds,chr=joined_snps$chr,pos=joined_snps$pos)
+# seqSetFilterPos(individ.gds,chr=joined_snps$chr,pos=joined_snps$pos)
+# seqSetFilterPos(pooled.gds,chr=joined_snps$chr,pos=joined_snps$pos)
 
 ########### 
-## rerun the treemix formatting for each ?
+## rerun the treemix formatting for each 
+### Clear some memory by removing unnecessary objects
+rm(individ.gds,pooled.gds,individ.dt,pooled.dt)
 
 ## Pooled  #### 
 pooledPath<- "/scratch/cat7ep/simCline/biosampleresults/pooled.gds"
