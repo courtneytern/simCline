@@ -110,7 +110,7 @@ write.table(pooledOutput,"/scratch/cat7ep/simCline/biosampleresults/treemixPoole
 ## Individual  #### 
 individPath<- "/scratch/cat7ep/simCline/biosampleresults/individ.gds"
 makeIndividTreemix<- function(individPath) {
-  individ.gds<- gds.file
+  individ.gds<- seqOpen(individPath,allow.duplicate = T)
   metadata<- read.csv("./concatenated.csv")
   # keep just individ samps
   ind_metadata<- metadata[metadata$p.i=="I",]
