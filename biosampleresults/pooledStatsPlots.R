@@ -92,7 +92,7 @@ write.csv(merged,"merged.csv")
 # agg[,newCol:=paste(ad,rd,sep=",")]
 ## for individ, sum ad and rd first per pop, then paste and datw
 
-# try this with ad and rd first, then do newCol 
+# long to wide
 datw <- dcast(merged, variant.id ~ population, value.var="newCol")
 # drop the var.id column
 datw <- datw[,-1]
