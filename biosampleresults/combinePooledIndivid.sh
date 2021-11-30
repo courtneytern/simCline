@@ -3,7 +3,7 @@
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=2
 #SBATCH --mem=120G
-#SBATCH --time=48:00:00
+#SBATCH --time=12:00:00
 #SBATCH --partition=largemem
 #SBATCH --account=berglandlab_standard
 #SBATCH -o /scratch/cat7ep/slurmOut/combinePooledIndivid.%A_%a.out # Standard output
