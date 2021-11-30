@@ -49,7 +49,23 @@ rm(individ.gds,pooled.gds,individ.dt,pooled.dt)
 pooledPath<- "/scratch/cat7ep/simCline/biosampleresults/pooled.gds"
 makePooledTreemix<- function(pooledPath)  {
   gds.file<- seqOpen(pooledPath,allow.duplicate = T)
+  # keep only joined snps
   seqSetFilterPos(gds.file,chr=joined_snps$chr,pos=joined_snps$pos)
+  
+  snp.dt <- data.table(chr=seqGetData(gds.file, "chromosome"),
+                       pos=seqGetData(gds.file, "position"),
+                       nAlleles=seqGetData(gds.file, "$num_allele"),
+                       id=seqGetData(gds.file, "variant.id"),
+                       seqMissing(gds.file, per.variant=T))
+  # filter where not dmels
+  snp.dt <- snp.dt[grepl("Dsim_Scf_2L|Dsim_Scf_2R|Dsim_Scf_3L|Dsim_Scf_3R", chr)]
+  # keep only where 2 alleles
+  nAlleles=seqGetData(gds.file, "$num_allele")
+  # get ids for previous filters
+  ids <- snp.dt[nAlleles==2]$id
+  seqSetFilter(gds.file, variant.id=ids)
+  
+  ## Get AD/RD list
   adList<- seqGetData(gds.file, "annotation/format/AD")
   rdList<- seqGetData(gds.file, "annotation/format/RD")
   # compile variables of interest
