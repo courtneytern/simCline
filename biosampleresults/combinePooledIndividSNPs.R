@@ -108,19 +108,18 @@ makePooledTreemix<- function(pooledPath)  {
   datw <- datw[,-1]
   # rename columns to something shorter
   colnames(datw)
-  newColNames <- c(",","Barghi:FL:Tallahassee","ES_Gim_14_34","ES_Gim_14_35","ES_Gim_16_33",
+  newColNames <- c("Barghi:FL:Tallahassee","ES_Gim_14_34","ES_Gim_14_35","ES_Gim_16_33",
                  "ES_Pur_16_35","FR_Got_15_48","IT_Mez_15_43","IT_Mez_15_44","IT_Tre_16_15",
                  "Machado:Linvilla:65","Machado:Linvilla:50","PT_Rec_15_16","Sedghifar:SC:Conway",
                  "Sedghifar:ME:Fairfield","Sedghifar:FL:Miami","Sedghifar:Panama",
                  "Sedghifar:NJ:Princeton","Sedghifar:RI:Providence","Sedghifar:NC:Raleigh",
-                 "Sedghifar:VA:Richmond","Sedghifar:GA:Savannah"
-  )
+                 "Sedghifar:VA:Richmond","Sedghifar:GA:Savannah" )
 
   colnames(datw) <- newColNames
   datw
 }
 pooledOutput<- makePooledTreemix(pooledPath)
-write.table(pooledOutput,"/scratch/cat7ep/simCline/biosampleresults/treemixPooledOut.txt")
+write.table(pooledOutput,"/scratch/cat7ep/simCline/biosampleresults/treemixPooledOut.txt",row.names = F)
 
 
 ## Individual  #### 
@@ -166,11 +165,11 @@ makeIndividTreemix<- function(individPath) {
   }# end for
   # remove the first column of NAs
   treemixTable<- treemixTable[,-1]
-  colnames(treemixTable)<- c(",",unique(ind_metadata$population))
+  colnames(treemixTable)<- unique(ind_metadata$population)
   treemixTable
 }
 individOutput<- makeIndividTreemix(individPath)
-write.table(individOutput,"/scratch/cat7ep/simCline/biosampleresults/treemixIndividOut.txt")
+write.table(individOutput,"/scratch/cat7ep/simCline/biosampleresults/treemixIndividOut.txt",row.names = F)
 
 
 
