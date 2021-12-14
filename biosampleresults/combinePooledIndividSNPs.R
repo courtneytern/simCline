@@ -88,8 +88,8 @@ makePooledTreemix<- function(pooledPath)  {
   setkey(agg,variant.id)
   setkey(dat.ag2,variant.id)
   # left outer join. necessitate keeping all of dat
-  ## subset dat.ag2 to be just the variant id, aveAD, and aveRD
-  merged <- merge(agg, dat.ag2[,c(1,3,4)], all.x=TRUE)
+  ## subset dat.ag2 to be just the variant id, aveAD, aveRD, chrom, pos
+  merged <- merge(agg, dat.ag2[,c(1,3,4,6,7)], all.x=TRUE)
 
   # if NA in either ad or rd, construct treemix "x,y" with both avgs
   ## if not NA, use the actual val for "x,y"
@@ -103,17 +103,18 @@ makePooledTreemix<- function(pooledPath)  {
   }
   merged[,newCol:=mapply(checkNA,merged$ad,merged$rd,merged$aveAD,merged$aveRD)]
   # long to wide
-  datw <- dcast(merged, variant.id ~ population, value.var="newCol")
+  datw <- dcast(merged, chrom+pos ~ population, value.var="newCol")
   # drop the var.id column
-  datw <- datw[,-1]
+  #datw <- datw[,-1]
   # rename columns to something shorter
   colnames(datw)
-  newColNames <- c("Barghi:FL:Tallahassee","ES_Gim_14_34","ES_Gim_14_35","ES_Gim_16_33",
-                 "ES_Pur_16_35","FR_Got_15_48","IT_Mez_15_43","IT_Mez_15_44","IT_Tre_16_15",
-                 "Machado:Linvilla:65","Machado:Linvilla:50","PT_Rec_15_16","Sedghifar:SC:Conway",
-                 "Sedghifar:ME:Fairfield","Sedghifar:FL:Miami","Sedghifar:Panama",
-                 "Sedghifar:NJ:Princeton","Sedghifar:RI:Providence","Sedghifar:NC:Raleigh",
-                 "Sedghifar:VA:Richmond","Sedghifar:GA:Savannah" )
+  newColNames <- c("chrom","pos",
+                   "Barghi:FL:Tallahassee","ES_Gim_14_34","ES_Gim_14_35","ES_Gim_16_33",
+                   "ES_Pur_16_35","FR_Got_15_48","IT_Mez_15_43","IT_Mez_15_44","IT_Tre_16_15",
+                   "Machado:Linvilla:65","Machado:Linvilla:50","PT_Rec_15_16","Sedghifar:SC:Conway",
+                   "Sedghifar:ME:Fairfield","Sedghifar:FL:Miami","Sedghifar:Panama",
+                   "Sedghifar:NJ:Princeton","Sedghifar:RI:Providence","Sedghifar:NC:Raleigh",
+                   "Sedghifar:VA:Richmond","Sedghifar:GA:Savannah" )
 
   colnames(datw) <- newColNames
   datw
@@ -148,7 +149,8 @@ makeIndividTreemix<- function(individPath) {
   }# end for
   names(popSampsList)<- unique(ind_metadata$population)
   
-  popTreemix<- function(popSamps){
+  popTreemix<- function(popSamps){    
+    seqResetFilter(individ.gds)
     seqSetFilter(individ.gds, sample.id=popSamps)
     #TEST: seqSetFilter(individ.gds,variant.id=samp.ids)
     
@@ -158,14 +160,13 @@ makeIndividTreemix<- function(individPath) {
     paste(numAlt,numRef,sep=",")
   }#end popTreemix
   
-  # init matrix with as many rows as snps
-  treemixTable<- matrix(nrow=length(seqGetData(individ.gds,"variant.id")))
+  # init matrix with chromosome and position; as many rows as snps
+  treemixTable<- matrix(c(seqGetData(individ.gds,"chromosome"),seqGetData(individ.gds,"position")),
+                        nrow=length(seqGetData(individ.gds,"variant.id")))
   for(samps in popSampsList){
     treemixTable<- cbind(treemixTable,popTreemix(samps))
   }# end for
-  # remove the first column of NAs
-  treemixTable<- treemixTable[,-1]
-  colnames(treemixTable)<- unique(ind_metadata$population)
+  colnames(treemixTable)<- c("chr","pos",unique(ind_metadata$population))
   treemixTable
 }
 individOutput<- makeIndividTreemix(individPath)
