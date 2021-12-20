@@ -30,13 +30,16 @@ module load intel/20.0  mvapich2/2.3.3 boost/1.68.0
 # Set paths
 TREEMIX_PATH="$HOME/Software/LocalInstall/usr/local/bin/treemix"
 
-INPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/treemix_input.gz"
-OUT_STEM="pooled_tree"
-OUTGROUP="Sedghifar:SC:Conway"
+INPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/treemixCOMBINEDinput.txt.gz"
+OUTGROUP="Madagascar.Joffreville.2002.NA"
+# run for m=0,1,2,3
+OUT_STEM="simcline_treeOut_m3"
 
-cd /scratch/cat7ep/simCline/biosampleresults
+cd /scratch/cat7ep/simCline/biosampleresults/treemixOutputs
 
-# picking Sedghifar Conway as the outgroup based on PCA
 # m is number of migratiion events
 # k is SNP grouping
-$TREEMIX_PATH -i $INPUT_FILE -o $OUT_STEM -root $OUTGROUP -m 2 -k 1000
+$TREEMIX_PATH -i $INPUT_FILE -o $OUT_STEM -root $OUTGROUP -m 3 -k 1000
+
+# make plot in treemix.R
+## scp cat7ep@rivanna.hpc.virginia.edu:/scratch/cat7ep/simCline/biosampleresults/treemixOutputs/m1.pdf ~/Downloads
