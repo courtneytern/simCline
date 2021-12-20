@@ -119,8 +119,8 @@ makePooledTreemix<- function(pooledPath)  {
   colnames(datw) <- newColNames
   datw
 }
-pooledOutput<- makePooledTreemix(pooledPath)
-write.table(pooledOutput,"/scratch/cat7ep/simCline/biosampleresults/treemixPooledOut.txt",row.names = F)
+pooledInput<- makePooledTreemix(pooledPath)
+write.table(pooledInput,"/scratch/cat7ep/simCline/biosampleresults/treemixPooledInput.txt",row.names = F)
 
 
 ## Individual  #### 
@@ -169,8 +169,8 @@ makeIndividTreemix<- function(individPath) {
   colnames(treemixTable)<- c("chr","pos",unique(ind_metadata$population))
   treemixTable
 }
-individOutput<- makeIndividTreemix(individPath)
-write.table(individOutput,"/scratch/cat7ep/simCline/biosampleresults/treemixIndividOut.txt",row.names = F)
+individInput<- makeIndividTreemix(individPath)
+write.table(individInput,"/scratch/cat7ep/simCline/biosampleresults/treemixIndividInput.txt",row.names = F)
 
-
+# go to combineTreemixInputs.R to combine into one treemix input file
 
