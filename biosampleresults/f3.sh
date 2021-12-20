@@ -5,7 +5,7 @@
 #SBATCH --mem=20G
 #SBATCH --time=24:00:00
 #SBATCH --partition=standard
-#SBATCH --account=berglandlab
+#SBATCH --account=berglandlab_standard
 #SBATCH -o /scratch/cat7ep/slurmOut/f3.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/f3.%A_%a.err # Standard error
 
@@ -30,7 +30,7 @@ module load intel/20.0  mvapich2/2.3.3 boost/1.68.0
 # Set paths
 THREEPOP_PATH="$HOME/Software/LocalInstall/usr/local/bin/threepop"
 
-INPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/treemix_input.gz"
+INPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/treemixCOMBINEDinput.txt.gz"
 OUTPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/f3_output.txt"
 
 cd /scratch/cat7ep/simCline/biosampleresults
