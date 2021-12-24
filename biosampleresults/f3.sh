@@ -31,7 +31,7 @@ module load intel/20.0  mvapich2/2.3.3 boost/1.68.0
 THREEPOP_PATH="$HOME/Software/LocalInstall/usr/local/bin/threepop"
 
 INPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/treemixCOMBINEDinput.txt.gz"
-OUTPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/f3_output.txt"
+OUTPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/f3_output_72H.txt"
 
 cd /scratch/cat7ep/simCline/biosampleresults
 
