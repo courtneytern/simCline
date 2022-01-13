@@ -13,3 +13,11 @@ combinedInput=$WORKING_FOLDER/treemixCOMBINEDinput.txt
 # all files will keep 1-4, 13-20, 23
 col=32
 awk -F" " '{ print $32,$1,$2,$3,$4,$13,$14,$15,$16,$17,$18,$19,$20,$23 }' < $combinedInput > $WORKING_FOLDER/treemixInput_${col}.txt
+
+######################
+## Post running f3.sh:
+## Grep just the A;B,C trees from all the files and cat them together
+## the output will be run through f3_parse.R
+
+cd /scratch/cat7ep/simCline/biosampleresults/f3_outputs
+cat ./f3_output_* | grep ';' > ./FINAL_f3_output.txt
