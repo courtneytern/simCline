@@ -115,15 +115,4 @@ java -jar "$EBROOTPICARD"/picard.jar MarkDuplicates MAX_FILE_HANDLES_FOR_READ_EN
      REMOVE_DUPLICATES=true \
      CREATE_INDEX=true
 
-# go to indel realignment script
-# if ${paired}=="true"; then
-#   #open paired indel realignment script
-# else if ${paired}=="false"; then
-#   #open unpaired indel realignment script
-# else
-#   echo "ERROR in paired variable"
-
-# gatk HaplotypeCaller \
-#     -i ${outputDir}/${sra}.finalmap.bam \
-#     -o ${outputDir}/${sra}.removeindels.vcf \
-#     -r /project/berglandlab/courtney/simCline/refgenomes/combinedref.fasta
+## go to makeVCF.sh
