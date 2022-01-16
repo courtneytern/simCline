@@ -10,6 +10,8 @@
 #SBATCH -p standard
 #SBATCH --account berglandlab
 
+#### REPLACED BY findEuroSim.sh 
+
 ##############################
 ##In rivanna, un-comment below
 module load samtools/1.10
