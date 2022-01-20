@@ -1,5 +1,8 @@
 # Run R analyses on individual 
 ## To be run on Rivanna
+##############
+### **This script is duplicated and used in combinePooledIndividSNPs.R ** 
+##############
 
 # module load gcc/7.1.0  openmpi/3.1.4  R
 # R 
