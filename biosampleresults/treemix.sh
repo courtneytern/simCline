@@ -41,5 +41,5 @@ cd /scratch/cat7ep/simCline/biosampleresults/treemixOutputs
 # k is SNP grouping
 $TREEMIX_PATH -i $INPUT_FILE -o $OUT_STEM -root $OUTGROUP -m 3 -k 1000
 
-# make plot in treemix.R
+# make plot in treemixPlot.R
 ## scp cat7ep@rivanna.hpc.virginia.edu:/scratch/cat7ep/simCline/biosampleresults/treemixOutputs/m1.pdf ~/Downloads
