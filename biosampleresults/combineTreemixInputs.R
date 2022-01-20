@@ -18,4 +18,4 @@ combined<- merge(individInput,pooledInput,by.x=c("chr","pos"),by.y=c("chrom","po
 finalInput<- combined[,c(-1,-2)]
 fwrite(finalInput,file="./treemixCOMBINEDinput.txt",quote=F,sep = " ")
 
-# ready to run treemixs.sh now
+# ready to run treemix.sh now
