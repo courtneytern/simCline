@@ -1,3 +1,4 @@
+## Ensure that all fastq files were properly retrieved 
 #initial check
 id=$( cat /scratch/cat7ep/simCline2err.txt | awk -F" " '{
    split($1,array,"_")
