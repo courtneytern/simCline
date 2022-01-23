@@ -20,6 +20,7 @@ seqVCF2GDS(vcf.fn = vcf.file, out.fn = gds.output)
 #########################################
 
 #go to pooledStatsPlots.R
+# or combinePooledIndividSNPs.R to run both pooled and individ
 
 
 #########################
@@ -35,4 +36,4 @@ seqVCF2GDS(vcf.fn = vcf.file, out.fn = gds.output)
 #########################################
 
 #go to individTreemixSetup.R
-#go to treemix.R
+# or combinePooledIndividSNPs.R to run both pooled and individ
