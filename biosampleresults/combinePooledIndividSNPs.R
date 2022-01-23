@@ -6,7 +6,6 @@
 # R 
 
 library(SeqArray)
-library(ggplot2)
 library(data.table)
 library(dplyr)
 
@@ -43,7 +42,7 @@ joined_snps<- intersect(individ.dt,pooled.dt)
 ########### 
 ## rerun the treemix formatting for each 
 
-## Pooled  #### 
+# ## Pooled  ####
 # pooledPath<- "/scratch/cat7ep/simCline/biosampleresults/pooled.gds"
 # makePooledTreemix<- function(pooledPath)  {
 #   gds.file<- seqOpen(pooledPath,allow.duplicate = T)
@@ -120,9 +119,10 @@ joined_snps<- intersect(individ.dt,pooled.dt)
 #   datw
 # }
 # pooledInput<- makePooledTreemix(pooledPath)
-# write.table(pooledInput,"/scratch/cat7ep/simCline/biosampleresults/treemixPooledInput.txt",row.names = F)
-
-
+# write.table(pooledInput,"/scratch/cat7ep/simCline/biosampleresults/treemixPooledInput.txt",
+#             row.names = F,quote=F)
+# 
+# 
 ## Individual  #### 
 individPath<- "/scratch/cat7ep/simCline/biosampleresults/individ.gds"
 makeIndividTreemix<- function(individPath) {
@@ -177,7 +177,8 @@ makeIndividTreemix<- function(individPath) {
   treemixTable
 }
 individInput<- makeIndividTreemix(individPath)
-write.table(individInput,"/scratch/cat7ep/simCline/biosampleresults/treemixIndividInput.txt",row.names = F)
+write.table(individInput,"/scratch/cat7ep/simCline/biosampleresults/treemixIndividInput.txt",row.names = F,
+            quote=F)
 
 # go to combineTreemixInputs.R to combine into one treemix input file
 
