@@ -51,8 +51,9 @@ dat.ag2 <- dat[,list(nmissing=mean(is.na(ad)), aveAD=mean(ad, na.rm=T), aveRD=me
                list(variant.id)]
 
 ##########################
-### Make data tables #####
+### Pooled treemix input #
 ##########################
+## This is duplicated in combinePooledIndividSNPs.R ### 
 
 # aggregate duplicate Machado rows 
 agg<- dat %>% group_by(population,variant.id,position,chromosome) %>% summarise_all(sum)
@@ -201,7 +202,7 @@ seqGDS2VCF(gds.file, vcf.fn, info.var=NULL, fmt.var=NULL, use_Rsamtools=TRUE,
 
 
 #####################
-##### LEA ###########
+##### Pooled PCA ####
 #####################
 
 library(LEA)
