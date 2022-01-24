@@ -6,7 +6,7 @@
 
 library(data.table)
 
-setwd("/scratch/cat7ep/simCline/biosampleresults")
+setwd("/scratch/cat7ep/simCline/biosampleresults/treemixInputs")
 individInput<- fread("./treemixIndividInput_FINAL.txt",header = TRUE ,sep=" ")
 pooledInput<- fread("./treemixPooledInput_FINAL.txt",header = TRUE ,sep=" ")
 
