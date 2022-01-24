@@ -175,7 +175,7 @@ makeIndividTreemix<- function(individPath) {
   for(samps in popSampsList){
     treemixTable<- cbind(treemixTable,popTreemix(samps))
   }# end for
-  treemixTable<- treemixTable[,c(1,2,4)] # drop the allele column
+  treemixTable<- subset(treemixTable,select=-3) # drop the allele column
   colnames(treemixTable)<- c("chr","pos",unique(ind_metadata$population))
   treemixTable
 }
