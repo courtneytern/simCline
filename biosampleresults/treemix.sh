@@ -9,7 +9,7 @@
 #SBATCH -o /scratch/cat7ep/slurmOut/treemix3.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/treemix3.%A_%a.err # Standard error
 
-####### sbatch /scratch/cat7ep/simCline/biosampleresults/treemix.sh --array=0-3
+####### sbatch --array=0-3 /scratch/cat7ep/simCline/biosampleresults/treemix.sh 
 
 
 # setup and run treemix
