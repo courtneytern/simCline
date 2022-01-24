@@ -5,9 +5,9 @@
 #SBATCH --mem=20G
 #SBATCH --time=24:00:00
 #SBATCH --partition=standard
-#SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/treemix2.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/treemix2.%A_%a.err # Standard error
+#SBATCH --account=berglandlab_standard
+#SBATCH -o /scratch/cat7ep/slurmOut/treemix3.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/treemix3.%A_%a.err # Standard error
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/treemix.sh --array=0-3
 
