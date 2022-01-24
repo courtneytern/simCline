@@ -33,13 +33,13 @@ TREEMIX_PATH="$HOME/Software/LocalInstall/usr/local/bin/treemix"
 INPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/treemixInputs/treemixCOMBINEDinput.txt.gz"
 OUTGROUP="Madagascar.Joffreville.2002.NA"
 # run for m=0,1,2,3
-OUT_STEM="simcline_treeOut_m"${SLURM_ARRAY_TASK_ID}
+OUT_STEM="simcline_treeOut_m0""${SLURM_ARRAY_TASK_ID}"
 
 cd /scratch/cat7ep/simCline/biosampleresults/treemixOutputs
 
 # m is number of migratiion events
 # k is SNP grouping
-$TREEMIX_PATH -i $INPUT_FILE -o $OUT_STEM -root $OUTGROUP -m ${SLURM_ARRAY_TASK_ID} -k 1000
+$TREEMIX_PATH -i $INPUT_FILE -o $OUT_STEM -root $OUTGROUP -m "${SLURM_ARRAY_TASK_ID}" -k 1000
 
 # make plot in treemixPlot.R
 ## scp cat7ep@rivanna.hpc.virginia.edu:/scratch/cat7ep/simCline/biosampleresults/treemixOutputs/m1.pdf ~/Downloads
