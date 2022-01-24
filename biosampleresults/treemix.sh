@@ -30,7 +30,7 @@ module load intel/20.0  mvapich2/2.3.3 boost/1.68.0
 # Set paths
 TREEMIX_PATH="$HOME/Software/LocalInstall/usr/local/bin/treemix"
 
-INPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/treemixCOMBINEDinput.txt.gz"
+INPUT_FILE="/scratch/cat7ep/simCline/biosampleresults/treemixInputs/treemixCOMBINEDinput.txt.gz"
 OUTGROUP="Madagascar.Joffreville.2002.NA"
 # run for m=0,1,2,3
 OUT_STEM="simcline_treeOut_m"${SLURM_ARRAY_TASK_ID}
