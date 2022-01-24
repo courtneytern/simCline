@@ -11,8 +11,16 @@ combinedInput=$WORKING_FOLDER/treemixCOMBINEDinput.txt
 
 #cols 5-12 , 21, 22, 24-32 are N.Am
 # all files will keep 1-4, 13-20, 23
+# replace col and the first item in the print list with cols 5-12, 21, 22, 24-32 one at a time
 col=32
 awk -F" " '{ print $32,$1,$2,$3,$4,$13,$14,$15,$16,$17,$18,$19,$20,$23 }' < $combinedInput > $WORKING_FOLDER/treemixInput_${col}.txt
+
+## after you've generated all files:
+gzip ./treemixInput_*
+
+####
+## RUN f3.sh FIRST, THEN RUN LINES BELOW
+
 
 ######################
 ## Post running f3.sh:
