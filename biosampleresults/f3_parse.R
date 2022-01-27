@@ -1,17 +1,14 @@
 ## Parse through f3 output
-## To be run on Rivanna
-
-# module load gcc/7.1.0  openmpi/3.1.4  R
-# R 
+## Run locally to be able to adjust the size when exporting
 
 ############
 ## Setup ###
 ############
 library(tidyr)
 
-f3_output<- read.table("/scratch/cat7ep/simCline/biosampleresults/f3_outputs/FINAL_f3_output.txt",
-                       sep=" ", fill=TRUE)
-## f3_output<- read.table("~/Downloads/FINAL_f3_output.txt", sep=" ",fill=TRUE)
+# f3_output<- read.table("/scratch/cat7ep/simCline/biosampleresults/f3_outputs/FINAL_f3_output.txt",
+#                        sep=" ", fill=TRUE)
+f3_output<- read.table("~/Downloads/FINAL_f3_output.txt", sep=" ",fill=TRUE)
 
 # sort populations (both pooled and individ) by continent
 amr_pops<- c("USA.Linvilla.2011.Aug","USA.Linvilla.2011.Sep","USA.Charlottesville.2010.Sep","USA.Bowdoin.2011.Oct",
