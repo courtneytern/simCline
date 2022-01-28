@@ -1,0 +1,908 @@
+npop:21 nsnp:2599951
+Estimating covariance matrix in 5199 blocks of size 500
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,ES_Gim_14_35 0.00571019 7.26717e-05 78.5751
+ES_Gim_14_34;Barghi:FL:Tallahassee,ES_Gim_14_35 0.00540274 7.22636e-05 74.7643
+ES_Gim_14_35;Barghi:FL:Tallahassee,ES_Gim_14_34 0.00366929 6.24169e-05 58.7868
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,ES_Gim_16_33 0.00623742 9.55707e-05 65.265
+ES_Gim_14_34;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0048755 6.91093e-05 70.5477
+ES_Gim_16_33;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0101661 0.000133281 76.2759
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,ES_Pur_16_35 0.00469654 5.45087e-05 86.1612
+ES_Gim_14_34;Barghi:FL:Tallahassee,ES_Pur_16_35 0.00641639 8.88645e-05 72.2042
+ES_Pur_16_35;Barghi:FL:Tallahassee,ES_Gim_14_34 -0.00294099 2.03748e-05 -144.345
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,FR_Got_15_48 0.00583457 8.68395e-05 67.188
+ES_Gim_14_34;Barghi:FL:Tallahassee,FR_Got_15_48 0.00527835 8.07226e-05 65.3888
+FR_Got_15_48;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0129571 0.000220598 58.7362
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,IT_Mez_15_43 0.00571596 9.994e-05 57.1939
+ES_Gim_14_34;Barghi:FL:Tallahassee,IT_Mez_15_43 0.00539697 7.34067e-05 73.5214
+IT_Mez_15_43;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0129398 0.000162374 79.6915
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,IT_Mez_15_44 0.00551808 0.000102755 53.7011
+ES_Gim_14_34;Barghi:FL:Tallahassee,IT_Mez_15_44 0.00559484 7.33639e-05 76.2615
+IT_Mez_15_44;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0136031 0.00016547 82.2089
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,IT_Tre_16_15 0.00460035 5.06723e-05 90.7863
+ES_Gim_14_34;Barghi:FL:Tallahassee,IT_Tre_16_15 0.00651258 9.03377e-05 72.0915
+IT_Tre_16_15;Barghi:FL:Tallahassee,ES_Gim_14_34 -0.00275273 2.20964e-05 -124.578
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Machado:Linvilla:65 0.00230437 3.51637e-05 65.5327
+ES_Gim_14_34;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.00880855 0.000113449 77.6436
+Machado:Linvilla:65;Barghi:FL:Tallahassee,ES_Gim_14_34 0.00393923 3.49175e-05 112.816
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Machado:Linvilla:50 0.00244469 3.56512e-05 68.5725
+ES_Gim_14_34;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.00866823 0.000114527 75.6874
+Machado:Linvilla:50;Barghi:FL:Tallahassee,ES_Gim_14_34 0.00294337 3.47949e-05 84.5922
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,PT_Rec_15_16 0.00597402 0.000102052 58.5387
+ES_Gim_14_34;Barghi:FL:Tallahassee,PT_Rec_15_16 0.0051389 7.29212e-05 70.472
+PT_Rec_15_16;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0137467 0.000171082 80.3514
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Sedghifar:SC:Conway 0.00529121 7.79046e-05 67.9191
+ES_Gim_14_34;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.00582171 0.000127925 45.5089
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0340031 0.000171625 198.124
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Sedghifar:ME:Fairfield 0.00631116 6.84363e-05 92.2195
+ES_Gim_14_34;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.00480176 0.000122647 39.1512
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0211844 0.000123568 171.439
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Sedghifar:FL:Miami 0.00351398 4.77689e-05 73.5621
+ES_Gim_14_34;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.00759894 0.000108754 69.8726
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,ES_Gim_14_34 0.00942965 0.000104218 90.4803
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Sedghifar:Panama 0.00744876 7.75221e-05 96.0857
+ES_Gim_14_34;Barghi:FL:Tallahassee,Sedghifar:Panama 0.00366416 0.000104962 34.9094
+Sedghifar:Panama;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0239296 0.000138673 172.561
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Sedghifar:NJ:Princeton 0.00530019 5.69866e-05 93.0076
+ES_Gim_14_34;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.00581274 0.0001186 49.0113
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,ES_Gim_14_34 0.015381 9.30669e-05 165.268
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Sedghifar:RI:Providence 0.00372763 3.86563e-05 96.4301
+ES_Gim_14_34;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.00738529 0.000103769 71.1708
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,ES_Gim_14_34 0.000721131 4.06599e-05 17.7357
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Sedghifar:NC:Raleigh 0.00515877 5.65121e-05 91.2861
+ES_Gim_14_34;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.00595416 0.000120854 49.2674
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0147363 9.03188e-05 163.159
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Sedghifar:VA:Richmond 0.00518004 5.70038e-05 90.8719
+ES_Gim_14_34;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.00593288 0.000120541 49.219
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0145034 9.02111e-05 160.772
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_34,Sedghifar:GA:Savannah 0.00437528 5.1656e-05 84.7004
+ES_Gim_14_34;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.00673764 0.000117109 57.5331
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,ES_Gim_14_34 0.0143196 7.55309e-05 189.586
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,ES_Gim_16_33 0.0058241 9.17853e-05 63.4535
+ES_Gim_14_35;Barghi:FL:Tallahassee,ES_Gim_16_33 0.00355538 6.20642e-05 57.2855
+ES_Gim_16_33;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0105795 0.000136909 77.2735
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,ES_Pur_16_35 0.00476909 5.35377e-05 89.0791
+ES_Gim_14_35;Barghi:FL:Tallahassee,ES_Pur_16_35 0.00461039 7.90805e-05 58.2999
+ES_Pur_16_35;Barghi:FL:Tallahassee,ES_Gim_14_35 -0.00301354 1.81988e-05 -165.59
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,FR_Got_15_48 0.00575041 8.27034e-05 69.5305
+ES_Gim_14_35;Barghi:FL:Tallahassee,FR_Got_15_48 0.00362907 7.20945e-05 50.3376
+FR_Got_15_48;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0130413 0.000222539 58.6023
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,IT_Mez_15_43 0.00545171 9.17551e-05 59.4159
+ES_Gim_14_35;Barghi:FL:Tallahassee,IT_Mez_15_43 0.00392776 6.77652e-05 57.9614
+IT_Mez_15_43;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0132041 0.000169119 78.0757
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,IT_Mez_15_44 0.00513432 9.52701e-05 53.8923
+ES_Gim_14_35;Barghi:FL:Tallahassee,IT_Mez_15_44 0.00424515 6.72327e-05 63.1412
+IT_Mez_15_44;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0139869 0.000172109 81.2676
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,IT_Tre_16_15 0.0046771 5.01085e-05 93.3393
+ES_Gim_14_35;Barghi:FL:Tallahassee,IT_Tre_16_15 0.00470238 8.04066e-05 58.4825
+IT_Tre_16_15;Barghi:FL:Tallahassee,ES_Gim_14_35 -0.00282948 1.99964e-05 -141.499
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Machado:Linvilla:65 0.00233604 3.48279e-05 67.0738
+ES_Gim_14_35;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.00704343 0.000103399 68.1187
+Machado:Linvilla:65;Barghi:FL:Tallahassee,ES_Gim_14_35 0.00390757 3.3669e-05 116.058
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Machado:Linvilla:50 0.00249274 3.50355e-05 71.1489
+ES_Gim_14_35;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.00688673 0.00010406 66.1802
+Machado:Linvilla:50;Barghi:FL:Tallahassee,ES_Gim_14_35 0.00289532 3.29708e-05 87.8148
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,PT_Rec_15_16 0.00556495 9.44314e-05 58.9312
+ES_Gim_14_35;Barghi:FL:Tallahassee,PT_Rec_15_16 0.00381452 6.6644e-05 57.2373
+PT_Rec_15_16;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0141558 0.000178214 79.4313
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Sedghifar:SC:Conway 0.00581572 7.59072e-05 76.6161
+ES_Gim_14_35;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.00356376 0.000115502 30.8546
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0334786 0.000166896 200.596
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Sedghifar:ME:Fairfield 0.00668038 6.70503e-05 99.6323
+ES_Gim_14_35;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.0026991 0.00011072 24.3777
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0208152 0.000120924 172.134
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Sedghifar:FL:Miami 0.00365062 4.67431e-05 78.0997
+ES_Gim_14_35;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.00572885 9.8106e-05 58.3945
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,ES_Gim_14_35 0.00929301 0.000104152 89.2256
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Sedghifar:Panama 0.00771304 7.50036e-05 102.836
+ES_Gim_14_35;Barghi:FL:Tallahassee,Sedghifar:Panama 0.00166643 9.64158e-05 17.2838
+Sedghifar:Panama;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0236653 0.000137194 172.495
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Sedghifar:NJ:Princeton 0.00568901 5.67049e-05 100.327
+ES_Gim_14_35;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.00369047 0.000108188 34.1116
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0149922 9.0535e-05 165.595
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Sedghifar:RI:Providence 0.00381166 3.84324e-05 99.1781
+ES_Gim_14_35;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.00556782 9.35781e-05 59.4992
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,ES_Gim_14_35 0.000637105 4.00268e-05 15.917
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Sedghifar:NC:Raleigh 0.00553407 5.59335e-05 98.9402
+ES_Gim_14_35;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.0038454 0.000109917 34.9847
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,ES_Gim_14_35 0.014361 8.74557e-05 164.209
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Sedghifar:VA:Richmond 0.00555475 5.66419e-05 98.068
+ES_Gim_14_35;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.00382472 0.000109058 35.0706
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0141287 8.71151e-05 162.184
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_14_35,Sedghifar:GA:Savannah 0.00466917 5.12204e-05 91.1584
+ES_Gim_14_35;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.00471031 0.000105723 44.5531
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,ES_Gim_14_35 0.0140257 7.31862e-05 191.644
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,ES_Pur_16_35 0.00393826 5.51648e-05 71.3908
+ES_Gim_16_33;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0124653 0.000175437 71.0528
+ES_Pur_16_35;Barghi:FL:Tallahassee,ES_Gim_16_33 -0.00218271 4.27908e-05 -51.0089
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,FR_Got_15_48 0.0062834 0.000118262 53.131
+ES_Gim_16_33;Barghi:FL:Tallahassee,FR_Got_15_48 0.0101202 0.000144085 70.2375
+FR_Got_15_48;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0125083 0.000205198 60.9571
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,IT_Mez_15_43 0.00784152 0.000165602 47.3517
+ES_Gim_16_33;Barghi:FL:Tallahassee,IT_Mez_15_43 0.00856205 0.000106357 80.5028
+IT_Mez_15_43;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0108143 0.000117985 91.6576
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,IT_Mez_15_44 0.00923744 0.000188287 49.0604
+ES_Gim_16_33;Barghi:FL:Tallahassee,IT_Mez_15_44 0.00716613 8.08189e-05 88.669
+IT_Mez_15_44;Barghi:FL:Tallahassee,ES_Gim_16_33 0.00988379 0.000103518 95.4786
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,IT_Tre_16_15 0.00393896 5.72808e-05 68.7658
+ES_Gim_16_33;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0124646 0.000172956 72.0682
+IT_Tre_16_15;Barghi:FL:Tallahassee,ES_Gim_16_33 -0.00209134 3.96593e-05 -52.7327
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Machado:Linvilla:65 0.00216076 4.27633e-05 50.5284
+ES_Gim_16_33;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0142428 0.000210309 67.7233
+Machado:Linvilla:65;Barghi:FL:Tallahassee,ES_Gim_16_33 0.00408284 4.47843e-05 91.1669
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Machado:Linvilla:50 0.00222757 4.38739e-05 50.7721
+ES_Gim_16_33;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.014176 0.000214327 66.1419
+Machado:Linvilla:50;Barghi:FL:Tallahassee,ES_Gim_16_33 0.00316049 4.61546e-05 68.4762
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,PT_Rec_15_16 0.00957842 0.000184441 51.9321
+ES_Gim_16_33;Barghi:FL:Tallahassee,PT_Rec_15_16 0.00682515 8.4638e-05 80.6393
+PT_Rec_15_16;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0101423 0.000106574 95.1667
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Sedghifar:SC:Conway 0.00147937 0.000103294 14.3219
+ES_Gim_16_33;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.0149242 0.000229829 64.9361
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0378149 0.000197172 191.787
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Sedghifar:ME:Fairfield 0.00363149 8.37906e-05 43.3401
+ES_Gim_16_33;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.0127721 0.000222679 57.3564
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0238641 0.00014331 166.521
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Sedghifar:FL:Miami 0.00262993 6.07744e-05 43.2737
+ES_Gim_16_33;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0137736 0.000200342 68.7508
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0103137 0.000112288 91.8502
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Sedghifar:Panama 0.00541031 0.000107454 50.3502
+ES_Gim_16_33;Barghi:FL:Tallahassee,Sedghifar:Panama 0.0109933 0.000169119 65.0031
+Sedghifar:Panama;Barghi:FL:Tallahassee,ES_Gim_16_33 0.025968 0.000153064 169.654
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Sedghifar:NJ:Princeton 0.00208247 6.71731e-05 31.0015
+ES_Gim_16_33;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.0143211 0.000216228 66.2314
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0185987 0.000114519 162.408
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Sedghifar:RI:Providence 0.0033382 4.38987e-05 76.0433
+ES_Gim_16_33;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.0130654 0.000193135 67.6488
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,ES_Gim_16_33 0.00111056 4.662e-05 23.8215
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Sedghifar:NC:Raleigh 0.00201733 6.62363e-05 30.4565
+ES_Gim_16_33;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.0143862 0.000219086 65.6648
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0178778 0.000112926 158.314
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Sedghifar:VA:Richmond 0.00216734 6.69963e-05 32.3501
+ES_Gim_16_33;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.0142362 0.000219639 64.8166
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0175161 0.000112924 155.114
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Gim_16_33,Sedghifar:GA:Savannah 0.00169275 6.00034e-05 28.2109
+ES_Gim_16_33;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.0147108 0.000211076 69.6944
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,ES_Gim_16_33 0.0170021 9.53355e-05 178.34
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,FR_Got_15_48 0.00488577 6.33285e-05 77.1497
+ES_Pur_16_35;Barghi:FL:Tallahassee,FR_Got_15_48 -0.00313023 3.19252e-05 -98.0489
+FR_Got_15_48;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0139059 0.000235736 58.9893
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,IT_Mez_15_43 0.00409395 6.28994e-05 65.0873
+ES_Pur_16_35;Barghi:FL:Tallahassee,IT_Mez_15_43 -0.0023384 4.01525e-05 -58.2381
+IT_Mez_15_43;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0145618 0.000196386 74.1491
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,IT_Mez_15_44 0.00331658 5.84933e-05 56.7001
+ES_Pur_16_35;Barghi:FL:Tallahassee,IT_Mez_15_44 -0.00156103 4.74836e-05 -32.8751
+IT_Mez_15_44;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0158046 0.000209981 75.2672
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,IT_Tre_16_15 0.00466856 4.55382e-05 102.52
+ES_Pur_16_35;Barghi:FL:Tallahassee,IT_Tre_16_15 -0.00291301 1.71524e-05 -169.832
+IT_Tre_16_15;Barghi:FL:Tallahassee,ES_Pur_16_35 -0.00282094 1.58139e-05 -178.384
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Machado:Linvilla:65 0.00237287 3.20439e-05 74.0508
+ES_Pur_16_35;Barghi:FL:Tallahassee,Machado:Linvilla:65 -0.000617328 4.301e-05 -14.3531
+Machado:Linvilla:65;Barghi:FL:Tallahassee,ES_Pur_16_35 0.00387073 2.93841e-05 131.729
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Machado:Linvilla:50 0.00257723 3.21707e-05 80.111
+ES_Pur_16_35;Barghi:FL:Tallahassee,Machado:Linvilla:50 -0.000821679 4.26311e-05 -19.2742
+Machado:Linvilla:50;Barghi:FL:Tallahassee,ES_Pur_16_35 0.00281084 2.75903e-05 101.878
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,PT_Rec_15_16 0.00378772 5.90391e-05 64.1561
+ES_Pur_16_35;Barghi:FL:Tallahassee,PT_Rec_15_16 -0.00203217 4.65908e-05 -43.6174
+PT_Rec_15_16;Barghi:FL:Tallahassee,ES_Pur_16_35 0.015933 0.000214874 74.1505
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Sedghifar:SC:Conway 0.00718736 6.66667e-05 107.81
+ES_Pur_16_35;Barghi:FL:Tallahassee,Sedghifar:SC:Conway -0.00543181 5.77861e-05 -93.9986
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0321069 0.000159311 201.536
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Sedghifar:ME:Fairfield 0.00757733 6.11602e-05 123.893
+ES_Pur_16_35;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield -0.00582178 5.2517e-05 -110.855
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0199182 0.000115515 172.429
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Sedghifar:FL:Miami 0.00389884 4.13165e-05 94.365
+ES_Pur_16_35;Barghi:FL:Tallahassee,Sedghifar:FL:Miami -0.00214329 4.33599e-05 -49.4302
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0090448 0.000100418 90.0717
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Sedghifar:Panama 0.00821014 6.49497e-05 126.408
+ES_Pur_16_35;Barghi:FL:Tallahassee,Sedghifar:Panama -0.00645459 5.35299e-05 -120.579
+Sedghifar:Panama;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0231682 0.000138709 167.027
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Sedghifar:NJ:Princeton 0.00674013 5.43294e-05 124.06
+ES_Pur_16_35;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton -0.00498458 4.84057e-05 -102.975
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0139411 8.40803e-05 165.807
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Sedghifar:RI:Providence 0.00382008 3.56551e-05 107.14
+ES_Pur_16_35;Barghi:FL:Tallahassee,Sedghifar:RI:Providence -0.00206453 3.70812e-05 -55.676
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,ES_Pur_16_35 0.000628682 3.74935e-05 16.7678
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Sedghifar:NC:Raleigh 0.0065592 5.35886e-05 122.399
+ES_Pur_16_35;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh -0.00480365 4.83421e-05 -99.3679
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0133359 8.11065e-05 164.424
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Sedghifar:VA:Richmond 0.00656555 5.39182e-05 121.769
+ES_Pur_16_35;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond -0.00481001 4.82643e-05 -99.6596
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0131179 8.03199e-05 163.32
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;ES_Pur_16_35,Sedghifar:GA:Savannah 0.00553348 4.85254e-05 114.033
+ES_Pur_16_35;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah -0.00377793 4.62965e-05 -81.603
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,ES_Pur_16_35 0.0131614 6.65541e-05 197.755
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,IT_Mez_15_43 0.0066725 0.000133649 49.9257
+FR_Got_15_48;Barghi:FL:Tallahassee,IT_Mez_15_43 0.0121192 0.000206729 58.6235
+IT_Mez_15_43;Barghi:FL:Tallahassee,FR_Got_15_48 0.0119833 0.000156755 76.4458
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,IT_Mez_15_44 0.00606233 0.000131839 45.9829
+FR_Got_15_48;Barghi:FL:Tallahassee,IT_Mez_15_44 0.0127294 0.000201132 63.2887
+IT_Mez_15_44;Barghi:FL:Tallahassee,FR_Got_15_48 0.0130589 0.000173321 75.3452
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,IT_Tre_16_15 0.00480284 6.07632e-05 79.0419
+FR_Got_15_48;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0139888 0.000235182 59.4809
+IT_Tre_16_15;Barghi:FL:Tallahassee,FR_Got_15_48 -0.00295522 3.19763e-05 -92.419
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Machado:Linvilla:65 0.00224075 4.15904e-05 53.8767
+FR_Got_15_48;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0165509 0.000253232 65.3588
+Machado:Linvilla:65;Barghi:FL:Tallahassee,FR_Got_15_48 0.00400285 4.10785e-05 97.4439
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Machado:Linvilla:50 0.00242429 4.23359e-05 57.2632
+FR_Got_15_48;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0163674 0.000253555 64.5517
+Machado:Linvilla:50;Barghi:FL:Tallahassee,FR_Got_15_48 0.00296378 4.16032e-05 71.2392
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,PT_Rec_15_16 0.00667192 0.000132308 50.4272
+FR_Got_15_48;Barghi:FL:Tallahassee,PT_Rec_15_16 0.0121198 0.000202263 59.9208
+PT_Rec_15_16;Barghi:FL:Tallahassee,FR_Got_15_48 0.0130488 0.000171979 75.8745
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Sedghifar:SC:Conway 0.00486972 0.000103835 46.8988
+FR_Got_15_48;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.013922 0.000289624 48.0691
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,FR_Got_15_48 0.0344246 0.000186598 184.486
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Sedghifar:ME:Fairfield 0.00574146 8.62344e-05 66.5797
+FR_Got_15_48;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.0130502 0.000279133 46.7527
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,FR_Got_15_48 0.0217541 0.000138867 156.654
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Sedghifar:FL:Miami 0.00355806 6.15183e-05 57.8374
+FR_Got_15_48;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0152336 0.000256931 59.2907
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,FR_Got_15_48 0.00938557 0.000112938 83.104
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Sedghifar:Panama 0.0069995 0.000100627 69.5587
+FR_Got_15_48;Barghi:FL:Tallahassee,Sedghifar:Panama 0.0117922 0.000258306 45.6521
+Sedghifar:Panama;Barghi:FL:Tallahassee,FR_Got_15_48 0.0243788 0.000152249 160.125
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Sedghifar:NJ:Princeton 0.00479622 7.52741e-05 63.7168
+FR_Got_15_48;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.0139955 0.000277498 50.4344
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,FR_Got_15_48 0.015885 0.000108527 146.369
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Sedghifar:RI:Providence 0.00380663 4.55612e-05 83.5498
+FR_Got_15_48;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.0149851 0.000249009 60.1789
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,FR_Got_15_48 0.000642129 4.71177e-05 13.6282
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Sedghifar:NC:Raleigh 0.00466337 7.41859e-05 62.8606
+FR_Got_15_48;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.0141283 0.000277123 50.9821
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,FR_Got_15_48 0.0152317 0.000108438 140.465
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Sedghifar:VA:Richmond 0.00464622 7.41479e-05 62.6616
+FR_Got_15_48;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.0141455 0.000278113 50.8622
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,FR_Got_15_48 0.0150372 0.000104711 143.606
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;FR_Got_15_48,Sedghifar:GA:Savannah 0.00398206 6.60622e-05 60.2775
+FR_Got_15_48;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.0148096 0.000270263 54.7971
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,FR_Got_15_48 0.0147128 8.8837e-05 165.616
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,IT_Mez_15_44 0.010344 0.000201149 51.4245
+IT_Mez_15_43;Barghi:FL:Tallahassee,IT_Mez_15_44 0.00831181 9.30916e-05 89.2864
+IT_Mez_15_44;Barghi:FL:Tallahassee,IT_Mez_15_43 0.00877726 0.000117157 74.9187
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,IT_Tre_16_15 0.00410928 6.40592e-05 64.1481
+IT_Mez_15_43;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0145465 0.000192479 75.5745
+IT_Tre_16_15;Barghi:FL:Tallahassee,IT_Mez_15_43 -0.00226166 4.0147e-05 -56.3344
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Machado:Linvilla:65 0.00213187 4.48129e-05 47.5727
+IT_Mez_15_43;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0165239 0.000229694 71.9389
+Machado:Linvilla:65;Barghi:FL:Tallahassee,IT_Mez_15_43 0.00411173 4.49464e-05 91.4808
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Machado:Linvilla:50 0.00216122 4.53415e-05 47.6654
+IT_Mez_15_43;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0164946 0.000232426 70.967
+Machado:Linvilla:50;Barghi:FL:Tallahassee,IT_Mez_15_43 0.00322685 4.55191e-05 70.8899
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,PT_Rec_15_16 0.00921332 0.000199286 46.2316
+IT_Mez_15_43;Barghi:FL:Tallahassee,PT_Rec_15_16 0.00944246 0.00010852 87.011
+PT_Rec_15_16;Barghi:FL:Tallahassee,IT_Mez_15_43 0.0105074 0.000115849 90.6991
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Sedghifar:SC:Conway 0.00142234 0.000111955 12.7046
+IT_Mez_15_43;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.0172334 0.000264495 65.1559
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,IT_Mez_15_43 0.037872 0.000201434 188.012
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Sedghifar:ME:Fairfield 0.00338226 9.1832e-05 36.8309
+IT_Mez_15_43;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.0152735 0.000251426 60.7475
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,IT_Mez_15_43 0.0241133 0.000150763 159.941
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Sedghifar:FL:Miami 0.00261865 6.20709e-05 42.188
+IT_Mez_15_43;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0160371 0.000226641 70.7602
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,IT_Mez_15_43 0.010325 0.000116539 88.5967
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Sedghifar:Panama 0.00490239 0.000114491 42.8188
+IT_Mez_15_43;Barghi:FL:Tallahassee,Sedghifar:Panama 0.0137534 0.000204962 67.102
+Sedghifar:Panama;Barghi:FL:Tallahassee,IT_Mez_15_43 0.0264759 0.000162795 162.634
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Sedghifar:NJ:Princeton 0.00182708 7.72562e-05 23.6496
+IT_Mez_15_43;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.0168287 0.00024939 67.4795
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,IT_Mez_15_43 0.0188541 0.000124726 151.165
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Sedghifar:RI:Providence 0.00335089 4.60458e-05 72.7731
+IT_Mez_15_43;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.0153049 0.000215994 70.8579
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,IT_Mez_15_43 0.00109787 4.92182e-05 22.3061
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Sedghifar:NC:Raleigh 0.00188288 7.55288e-05 24.9292
+IT_Mez_15_43;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.0167729 0.000248134 67.5961
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,IT_Mez_15_43 0.0180122 0.000121214 148.599
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Sedghifar:VA:Richmond 0.00197206 7.51577e-05 26.2389
+IT_Mez_15_43;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.0166837 0.000249056 66.9879
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,IT_Mez_15_43 0.0177114 0.000119442 148.284
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_43,Sedghifar:GA:Savannah 0.00152671 6.61195e-05 23.0902
+IT_Mez_15_43;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.0171291 0.000241514 70.9238
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,IT_Mez_15_43 0.0171682 0.000103133 166.466
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,IT_Tre_16_15 0.00339675 6.14494e-05 55.2772
+IT_Mez_15_44;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0157245 0.000206697 76.075
+IT_Tre_16_15;Barghi:FL:Tallahassee,IT_Mez_15_44 -0.00154913 4.4818e-05 -34.5649
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Machado:Linvilla:65 0.00205796 4.77543e-05 43.0947
+IT_Mez_15_44;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0170633 0.000247067 69.0632
+Machado:Linvilla:65;Barghi:FL:Tallahassee,IT_Mez_15_44 0.00418565 5.01285e-05 83.4983
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Machado:Linvilla:50 0.00202963 4.92473e-05 41.213
+IT_Mez_15_44;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0170916 0.000250843 68.1366
+Machado:Linvilla:50;Barghi:FL:Tallahassee,IT_Mez_15_44 0.00335843 5.23695e-05 64.1295
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,PT_Rec_15_16 0.010488 0.000220343 47.5985
+IT_Mez_15_44;Barghi:FL:Tallahassee,PT_Rec_15_16 0.00863321 0.000107179 80.5496
+PT_Rec_15_16;Barghi:FL:Tallahassee,IT_Mez_15_44 0.0092327 9.61779e-05 95.9961
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Sedghifar:SC:Conway -0.00100058 0.00011746 -8.5185
+IT_Mez_15_44;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.0201218 0.000275825 72.9513
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,IT_Mez_15_44 0.0402949 0.00021269 189.454
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Sedghifar:ME:Fairfield 0.00141614 9.34564e-05 15.1529
+IT_Mez_15_44;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.0177051 0.000265868 66.5936
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,IT_Mez_15_44 0.0260794 0.00015901 164.012
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Sedghifar:FL:Miami 0.0019292 6.32901e-05 30.4818
+IT_Mez_15_44;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.017192 0.000236445 72.7104
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,IT_Mez_15_44 0.0110144 0.000116209 94.7816
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Sedghifar:Panama 0.00362057 0.000122713 29.5044
+IT_Mez_15_44;Barghi:FL:Tallahassee,Sedghifar:Panama 0.0155007 0.00019881 77.9672
+Sedghifar:Panama;Barghi:FL:Tallahassee,IT_Mez_15_44 0.0277577 0.000167484 165.734
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Sedghifar:NJ:Princeton -0.000228517 7.53251e-05 -3.03374
+IT_Mez_15_44;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.0193497 0.00025792 75.0223
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,IT_Mez_15_44 0.0209097 0.000129732 161.177
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Sedghifar:RI:Providence 0.00274509 4.57861e-05 59.9545
+IT_Mez_15_44;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.0163761 0.000228028 71.8163
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,IT_Mez_15_44 0.00170368 4.93354e-05 34.5325
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Sedghifar:NC:Raleigh -0.000199744 7.39776e-05 -2.70007
+IT_Mez_15_44;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.019321 0.000260121 74.2767
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,IT_Mez_15_44 0.0200948 0.000128843 155.963
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Sedghifar:VA:Richmond 2.40373e-06 7.48542e-05 0.0321122
+IT_Mez_15_44;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.0191188 0.000260262 73.4598
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,IT_Mez_15_44 0.019681 0.000128019 153.736
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Mez_15_44,Sedghifar:GA:Savannah -2.67429e-06 6.4873e-05 -0.0412235
+IT_Mez_15_44;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.0191239 0.00025188 75.9245
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,IT_Mez_15_44 0.0186976 0.000107577 173.806
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Machado:Linvilla:65 0.00237268 3.20174e-05 74.1061
+IT_Tre_16_15;Barghi:FL:Tallahassee,Machado:Linvilla:65 -0.000525061 3.84508e-05 -13.6554
+Machado:Linvilla:65;Barghi:FL:Tallahassee,IT_Tre_16_15 0.00387093 2.95353e-05 131.061
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Machado:Linvilla:50 0.00258163 3.21561e-05 80.2843
+IT_Tre_16_15;Barghi:FL:Tallahassee,Machado:Linvilla:50 -0.000734006 3.78451e-05 -19.395
+Machado:Linvilla:50;Barghi:FL:Tallahassee,IT_Tre_16_15 0.00280644 2.78328e-05 100.832
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,PT_Rec_15_16 0.00378907 6.17155e-05 61.3957
+IT_Tre_16_15;Barghi:FL:Tallahassee,PT_Rec_15_16 -0.00194145 4.45946e-05 -43.5355
+PT_Rec_15_16;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0159316 0.000211551 75.3086
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Sedghifar:SC:Conway 0.0071074 6.67262e-05 106.516
+IT_Tre_16_15;Barghi:FL:Tallahassee,Sedghifar:SC:Conway -0.00525978 5.57906e-05 -94.2771
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0321869 0.00015957 201.71
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Sedghifar:ME:Fairfield 0.00754103 6.12468e-05 123.125
+IT_Tre_16_15;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield -0.00569341 4.86932e-05 -116.924
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0199545 0.000115616 172.593
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Sedghifar:FL:Miami 0.00388006 4.14078e-05 93.7035
+IT_Tre_16_15;Barghi:FL:Tallahassee,Sedghifar:FL:Miami -0.00203243 3.93247e-05 -51.6834
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,IT_Tre_16_15 0.00906358 0.000100543 90.1459
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Sedghifar:Panama 0.00817701 6.52644e-05 125.291
+IT_Tre_16_15;Barghi:FL:Tallahassee,Sedghifar:Panama -0.00632939 4.86052e-05 -130.22
+Sedghifar:Panama;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0232013 0.000138748 167.219
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Sedghifar:NJ:Princeton 0.00669156 5.43162e-05 123.196
+IT_Tre_16_15;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton -0.00484394 4.41964e-05 -109.6
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0139896 8.44381e-05 165.679
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Sedghifar:RI:Providence 0.00380977 3.57764e-05 106.488
+IT_Tre_16_15;Barghi:FL:Tallahassee,Sedghifar:RI:Providence -0.00196215 3.2953e-05 -59.5439
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,IT_Tre_16_15 0.000638991 3.74874e-05 17.0455
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Sedghifar:NC:Raleigh 0.00651927 5.35543e-05 121.732
+IT_Tre_16_15;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh -0.00467165 4.39917e-05 -106.194
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0133758 8.16492e-05 163.821
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Sedghifar:VA:Richmond 0.00652084 5.38134e-05 121.175
+IT_Tre_16_15;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond -0.00467322 4.41899e-05 -105.753
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0131626 8.0706e-05 163.093
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;IT_Tre_16_15,Sedghifar:GA:Savannah 0.00548861 4.83462e-05 113.527
+IT_Tre_16_15;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah -0.00364099 4.1678e-05 -87.36
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,IT_Tre_16_15 0.0132063 6.6974e-05 197.185
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,Machado:Linvilla:50 0.00236191 3.62152e-05 65.2187
+Machado:Linvilla:50;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.00302616 2.4168e-05 125.213
+Machado:Linvilla:65;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0038817 2.66847e-05 145.465
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,PT_Rec_15_16 0.00208068 4.57114e-05 45.5178
+Machado:Linvilla:65;Barghi:FL:Tallahassee,PT_Rec_15_16 0.00416293 4.78177e-05 87.0584
+PT_Rec_15_16;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.01764 0.000250169 70.5124
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,Sedghifar:SC:Conway 0.00103633 5.90032e-05 17.5639
+Machado:Linvilla:65;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.00520728 6.36807e-05 81.7717
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.038258 0.000190279 201.062
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,Sedghifar:ME:Fairfield 0.00238275 5.13397e-05 46.4114
+Machado:Linvilla:65;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.00386086 5.08245e-05 75.9646
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0251128 0.000142437 176.308
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,Sedghifar:FL:Miami 0.00180411 3.64905e-05 49.4405
+Machado:Linvilla:65;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0044395 3.88531e-05 114.264
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0111395 0.000106763 104.338
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,Sedghifar:Panama 0.00209385 5.52112e-05 37.9244
+Machado:Linvilla:65;Barghi:FL:Tallahassee,Sedghifar:Panama 0.00414975 5.79783e-05 71.5743
+Sedghifar:Panama;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0292845 0.000173196 169.083
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,Sedghifar:NJ:Princeton 0.00170801 4.3787e-05 39.0072
+Machado:Linvilla:65;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.0045356 4.67686e-05 96.9795
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0189732 0.000109104 173.9
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,Sedghifar:RI:Providence 0.00225869 3.13121e-05 72.1348
+Machado:Linvilla:65;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.00398492 2.97077e-05 134.138
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.00219007 3.87645e-05 56.4969
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,Sedghifar:NC:Raleigh 0.0016969 4.39022e-05 38.6518
+Machado:Linvilla:65;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.00454671 4.67823e-05 97.1886
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0181982 0.000105709 172.154
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,Sedghifar:VA:Richmond 0.0018036 4.44837e-05 40.5452
+Machado:Linvilla:65;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.00444001 4.61835e-05 96.1383
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0178798 0.000105003 170.278
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:65,Sedghifar:GA:Savannah 0.00158901 3.9206e-05 40.5298
+Machado:Linvilla:65;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.0046546 4.31184e-05 107.949
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,Machado:Linvilla:65 0.0171059 8.70409e-05 196.527
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:50,PT_Rec_15_16 0.0020344 4.70092e-05 43.2766
+Machado:Linvilla:50;Barghi:FL:Tallahassee,PT_Rec_15_16 0.00335367 5.03993e-05 66.5419
+PT_Rec_15_16;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0176863 0.000256134 69.051
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:50,Sedghifar:SC:Conway 0.00130391 6.08374e-05 21.4328
+Machado:Linvilla:50;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.00408415 6.32436e-05 64.5781
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0379904 0.000188261 201.796
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:50,Sedghifar:ME:Fairfield 0.00251017 5.23485e-05 47.9512
+Machado:Linvilla:50;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.00287789 5.00653e-05 57.4828
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0249854 0.000141687 176.342
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:50,Sedghifar:FL:Miami 0.00203134 3.72999e-05 54.4596
+Machado:Linvilla:50;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.00335673 3.75685e-05 89.3495
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0109123 0.000105116 103.812
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:50,Sedghifar:Panama 0.00207051 5.57671e-05 37.1278
+Machado:Linvilla:50;Barghi:FL:Tallahassee,Sedghifar:Panama 0.00331755 5.9904e-05 55.3811
+Sedghifar:Panama;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0293078 0.000176354 166.187
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:50,Sedghifar:NJ:Princeton 0.00182518 4.39786e-05 41.5016
+Machado:Linvilla:50;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.00356288 4.56754e-05 78.0044
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.018856 0.000109076 172.87
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:50,Sedghifar:RI:Providence 0.00242987 3.1231e-05 77.803
+Machado:Linvilla:50;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.0029582 2.83366e-05 104.395
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0020189 3.86886e-05 52.1833
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:50,Sedghifar:NC:Raleigh 0.00184057 4.3608e-05 42.2071
+Machado:Linvilla:50;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.0035475 4.67501e-05 75.8821
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0180545 0.000105583 170.998
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:50,Sedghifar:VA:Richmond 0.00190308 4.44125e-05 42.85
+Machado:Linvilla:50;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.00348499 4.61501e-05 75.5142
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0177803 0.000105581 168.405
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Machado:Linvilla:50,Sedghifar:GA:Savannah 0.00181761 3.87239e-05 46.9377
+Machado:Linvilla:50;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.00357046 4.2434e-05 84.1413
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,Machado:Linvilla:50 0.0168773 8.66669e-05 194.737
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;PT_Rec_15_16,Sedghifar:SC:Conway 0.000161566 0.000117491 1.37514
+PT_Rec_15_16;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.0195591 0.000282942 69.1279
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,PT_Rec_15_16 0.0391327 0.000208404 187.773
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;PT_Rec_15_16,Sedghifar:ME:Fairfield 0.00233243 9.60278e-05 24.2891
+PT_Rec_15_16;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.0173883 0.00027467 63.3061
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,PT_Rec_15_16 0.0251631 0.00015561 161.706
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;PT_Rec_15_16,Sedghifar:FL:Miami 0.00231722 6.30877e-05 36.7301
+PT_Rec_15_16;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0174035 0.00024247 71.7759
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,PT_Rec_15_16 0.0106264 0.000116185 91.4615
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;PT_Rec_15_16,Sedghifar:Panama 0.00436104 0.000122932 35.4752
+PT_Rec_15_16;Barghi:FL:Tallahassee,Sedghifar:Panama 0.0153597 0.000211595 72.5899
+Sedghifar:Panama;Barghi:FL:Tallahassee,PT_Rec_15_16 0.0270173 0.000165184 163.559
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;PT_Rec_15_16,Sedghifar:NJ:Princeton 0.000694355 7.87173e-05 8.82087
+PT_Rec_15_16;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.0190264 0.000269173 70.6846
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,PT_Rec_15_16 0.0199868 0.000127744 156.461
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;PT_Rec_15_16,Sedghifar:RI:Providence 0.0031601 4.68628e-05 67.4331
+PT_Rec_15_16;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.0165606 0.000233523 70.9163
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,PT_Rec_15_16 0.00128866 5.00736e-05 25.7353
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;PT_Rec_15_16,Sedghifar:NC:Raleigh 0.000665708 7.80551e-05 8.52868
+PT_Rec_15_16;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.019055 0.000270063 70.5577
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,PT_Rec_15_16 0.0192294 0.000126737 151.727
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;PT_Rec_15_16,Sedghifar:VA:Richmond 0.000939035 7.7939e-05 12.0483
+PT_Rec_15_16;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.0187817 0.000270393 69.4607
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,PT_Rec_15_16 0.0187444 0.000125441 149.427
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;PT_Rec_15_16,Sedghifar:GA:Savannah 0.000743886 6.76441e-05 10.9971
+PT_Rec_15_16;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.0189768 0.000261571 72.5494
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,PT_Rec_15_16 0.017951 0.00010606 169.254
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:SC:Conway,Sedghifar:ME:Fairfield 0.0120193 0.000142248 84.4955
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.0154762 0.000161499 95.8283
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.027275 0.000184856 147.547
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:SC:Conway,Sedghifar:FL:Miami 0.0112771 9.44602e-05 119.385
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.00166653 8.30437e-05 20.0681
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0280172 0.000139754 200.475
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:SC:Conway,Sedghifar:Panama 0.0121819 0.000157553 77.3198
+Sedghifar:Panama;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.0191964 0.000198645 96.6369
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,Sedghifar:Panama 0.0271124 0.000189414 143.139
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:SC:Conway,Sedghifar:NJ:Princeton 0.0134225 0.000122346 109.71
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.00725867 0.000104364 69.5516
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.0258718 0.000168215 153.802
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:SC:Conway,Sedghifar:RI:Providence 0.00529281 6.3414e-05 83.4643
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,Sedghifar:SC:Conway -0.000844044 6.32397e-05 -13.3468
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.0340015 0.000170109 199.881
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:SC:Conway,Sedghifar:NC:Raleigh 0.0128383 0.0001227 104.632
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.00705678 0.000105207 67.0755
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.026456 0.000169902 155.713
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:SC:Conway,Sedghifar:VA:Richmond 0.0125764 0.000121568 103.451
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.0267179 0.000170863 156.37
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.00710705 0.000105321 67.4797
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:SC:Conway,Sedghifar:GA:Savannah 0.0112143 0.000105114 106.687
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,Sedghifar:SC:Conway 0.00748063 8.24768e-05 90.6998
+Sedghifar:SC:Conway;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.02808 0.000166355 168.796
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:ME:Fairfield,Sedghifar:FL:Miami 0.00467583 7.46265e-05 62.6564
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.00826781 0.000127452 64.8701
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0228197 0.00014446 157.965
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:ME:Fairfield,Sedghifar:Panama 0.015635 0.000140696 111.126
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,Sedghifar:Panama 0.0118605 0.000123167 96.2964
+Sedghifar:Panama;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.0157433 0.000159388 98.7736
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:ME:Fairfield,Sedghifar:NJ:Princeton 0.0157176 0.000116323 135.12
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.011778 0.000103532 113.762
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.0049636 7.26347e-05 68.3365
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:ME:Fairfield,Sedghifar:RI:Providence 0.00597205 5.83233e-05 102.396
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.0215235 0.000126417 170.258
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield -0.00152328 5.47664e-05 -27.8142
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:ME:Fairfield,Sedghifar:NC:Raleigh 0.0152793 0.000113888 134.161
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.0122162 0.000107173 113.986
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.00461575 7.12e-05 64.828
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:ME:Fairfield,Sedghifar:VA:Richmond 0.0149408 0.000114058 130.993
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.0125548 0.000111097 113.007
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.00474263 7.08743e-05 66.916
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:ME:Fairfield,Sedghifar:GA:Savannah 0.0120273 9.74494e-05 123.421
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,Sedghifar:ME:Fairfield 0.00666754 6.41976e-05 103.86
+Sedghifar:ME:Fairfield;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.0154682 0.000115923 133.435
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:FL:Miami,Sedghifar:Panama 0.0051025 7.97534e-05 63.9785
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,Sedghifar:Panama 0.00784113 0.000128679 60.9355
+Sedghifar:Panama;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0262758 0.000167448 156.919
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:FL:Miami,Sedghifar:NJ:Princeton 0.00445531 6.5855e-05 67.6533
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.00848833 0.000119829 70.837
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0162259 0.000107447 151.013
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:FL:Miami,Sedghifar:RI:Providence 0.00374734 4.47148e-05 83.8054
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.00919629 0.000105864 86.8691
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.000701418 4.55858e-05 15.3868
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:FL:Miami,Sedghifar:NC:Raleigh 0.0042587 6.51273e-05 65.3903
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.00868494 0.000120337 72.1717
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0156364 0.000105978 147.544
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:FL:Miami,Sedghifar:VA:Richmond 0.00433349 6.4076e-05 67.6304
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.00861015 0.000119801 71.8705
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0153499 0.000102875 149.209
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:FL:Miami,Sedghifar:GA:Savannah 0.00394412 5.9794e-05 65.9618
+Sedghifar:FL:Miami;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.00899951 0.000115901 77.6486
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,Sedghifar:FL:Miami 0.0147508 8.78771e-05 167.857
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:Panama,Sedghifar:NJ:Princeton 0.0155491 0.000122356 127.08
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,Sedghifar:Panama 0.00513214 7.98766e-05 64.2509
+Sedghifar:Panama;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton 0.0158293 0.000147917 107.015
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:Panama,Sedghifar:RI:Providence 0.00628192 6.08057e-05 103.311
+Sedghifar:Panama;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.0250964 0.000152253 164.834
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,Sedghifar:Panama -0.00183316 5.76022e-05 -31.8245
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:Panama,Sedghifar:NC:Raleigh 0.0149063 0.00012038 123.827
+Sedghifar:NC:Raleigh;Barghi:FL:Tallahassee,Sedghifar:Panama 0.00498882 7.87039e-05 63.3872
+Sedghifar:Panama;Barghi:FL:Tallahassee,Sedghifar:NC:Raleigh 0.016472 0.000153466 107.333
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:Panama,Sedghifar:VA:Richmond 0.0147638 0.000119663 123.378
+Sedghifar:Panama;Barghi:FL:Tallahassee,Sedghifar:VA:Richmond 0.0166146 0.000151317 109.8
+Sedghifar:VA:Richmond;Barghi:FL:Tallahassee,Sedghifar:Panama 0.00491965 8.03468e-05 61.2301
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:Panama,Sedghifar:GA:Savannah 0.0123233 0.000102991 119.654
+Sedghifar:GA:Savannah;Barghi:FL:Tallahassee,Sedghifar:Panama 0.00637159 6.78107e-05 93.9614
+Sedghifar:Panama;Barghi:FL:Tallahassee,Sedghifar:GA:Savannah 0.019055 0.000149531 127.432
+Estimating f_3 in 5199 blocks of size 500
+total_nsnp 2599951 nsnp 2599951
+Barghi:FL:Tallahassee;Sedghifar:NJ:Princeton,Sedghifar:RI:Providence 0.00515897 5.1678e-05 99.8291
+Sedghifar:NJ:Princeton;Barghi:FL:Tallahassee,Sedghifar:RI:Providence 0.0155222 9.55109e-05 162.518
+Sedghifar:RI:Providence;Barghi:FL:Tallahassee,Sedghifar:NJ:Princeton -0.000710209 5.08892e-05 -13.956
+Estimating f_3 in 5199 blocks of size 500
