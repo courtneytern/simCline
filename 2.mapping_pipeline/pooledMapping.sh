@@ -42,8 +42,8 @@ echo "SRA= ""${sra}"
 echo "Identifier= ""${identifier}"
 
 #Create directories
-inputDir="/scratch/cat7ep/fasterq"
-interDir="/scratch/cat7ep/interDir"
+inputDir="/scratch/cat7ep/simCline/fasterq"
+interDir="/scratch/cat7ep/simCline/interDir"
 outputDir="/project/berglandlab/courtney/simCline/bamfinal"
 
 #AdapterRemoval path
