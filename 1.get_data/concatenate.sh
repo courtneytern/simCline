@@ -1,11 +1,13 @@
+#!/bin/bash/
 ###########################################
 ### Script for concatenating .txt files ###
 ###########################################
-#!/bin/bash/
+
+cd ./metadata
 
 {
  echo "row,author,species,numInd,p/i,continent,country,state,city,lat,long,year,month,day,biosamp,sra,identifier"
- cat parse*.csv concatenatedEuro.csv | \
+ cat ./parseTables/parse*.csv concatenatedEuro.csv | \
  #grep -v "author" | \
 
  awk -F"," '{
