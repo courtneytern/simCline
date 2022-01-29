@@ -33,7 +33,7 @@ awk -F"," '
     lat","long","year","month","day","biosamp","sra",Barghi:"city":"state":"continent":"month":"day":"year":"identifier
 
 } ' | \
-grep "Base" | grep "ERR1980726" > parseBarghi.csv #only want one sample of Base population
+grep "Base" | grep "ERR1980726" > ../parseTables/parseBarghi.csv #only want one sample of Base population
 
 ### Machado ###
 grep -v 'Run' SraRunTable_Machado.txt.csv | \
@@ -95,7 +95,7 @@ awk -F"," '
    print "Machado,"organism","individ","pi","continent","country","state","city","\
       lat","long","year","month","day","biosamp","sra",Machado:"city":"state":"continent":"month":"day":"year":"identifier
 
-} ' > parseMachado.csv
+} ' > ../parseTables/parseMachado.csv
 
 ### Palmieri ###
 ## Don't want the RNA-seq data
@@ -125,7 +125,7 @@ awk -F"," '
 print "Palmieri,"organism","individ","pi","continent","country","state","city","\
   lat","long","year","month","day","biosamp","sra",Palmieri:"city":"state":"continent":"month":"day":"year":"identifier
 
-} ' > parsePalmieri.csv
+} ' > ../parseTables/parsePalmieri.csv
 
 ### Sedghifar ###
 #don't need Australia info
@@ -178,7 +178,7 @@ awk -F"," '
  print "Sedghifar,"organism","individ","pi","continent","country","state","city","\
    lat","long","year","month","day","biosamp","sra",Sedghifar:"city":"state":"continent":"month":"day":"year":"identifier
 
-} ' > parseSedghifar.csv
+} ' > ../parseTables/parseSedghifar.csv
 
 ### Signor ###
 grep -v 'Run' SraRunTable_Signor.txt.csv  | \
@@ -208,7 +208,7 @@ awk -F"," '
  print "Signor,"organism","individ","pi","continent","country","state","city","\
    lat","long","year","month","day","biosamp","sra",Signor:"city":"state":"continent":"month":"day":"year":"identifier
 
-} ' > parseSignor.csv
+} ' > ../parseTables/parseSignor.csv
 
 ### Kang ###
 grep -v 'Run' SraRunTable_Kang.txt.csv  | \
@@ -238,7 +238,7 @@ awk -F"," '
  print "Kang,"organism","individ","pi","continent","country","state","city","\
    lat","long","year","month","day","biosamp","sra",Kang:"city":"state":"continent":"month":"day":"year":"identifier
 
-} ' > parseKang.csv
+} ' > ../parseTables/parseKang.csv
 
 ### Jackson ###
 grep -v 'Run' SraRunTable_Jackson.txt.csv  | \
@@ -279,4 +279,4 @@ awk -F"," '
  print "Jackson,"organism","individ","pi","continent","country","state","city","\
    lat","long","year","month","day","biosamp","sra",Jackson:"city":"state":"continent":"month":"day":"year":"identifier
 
-} ' > parseJackson.csv
+} ' > ../parseTables/parseJackson.csv
