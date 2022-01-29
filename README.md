@@ -35,7 +35,7 @@ Get metadata via SRA Run Table for each study to be included
 5. `getfastqENA.sh`: Get the FASTQ files for the data in ENA
    - This uses ENA Browser Tools / enaGroupGet
 
-## Mapping pipeline
+## Pooled mapping pipeline
 Since this dataset contains some _simulans_ data as decontaminated from _melanogaster_ samples, the reference genome used in this part of the pipeline includes both _simulans_ and _melanogaster_ genomes. The _simulans_ genome is separated out in downstream steps.
 
 6. `pooledSetup.sh`: Creates all the guide files necessary for mapping the pooled samples
@@ -45,10 +45,12 @@ Since this dataset contains some _simulans_ data as decontaminated from _melanog
    3. `samtools` sorts and indexes the mapped reads; merges paired reads if applicable
    4. `Picard` marks and removes duplicate reads
       - Outputs BAM files in the specified output directory
-8. Run samtools mpileup and VarScan with `makePooledVCF.sh`
+8. `makePooledVCF.sh`: Create the VCF file with all pooled samples
    - Outputs `pooledData.vcf`
 
+## Individual mapping pipeline
 
+9. `individSetup.sh`: Creates all the guide files necessary for the individual samples GATK pipeline. Code segments should be run separately; segments labelled by which step they come before. 
 3. Convert vcf to gds file with `vcf2gds.R`
    - Uses SeqArray library in R
 4. Run SNP table statistics and create PCA plot in `pooledStatsPlots.R`
