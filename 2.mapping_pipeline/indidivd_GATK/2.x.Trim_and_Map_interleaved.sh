@@ -10,7 +10,7 @@
 #SBATCH -e /scratch/cat7ep/slurmOut/trimmap-Signor.%A_%a.err # Standard error
 #SBATCH --array=577-759
 
-#### sbatch /scratch/cat7ep/simCline/biosampleresults/2.x.Trim_and_Map_interleaved.sh
+#### sbatch /scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/2.x.Trim_and_Map_interleaved.sh
 
 ## This script is adapted from the 2.Trim_and_Map.sh file written by Joaquin C.B. Nunez, adapted to work for interleaved files
 ## This assumes that you have already successfully run the original 2.Trim_and_Map.sh, and therefore all relevant
@@ -27,16 +27,16 @@ module load picard
 
 #Define important file locations
 #RAW READS indicates the folder where the raw reads are stored. (As fastq)
-RAW_READS=/scratch/cat7ep/fasterq
+RAW_READS=/scratch/cat7ep/simCline/fasterq
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep/individPipeline/TrimMap
+WORKING_FOLDER=/scratch/cat7ep/simCline/individPipeline/TrimMap
 
 #This is the location where the reference genome and all its indexes are stored.
 REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/simulans
 
 # This is a file with the name all the samples to be processed. one sample name per line
-SAMPLE_FILE=/scratch/cat7ep/simCline/biosampleresults/individFileNames.txt
+SAMPLE_FILE=/scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/guide_files/individFileNames.txt
 
 #This is a unique number id which identifies this run
 unique_run_id=`date +%N`
