@@ -44,13 +44,11 @@ Since this dataset contains some _simulans_ data as decontaminated from _melanog
    2. `BWA MEM` maps the trimmed reads to the reference genome
    3. `samtools` sorts and indexes the mapped reads; merges paired reads if applicable
    4. `Picard` marks and removes duplicate reads
-      - Outputs to finalmap.bam files in the specified output directory
-
-## Pooled pipeline
-1. Separate out pooled file names from individual with `pooledSetup.sh`
-   1. Makes the input .txt files required for mpileup and VarScan
-2. Run samtools mpileup and VarScan with `makeVCF.sh`
+      - Outputs BAM files in the specified output directory
+8. Run samtools mpileup and VarScan with `makePooledVCF.sh`
    - Outputs `pooledData.vcf`
+
+
 3. Convert vcf to gds file with `vcf2gds.R`
    - Uses SeqArray library in R
 4. Run SNP table statistics and create PCA plot in `pooledStatsPlots.R`
