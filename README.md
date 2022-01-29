@@ -36,18 +36,15 @@ Get metadata via SRA Run Table for each study to be included
    - This uses ENA Browser Tools / enaGroupGet
 
 ## Mapping pipeline
-Since this dataset contains some _simulans_ data as decontaminated from _melanogaster_ samples, the reference genome used in this part of the pipeline includes both _simulans_ and _melanogaster_ genomes. The _simulans_ genome is isolated in downstream steps.
+Since this dataset contains some _simulans_ data as decontaminated from _melanogaster_ samples, the reference genome used in this part of the pipeline includes both _simulans_ and _melanogaster_ genomes. The _simulans_ genome is separated out in downstream steps.
 
 6. `pooledSetup.sh`: Creates all the guide files necessary for mapping the pooled samples
-
-<!-- change the name of mappingscript and mappingscriptEuro later? -->
-Both individual and pooled are mapped to the reference genome all together with `mappingscript.sh`. `mappingscriptEuro.sh` is the same thing but recongifured for the metadata format of the European DEST samples.
-1. AdapterRemoval trims the adapter sequences
-2. BWA MEM maps the trimmed reads to the reference genome
-3. samtools sorts and indexes the mapped reads
-   1. also merges paired reads, if applicable
-4. Picard marks and removes duplicate reads
-   - Outputs to finalmap.bam files in the specified output directory
+7. `pooledMapping.sh` and `pooledMappingEuro.sh`: Maps the pooled samples to the combined reference genome. These two scripts follow the same algorithm, but the latter is reconfigured to handle the format of the European DEST samples.
+   1. `AdapterRemoval` trims the adapter sequences
+   2. `BWA MEM` maps the trimmed reads to the reference genome
+   3. `samtools` sorts and indexes the mapped reads; merges paired reads if applicable
+   4. `Picard` marks and removes duplicate reads
+      - Outputs to finalmap.bam files in the specified output directory
 
 ## Pooled pipeline
 1. Separate out pooled file names from individual with `pooledSetup.sh`
