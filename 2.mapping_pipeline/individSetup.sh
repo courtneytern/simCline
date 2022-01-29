@@ -3,20 +3,21 @@
 # This script makes all of the files required for the individual-samples GATK pipeline to be run smoothly.
 # This includes reference txt files, sample lists, and other setup files
 
-cd /scratch/cat7ep/simCline/metadata
+cd /scratch/cat7ep/simCline
 
 ##########################
 ### PREP #################
 ##########################
 
 #first take the individual samples
-sra=$( grep ",I," ./concatenated.csv | \
+sra=$( grep ",I," ./metadata/concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
     SRSnum= array[16]
     print SRSnum
   }' )
 
+cd ./2.mapping_pipeline/individ_GATK/guide_files
 #make file with list of sample names
   for line in $sra; do
     echo $line >> ./individFileNames.txt
