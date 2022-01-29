@@ -36,6 +36,7 @@ Get metadata via SRA Run Table for each study to be included
    - This uses ENA Browser Tools / enaGroupGet
 
 ## Pooled mapping pipeline
+### Folder /2.mapping_pipeline
 Since this dataset contains some _simulans_ data as decontaminated from _melanogaster_ samples, the reference genome used in this part of the pipeline includes both _simulans_ and _melanogaster_ genomes. The _simulans_ genome is separated out in downstream steps.
 
 6. `pooledSetup.sh`: Creates all the guide files necessary for mapping the pooled samples
@@ -49,8 +50,12 @@ Since this dataset contains some _simulans_ data as decontaminated from _melanog
    - Outputs `pooledData.vcf`
 
 ## Individual mapping pipeline
+### Folder /2.mapping_pipeline/individ_GATK
 
-9. `individSetup.sh`: Creates all the guide files necessary for the individual samples GATK pipeline. Code segments should be run separately; segments labelled by which step they come before. 
+9. `individSetup.sh`: Creates all the guide files necessary for the individual samples GATK pipeline. Code segments should be run separately; segments labelled by which step they come before.
+10. Run GATK pipeline steps (thanks to Joaquin Nunez for these scripts)
+    1. `1.run_fastqc_reads`: Run FASTQC and MultiQC on individual samples
+    2. `2.Trim_and_Map.sh` and `2.x.Trim_and_Map_interleaved.sh`: Trims merged and unmerged reads, then maps to the reference genome. `2.x` is the same algorithm, but adapted for interleaved files.
 3. Convert vcf to gds file with `vcf2gds.R`
    - Uses SeqArray library in R
 4. Run SNP table statistics and create PCA plot in `pooledStatsPlots.R`
