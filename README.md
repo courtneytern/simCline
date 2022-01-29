@@ -36,7 +36,11 @@ Get metadata via SRA Run Table for each study to be included
    - This uses ENA Browser Tools / enaGroupGet
 
 ## Mapping pipeline
-Since this dataset uses some _simulans_ data pulled from _melanogaster_ samples, along with the raw _simulans_ data, the reference genome used in this pipeline contains both the _simulans_ and _melanogaster_ references. <br>
+Since this dataset contains some _simulans_ data as decontaminated from _melanogaster_ samples, the reference genome used in this part of the pipeline includes both _simulans_ and _melanogaster_ genomes. The _simulans_ genome is isolated in downstream steps.
+
+6. `pooledSetup.sh`: Creates all the guide files necessary for mapping the pooled samples
+
+<!-- change the name of mappingscript and mappingscriptEuro later? -->
 Both individual and pooled are mapped to the reference genome all together with `mappingscript.sh`. `mappingscriptEuro.sh` is the same thing but recongifured for the metadata format of the European DEST samples.
 1. AdapterRemoval trims the adapter sequences
 2. BWA MEM maps the trimmed reads to the reference genome
