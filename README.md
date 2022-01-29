@@ -1,8 +1,10 @@
 # README.md
 
-This repository contains scripts and metadata files.
-<br> This research aims to elucidate the genetic history of _Drosophila simulans_
+This repository contains scripts and metadata files. The goal
+of this research is to elucidate the genetic history of _Drosophila simulans_
 in North America, as admixed from European and African populations.
+<br>
+The information below explains the steps of the pipeline in order.
 
 ## Pull initial metadata from repositories
 Before going through the main pipeline, get the metadata for the FASTQ files
@@ -23,9 +25,9 @@ Get metadata via SRA Run Table for each study to be included
 ## Get FASTQ files
 ### Folder /1.get_data
 
-1. Parse out the relevant metadata from each SraRunTable using `parseScript.sh`
+1. `parseScript.sh`: Parse out the relevant metadata from each SraRunTable
    - Will output one .csv file per study
-2. 
+2. `findEuroSim.sh`: Identify which of the European DEST samples have a high enough _simulans_ contamination rate to include (>= 5 individuals)
 2. Concatenate all of the study .csv files together using `concatenate.sh`
    - Output to `concatenate.csv`
 3. Get the fastq files via `getfastq.sh`
