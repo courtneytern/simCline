@@ -1,29 +1,35 @@
-This repository contains  scripts and metadata files relevant to
-studying the genetic history of _Drosophila simulans_ in North America, as admixed
-from European and African populations.
+# README.md
 
-## Getting fastq files pipeline
+This repository contains scripts and metadata files.
+<br> This research aims to elucidate the genetic history of _Drosophila simulans_
+in North America, as admixed from European and African populations.
+
+## Pull initial metadata from repositories
+Before going through the main pipeline, get the metadata for the FASTQ files
+from the repository.
 #### From SRA:
-1. Get metadata via SRA Run Table for each study to be included
-   1. Search the accession # on the SRA database
-   2. Click on one entry
-   3. Click on Study>All Runs. This will take you to the SRA Run Selector
-   4. Click on Metadata (about halfway down the page). This will download SraRunTable.txt
-   5. Change .txt to .csv to open in a more readable format
-2. Parse out the relevant metadata from each SraRunTable using `parseScript.sh`
-   - Will output one .csv file per study
-3. Concatenate all of the study .csv files together using `concatenate.sh`
-   - Output to `concatenate.csv`
-4. Get the fastq files via `getfastq.sh`
-   - This uses the metadata from the previous steps and `fasterqdump` to pull fastq files from the SRA database
+Get metadata via SRA Run Table for each study to be included
+1. Search the accession # on the SRA database
+2. Click on one entry
+3. Click on Study>All Runs. This will take you to the SRA Run Selector
+4. Click on Metadata (about halfway down the page). This will download SraRunTable.txt
+5. Change .txt to .csv to open in a more readable format
 
 #### From ENA:
 1. Download ENA browser tools
 2. Get relevant metadata into a table format
-   - This can be done in any way you like; it may be easier to find the project number in SRA and get the metadata via SRA steps 1-3
-3. Run `getfastqENA.sh`
+   - This can be done in any way you like; it may be easier to find the project number in SRA and get the metadata in the same way as SRA steps 1-3
 
-Now you can go on to map the fastq files to your reference genome
+## Get FASTQ files
+### Folder /1.get_data
+
+1. Parse out the relevant metadata from each SraRunTable using `parseScript.sh`
+   - Will output one .csv file per study
+2. 
+2. Concatenate all of the study .csv files together using `concatenate.sh`
+   - Output to `concatenate.csv`
+3. Get the fastq files via `getfastq.sh`
+   - This uses the metadata from the previous steps and `fasterqdump` to pull fastq files from the SRA database
 
 ## Mapping pipeline
 Since this dataset uses some _simulans_ data pulled from _melanogaster_ samples, along with the raw _simulans_ data, the reference genome used in this pipeline contains both the _simulans_ and _melanogaster_ references. <br>
