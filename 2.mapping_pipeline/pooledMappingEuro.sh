@@ -22,13 +22,13 @@ module load gatk/4.0.0.0
 echo "${SLURM_ARRAY_TASK_ID}"
 
 # define some parameters. Take in SRA accession number and unique identifier
-sra=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/biosampleresults/concatenatedEuro.csv | \
+sra=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/metadata/concatenatedEuro.csv | \
   awk -F"," '{
     split ($0,array,",")
     SRSnum= array[16]
     print SRSnum
   }' )
-identifier=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/biosampleresults/concatenatedEuro.csv | \
+identifier=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/metadata/concatenatedEuro.csv | \
   awk -F"," '{
     split ($0,array,",")
     id= array[17]
@@ -38,8 +38,8 @@ echo "SRA= ""${sra}"
 echo "Identifier= ""${identifier}"
 
 #Create directories
-inputDir="/scratch/cat7ep/fastqEuro"
-interDir="/scratch/cat7ep/interDirEuro"
+inputDir="/scratch/cat7ep/simCline/fastqEuro"
+interDir="/scratch/cat7ep/simCline/interDirEuro"
 outputDir="/project/berglandlab/courtney/simCline/bamfinal"
 
 #AdapterRemoval path
