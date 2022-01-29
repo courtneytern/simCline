@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-#SBATCH -J Jacksonmapping # A single job name for the array
+#SBATCH -J pooledMapping # A single job name for the array
 #SBATCH --ntasks-per-node=20 # twenty cores
 #SBATCH -N 1
 #SBATCH -t 24:00:00 ### 24 hr
@@ -12,7 +12,7 @@
 
 
 ###SLURM_ARRAY_TASK_ID=4
-#sbatch --array=1-811 /scratch/cat7ep/simCline/biosampleresults/mappingscript.sh
+#sbatch --array=1-811 /scratch/cat7ep/simCline/2.mapping_pipeline/pooledMapping.sh
 module load gcc/7.1.0
 module load bwa/0.7.17
 module load samtools/1.10
@@ -23,15 +23,15 @@ echo "${SLURM_ARRAY_TASK_ID}"
 
 # define some parameters. Take in SRA accession number and unique identifier
 #test SRR2396839_1.fastq SRR2396839_2.fastq paired
-#### ./mappingscript.sh SRR2396839 TESTPAIR
+#### ./pooledMapping.sh SRR2396839 TESTPAIR
 #test SRS3924975_1.fastq unpaired
-sra=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
+sra=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/metadata/concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
     SRSnum= array[16]
     print SRSnum
   }' )
-identifier=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
+identifier=$( grep ^"${SLURM_ARRAY_TASK_ID}""," /scratch/cat7ep/simCline/metadata/concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
     id= array[17]
