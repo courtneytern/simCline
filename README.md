@@ -28,10 +28,12 @@ Get metadata via SRA Run Table for each study to be included
 1. `parseScript.sh`: Parse out the relevant metadata from each SraRunTable
    - Will output one .csv file per study
 2. `findEuroSim.sh`: Identify which of the European DEST samples have a high enough _simulans_ contamination rate to include (>= 5 individuals)
-2. Concatenate all of the study .csv files together using `concatenate.sh`
-   - Output to `concatenate.csv`
-3. Get the fastq files via `getfastq.sh`
+3. `concatenate.sh`: Concatenate all of the study .csv files together (parse and Euro)
+   - Output to `/metadata/concatenated.csv`
+4. `getfastq.sh`: Get the FASTQ files for the data in SRA
    - This uses the metadata from the previous steps and `fasterqdump` to pull fastq files from the SRA database
+5. `getfastqENA.sh`: Get the FASTQ files for the data in ENA
+   - This uses ENA Browser Tools / enaGroupGet
 
 ## Mapping pipeline
 Since this dataset uses some _simulans_ data pulled from _melanogaster_ samples, along with the raw _simulans_ data, the reference genome used in this pipeline contains both the _simulans_ and _melanogaster_ references. <br>
