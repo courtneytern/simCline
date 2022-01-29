@@ -14,13 +14,15 @@
 ##In rivanna, un-comment below
 module load sratoolkit/2.9.1
 
+cd /scratch/cat7ep/simCline/metadata
+
 ##SLURM_ARRAY_TASK_ID=4
 #sbatch --array=591-773 /scratch/cat7ep/simCline/biosampleresults/getfastq.sh
 ###array=1-811 for total concatenated.csv
 echo ${SLURM_ARRAY_TASK_ID}
 
 ##takes in parameter of the row number to access
-SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," /scratch/cat7ep/simCline/biosampleresults/concatenated.csv | \
+SRS=$( grep ^${SLURM_ARRAY_TASK_ID}"," ./concatenated.csv | \
   awk -F"," '{
     split ($0,array,",")
     SRSnum= array[16]
