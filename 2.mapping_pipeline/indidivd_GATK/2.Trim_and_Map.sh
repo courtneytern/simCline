@@ -6,9 +6,9 @@
 #SBATCH --time=24:00:00
 #SBATCH --partition=standard
 #SBATCH --account=berglandlab
-#SBATCH -o /scratch/cat7ep/slurmOut/trimmap-fix5.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/trimmap-fix5.%A_%a.err # Standard error
-#SBATCH --array=576
+#SBATCH -o /scratch/cat7ep/slurmOut/trimmap.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/trimmap.%A_%a.err # Standard error
+#SBATCH --array=1-577
 
 ####### sbatch /scratch/cat7ep/simCline/biosampleresults/2.Trim_and_Map.sh
 ## 1-577 non-Signor
@@ -31,16 +31,16 @@ module load picard
 
 #Define important file locations
 #RAW READS indicates the folder where the raw reads are stored. (As fastq)
-RAW_READS=/scratch/cat7ep/fasterq
+RAW_READS=/scratch/cat7ep/simCline/fasterq
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep/individPipeline/TrimMap
+WORKING_FOLDER=/scratch/cat7ep/simCline/individPipeline/TrimMap
 
 #This is the location where the reference genome and all its indexes are stored.
 REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/simulans
 
 # This is a file with the name all the samples to be processed. one sample name per line
-SAMPLE_FILE=/scratch/cat7ep/simCline/biosampleresults/individFileNames.txt
+SAMPLE_FILE=/scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/guide_files/individFileNames.txt
 
 #This is a unique number id which identifies this run
 unique_run_id=`date +%N`
