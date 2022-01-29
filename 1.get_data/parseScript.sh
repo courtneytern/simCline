@@ -2,6 +2,7 @@
 ### Script for parsing .txt files ###
 #####################################
 
+cd ./metadata/SraRunTables
 
 ### Barghi ###
 ##ignore D. mel lines
