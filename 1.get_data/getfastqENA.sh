@@ -18,6 +18,6 @@ module load intelmpi/20.0
 module load python/3.7.7
 
 #groupget command pulls all files from one project number from ENA
-alias enaGroupGet="/scratch/cat7ep/simCline/biosampleresults/enaBrowserTools/python3/enaGroupGet"
+alias enaGroupGet="/scratch/cat7ep/simCline/software/enaBrowserTools/python3/enaGroupGet"
 
 enaGroupGet -f fastq -d /scratch/cat7ep/fastqJackson PRJEB7673
