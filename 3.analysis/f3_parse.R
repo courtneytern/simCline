@@ -1,12 +1,12 @@
 ## Parse through f3 output
-## Run locally to be able to adjust the size when exporting
+## Run *** locally *** to be able to adjust the size when exporting
 
 ############
 ## Setup ###
 ############
 library(tidyr)
 
-# f3_output<- read.table("/scratch/cat7ep/simCline/biosampleresults/f3_outputs/FINAL_f3_output.txt",
+# f3_output<- read.table("/scratch/cat7ep/simCline/data/f3_outputs/FINAL_f3_output.txt",
 #                        sep=" ", fill=TRUE)
 f3_output<- read.table("~/Downloads/FINAL_f3_output.txt", sep=" ",fill=TRUE)
 
