@@ -60,10 +60,12 @@ Since this dataset contains some _simulans_ data as decontaminated from _melanog
     4. `4.haplotype_caller.sh`: Adds read group information, index BAM files, runs GATK HaplotypeCaller.
     5. `5.MergeVCF_GenomicsDB.sh`: Merges VCF files
     6. `6.Genotype_GenomicsDB.sh`: Genotype Calling
-    7. `7.Gather_VCFs.sh`: Gather VCFs from all chromosomes 
-3. Convert vcf to gds file with `vcf2gds.R`
+    7. `7.Gather_VCFs.sh`: Gather VCFs from all chromosomes
+
+## Analysis
+### Folder /3.analysis
+Combine individual and pooled mapping data
+
+11. `vcf2gds.sh`: Runs `vcf2gds.R` to convert individual and pooled VCF files to GDS
    - Uses SeqArray library in R
-4. Run SNP table statistics and create PCA plot in `pooledStatsPlots.R`
-   - Calculates read depth. alternate allele frequencies, etc
-   - More nuanced steps of PCA plot can be read in `lea.R`, but everything necessary in lea.R is in pooledStatsPlots.R.
-   - Outputs `pca.pdf`
+12. `makeTreemixInputs.sh`: Runs `makeTreemixInputs.R` to make the TreeMix-formatted tables for individual and pooled samples. The TreeMix tables include only the SNPs that are common to both GDS files.
