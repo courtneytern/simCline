@@ -70,5 +70,8 @@ Combine individual and pooled mapping data
    - Uses SeqArray library in R
 12. `makeTreemixInputs.sh`: Runs `makeTreemixInputs.R` to make the TreeMix-formatted tables for individual and pooled samples. The TreeMix tables include only the SNPs that are common to both GDS files.
 13. `combineTreemixInputs.R`: Merges the pooled and individual TreeMix tables
-14. `treemix.sh`: Run TreeMix on the combined data with 0-3 migration events
-15. `treemixPlot.R`: Plot the phylogenetic trees, and combine all four trees into one figure
+14. `treemix.sh`: Runs TreeMix on the combined data with 0-3 migration events
+15. `treemixPlot.R`: Plots the phylogenetic trees, and combines all four trees into one figure
+16. `f3_setup.sh`: The first segment of this code splits up the TreeMix file into separate parts for quicker running in downstream f3 steps. The second segment of this code is to be run AFTER the following step to combine all of the f3 outputs back into one file.
+17. `f3.sh`: Runs threepop on all of the f3 files (as made in the previous step) in batch array. Go back to the previous step to finish up combining the f3 outputs again.
+18. `f3_parse.R`: Sorts through the combined f3 output and keep only the trees of interest (North American;African,European). Makes a heatmap of the f3 Z-scores from the selected trees.
