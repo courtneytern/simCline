@@ -14,7 +14,7 @@
 # Prepared by Joaquin C. B. Nunez, PhD -- Sep 25, 2020
 # yey2sn@virginia.edu
 
-####### sbatch /scratch/cat7ep/simCline/biosampleresults/4.haplotype_caller.sh
+####### sbatch /scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/4.haplotype_caller.sh
 
 #Load Modules
 module load gatk
@@ -25,13 +25,13 @@ module load tabix
 PIPELINE=Haplocaller
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep/individPipeline/HapCaller
+WORKING_FOLDER=/scratch/cat7ep/simCline/individPipeline/HapCaller
 
 # User defined inputs -- this represents the name of the samples
-BIO_SAMPLES=/scratch/cat7ep/simCline/biosampleresults/individFileNames.txt
+BIO_SAMPLES=/scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/guide_files/individFileNames.txt
 
 #Where the bam files are located
-BAMS_FOLDER=/scratch/cat7ep/individPipeline/TrimMap/joint_bams
+BAMS_FOLDER=/scratch/cat7ep/simCline/individPipeline/TrimMap/joint_bams
 
 #Reference genome
 REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/simulans/dsim-mod.fasta
