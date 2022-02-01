@@ -1,6 +1,5 @@
-# Get only the SNPs that overlap in both pooled and individual populations
-# Make a venn diagram showing this overlap 
-## To be run on Rivanna via **** combinePooledIndivid.sh ****
+# Combine GDS files. Keep only the SNPs that overlap in both pooled and individual populations
+## To be run on Rivanna via **** makeTreemixInputs.sh ****
 
 # module load gcc/7.1.0  openmpi/3.1.4  R
 # R 
@@ -9,8 +8,7 @@ library(SeqArray)
 library(data.table)
 library(dplyr)
 
-setwd("/scratch/cat7ep/simCline/biosampleresults")
-#setwd("~/Downloads/GitHub/simCline/biosampleresults")
+setwd("/scratch/cat7ep/simCline/data")
 individ.gds<- seqOpen("./individ.gds")
 pooled.gds<- seqOpen("./pooled.gds")
 
@@ -43,7 +41,7 @@ joined_snps<- intersect(individ.dt,pooled.dt)
 ## rerun the treemix formatting for each 
 
 ## Pooled  ####
-pooledPath<- "/scratch/cat7ep/simCline/biosampleresults/pooled.gds"
+pooledPath<- "/scratch/cat7ep/simCline/data/pooled.gds"
 makePooledTreemix<- function(pooledPath)  {
   gds.file<- seqOpen(pooledPath,allow.duplicate = T)
   # keep only joined snps
@@ -120,15 +118,15 @@ makePooledTreemix<- function(pooledPath)  {
   datw
 }
 pooledInput<- makePooledTreemix(pooledPath)
-write.table(pooledInput,"/scratch/cat7ep/simCline/biosampleresults/treemixInputs/treemixPooledInput.txt",
+write.table(pooledInput,"/scratch/cat7ep/simCline/data/treemixInputs/treemixPooledInput.txt",
             row.names = F,quote=F)
 
 
 ## Individual  #### 
-individPath<- "/scratch/cat7ep/simCline/biosampleresults/individ.gds"
+individPath<- "/scratch/cat7ep/simCline/data/individ.gds"
 makeIndividTreemix<- function(individPath) {
   individ.gds<- seqOpen(individPath,allow.duplicate = T)
-  metadata<- read.csv("./concatenated.csv")
+  metadata<- read.csv("/scratch/cat7ep/simCline/metadata/concatenated.csv")
   # keep just individ samps
   ind_metadata<- metadata[metadata$p.i=="I",]
   
@@ -181,7 +179,7 @@ makeIndividTreemix<- function(individPath) {
   treemixTable
 }
 individInput<- makeIndividTreemix(individPath)
-write.table(individInput,"/scratch/cat7ep/simCline/biosampleresults/treemixInputs/treemixIndividInput.txt",row.names = F,
+write.table(individInput,"/scratch/cat7ep/simCline/data/treemixInputs/treemixIndividInput.txt",row.names = F,
             quote=F)
 
 # go to combineTreemixInputs.R to combine into one treemix input file
