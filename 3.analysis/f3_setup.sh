@@ -3,11 +3,10 @@
 ## Separate combined treemix input into separate files to be run through f3 more efficiently
 ## Will make 19 files; each file has one AMR pop + all eur and afr pops
 
-WORKING_FOLDER=/scratch/cat7ep/simCline/biosampleresults/treemixInputs
+WORKING_FOLDER=/scratch/cat7ep/simCline/data/treemixInputs
 cd $WORKING_FOLDER
 
 combinedInput=$WORKING_FOLDER/treemixCOMBINEDinput.txt
-#f3_output="/scratch/cat7ep/simCline/biosampleresults/delete_later/f3_output.txt"
 
 #cols 5-12 , 21, 22, 24-32 are N.Am
 # all files will keep 1-4, 13-20, 23
@@ -27,5 +26,5 @@ gzip ./treemixInput_*
 ## Grep just the A;B,C trees from all the files and cat them together
 ## the output will be run through f3_parse.R
 
-cd /scratch/cat7ep/simCline/biosampleresults/f3_outputs
+cd /scratch/cat7ep/simCline/data/f3_outputs
 cat ./f3_output_* | grep ';' > ./FINAL_f3_output.txt
