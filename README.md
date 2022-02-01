@@ -10,15 +10,15 @@ The information below explains the steps of the pipeline in order.
 Before going through the main pipeline, get the metadata for the FASTQ files
 from the repository.
 #### From SRA:
-Get metadata via SRA Run Table for each study to be included
-a. Search the accession # on the SRA database
-b. Click on one entry
-c. Click on Study>All Runs. This will take you to the SRA Run Selector
-d. Click on Metadata (about halfway down the page). This will download SraRunTable.txt
-e. Change .txt to .csv to open in a more readable format
+Get metadata via SRA Run Table for each study to be included <br>
+a. Search the accession # on the SRA database <br>
+b. Click on one entry<br>
+c. Click on Study>All Runs. This will take you to the SRA Run Selector<br>
+d. Click on Metadata (about halfway down the page). This will download SraRunTable.txt<br>
+e. Change .txt to .csv to open in a more readable format<br>
 
 #### From ENA:
-a. Download ENA browser tools
+a. Download ENA browser tools<br>
 b. Get relevant metadata into a table format
    - This can be done in any way you like; it may be easier to find the project number in SRA and get the metadata in the same way as SRA steps 1-3
 
@@ -69,3 +69,5 @@ Combine individual and pooled mapping data
 11. `vcf2gds.sh`: Runs `vcf2gds.R` to convert individual and pooled VCF files to GDS
    - Uses SeqArray library in R
 12. `makeTreemixInputs.sh`: Runs `makeTreemixInputs.R` to make the TreeMix-formatted tables for individual and pooled samples. The TreeMix tables include only the SNPs that are common to both GDS files.
+13. `combineTreemixInputs.R`: Merges the pooled and individual TreeMix tables
+14. `treemix.sh`: Run TreeMix on the combined data with 0-3 migration events 
