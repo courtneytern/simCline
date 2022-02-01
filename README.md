@@ -11,15 +11,15 @@ Before going through the main pipeline, get the metadata for the FASTQ files
 from the repository.
 #### From SRA:
 Get metadata via SRA Run Table for each study to be included
-1. Search the accession # on the SRA database
-2. Click on one entry
-3. Click on Study>All Runs. This will take you to the SRA Run Selector
-4. Click on Metadata (about halfway down the page). This will download SraRunTable.txt
-5. Change .txt to .csv to open in a more readable format
+a. Search the accession # on the SRA database
+b. Click on one entry
+c. Click on Study>All Runs. This will take you to the SRA Run Selector
+d. Click on Metadata (about halfway down the page). This will download SraRunTable.txt
+e. Change .txt to .csv to open in a more readable format
 
 #### From ENA:
-1. Download ENA browser tools
-2. Get relevant metadata into a table format
+a. Download ENA browser tools
+b. Get relevant metadata into a table format
    - This can be done in any way you like; it may be easier to find the project number in SRA and get the metadata in the same way as SRA steps 1-3
 
 ## Get FASTQ files
