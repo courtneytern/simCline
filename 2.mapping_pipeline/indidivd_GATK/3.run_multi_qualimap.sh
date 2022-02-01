@@ -12,8 +12,8 @@
 ## sbatch /scratch/cat7ep/simCline/biosampleresults/3.run_multi_qualimap.sh
 
 JAVAMEM=28G
-WORKING_DIRECTORY=/scratch/cat7ep/individPipeline
+WORKING_DIRECTORY=/scratch/cat7ep/simCline/individPipeline
 
 module load qualimap
 
-qualimap  multi-bamqc  -outdir /scratch/cat7ep/individPipeline/multi_bamQC --java-mem-size=$JAVAMEM -d $WORKING_DIRECTORY/bam_qc_guide_file.txt
+qualimap  multi-bamqc  -outdir /scratch/cat7ep/simCline/individPipeline/multi_bamQC --java-mem-size=$JAVAMEM -d $WORKING_DIRECTORY/bam_qc_guide_file.txt
