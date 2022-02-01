@@ -12,7 +12,7 @@
 # This script is a pipeline which gather VCFs from all chromosomes.
 ### Using genotyped.raw.vcf.gz because there's no recalibration step for simulans
 
-####### sbatch /scratch/cat7ep/simCline/biosampleresults/8.Gather_VCFs.sh
+####### sbatch /scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/7.Gather_VCFs.sh
 
 #Load Modules
 module load picard
@@ -22,7 +22,7 @@ module load tabix
 PIPELINE=Simcline_final_2021
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep/individPipeline/MergeVCF
+WORKING_FOLDER=/scratch/cat7ep/simCline/individPipeline/MergeVCF
 
 #Parameters
 #Java

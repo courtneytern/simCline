@@ -12,7 +12,7 @@
 
 # This script will conduct genotype calling on the GenomeDBI object
 
-####### sbatch /scratch/cat7ep/simCline/biosampleresults/6.Genotype_GenomicsDB.sh
+####### sbatch /scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/6.Genotype_GenomicsDB.sh
 
 #Load Modules
 module load gatk
@@ -21,13 +21,13 @@ module load gatk
 PIPELINE=GenotypeGVCFs
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep/individPipeline/MergeVCF
+WORKING_FOLDER=/scratch/cat7ep/simCline/individPipeline/MergeVCF
 
 #Reference genome
 REFERENCE=/project/berglandlab/courtney/simCline/refgenomes/simulans/dsim-mod.fasta
 
 #Intervals to analyze
-intervals=/scratch/cat7ep/simCline/biosampleresults/intervals.txt
+intervals=/scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/guide_files/intervals.txt
 
 #Parameters
 

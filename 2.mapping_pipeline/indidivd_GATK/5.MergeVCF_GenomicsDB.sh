@@ -14,7 +14,7 @@
 # Because this and following steps are so memory intensive, this will be done using
 # a per chromosome approach
 
-####### sbatch /scratch/cat7ep/simCline/biosampleresults/5.MergeVCF_GenomicsDB.sh
+####### sbatch /scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/5.MergeVCF_GenomicsDB.sh
 
 
 #Load Modules
@@ -24,10 +24,10 @@ module load gatk
 PIPELINE=GenomicsDBImport
 
 #Working folder is core folder where this pipeline is being run.
-WORKING_FOLDER=/scratch/cat7ep/individPipeline/MergeVCF
+WORKING_FOLDER=/scratch/cat7ep/simCline/individPipeline/MergeVCF
 
 # User defined inputs -- this represents the name of the samples
-sample_map=/scratch/cat7ep/individPipeline/Samples_to_haplotype.txt
+sample_map=/scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/guide_files/Samples_to_haplotype.txt
 #This file looks like this
 #  sample1      sample1.vcf.gz
 #  sample2      sample2.vcf.gz
@@ -35,7 +35,7 @@ sample_map=/scratch/cat7ep/individPipeline/Samples_to_haplotype.txt
 ## second column is the path
 
 #Intervals to analyze (chromosome arms)
-intervals=/scratch/cat7ep/simCline/biosampleresults/intervals.txt
+intervals=/scratch/cat7ep/simCline/2.mapping_pipeline/individ_GATK/guide_files/intervals.txt
 
 #Parameters
 
