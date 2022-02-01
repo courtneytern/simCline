@@ -56,6 +56,11 @@ Since this dataset contains some _simulans_ data as decontaminated from _melanog
 10. Run GATK pipeline steps (thanks to Joaquin Nunez for these scripts)
     1. `1.run_fastqc_reads`: Run FASTQC and MultiQC on individual samples
     2. `2.Trim_and_Map.sh` and `2.x.Trim_and_Map_interleaved.sh`: Trims merged and unmerged reads, then maps to the reference genome. `2.x` is the same algorithm, but adapted for interleaved files.
+    3. `3.run_multi_qualimap.sh`: Runs Qualimap
+    4. `4.haplotype_caller.sh`: Adds read group information, index BAM files, runs GATK HaplotypeCaller.
+    5. `5.MergeVCF_GenomicsDB.sh`: Merges VCF files
+    6. `6.Genotype_GenomicsDB.sh`: Genotype Calling
+    7. `7.Gather_VCFs.sh`: Gather VCFs from all chromosomes 
 3. Convert vcf to gds file with `vcf2gds.R`
    - Uses SeqArray library in R
 4. Run SNP table statistics and create PCA plot in `pooledStatsPlots.R`
