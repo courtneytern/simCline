@@ -70,4 +70,5 @@ Combine individual and pooled mapping data
    - Uses SeqArray library in R
 12. `makeTreemixInputs.sh`: Runs `makeTreemixInputs.R` to make the TreeMix-formatted tables for individual and pooled samples. The TreeMix tables include only the SNPs that are common to both GDS files.
 13. `combineTreemixInputs.R`: Merges the pooled and individual TreeMix tables
-14. `treemix.sh`: Run TreeMix on the combined data with 0-3 migration events 
+14. `treemix.sh`: Run TreeMix on the combined data with 0-3 migration events
+15. `treemixPlot.R`: Plot the phylogenetic trees, and combine all four trees into one figure
