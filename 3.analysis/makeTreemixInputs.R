@@ -66,12 +66,12 @@ makePooledTreemix<- function(pooledPath)  {
   adList<- seqGetData(gds.file, "annotation/format/AD")
   rdList<- seqGetData(gds.file, "annotation/format/RD")
   # compile variables of interest
-  dat <- data.table(population=rep(seqGetData(gds.file, "sample.id"), dim(adList$data)[2]),
-                   variant.id=rep(seqGetData(gds.file, "variant.id"), each=dim(adList$data)[1]),
-                    ad=expand.grid(adList$data)$Var1,
-                    rd=expand.grid(rdList$data)$Var1,
-                    position=rep(seqGetData(gds.file, "position"), each=dim(adList$data)[1]),
-                    chromosome=rep(seqGetData(gds.file, "chromosome"), each=dim(adList$data)[1])
+  dat <- data.table(population=rep(seqGetData(gds.file, "sample.id"), dim(adList)[2]),
+                   variant.id=rep(seqGetData(gds.file, "variant.id"), each=dim(adList)[1]),
+                    ad=expand.grid(adList)$Var1,
+                    rd=expand.grid(rdList)$Var1,
+                    position=rep(seqGetData(gds.file, "position"), each=dim(adList)[1]),
+                    chromosome=rep(seqGetData(gds.file, "chromosome"), each=dim(adList)[1])
   )
   dat.ag2 <- dat[,list(nmissing=mean(is.na(ad)), aveAD=mean(ad, na.rm=T), aveRD=mean(rd, na.rm=T),
                       freqAlt=sum(ad, na.rm=T)/sum(ad+rd, na.rm=T),
