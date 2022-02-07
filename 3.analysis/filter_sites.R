@@ -1,6 +1,10 @@
 # Make summary table of all SNPs and alt/ref + read depth
 ## for filtering 
 
+#########
+## MAYBE YOU DON'T NEED TO DO ALL THIS
+#### Just merge with the treemix output. check to make sure this logic checks out though
+
 # module load gcc/7.1.0  openmpi/3.1.4  R
 # R 
 
@@ -64,15 +68,27 @@ setkey(dat.ag,variant.id)
 # left outer join. necessitate keeping all of dat
 ## subset dat.ag to be just the variant id, aveAD, aveRD, chrom, pos
 merged <- merge(agg, dat.ag[,c(1,3,4,6,7)], all.x=TRUE)
-checkNA <- function(a,r,aa,ar){
+returnAD <- function(a,r,aa,ar){
   if( is.na(a)|is.na(r) ) {
-    return(paste(aa,ar,sep=","))
+    return(aa)
   } # if
   else
-    return(paste(a,r,sep=","))
+    return(a)
 }
-merged[,newCol:=mapply(checkNA,merged$ad,merged$rd,merged$aveAD,merged$aveRD)]
+returnRD <- function(a,r,aa,ar){
+  if( is.na(a)|is.na(r) ) {
+    return(ar)
+  } # if
+  else
+    return(r)
+}
+merged[,ad:=mapply(returnAD,merged$ad,merged$rd,merged$aveAD,merged$aveRD),
+       rd:=mapply(returnRD,merged$ad,merged$rd,merged$aveAD,merged$aveRD)]
+merged<- merged[,c(2,4,3,5,6,14,15)]
 head(merged)
+
+# col 14 is newCol = AD,RD. need to split that 
+# output of this is in /scratch/cat7ep/slurmOut/filterSites.32429916_4294967294.err
 
 # from each GDS, need to get population, chr, pos, ref, alt, 
 ## seqGetData(gds.file,"$ref") and $alt 
