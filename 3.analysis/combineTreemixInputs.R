@@ -7,8 +7,8 @@
 library(data.table)
 
 setwd("/scratch/cat7ep/simCline/data/treemixInputs")
-individInput<- fread("./treemixIndividInput_FINAL.txt",header = TRUE ,sep=" ")
-pooledInput<- fread("./treemixPooledInput_FINAL.txt",header = TRUE ,sep=" ")
+individInput<- fread("./treemixIndividInput.txt",header = TRUE ,sep=" ")
+pooledInput<- fread("./treemixPooledInput.txt",header = TRUE ,sep=" ")
 
 setkeyv(individInput,c("chr","pos"))
 setkeyv(pooledInput,c("chrom","pos"))
