@@ -52,7 +52,7 @@ makePooledTreemix<- function(pooledPath)  {
                        pos=seqGetData(gds.file, "position"),
                        nAlleles=seqGetData(gds.file, "$num_allele"),
                        id=seqGetData(gds.file, "variant.id"),
-                       seqMissing(gds.file, per.variant=T))
+                       pctMissing=seqMissing(gds.file, per.variant=T))
   # filter where not dmels
   ## This shouldn't change anything
   snp.dt <- snp.dt[grepl("Dsim_Scf_2L|Dsim_Scf_2R|Dsim_Scf_3L|Dsim_Scf_3R|Dsim_Scf_X", chr)]
@@ -73,7 +73,7 @@ makePooledTreemix<- function(pooledPath)  {
                     position=rep(seqGetData(gds.file, "position"), each=dim(adList)[1]),
                     chromosome=rep(seqGetData(gds.file, "chromosome"), each=dim(adList)[1])
   )
-  dat.ag2 <- dat[,list(nmissing=mean(is.na(ad)), aveAD=mean(ad, na.rm=T), aveRD=mean(rd, na.rm=T),
+  dat.ag <- dat[,list(nmissing=mean(is.na(ad)), aveAD=mean(ad, na.rm=T), aveRD=mean(rd, na.rm=T),
                       freqAlt=sum(ad, na.rm=T)/sum(ad+rd, na.rm=T),
                        chrom= chromosome[1], pos= position[1]),
                  list(variant.id)]
@@ -83,12 +83,12 @@ makePooledTreemix<- function(pooledPath)  {
   # now calc freq alt
   agg[,freqAlt:=ad/(ad+rd)]
 
-  # calc ad/rd per variant id -- merge dat.ag2 aveAD and aveRD with dat
+  # calc ad/rd per variant id -- merge dat.ag aveAD and aveRD with dat
   setkey(agg,variant.id)
-  setkey(dat.ag2,variant.id)
+  setkey(dat.ag,variant.id)
   # left outer join. necessitate keeping all of dat
-  ## subset dat.ag2 to be just the variant id, aveAD, aveRD, chrom, pos
-  merged <- merge(agg, dat.ag2[,c(1,3,4,6,7)], all.x=TRUE)
+  ## subset dat.ag to be just the variant id, aveAD, aveRD, chrom, pos
+  merged <- merge(agg, dat.ag[,c(1,3,4,6,7)], all.x=TRUE)
 
   # if NA in either ad or rd, construct treemix "x,y" with both avgs
   ## if not NA, use the actual val for "x,y"
