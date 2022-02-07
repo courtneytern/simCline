@@ -54,7 +54,8 @@ makePooledTreemix<- function(pooledPath)  {
                        id=seqGetData(gds.file, "variant.id"),
                        seqMissing(gds.file, per.variant=T))
   # filter where not dmels
-  snp.dt <- snp.dt[grepl("Dsim_Scf_2L|Dsim_Scf_2R|Dsim_Scf_3L|Dsim_Scf_3R", chr)]
+  ## This shouldn't change anything
+  snp.dt <- snp.dt[grepl("Dsim_Scf_2L|Dsim_Scf_2R|Dsim_Scf_3L|Dsim_Scf_3R|Dsim_Scf_X", chr)]
   # keep only where 2 alleles
   nAlleles=seqGetData(gds.file, "$num_allele")
   # get ids for previous filters
