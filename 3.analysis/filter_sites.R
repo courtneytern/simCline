@@ -82,12 +82,13 @@ returnRD <- function(a,r,aa,ar){
   else
     return(r)
 }
-merged[,list( ad=mapply(returnAD,merged$ad,merged$rd,merged$aveAD,merged$aveRD),
+merged<- merged[,list( ad=mapply(returnAD,merged$ad,merged$rd,merged$aveAD,merged$aveRD),
        rd=mapply(returnRD,merged$ad,merged$rd,merged$aveAD,merged$aveRD) )
        ]
 head(merged)
-merged<- merged[,c(2,4,3,5,6,14,15)]
-
+merged<- merged[,c("population","chrom","pos","ref","alt","ad","rd")]
+head(merged)
+fwrite(merged,"summary_table_allSites.txt",quote=F,sep="\t")
 
 # col 14 is newCol = AD,RD. need to split that 
 # output of this is in /scratch/cat7ep/slurmOut/filterSites.32429916_4294967294.err
