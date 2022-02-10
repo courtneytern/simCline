@@ -34,11 +34,11 @@ f3_sep<- separate(f3_output,1,sep="(;|,)",into=c("A","B","C"))
 keep_trees<- f3_sep[(is.element(f3_sep$A,amr_pops))&(is.element(f3_sep$B,afr_pops))&
                (is.element(f3_sep$C,eur_pops)),]
 keep_trees<- keep_trees[order(keep_trees$z_score),]
-
+## save pdf as 6x6. manually adjust png to fit properly
 ggplot(data=keep_trees) + geom_tile(aes(x=A,y=C,fill=z_score)) + facet_grid(cols=vars(B)) +
   theme(axis.text.x=element_text(angle=90)) + xlab("North American Populations") + ylab("European Populations")
 
-# split by African population
+# separate plots for each African population
 madagascar<- keep_trees[keep_trees$B=="Madagascar.Joffreville.2002.NA",]
 kenya<- keep_trees[keep_trees$B=="Kenya.Nairobi.2006.NA",]
 
