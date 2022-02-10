@@ -82,7 +82,7 @@ returnRD <- function(a,r,aa,ar){
   else
     return(r)
 }
-merged[,`:=` ( ad=mapply(returnAD,merged$ad,merged$rd,merged$aveAD,merged$aveRD),
+merged[,list( ad=mapply(returnAD,merged$ad,merged$rd,merged$aveAD,merged$aveRD),
        rd=mapply(returnRD,merged$ad,merged$rd,merged$aveAD,merged$aveRD) )
        ]
 merged<- merged[,c(2,4,3,5,6,14,15)]
