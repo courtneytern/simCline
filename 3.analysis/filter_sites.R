@@ -82,7 +82,7 @@ returnRD <- function(a,r,aa,ar){
   else
     return(r)
 }
-merged<- merged[,list( ad=mapply(returnAD,merged$ad,merged$rd,merged$aveAD,merged$aveRD),
+merged<- merged[,list(population,chrom,pos,ref,alt),list( ad=mapply(returnAD,merged$ad,merged$rd,merged$aveAD,merged$aveRD),
        rd=mapply(returnRD,merged$ad,merged$rd,merged$aveAD,merged$aveRD) )
        ]
 head(merged)
