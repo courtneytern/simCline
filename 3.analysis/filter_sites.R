@@ -89,9 +89,3 @@ head(merged)
 merged<- merged[,c("population","chrom","pos","ref","alt","ad","rd")]
 head(merged)
 fwrite(merged,"summary_table_allSites.txt",quote=F,sep="\t")
-
-# col 14 is newCol = AD,RD. need to split that 
-# output of this is in /scratch/cat7ep/slurmOut/filterSites.32429916_4294967294.err
-
-# from each GDS, need to get population, chr, pos, ref, alt, 
-## seqGetData(gds.file,"$ref") and $alt 
