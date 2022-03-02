@@ -19,6 +19,7 @@ pooled.gds<- seqOpen("./pooled.gds")
 #chroms<- c("Dsim_Scf_2L", "Dsim_Scf_2R", "Dsim_Scf_3L","Dsim_Scf_3R","Dsim_Scf_X" )
 
 # make table with the chromosome and position assoc with variant id
+## add ave freq and missing rate and total read depth across all samples
 individ.dt <- data.table(chr_pos=seqGetData(individ.gds,"$chrom_pos"),
                      chr=seqGetData(individ.gds, "chromosome"),
                      pos=seqGetData(individ.gds, "position"))
@@ -26,6 +27,7 @@ pooled.dt <- data.table(chr_pos=seqGetData(pooled.gds,"$chrom_pos"),
                          chr=seqGetData(pooled.gds, "chromosome"),
                          pos=seqGetData(pooled.gds, "position"))
 joined_snps<- intersect(individ.dt,pooled.dt)
+## add annotation of known repetitive or not 
 ### or inner_join()
 
 #set filter to the snps that are common between both
