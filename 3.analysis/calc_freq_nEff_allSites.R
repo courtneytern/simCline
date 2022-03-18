@@ -96,7 +96,8 @@ individTable<- data.table()
 for(p in popSampsList){
   individTable<- rbind(individTable, calcIndivid(p,individVariants))
 }
-
+fwrite(individTable,"/scratch/cat7ep/simCline/data/individ_dosage_table.txt",row.names = F,
+            quote=F)
 
 
 
