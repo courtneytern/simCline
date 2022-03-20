@@ -77,24 +77,43 @@ for(pop in unique(ind_metadata$population)){
 }# end for
 names(popSampsList)<- unique(ind_metadata$population)
 
+#for testing purposes
+# popName<- names(popSampsList)[1]
+
 ## Will need to run this for each set of popSamps in popSampsList
-calcIndivid<- function(popSamps,individVariants){
-  seqResetFilter(individ.gds)
-  seqSetFilter(individ.gds, sample.id=unlist(popSamps), variant.id=individVariants)
+calcIndivid<- function(popName,individVariants){
+  print("***New pop***")
+  popTable<- data.table()
+  # run in 21 chunks of 100,000 variants
+  for(i in 0:20){
+    print(paste("i=",i))
+    seqResetFilter(individ.gds)
+    seqSetFilter(individ.gds, sample.id=popSampsList[[popName]], 
+                 variant.id=individVariants[(i*100000+1):(i*100000+100000)])
+    
+    dosage.mat<- seqGetData(individ.gds,"$dosage")
+    print(paste("Starting dat for i=",i))
+    dat <- data.table(population=popName,
+                      variant.id=rep(seqGetData(individ.gds, "variant.id"),each=length(seqGetData(individ.gds,"sample.id"))),
+                      ind.id=rep(seqGetData(individ.gds,"sample.id"),length(seqGetData(individ.gds, "variant.id"))),
+                      dosage=expand.grid(dosage.mat)[,1]
+    )
+    print(paste("Making dat.haflo for i=",i))
+    dat.haflo <- dat[,list(haflo=rbinom(1, 1, dosage/2), dosage), list(ind.id, variant.id)] 
+    #table(dat.haflo$haflo, dat.haflo$dosage)
+    print(paste("Making dat.haflo.ag for i=",i))
+    dat.haflo.ag <- dat.haflo[,list(nRef=sum(haflo==1, na.rm=T), nAlt=sum(haflo==0, na.rm=T)), list(variant.id)]
+    popTable<- rbind(popTable,dat.haflo.ag)
+  }
   
-  # dosage.mat<- seqGetData(individ.gds,"$dosage")
-  # matrix(unlist(expand.grid(dosage.mat)),nrow=dim(dosage.mat)[1],ncol=dim(dosage.mat)[2])
-  # 
-  dat <- data.table(population=seqGetData(individ.gds, "chromosome"),
-                    variant.id=seqGetData(individ.gds, "variant.id"),
-                    ind.id=rep(seqGetData(individ.gds,"sample.id"),length(individVariants)),
-                    dosage=seqGetData(individ.gds,"$dosage")
-  )
+  popTable
 }# calcIndivid
 
+# Run calcIndivid for each population and rbind all together
 individTable<- data.table()
-for(p in popSampsList){
-  individTable<- rbind(individTable, calcIndivid(p,individVariants))
+for(n in names(popSampsList)){
+  print(paste("n=",n))
+  individTable<- rbind(individTable, calcIndivid(n,individVariants))
 }
 fwrite(individTable,"/scratch/cat7ep/simCline/data/individ_dosage_table.txt",row.names = F,
             quote=F)
