@@ -25,10 +25,10 @@ metadata<- fread("./concatenated.csv")
 
 # calculate freq and n eff
 # calcPooled<- function(pooledVariants){
-#   # keep only the relevant var ids 
+#   # keep only the relevant var ids
 #   print("Starting function")
 #   seqSetFilter(pooled.gds,variant.id= pooledVariants)
-#   
+# 
 #   # make table with ad,rd,nflies,dp
 #   adList<- seqGetData(pooled.gds, "annotation/format/AD"); print("AD done")
 #   rdList<- seqGetData(pooled.gds, "annotation/format/RD"); print("RD done")
@@ -56,7 +56,11 @@ metadata<- fread("./concatenated.csv")
 #   dat2
 # }# calcPooled
 # pooledFreqNeff<- calcPooled(pooledVariants)
+# writing file is not helpful bc file becomes to big to be read into R. remaking it takes only a minute
+# fwrite(pooledFreqNeff,"/scratch/cat7ep/simCline/data/pooled_freqNeff.txt",row.names = F,
+#        quote=F,sep=" ")
 
+#######
 # function for individual data. Takes in population and variants of interest.
 
 # SETUP individual populations
@@ -99,10 +103,10 @@ calcIndivid<- function(popName,individVariants){
                       dosage=expand.grid(dosage.mat)[,1]
     )
     print(paste("Making dat.haflo for i=",i))
-    dat.haflo <- dat[,list(haflo=rbinom(1, 1, dosage/2), dosage), list(ind.id, variant.id)] 
+    dat.haflo <- dat[,list(haflo=rbinom(1, 1, dosage/2), dosage), list(population, ind.id, variant.id)] 
     #table(dat.haflo$haflo, dat.haflo$dosage)
     print(paste("Making dat.haflo.ag for i=",i))
-    dat.haflo.ag <- dat.haflo[,list(nRef=sum(haflo==1, na.rm=T), nAlt=sum(haflo==0, na.rm=T)), list(variant.id)]
+    dat.haflo.ag <- dat.haflo[,list(nRef=sum(haflo==1, na.rm=T), nAlt=sum(haflo==0, na.rm=T)), list(population,variant.id)]
     popTable<- rbind(popTable,dat.haflo.ag)
   }
   
@@ -116,8 +120,21 @@ for(n in names(popSampsList)){
   individTable<- rbind(individTable, calcIndivid(n,individVariants))
 }
 fwrite(individTable,"/scratch/cat7ep/simCline/data/individ_dosage_table.txt",row.names = F,
-            quote=F)
+            quote=F,sep=" ")
 
 
-
+###################
+## MAKE TREEMIX ###
+###################
+# read in the table made from previous step
+# ind_dosage<- fread("/scratch/cat7ep/simCline/data/individ_dosage_table.txt")
+# 
+# # format for treemix
+# ind_dosage[,X:=paste(nRef, nAlt, sep=",")]
+# pooledFreqNeff[,X:=paste(RD_nEff, RD_nEff+AD_nEff, sep=",")]
+# 
+# #get both to chr,pos,x,pop
+# m <- rbind(ind_dosage, pooledFreqNeff)
+# m.wide <- dcast(m, chr+pos ~ population, value.var="X")
+# 
 
