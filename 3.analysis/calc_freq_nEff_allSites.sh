@@ -14,4 +14,10 @@
 module load gcc/7.1.0  openmpi/3.1.4
 module load R
 
+date
+echo "Starting"
+
 Rscript --vanilla /scratch/cat7ep/simCline/3.analysis/calc_freq_nEff_allSites.R
+
+echo "done"
+date
