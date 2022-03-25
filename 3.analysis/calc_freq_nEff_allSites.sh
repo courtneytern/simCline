@@ -6,8 +6,8 @@
 #SBATCH --time=12:00:00
 #SBATCH --partition=largemem
 #SBATCH --account=berglandlab_standard
-#SBATCH -o /scratch/cat7ep/slurmOut/individNeff.%A_%a.out # Standard output
-#SBATCH -e /scratch/cat7ep/slurmOut/individNeff.%A_%a.err # Standard error
+#SBATCH -o /scratch/cat7ep/slurmOut/individNeff_final.%A_%a.out # Standard output
+#SBATCH -e /scratch/cat7ep/slurmOut/individNeff_final.%A_%a.err # Standard error
 
 ####### sbatch /scratch/cat7ep/simCline/3.analysis/calc_freq_nEff_allSites.sh
 
