@@ -46,6 +46,9 @@ calcPooled<- function(pooledVariants){
   #merge in nflies info
   print("Merging nflies...")
   dat2<- merge(dat,nflies,by.x="population",by.y="identifier",all.x=T)
+  # aggregate machado rows
+  agg<- dat2 %>% group_by(population,variant.id) %>% summarise_all(sum)
+  dat2<- as.data.table(agg)
   # calculate neff per pool per site
   dat2[,nEff:=round((2*numInd*dp)/(2*numInd + dp))]
   dat2[,af_nEff:=round((ad/dp) * nEff)/nEff]
