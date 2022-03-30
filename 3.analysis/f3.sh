@@ -8,7 +8,7 @@
 #SBATCH --account=berglandlab_standard
 #SBATCH -o /scratch/cat7ep/slurmOut/f3FINAL.%A_%a.out # Standard output
 #SBATCH -e /scratch/cat7ep/slurmOut/f3FINAL.%A_%a.err # Standard error
-#SBATCH --array=5-12,21,22,24-32
+#SBATCH --array=1,13,14,17-32
 
 ####### sbatch /scratch/cat7ep/simCline/3.analysis/f3.sh
 ## This will take each of the smaller treemix files and run f3 stats on them
