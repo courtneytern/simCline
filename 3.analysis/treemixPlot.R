@@ -13,7 +13,7 @@ setwd("~/Downloads/GitHub/simCline/3.analysis/outputs")
 source("~/Downloads/GitHub/simCline/treemix-1.13/src/plotting_funcs.R")
 
 par(adj=0,cex=0.5)
-plot_tree("simcline_treeOut_m0")  # Save as 5x8
+plot_tree("simcline_treeOut_032722")  # Save as 5x8
 
 # run the following for m0,1,2,3
 # par(adj=0,cex=0.5,mar=c(2,4,4,4),mfrow=c(2,2))
