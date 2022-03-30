@@ -59,9 +59,6 @@ calcPooled<- function(pooledVariants){
   dat2
 }# calcPooled
 pooledFreqNeff<- calcPooled(pooledVariants)
-# writing file is not helpful bc file becomes to big to be read into R. remaking it takes only a minute
-# fwrite(pooledFreqNeff,"/scratch/cat7ep/simCline/data/pooled_freqNeff.txt",row.names = F,
-#        quote=F,sep=" ")
 
 #######
 # function for individual data. Takes in population and variants of interest.
@@ -128,7 +125,8 @@ fwrite(individTable,"/scratch/cat7ep/simCline/data/individ_dosage_table.txt",row
 ###################
 ## MAKE TREEMIX ###
 ###################
-# read in the table made from previous step
+# read in the individ table made from previous step
+# just remake pooledFreqNeff from above fxn. should take just a few minutes
 ind_dosage<- fread("/scratch/cat7ep/simCline/data/individ_dosage_table.txt")
 
 # format for treemix
