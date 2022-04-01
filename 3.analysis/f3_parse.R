@@ -5,10 +5,11 @@
 ## Setup ###
 ############
 library(tidyr)
+library(data.table)
 
 # f3_output<- read.table("/scratch/cat7ep/simCline/data/f3_outputs/FINAL_f3_output.txt",
 #                        sep=" ", fill=TRUE)
-f3_output<- read.table("~/Downloads/FINAL_f3_output.txt", sep=" ",fill=TRUE)
+f3_output<- fread("~/Downloads/FINAL_f3_output.txt", sep=" ",fill=TRUE)
 
 # sort populations (both pooled and individ) by continent
 amr_pops<- c("USA.Linvilla.2011.Aug","USA.Linvilla.2011.Sep","USA.Charlottesville.2010.Sep","USA.Bowdoin.2011.Oct",
