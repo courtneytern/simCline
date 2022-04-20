@@ -32,7 +32,7 @@ nei.dt <- foreach(p1=pops, .combine="rbind")%do%{
        Nei <- -log(sum(tmp.wide$p1 * tmp.wide$p2) / (sqrt(sum(tmp.wide$p1^2)) * sqrt(sum(tmp.wide$p2^2))))
         
        print("make data table")
-       data.table(pop1=p1, pop2=pop2, nei=Nei)
+       data.table(pop1=p1, pop2=p2, nei=Nei)
       } # if
   }
 }
