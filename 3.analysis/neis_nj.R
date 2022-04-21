@@ -36,7 +36,7 @@ nei.dt <- foreach(p1=pops, .combine="rbind")%do%{
       } # if
   }
 }
-fwrite(neis.dt,"/scratch/cat7ep/simCline/data/neis.dt.txt")
+fwrite(nei.dt,"/scratch/cat7ep/simCline/data/neis.dt.txt")
 
 Da_mat <- matrix(nei.dt$nei, nrow=length(pops), ncol=length(pops))
 tree <- njs(Da_mat)
