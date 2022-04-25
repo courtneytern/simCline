@@ -40,21 +40,21 @@ ggplot(data=keep_trees) + geom_tile(aes(x=A,y=C,fill=z_score)) + facet_grid(cols
   theme(axis.text.x=element_text(angle=90)) + xlab("North American Populations") + ylab("European Populations")
 
 # separate plots for each African population
-madagascar<- keep_trees[keep_trees$B=="Madagascar.Joffreville.2002.NA",]
-kenya<- keep_trees[keep_trees$B=="Kenya.Nairobi.2006.NA",]
-
-madagascar_z<- madagascar[,c("A","C","z_score")]
-m<- ggplot(data=madagascar_z) + geom_tile(aes(x=A, y=C, fill=z_score)) + 
-  theme(axis.text.x=element_text(angle=90)) + 
-  labs(title="Z-score Heatmap",subtitle="Ancestral Population: Madagascar") +
-  xlab("North American Populations") + ylab("European Populations")
-
-kenya_z<- kenya[,c("A","C","z_score")]
-k<- ggplot(data=kenya_z) + geom_tile(aes(x=A, y=C, fill=z_score)) + 
-  theme(axis.text.x=element_text(angle=90)) + 
-  labs(title="Z-score Heatmap",subtitle="Ancestral Population: Kenya") +
-  xlab("North American Populations") + ylab("European Populations")
-
+# madagascar<- keep_trees[keep_trees$B=="Madagascar.Joffreville.2002.NA",]
+# kenya<- keep_trees[keep_trees$B=="Kenya.Nairobi.2006.NA",]
+# 
+# madagascar_z<- madagascar[,c("A","C","z_score")]
+# m<- ggplot(data=madagascar_z) + geom_tile(aes(x=A, y=C, fill=z_score)) + 
+#   theme(axis.text.x=element_text(angle=90)) + 
+#   labs(title="Z-score Heatmap",subtitle="Ancestral Population: Madagascar") +
+#   xlab("North American Populations") + ylab("European Populations")
+# 
+# kenya_z<- kenya[,c("A","C","z_score")]
+# k<- ggplot(data=kenya_z) + geom_tile(aes(x=A, y=C, fill=z_score)) + 
+#   theme(axis.text.x=element_text(angle=90)) + 
+#   labs(title="Z-score Heatmap",subtitle="Ancestral Population: Kenya") +
+#   xlab("North American Populations") + ylab("European Populations")
+# 
 
 ###testing
 # f3_sep[(is.element(f3_sep$A,amr_pops)),]

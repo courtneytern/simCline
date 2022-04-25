@@ -38,10 +38,12 @@ nei.dt <- foreach(p1=pops, .combine="rbind")%do%{
     data.table(pop1=p1, pop2=p2, nei=Nei)
   }
 }
-fwrite(nei.dt,"/scratch/cat7ep/simCline/data/nei.dt2.txt")
+fwrite(nei.dt,"/scratch/cat7ep/simCline/data/nei.dt.txt")
 
-# nei.dt<- fread("/scratch/cat7ep/simCline/data/nei.dt.txt")
-# #nei.dt<- fread("~/Downloads/nei.dt.txt")
-# Da_mat <- matrix(nei.dt$nei, nrow=length(pops), ncol=length(pops))
-# tree <- njs(Da_mat)
-# plot.phylo(tree)
+nei.dt<- fread("/scratch/cat7ep/simCline/data/nei.dt.txt")
+#nei.dt<- fread("~/Downloads/nei.dt.txt")
+Da_mat <- matrix(nei.dt$nei, nrow=length(pops), ncol=length(pops))
+  colnames(Da_mat)<- unique(nei.dt$pop1)
+  rownames(Da_mat)<- unique(nei.dt$pop1)
+tree <- njs(Da_mat)
+plot.phylo(tree,cex=0.4,no.margin=T,node.pos=2)
